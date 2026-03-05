@@ -575,6 +575,9 @@
 
   // --- Navigation ---
   function navigateToPath(path) {
+    // Pause scroll-spy during programmatic navigation
+    scrollSpyPaused = true;
+    setTimeout(() => { scrollSpyPaused = false; }, 800);
     window.location.hash = path;
   }
 
@@ -729,6 +732,8 @@
           const target = findHeadingByAnchor(targetAnchor);
           if (target) {
             // Update hash without triggering reload
+            scrollSpyPaused = true;
+            setTimeout(() => { scrollSpyPaused = false; }, 800);
             history.replaceState(null, '', '#' + href);
             target.scrollIntoView({ behavior: 'smooth', block: 'start' });
             updateActiveToc(targetFile, targetAnchor);
@@ -756,9 +761,84 @@
     } else {
       $('content-wrapper').scrollTop = 0;
     }
+
+    // Setup scroll-spy for this rendered content
+    setupScrollSpy();
   }
 
-  // --- TOC active state ---
+  // --- Scroll-spy: sync TOC highlight as user scrolls ---
+  let scrollSpyRaf = null;
+  let scrollSpyPaused = false;
+
+  function setupScrollSpy() {
+    const wrapper = $('content-wrapper');
+    wrapper.removeEventListener('scroll', onContentScroll);
+    wrapper.addEventListener('scroll', onContentScroll, { passive: true });
+  }
+
+  function onContentScroll() {
+    if (scrollSpyPaused || !currentFile) return;
+    if (scrollSpyRaf) return; // throttle
+    scrollSpyRaf = requestAnimationFrame(() => {
+      scrollSpyRaf = null;
+      const headings = contentEl.querySelectorAll('h1[id],h2[id],h3[id],h4[id],h5[id],h6[id]');
+      if (!headings.length) return;
+
+      const wrapperTop = $('content-wrapper').getBoundingClientRect().top;
+      let active = headings[0];
+      for (const h of headings) {
+        if (h.getBoundingClientRect().top - wrapperTop <= 20) {
+          active = h;
+        } else {
+          break;
+        }
+      }
+
+      const compoundId = active.id;
+      const fullPath = currentFile + '#' + compoundId;
+      highlightTocLink(fullPath);
+      // Update hash silently
+      history.replaceState(null, '', '#' + fullPath);
+      updateBreadcrumb(currentFile, compoundId);
+    });
+  }
+
+  // Lightweight TOC highlight: only moves .active class + ensures visibility, no collapse/expand
+  function highlightTocLink(fullPath) {
+    const prev = tocEl.querySelector('a.active');
+    if (prev && prev.dataset.path === fullPath) return; // no change
+
+    tocEl.querySelectorAll('a.active').forEach(a => a.classList.remove('active'));
+
+    // Find exact match
+    let link = tocEl.querySelector('a[data-path="' + CSS.escape(fullPath) + '"]');
+    if (!link) {
+      // Fallback: find by file only (for headings not in toc.json)
+      const file = fileFromPath(fullPath);
+      tocEl.querySelectorAll('a').forEach(a => {
+        if (a.dataset.file === file && !a.dataset.path.includes('#')) {
+          link = a;
+        }
+      });
+    }
+    if (link) {
+      link.classList.add('active');
+      // Ensure parent groups are expanded
+      let parent = link.closest('.toc-group');
+      while (parent) {
+        if (parent.classList.contains('collapsed')) {
+          parent.classList.remove('collapsed');
+          const toggle = parent.querySelector(':scope > div > .toc-group-toggle');
+          if (toggle) toggle.style.transform = '';
+        }
+        parent = parent.parentElement.closest('.toc-group');
+      }
+      // Scroll TOC to keep active link visible
+      link.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+    }
+  }
+
+  // --- TOC active state (full, used on navigation clicks) ---
   function updateActiveToc(file, anchor) {
     const fullPath = anchor ? file + '#' + anchor : file;
 
