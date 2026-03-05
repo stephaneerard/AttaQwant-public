@@ -1,7 +1,6 @@
 # SOMMAIRE - Qwant Analyse
 
 ## 00 - Inventaire
-- [019 - Bilan Gap Analysis Erard Qwant 2026](00%20-%20Inventaire/019%20-%20Bilan%20Gap%20Analysis%20Erard%20Qwant%202026.pdf)
 - [020 - Accusation Vs Realite Qwant Erard](00%20-%20Inventaire/020%20-%20Accusation%20vs%20Realite%20Qwant%20Erard.pdf)
 - [021 - Action Civile Erard Vs Qwant Leandri](00%20-%20Inventaire/021%20-%20Action%20Civile%20Erard%20vs%20Qwant%20Leandri.pdf)
 - [022 - Action Civile Vignaux Coresponsable](00%20-%20Inventaire/022%20-%20Action%20Civile%20Vignaux%20Coresponsable.pdf)
