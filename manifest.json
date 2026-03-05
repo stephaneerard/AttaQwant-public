@@ -1,0 +1,21 @@
+{
+  "name": "Dossier d'Analyse Financiere - Qwant SAS",
+  "toc": {
+    "Sommaire": "00_SOMMAIRE.md",
+    "Synthese executive": "01_SYNTHESE_EXECUTIVE.md",
+    "Identite de la societe": "02_IDENTITE_SOCIETE.md",
+    "Analyse financiere": {
+      "Analyse du bilan": "03_ANALYSE_BILAN.md",
+      "Analyse du compte de resultat": "04_ANALYSE_RESULTATS.md",
+      "Tresorerie et solvabilite": "05_TRESORERIE_SOLVABILITE.md",
+      "Ratios financiers": "06_RATIOS_FINANCIERS.md"
+    },
+    "Actes sociaux": {
+      "Actes sociaux - Qwant SAS": "07_ACTES_SOCIAUX_QWANT.md",
+      "Actes sociaux - Angels": "08_ACTES_SOCIAUX_ANGELS.md"
+    },
+    "Valorisation et apports": "09_VALORISATION_APPORTS.md",
+    "Chronologie et alertes": "10_CHRONOLOGIE_ALERTES.md",
+    "Conclusions": "11_CONCLUSIONS.md"
+  }
+}

@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chargement...</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/github-markdown-css@5/github-markdown-dark.min.css">
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.min.js"></script>
+<style>
+  :root {
+    --sidebar-w: 300px;
+    --bg: #0d1117;
+    --bg-sidebar: #161b22;
+    --border: #30363d;
+    --text: #e6edf3;
+    --text-muted: #8b949e;
+    --accent: #58a6ff;
+    --accent-hover: #79c0ff;
+    --hover-bg: #1f2937;
+    --active-bg: #1c2533;
+  }
+  html.light {
+    --bg: #ffffff;
+    --bg-sidebar: #f6f8fa;
+    --border: #d0d7de;
+    --text: #1f2328;
+    --text-muted: #656d76;
+    --accent: #0969da;
+    --accent-hover: #0550ae;
+    --hover-bg: #eaeef2;
+    --active-bg: #ddf4ff;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  /* --- Sidebar --- */
+  #sidebar {
+    width: var(--sidebar-w);
+    min-width: var(--sidebar-w);
+    background: var(--bg-sidebar);
+    border-right: 1px solid var(--border);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    transition: margin-left .25s ease;
+  }
+  #sidebar.collapsed { margin-left: calc(var(--sidebar-w) * -1); }
+  #sidebar-header {
+    padding: 16px;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+  }
+  #sidebar-header h1 {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text);
+    line-height: 1.3;
+    flex: 1;
+  }
+  #sidebar-controls { display: flex; gap: 4px; }
+  #sidebar-controls button, #toggle-sidebar {
+    background: none;
+    border: 1px solid var(--border);
+    color: var(--text-muted);
+    cursor: pointer;
+    border-radius: 6px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    transition: all .15s;
+  }
+  #sidebar-controls button:hover, #toggle-sidebar:hover {
+    color: var(--text);
+    background: var(--hover-bg);
+  }
+  #toc {
+    flex: 1;
+    overflow-y: auto;
+    padding: 8px 0;
+  }
+  #toc ul { list-style: none; }
+  #toc li { position: relative; }
+  #toc .toc-group-label {
+    display: block;
+    padding: 6px 16px 4px;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    color: var(--text-muted);
+    margin-top: 8px;
+    cursor: pointer;
+    user-select: none;
+  }
+  #toc .toc-group-label:hover { color: var(--text); }
+  #toc .toc-group-label::before {
+    content: '\25BE';
+    display: inline-block;
+    margin-right: 6px;
+    transition: transform .15s;
+    font-size: 10px;
+  }
+  #toc .toc-group.collapsed > .toc-group-label::before { transform: rotate(-90deg); }
+  #toc .toc-group.collapsed > ul { display: none; }
+  #toc a {
+    display: block;
+    padding: 5px 16px 5px 24px;
+    color: var(--text-muted);
+    text-decoration: none;
+    font-size: 13px;
+    border-left: 2px solid transparent;
+    transition: all .15s;
+  }
+  #toc .toc-nested a { padding-left: 36px; }
+  #toc a:hover { color: var(--text); background: var(--hover-bg); }
+  #toc a.active {
+    color: var(--accent);
+    border-left-color: var(--accent);
+    background: var(--active-bg);
+    font-weight: 500;
+  }
+
+  /* --- Main pane --- */
+  #main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    min-width: 0;
+  }
+  #topbar {
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+    border-bottom: 1px solid var(--border);
+    gap: 8px;
+    background: var(--bg-sidebar);
+    flex-shrink: 0;
+  }
+  #toggle-sidebar { flex-shrink: 0; }
+  #breadcrumb {
+    flex: 1;
+    font-size: 12px;
+    color: var(--text-muted);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  #content-wrapper {
+    flex: 1;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+  }
+  #content {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 32px 40px 80px;
+  }
+
+  /* Markdown overrides */
+  .markdown-body { background: transparent !important; color: var(--text) !important; }
+  .markdown-body table { display: table; width: 100%; }
+  .markdown-body th, .markdown-body td { border-color: var(--border); }
+  html.light .markdown-body { color: var(--text) !important; }
+
+  /* --- Mermaid container --- */
+  .mermaid-wrapper {
+    position: relative;
+    margin: 16px 0;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    overflow: hidden;
+    background: #0d1117;
+  }
+  html.light .mermaid-wrapper { background: #fff; }
+  .mermaid-toolbar {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    display: flex;
+    gap: 4px;
+    opacity: 0;
+    transition: opacity .2s;
+    z-index: 2;
+  }
+  .mermaid-wrapper:hover .mermaid-toolbar { opacity: 1; }
+  .mermaid-toolbar button {
+    background: var(--bg-sidebar);
+    border: 1px solid var(--border);
+    color: var(--text-muted);
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 4px 8px;
+    font-size: 11px;
+    transition: all .15s;
+  }
+  .mermaid-toolbar button:hover { color: var(--text); background: var(--hover-bg); }
+  .mermaid-viewport {
+    overflow: auto;
+    padding: 24px;
+    cursor: grab;
+    min-height: 100px;
+  }
+  .mermaid-viewport:active { cursor: grabbing; }
+  .mermaid-viewport svg { transition: transform .1s ease-out; transform-origin: 0 0; }
+
+  /* --- Fullscreen overlay --- */
+  #overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,.85);
+    z-index: 1000;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+  }
+  #overlay.visible { display: flex; }
+  #overlay-inner {
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    max-width: 95vw;
+    max-height: 95vh;
+    overflow: auto;
+    padding: 32px;
+    position: relative;
+  }
+  #overlay-close {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background: var(--bg-sidebar);
+    border: 1px solid var(--border);
+    color: var(--text);
+    cursor: pointer;
+    border-radius: 6px;
+    width: 32px;
+    height: 32px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* --- Loading --- */
+  #loading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    color: var(--text-muted);
+    font-size: 14px;
+  }
+  .spinner {
+    width: 20px; height: 20px;
+    border: 2px solid var(--border);
+    border-top-color: var(--accent);
+    border-radius: 50%;
+    animation: spin .6s linear infinite;
+    margin-right: 10px;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  /* --- Responsive --- */
+  @media (max-width: 768px) {
+    #sidebar { position: fixed; z-index: 100; height: 100vh; }
+    #sidebar.collapsed { margin-left: calc(var(--sidebar-w) * -1); }
+    #content { padding: 20px 16px 60px; }
+  }
+</style>
+</head>
+<body>
+
+<nav id="sidebar">
+  <div id="sidebar-header">
+    <h1 id="app-title">...</h1>
+    <div id="sidebar-controls">
+      <button id="btn-theme" title="Basculer clair/sombre">&#9789;</button>
+    </div>
+  </div>
+  <div id="toc"></div>
+</nav>
+
+<div id="main">
+  <div id="topbar">
+    <button id="toggle-sidebar" title="Sommaire">&#9776;</button>
+    <div id="breadcrumb"></div>
+  </div>
+  <div id="content-wrapper">
+    <div id="content" class="markdown-body">
+      <div id="loading"><div class="spinner"></div>Chargement du manifest...</div>
+    </div>
+  </div>
+</div>
+
+<div id="overlay">
+  <div id="overlay-inner">
+    <button id="overlay-close">&times;</button>
+    <div id="overlay-content"></div>
+  </div>
+</div>
+
+<script>
+(function() {
+  'use strict';
+
+  // --- State ---
+  let manifest = null;
+  let currentFile = null;
+  let fileCache = {};
+  let basePath = '';
+
+  // --- DOM refs ---
+  const $ = id => document.getElementById(id);
+  const tocEl       = $('toc');
+  const contentEl   = $('content');
+  const titleEl     = $('app-title');
+  const breadcrumb  = $('breadcrumb');
+  const sidebar     = $('sidebar');
+  const overlay     = $('overlay');
+  const overlayInner = $('overlay-inner');
+  const overlayContent = $('overlay-content');
+
+  // --- Mermaid init ---
+  mermaid.initialize({
+    startOnLoad: false,
+    theme: 'dark',
+    securityLevel: 'loose',
+    fontFamily: 'inherit'
+  });
+
+  // --- Theme ---
+  const savedTheme = localStorage.getItem('theme');
+  if (savedTheme === 'light') document.documentElement.classList.add('light');
+
+  $('btn-theme').addEventListener('click', () => {
+    document.documentElement.classList.toggle('light');
+    const isLight = document.documentElement.classList.contains('light');
+    localStorage.setItem('theme', isLight ? 'light' : 'dark');
+    mermaid.initialize({ startOnLoad: false, theme: isLight ? 'default' : 'dark', securityLevel: 'loose', fontFamily: 'inherit' });
+    if (currentFile) renderCurrentContent();
+  });
+
+  // --- Sidebar toggle ---
+  $('toggle-sidebar').addEventListener('click', () => sidebar.classList.toggle('collapsed'));
+
+  // --- Overlay ---
+  $('overlay-close').addEventListener('click', closeOverlay);
+  overlay.addEventListener('click', e => { if (e.target === overlay) closeOverlay(); });
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') closeOverlay(); });
+  function closeOverlay() { overlay.classList.remove('visible'); overlayContent.innerHTML = ''; }
+
+  // --- Manifest loading ---
+  async function init() {
+    try {
+      const resp = await fetch('manifest.json');
+      manifest = await resp.json();
+    } catch (e) {
+      contentEl.innerHTML = '<p style="color:#f85149">Erreur : impossible de charger manifest.json</p>';
+      return;
+    }
+    document.title = manifest.name;
+    titleEl.textContent = manifest.name;
+    buildToc(manifest.toc, tocEl);
+    handleHash();
+    window.addEventListener('hashchange', handleHash);
+  }
+
+  // --- TOC builder (recursive) ---
+  function buildToc(obj, parent, depth) {
+    depth = depth || 0;
+    const ul = document.createElement('ul');
+    for (const [label, value] of Object.entries(obj)) {
+      const li = document.createElement('li');
+      if (typeof value === 'string') {
+        // Leaf node -> link
+        const a = document.createElement('a');
+        a.textContent = label;
+        a.href = '#' + value;
+        a.dataset.file = value;
+        if (depth > 0) a.classList.add('toc-nested-item');
+        a.addEventListener('click', e => {
+          e.preventDefault();
+          navigateTo(value);
+        });
+        li.appendChild(a);
+        if (depth > 0) li.classList.add('toc-nested');
+      } else {
+        // Group node
+        li.classList.add('toc-group');
+        const groupLabel = document.createElement('span');
+        groupLabel.classList.add('toc-group-label');
+        groupLabel.textContent = label;
+        groupLabel.addEventListener('click', () => li.classList.toggle('collapsed'));
+        li.appendChild(groupLabel);
+        buildToc(value, li, depth + 1);
+      }
+      ul.appendChild(li);
+    }
+    parent.appendChild(ul);
+  }
+
+  // --- Navigation ---
+  function navigateTo(file, anchor) {
+    const hash = anchor ? file + '#' + anchor : file;
+    window.location.hash = hash;
+  }
+
+  function handleHash() {
+    const raw = decodeURIComponent(window.location.hash.slice(1));
+    if (!raw) {
+      // Load first leaf
+      const first = findFirstLeaf(manifest.toc);
+      if (first) navigateTo(first);
+      return;
+    }
+    // Parse: file.md#anchor or file.md
+    const hashIdx = raw.indexOf('#');
+    let file, anchor;
+    if (hashIdx > 0) {
+      file = raw.substring(0, hashIdx);
+      anchor = raw.substring(hashIdx + 1);
+    } else {
+      file = raw;
+      anchor = null;
+    }
+    loadFile(file, anchor);
+  }
+
+  function findFirstLeaf(obj) {
+    for (const value of Object.values(obj)) {
+      if (typeof value === 'string') return value;
+      const deeper = findFirstLeaf(value);
+      if (deeper) return deeper;
+    }
+    return null;
+  }
+
+  // --- File loading ---
+  async function loadFile(file, anchor) {
+    currentFile = file;
+    updateActiveToc(file);
+    updateBreadcrumb(file);
+
+    if (!fileCache[file]) {
+      contentEl.innerHTML = '<div id="loading"><div class="spinner"></div>Chargement...</div>';
+      try {
+        const resp = await fetch(resolvePath(file));
+        if (!resp.ok) throw new Error(resp.status);
+        fileCache[file] = await resp.text();
+      } catch (e) {
+        contentEl.innerHTML = '<p style="color:#f85149">Erreur : impossible de charger ' + escHtml(file) + '</p>';
+        return;
+      }
+    }
+    renderCurrentContent(anchor);
+  }
+
+  function resolvePath(file) {
+    return basePath + file;
+  }
+
+  // --- Render ---
+  async function renderCurrentContent(anchor) {
+    const md = fileCache[currentFile];
+    // Configure marked to handle mermaid code blocks
+    const renderer = new marked.Renderer();
+    const defaultCode = renderer.code.bind(renderer);
+
+    // Collect mermaid blocks
+    let mermaidIdx = 0;
+    const mermaidBlocks = [];
+
+    renderer.code = function({ text, lang }) {
+      if (lang === 'mermaid') {
+        const id = 'mmd-' + (mermaidIdx++);
+        mermaidBlocks.push({ id, text });
+        return '<div class="mermaid-wrapper">'
+          + '<div class="mermaid-toolbar">'
+          + '<button onclick="zoomMermaid(this, 1.2)" title="Zoom +">+</button>'
+          + '<button onclick="zoomMermaid(this, 0.8)" title="Zoom -">&minus;</button>'
+          + '<button onclick="resetZoomMermaid(this)" title="Reset">1:1</button>'
+          + '<button onclick="fullscreenMermaid(this)" title="Plein ecran">&#x26F6;</button>'
+          + '<button onclick="exportMermaid(this)" title="Exporter SVG">SVG</button>'
+          + '</div>'
+          + '<div class="mermaid-viewport" data-zoom="1"><div class="mermaid" id="' + id + '">' + escHtml(text) + '</div></div>'
+          + '</div>';
+      }
+      return defaultCode({ text, lang });
+    };
+
+    // Handle internal .md links
+    renderer.link = function({ href, title, text }) {
+      if (!href) return text;
+      // Internal .md link
+      if (href.match(/\.md(#.*)?$/i) && !href.match(/^https?:\/\//)) {
+        const titleAttr = title ? ' title="' + escHtml(title) + '"' : '';
+        return '<a href="#' + escHtml(href) + '"' + titleAttr + ' class="internal-link">' + text + '</a>';
+      }
+      // External link
+      const titleAttr = title ? ' title="' + escHtml(title) + '"' : '';
+      return '<a href="' + escHtml(href) + '"' + titleAttr + ' target="_blank" rel="noopener">' + text + '</a>';
+    };
+
+    marked.setOptions({ renderer, gfm: true, breaks: false });
+    contentEl.innerHTML = marked.parse(md);
+
+    // Render mermaid
+    if (mermaidBlocks.length) {
+      for (const block of mermaidBlocks) {
+        try {
+          const { svg } = await mermaid.render(block.id + '-svg', block.text);
+          const el = document.getElementById(block.id);
+          if (el) el.innerHTML = svg;
+        } catch (e) {
+          const el = document.getElementById(block.id);
+          if (el) el.innerHTML = '<pre style="color:#f85149">' + escHtml(e.message) + '</pre>';
+        }
+      }
+    }
+
+    // Setup pan on mermaid viewports
+    contentEl.querySelectorAll('.mermaid-viewport').forEach(setupPanZoom);
+
+    // Handle internal link clicks
+    contentEl.querySelectorAll('a.internal-link').forEach(a => {
+      a.addEventListener('click', e => {
+        e.preventDefault();
+        const href = a.getAttribute('href').replace(/^#/, '');
+        const hIdx = href.indexOf('#');
+        if (hIdx > 0) {
+          navigateTo(href.substring(0, hIdx), href.substring(hIdx + 1));
+        } else {
+          navigateTo(href);
+        }
+      });
+    });
+
+    // Generate heading IDs for deep linking
+    contentEl.querySelectorAll('h1,h2,h3,h4,h5,h6').forEach(h => {
+      if (!h.id) h.id = slugify(h.textContent);
+    });
+
+    // Scroll to anchor
+    if (anchor) {
+      requestAnimationFrame(() => {
+        const target = document.getElementById(anchor) || document.getElementById(slugify(anchor));
+        if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      });
+    } else {
+      $('content-wrapper').scrollTop = 0;
+    }
+  }
+
+  // --- TOC active state ---
+  function updateActiveToc(file) {
+    tocEl.querySelectorAll('a').forEach(a => {
+      a.classList.toggle('active', a.dataset.file === file);
+    });
+    // Auto-expand parent group
+    const activeLink = tocEl.querySelector('a.active');
+    if (activeLink) {
+      let parent = activeLink.closest('.toc-group');
+      while (parent) {
+        parent.classList.remove('collapsed');
+        parent = parent.parentElement.closest('.toc-group');
+      }
+    }
+  }
+
+  function updateBreadcrumb(file) {
+    const label = findLabel(manifest.toc, file);
+    breadcrumb.textContent = label || file;
+  }
+
+  function findLabel(obj, file, path) {
+    path = path || [];
+    for (const [label, value] of Object.entries(obj)) {
+      if (typeof value === 'string') {
+        if (value === file) return [...path, label].join(' > ');
+      } else {
+        const found = findLabel(value, file, [...path, label]);
+        if (found) return found;
+      }
+    }
+    return null;
+  }
+
+  // --- Pan & Zoom on mermaid ---
+  function setupPanZoom(viewport) {
+    let isPanning = false;
+    let startX, startY, scrollLeft, scrollTop;
+
+    viewport.addEventListener('mousedown', e => {
+      if (e.target.closest('button')) return;
+      isPanning = true;
+      startX = e.pageX - viewport.offsetLeft;
+      startY = e.pageY - viewport.offsetTop;
+      scrollLeft = viewport.scrollLeft;
+      scrollTop = viewport.scrollTop;
+    });
+    viewport.addEventListener('mouseleave', () => isPanning = false);
+    viewport.addEventListener('mouseup', () => isPanning = false);
+    viewport.addEventListener('mousemove', e => {
+      if (!isPanning) return;
+      e.preventDefault();
+      viewport.scrollLeft = scrollLeft - (e.pageX - viewport.offsetLeft - startX);
+      viewport.scrollTop = scrollTop - (e.pageY - viewport.offsetTop - startY);
+    });
+
+    viewport.addEventListener('wheel', e => {
+      if (!e.ctrlKey) return;
+      e.preventDefault();
+      const svg = viewport.querySelector('svg');
+      if (!svg) return;
+      let z = parseFloat(viewport.dataset.zoom) || 1;
+      z += e.deltaY < 0 ? 0.1 : -0.1;
+      z = Math.max(0.3, Math.min(3, z));
+      viewport.dataset.zoom = z;
+      svg.style.transform = 'scale(' + z + ')';
+    }, { passive: false });
+  }
+
+  // --- Mermaid toolbar (global functions) ---
+  window.zoomMermaid = function(btn, factor) {
+    const vp = btn.closest('.mermaid-wrapper').querySelector('.mermaid-viewport');
+    const svg = vp.querySelector('svg');
+    if (!svg) return;
+    let z = parseFloat(vp.dataset.zoom) || 1;
+    z = Math.max(0.3, Math.min(3, z * factor));
+    vp.dataset.zoom = z;
+    svg.style.transform = 'scale(' + z + ')';
+  };
+
+  window.resetZoomMermaid = function(btn) {
+    const vp = btn.closest('.mermaid-wrapper').querySelector('.mermaid-viewport');
+    const svg = vp.querySelector('svg');
+    if (!svg) return;
+    vp.dataset.zoom = 1;
+    svg.style.transform = 'scale(1)';
+  };
+
+  window.fullscreenMermaid = function(btn) {
+    const svg = btn.closest('.mermaid-wrapper').querySelector('svg');
+    if (!svg) return;
+    overlayContent.innerHTML = '';
+    overlayContent.appendChild(svg.cloneNode(true));
+    overlay.classList.add('visible');
+  };
+
+  window.exportMermaid = function(btn) {
+    const svg = btn.closest('.mermaid-wrapper').querySelector('svg');
+    if (!svg) return;
+    const data = new XMLSerializer().serializeToString(svg);
+    const blob = new Blob([data], { type: 'image/svg+xml' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'diagramme.svg';
+    a.click();
+    URL.revokeObjectURL(url);
+  };
+
+  // --- Utilities ---
+  function slugify(str) {
+    return str.toLowerCase()
+      .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+      .replace(/[^a-z0-9]+/g, '-')
+      .replace(/(^-|-$)/g, '');
+  }
+
+  function escHtml(s) {
+    return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+  }
+
+  // --- Start ---
+  init();
+})();
+</script>
+</body>
+</html>
