@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Chargement...</title>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/github-markdown-css@5/github-markdown-dark.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/github-markdown-css@5/github-markdown.min.css">
 <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.min.js"></script>
 <style>
@@ -172,10 +172,32 @@
   }
 
   /* Markdown overrides */
-  .markdown-body { background: transparent !important; color: var(--text) !important; }
+  .markdown-body {
+    background: transparent !important;
+    color: var(--text) !important;
+    --bgColor-default: transparent;
+    --bgColor-muted: var(--bg-sidebar);
+    --borderColor-default: var(--border);
+    --borderColor-muted: var(--border);
+    --fgColor-default: var(--text);
+    --fgColor-muted: var(--text-muted);
+  }
   .markdown-body table { display: table; width: 100%; }
-  .markdown-body th, .markdown-body td { border-color: var(--border); }
-  html.light .markdown-body { color: var(--text) !important; }
+  .markdown-body th, .markdown-body td {
+    border-color: var(--border) !important;
+    background: transparent !important;
+    color: var(--text) !important;
+  }
+  .markdown-body tr { background: transparent !important; }
+  .markdown-body tr:nth-child(2n) { background: var(--bg-sidebar) !important; }
+  .markdown-body th { background: var(--bg-sidebar) !important; }
+  .markdown-body hr { border-color: var(--border); }
+  .markdown-body a { color: var(--accent); }
+  .markdown-body strong { color: var(--text); }
+  .markdown-body code, .markdown-body pre {
+    background: var(--bg-sidebar) !important;
+    color: var(--text) !important;
+  }
 
   /* --- Mermaid container --- */
   .mermaid-wrapper {
@@ -328,7 +350,7 @@
   'use strict';
 
   // --- State ---
-  let manifest = null;
+  let tocData = null;  // toc.json content
   let currentFile = null;
   let fileCache = {};
   let basePath = '';
@@ -373,88 +395,128 @@
   document.addEventListener('keydown', e => { if (e.key === 'Escape') closeOverlay(); });
   function closeOverlay() { overlay.classList.remove('visible'); overlayContent.innerHTML = ''; }
 
-  // --- Manifest loading ---
+  // --- TOC loading ---
   async function init() {
     try {
-      const resp = await fetch('manifest.json');
-      manifest = await resp.json();
+      const resp = await fetch('toc.json');
+      tocData = await resp.json();
     } catch (e) {
-      contentEl.innerHTML = '<p style="color:#f85149">Erreur : impossible de charger manifest.json</p>';
+      contentEl.innerHTML = '<p style="color:#f85149">Erreur : impossible de charger toc.json</p>';
       return;
     }
-    document.title = manifest.name;
-    titleEl.textContent = manifest.name;
-    buildToc(manifest.toc, tocEl);
+    document.title = tocData.name;
+    titleEl.textContent = tocData.name;
+    buildToc(tocData.toc, tocEl, 0);
     handleHash();
     window.addEventListener('hashchange', handleHash);
   }
 
-  // --- TOC builder (recursive) ---
-  function buildToc(obj, parent, depth) {
-    depth = depth || 0;
+  // --- TOC builder (recursive, array-based { name, path?, children? }) ---
+  function buildToc(items, parent, depth) {
     const ul = document.createElement('ul');
-    for (const [label, value] of Object.entries(obj)) {
+    for (const item of items) {
       const li = document.createElement('li');
-      if (typeof value === 'string') {
-        // Leaf node -> link
+      const hasChildren = item.children && item.children.length > 0;
+      const hasPath = !!item.path;
+
+      if (hasChildren) {
+        // Group or document with sub-headings
+        li.classList.add('toc-group');
+
+        if (hasPath) {
+          // Document node: clickable label that also loads the file
+          const wrapper = document.createElement('div');
+          wrapper.style.display = 'flex';
+          wrapper.style.alignItems = 'center';
+
+          const toggle = document.createElement('span');
+          toggle.classList.add('toc-group-toggle');
+          toggle.textContent = '\u25BE';
+          toggle.style.cssText = 'cursor:pointer;padding:4px 6px;font-size:10px;color:var(--text-muted);transition:transform .15s;display:inline-block;';
+          toggle.addEventListener('click', e => {
+            e.stopPropagation();
+            li.classList.toggle('collapsed');
+            toggle.style.transform = li.classList.contains('collapsed') ? 'rotate(-90deg)' : '';
+          });
+
+          const a = document.createElement('a');
+          a.textContent = item.name;
+          a.href = '#' + item.path;
+          a.dataset.file = fileFromPath(item.path);
+          a.dataset.path = item.path;
+          a.style.flex = '1';
+          a.addEventListener('click', e => {
+            e.preventDefault();
+            navigateToPath(item.path);
+          });
+
+          wrapper.appendChild(toggle);
+          wrapper.appendChild(a);
+          li.appendChild(wrapper);
+        } else {
+          // Pure group (no file)
+          const groupLabel = document.createElement('span');
+          groupLabel.classList.add('toc-group-label');
+          groupLabel.textContent = item.name;
+          groupLabel.addEventListener('click', () => li.classList.toggle('collapsed'));
+          li.appendChild(groupLabel);
+        }
+
+        buildToc(item.children, li, depth + 1);
+      } else if (hasPath) {
+        // Leaf node (heading or standalone file)
         const a = document.createElement('a');
-        a.textContent = label;
-        a.href = '#' + value;
-        a.dataset.file = value;
-        if (depth > 0) a.classList.add('toc-nested-item');
+        a.textContent = item.name;
+        a.href = '#' + item.path;
+        a.dataset.file = fileFromPath(item.path);
+        a.dataset.path = item.path;
         a.addEventListener('click', e => {
           e.preventDefault();
-          navigateTo(value);
+          navigateToPath(item.path);
         });
         li.appendChild(a);
         if (depth > 0) li.classList.add('toc-nested');
-      } else {
-        // Group node
-        li.classList.add('toc-group');
-        const groupLabel = document.createElement('span');
-        groupLabel.classList.add('toc-group-label');
-        groupLabel.textContent = label;
-        groupLabel.addEventListener('click', () => li.classList.toggle('collapsed'));
-        li.appendChild(groupLabel);
-        buildToc(value, li, depth + 1);
       }
+
       ul.appendChild(li);
     }
     parent.appendChild(ul);
   }
 
+  // --- Helpers to parse path "file.md#anchor" ---
+  function fileFromPath(p) {
+    const i = p.indexOf('#');
+    return i > 0 ? p.substring(0, i) : p;
+  }
+  function anchorFromPath(p) {
+    const i = p.indexOf('#');
+    return i > 0 ? p.substring(i + 1) : null;
+  }
+
   // --- Navigation ---
-  function navigateTo(file, anchor) {
-    const hash = anchor ? file + '#' + anchor : file;
-    window.location.hash = hash;
+  function navigateToPath(path) {
+    window.location.hash = path;
   }
 
   function handleHash() {
     const raw = decodeURIComponent(window.location.hash.slice(1));
     if (!raw) {
-      // Load first leaf
-      const first = findFirstLeaf(manifest.toc);
-      if (first) navigateTo(first);
+      const first = findFirstPath(tocData.toc);
+      if (first) navigateToPath(first);
       return;
     }
-    // Parse: file.md#anchor or file.md
-    const hashIdx = raw.indexOf('#');
-    let file, anchor;
-    if (hashIdx > 0) {
-      file = raw.substring(0, hashIdx);
-      anchor = raw.substring(hashIdx + 1);
-    } else {
-      file = raw;
-      anchor = null;
-    }
+    const file = fileFromPath(raw);
+    const anchor = anchorFromPath(raw);
     loadFile(file, anchor);
   }
 
-  function findFirstLeaf(obj) {
-    for (const value of Object.values(obj)) {
-      if (typeof value === 'string') return value;
-      const deeper = findFirstLeaf(value);
-      if (deeper) return deeper;
+  function findFirstPath(items) {
+    for (const item of items) {
+      if (item.path) return item.path;
+      if (item.children) {
+        const found = findFirstPath(item.children);
+        if (found) return found;
+      }
     }
     return null;
   }
@@ -466,10 +528,10 @@
   // --- File loading ---
   async function loadFile(file, anchor) {
     currentFile = file;
-    updateActiveToc(file);
-    updateBreadcrumb(file);
+    updateActiveToc(file, anchor);
+    updateBreadcrumb(file, anchor);
 
-    // PDF: embed directly, no fetch-as-text
+    // PDF: embed directly
     if (isPdf(file)) {
       const src = resolvePath(file) + (anchor ? '#' + anchor : '');
       contentEl.innerHTML = '<embed class="pdf-embed" src="' + escHtml(src) + '" type="application/pdf">';
@@ -497,11 +559,9 @@
   // --- Render ---
   async function renderCurrentContent(anchor) {
     const md = fileCache[currentFile];
-    // Configure marked to handle mermaid code blocks
     const renderer = new marked.Renderer();
     const defaultCode = renderer.code.bind(renderer);
 
-    // Collect mermaid blocks
     let mermaidIdx = 0;
     const mermaidBlocks = [];
 
@@ -523,15 +583,13 @@
       return defaultCode({ text, lang });
     };
 
-    // Handle internal .md links
+    // Handle internal .md/.pdf links
     renderer.link = function({ href, title, text }) {
       if (!href) return text;
-      // Internal .md link
-      if (href.match(/\.md(#.*)?$/i) && !href.match(/^https?:\/\//)) {
+      if (href.match(/\.(md|pdf)(#.*)?$/i) && !href.match(/^https?:\/\//)) {
         const titleAttr = title ? ' title="' + escHtml(title) + '"' : '';
         return '<a href="#' + escHtml(href) + '"' + titleAttr + ' class="internal-link">' + text + '</a>';
       }
-      // External link
       const titleAttr = title ? ' title="' + escHtml(title) + '"' : '';
       return '<a href="' + escHtml(href) + '"' + titleAttr + ' target="_blank" rel="noopener">' + text + '</a>';
     };
@@ -539,7 +597,6 @@
     marked.setOptions({ renderer, gfm: true, breaks: false });
     contentEl.innerHTML = marked.parse(md);
 
-    // Render mermaid
     if (mermaidBlocks.length) {
       for (const block of mermaidBlocks) {
         try {
@@ -553,20 +610,13 @@
       }
     }
 
-    // Setup pan on mermaid viewports
     contentEl.querySelectorAll('.mermaid-viewport').forEach(setupPanZoom);
 
-    // Handle internal link clicks
     contentEl.querySelectorAll('a.internal-link').forEach(a => {
       a.addEventListener('click', e => {
         e.preventDefault();
         const href = a.getAttribute('href').replace(/^#/, '');
-        const hIdx = href.indexOf('#');
-        if (hIdx > 0) {
-          navigateTo(href.substring(0, hIdx), href.substring(hIdx + 1));
-        } else {
-          navigateTo(href);
-        }
+        navigateToPath(href);
       });
     });
 
@@ -575,7 +625,6 @@
       if (!h.id) h.id = slugify(h.textContent);
     });
 
-    // Scroll to anchor
     if (anchor) {
       requestAnimationFrame(() => {
         const target = document.getElementById(anchor) || document.getElementById(slugify(anchor));
@@ -587,33 +636,38 @@
   }
 
   // --- TOC active state ---
-  function updateActiveToc(file) {
+  function updateActiveToc(file, anchor) {
+    const fullPath = anchor ? file + '#' + anchor : file;
     tocEl.querySelectorAll('a').forEach(a => {
-      a.classList.toggle('active', a.dataset.file === file);
+      // Exact match on full path, or file-only match
+      const isActive = a.dataset.path === fullPath || (!anchor && a.dataset.file === file && !a.dataset.path.includes('#'));
+      a.classList.toggle('active', isActive);
     });
-    // Auto-expand parent group
+    // Auto-expand parent groups
     const activeLink = tocEl.querySelector('a.active');
     if (activeLink) {
       let parent = activeLink.closest('.toc-group');
       while (parent) {
         parent.classList.remove('collapsed');
+        const toggle = parent.querySelector(':scope > div > .toc-group-toggle');
+        if (toggle) toggle.style.transform = '';
         parent = parent.parentElement.closest('.toc-group');
       }
     }
   }
 
-  function updateBreadcrumb(file) {
-    const label = findLabel(manifest.toc, file);
+  function updateBreadcrumb(file, anchor) {
+    const label = findBreadcrumb(tocData.toc, file, anchor, []);
     breadcrumb.textContent = label || file;
   }
 
-  function findLabel(obj, file, path) {
-    path = path || [];
-    for (const [label, value] of Object.entries(obj)) {
-      if (typeof value === 'string') {
-        if (value === file) return [...path, label].join(' > ');
-      } else {
-        const found = findLabel(value, file, [...path, label]);
+  function findBreadcrumb(items, file, anchor, path) {
+    const fullPath = anchor ? file + '#' + anchor : file;
+    for (const item of items) {
+      if (item.path === fullPath) return [...path, item.name].join(' > ');
+      if (item.path === file && !anchor) return [...path, item.name].join(' > ');
+      if (item.children) {
+        const found = findBreadcrumb(item.children, file, anchor, [...path, item.name]);
         if (found) return found;
       }
     }
