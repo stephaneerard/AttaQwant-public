@@ -101,7 +101,14 @@ function Process-TocEntry([string]$Label, $Value) {
         if ($filePath -match '\.md$') {
             $headings = Get-MarkdownHeadings $fullPath
             if ($headings.Count -gt 0) {
-                $entry['children'] = Build-HeadingTree $headings $filePath
+                $tree = Build-HeadingTree $headings $filePath
+                # If the tree has a single H1 root that duplicates the manifest label,
+                # skip it and promote its children directly
+                if ($tree.Count -eq 1 -and $tree[0].Contains('children') -and $tree[0]['children'].Count -gt 0) {
+                    $entry['children'] = $tree[0]['children']
+                } else {
+                    $entry['children'] = $tree
+                }
             }
         }
         # PDF and other files: leaf with no children
