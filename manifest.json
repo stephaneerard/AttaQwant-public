@@ -1,22 +1,39 @@
 {
   "name": "Dossier d'Analyse Financiere - Qwant SAS",
   "toc": {
-    "Sommaire": "00_SOMMAIRE.md",
-    "Synthese executive": "01_SYNTHESE_EXECUTIVE.md",
-    "Identite de la societe": "02_IDENTITE_SOCIETE.md",
-    "Analyse financiere": {
-      "Analyse du bilan": "03_ANALYSE_BILAN.md",
-      "Analyse du compte de resultat": "04_ANALYSE_RESULTATS.md",
-      "Tresorerie et solvabilite": "05_TRESORERIE_SOLVABILITE.md",
-      "Ratios financiers": "06_RATIOS_FINANCIERS.md"
-    },
-    "Actes sociaux": {
-      "Actes sociaux - Qwant SAS": "07_ACTES_SOCIAUX_QWANT.md",
-      "Actes sociaux - Angels": "08_ACTES_SOCIAUX_ANGELS.md"
-    },
-    "Valorisation et apports": "09_VALORISATION_APPORTS.md",
-    "Chronologie et alertes": "10_CHRONOLOGIE_ALERTES.md",
-    "Conclusions": "11_CONCLUSIONS.md",
-    "Poursuites": "RAPPORT_POURSUITES_QWANT.md"
+    "DOSSIER D'ANALYSE FINANCIÈRE — QWANT SAS": "00_SOMMAIRE.md",
+    "01 — Synthèse exécutive": "01_SYNTHESE_EXECUTIVE.md",
+    "02 — Identité de la société": "02_IDENTITE_SOCIETE.md",
+    "03 — Analyse du bilan": "03_ANALYSE_BILAN.md",
+    "04 — Analyse du compte de résultat": "04_ANALYSE_RESULTATS.md",
+    "05 — Trésorerie et solvabilité": "05_TRESORERIE_SOLVABILITE.md",
+    "06 — Ratios financiers": "06_RATIOS_FINANCIERS.md",
+    "07 — Actes sociaux Qwant SAS": "07_ACTES_SOCIAUX_QWANT.md",
+    "08 — Actes sociaux Angels 1 & Angels 2": "08_ACTES_SOCIAUX_ANGELS.md",
+    "09 — Valorisation et apports": "09_VALORISATION_APPORTS.md",
+    "10 — Chronologie et alertes": "10_CHRONOLOGIE_ALERTES.md",
+    "11 — Conclusions": "11_CONCLUSIONS.md",
+    "12 — ANALYSE D'INVESTIGATION FINANCIÈRE": "12_ANALYSE_INVESTIGATION.md",
+    "13 — Limites de l'analyse et actions à mener": "13_LIMITES_ET_ACTIONS.md",
+    "RAPPORT — COMMENT POURSUIVRE QWANT ET SES RESPONSABLES": "RAPPORT_POURSUITES_QWANT.md",
+    "Rapport Poursuites Qwant": "RAPPORT_POURSUITES_QWANT.pdf",
+    "Longo Synthese": {
+      "RAPPORT LONGO – SYNTHÈSE COMPLÈTE": "Longo_Synthese/00_SOMMAIRE_RAPPORT_LONGO.md",
+      "01 – LETTRE INTRODUCTIVE À PIERRE MOSCOVICI": "Longo_Synthese/01_LETTRE_INTRODUCTIVE.md",
+      "02 – BILANS 2010-2020 ET ANOMALIES FINANCIÈRES": "Longo_Synthese/02_BILANS_ANOMALIES_FINANCIERES.md",
+      "03 – LES PROTAGONISTES PRINCIPAUX": "Longo_Synthese/03_PROTAGONISTES.md",
+      "04 – LA CDC AIDE À DÉTOURNER 13 MILLIONS D'EUROS": "Longo_Synthese/04_CDC_DETOURNEMENT_13M.md",
+      "05 – HISTORIQUE 2011-2014 : DES ORIGINES À AXEL SPRINGER": "Longo_Synthese/05_HISTORIQUE_2011_2014.md",
+      "06 – HISTORIQUE 2015-2016 : MACRON, AUDIT CDC, HOLDINGS": "Longo_Synthese/06_HISTORIQUE_2015_2016.md",
+      "07 – HISTORIQUE 2017-2018 : DESTRUCTION DE XILOPIX ET CAMPAGNE 2017": "Longo_Synthese/07_HISTORIQUE_2017_2018.md",
+      "08 – HISTORIQUE 2019 : AUDIT DINUM ET RÉVÉLATIONS": "Longo_Synthese/08_HISTORIQUE_2019.md",
+      "09 – HISTORIQUE 2020 : CÉDRIC O, MARCHÉS PUBLICS, BILANS PUBLIÉS": "Longo_Synthese/09_HISTORIQUE_2020.md",
+      "10 – HISTORIQUE 2021-2022 : NOUVELLES DIRECTIONS, TROMPERIES PERSISTANTES": "Longo_Synthese/10_HISTORIQUE_2021_2022.md",
+      "11 – LA SOUVERAINETÉ NUMÉRIQUE DÉTRUITE": "Longo_Synthese/11_SOUVERAINETE_DETRUITE.md",
+      "12 – LA POLITIQUE EN FAVEUR DES GAFAM DU GOUVERNEMENT": "Longo_Synthese/12_POLITIQUE_GAFAM.md",
+      "13 – INFRACTIONS SOULEVÉES ET CADRE JURIDIQUE": "Longo_Synthese/13_INFRACTIONS_LOI.md",
+      "14 – SYNTHÈSE DES DEUX AFFAIRES QWANT ET MACRON": "Longo_Synthese/14_SYNTHESE_QWANT_MACRON.md",
+      "15 – HAUTE COUR, QUESTIONS EN SUSPENS ET ANNEXES": "Longo_Synthese/15_HAUTE_COUR_ANNEXES.md"
+    }
   }
 }

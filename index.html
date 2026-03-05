@@ -684,14 +684,19 @@
         + '</h' + depth + '>';
     };
 
-    // Handle internal .md/.pdf links
+    // Handle internal .md/.pdf links and pure anchor links
     renderer.link = function({ href, title, text }) {
       if (!href) return text;
+      const titleAttr = title ? ' title="' + escHtml(title) + '"' : '';
+      // Pure anchor link (#something) → same file anchor
+      if (href.startsWith('#') && !href.match(/^#https?:\/\//)) {
+        const anchor = href.slice(1);
+        return '<a href="#' + escHtml(currentFile) + '#' + escHtml(anchor) + '"' + titleAttr + ' class="internal-link">' + text + '</a>';
+      }
+      // Internal .md/.pdf links
       if (href.match(/\.(md|pdf)(#.*)?$/i) && !href.match(/^https?:\/\//)) {
-        const titleAttr = title ? ' title="' + escHtml(title) + '"' : '';
         return '<a href="#' + escHtml(href) + '"' + titleAttr + ' class="internal-link">' + text + '</a>';
       }
-      const titleAttr = title ? ' title="' + escHtml(title) + '"' : '';
       return '<a href="' + escHtml(href) + '"' + titleAttr + ' target="_blank" rel="noopener">' + text + '</a>';
     };
 
@@ -717,6 +722,19 @@
       a.addEventListener('click', e => {
         e.preventDefault();
         const href = a.getAttribute('href').replace(/^#/, '');
+        const targetFile = fileFromPath(href);
+        const targetAnchor = anchorFromPath(href);
+        // If same file, just scroll without reloading
+        if (targetFile === currentFile && targetAnchor) {
+          const target = findHeadingByAnchor(targetAnchor);
+          if (target) {
+            // Update hash without triggering reload
+            history.replaceState(null, '', '#' + href);
+            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            updateActiveToc(targetFile, targetAnchor);
+            return;
+          }
+        }
         navigateToPath(href);
       });
     });
@@ -732,7 +750,7 @@
 
     if (anchor) {
       requestAnimationFrame(() => {
-        const target = document.getElementById(anchor) || document.getElementById(slugify(anchor));
+        const target = findHeadingByAnchor(anchor);
         if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
       });
     } else {
@@ -876,6 +894,39 @@
 
   function escHtml(s) {
     return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+  }
+
+  // Strip leading number prefixes like "6-", "12-" for fuzzy heading match
+  function stripNumPrefix(s) { return s.replace(/^\d+-/, ''); }
+
+  // Find a heading element by anchor slug (exact, endsWith, fuzzy)
+  function findHeadingByAnchor(anchor) {
+    if (!anchor) return null;
+    // 1. Exact match
+    let target = document.getElementById(anchor);
+    if (target) return target;
+    // 2. Slugified exact match
+    const slug = slugify(anchor);
+    target = document.getElementById(slug);
+    if (target) return target;
+    // 3. endsWith match on compound IDs
+    const headings = contentEl.querySelectorAll('h1[id],h2[id],h3[id],h4[id],h5[id],h6[id]');
+    for (const h of headings) {
+      const lastPart = h.id.split('/').pop();
+      if (lastPart === slug || h.id.endsWith('/' + slug)) return h;
+    }
+    // 4. Fuzzy: strip number prefixes, compare
+    const strippedSlug = stripNumPrefix(slug);
+    for (const h of headings) {
+      const lastPart = stripNumPrefix(h.id.split('/').pop());
+      if (lastPart === strippedSlug) return h;
+    }
+    // 5. Fuzzy: check if one contains the other (handles l'analyse vs lanalyse)
+    for (const h of headings) {
+      const lastPart = stripNumPrefix(h.id.split('/').pop());
+      if (lastPart.includes(strippedSlug) || strippedSlug.includes(lastPart)) return h;
+    }
+    return null;
   }
 
   // --- Start ---

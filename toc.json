@@ -1,8 +1,8 @@
-﻿{
+{
   "name": "Dossier d'Analyse Financiere - Qwant SAS",
   "toc": [
     {
-      "name": "Sommaire",
+      "name": "DOSSIER D'ANALYSE FINANCIÈRE — QWANT SAS",
       "path": "00_SOMMAIRE.md",
       "children": [
         {
@@ -26,7 +26,7 @@
       ]
     },
     {
-      "name": "Synthese executive",
+      "name": "01 — Synthèse exécutive",
       "path": "01_SYNTHESE_EXECUTIVE.md",
       "children": [
         {
@@ -84,7 +84,7 @@
       ]
     },
     {
-      "name": "Identite de la societe",
+      "name": "02 — Identité de la société",
       "path": "02_IDENTITE_SOCIETE.md",
       "children": [
         {
@@ -124,349 +124,194 @@
       ]
     },
     {
-      "name": "Analyse financiere",
+      "name": "03 — Analyse du bilan",
+      "path": "03_ANALYSE_BILAN.md",
       "children": [
         {
-          "name": "Analyse du bilan",
-          "path": "03_ANALYSE_BILAN.md",
+          "name": "03 — Analyse du bilan",
+          "path": "03_ANALYSE_BILAN.md#03-analyse-du-bilan",
           "children": [
             {
-              "name": "03 — Analyse du bilan",
-              "path": "03_ANALYSE_BILAN.md#03-analyse-du-bilan",
+              "name": "1. Vue d'ensemble de l'actif",
+              "path": "03_ANALYSE_BILAN.md#03-analyse-du-bilan/1-vue-d-ensemble-de-l-actif",
               "children": [
                 {
-                  "name": "1. Vue d'ensemble de l'actif",
-                  "path": "03_ANALYSE_BILAN.md#03-analyse-du-bilan/1-vue-d-ensemble-de-l-actif",
+                  "name": "1.1 Évolution du total actif net",
+                  "path": "03_ANALYSE_BILAN.md#03-analyse-du-bilan/1-vue-d-ensemble-de-l-actif/1-1-evolution-du-total-actif-net"
+                },
+                {
+                  "name": "1.2 Structure de l'actif — Détail par poste",
+                  "path": "03_ANALYSE_BILAN.md#03-analyse-du-bilan/1-vue-d-ensemble-de-l-actif/1-2-structure-de-l-actif-detail-par-poste",
                   "children": [
                     {
-                      "name": "1.1 Évolution du total actif net",
-                      "path": "03_ANALYSE_BILAN.md#03-analyse-du-bilan/1-vue-d-ensemble-de-l-actif/1-1-evolution-du-total-actif-net"
+                      "name": "Immobilisations incorporelles (AF + AJ)",
+                      "path": "03_ANALYSE_BILAN.md#03-analyse-du-bilan/1-vue-d-ensemble-de-l-actif/1-2-structure-de-l-actif-detail-par-poste/immobilisations-incorporelles-af-aj"
                     },
                     {
-                      "name": "1.2 Structure de l'actif — Détail par poste",
-                      "path": "03_ANALYSE_BILAN.md#03-analyse-du-bilan/1-vue-d-ensemble-de-l-actif/1-2-structure-de-l-actif-detail-par-poste",
-                      "children": [
-                        {
-                          "name": "Immobilisations incorporelles (AF + AJ)",
-                          "path": "03_ANALYSE_BILAN.md#03-analyse-du-bilan/1-vue-d-ensemble-de-l-actif/1-2-structure-de-l-actif-detail-par-poste/immobilisations-incorporelles-af-aj"
-                        },
-                        {
-                          "name": "Immobilisations corporelles (AR + AT)",
-                          "path": "03_ANALYSE_BILAN.md#03-analyse-du-bilan/1-vue-d-ensemble-de-l-actif/1-2-structure-de-l-actif-detail-par-poste/immobilisations-corporelles-ar-at"
-                        },
-                        {
-                          "name": "Immobilisations financières",
-                          "path": "03_ANALYSE_BILAN.md#03-analyse-du-bilan/1-vue-d-ensemble-de-l-actif/1-2-structure-de-l-actif-detail-par-poste/immobilisations-financieres"
-                        },
-                        {
-                          "name": "Créances d'exploitation",
-                          "path": "03_ANALYSE_BILAN.md#03-analyse-du-bilan/1-vue-d-ensemble-de-l-actif/1-2-structure-de-l-actif-detail-par-poste/creances-d-exploitation"
-                        },
-                        {
-                          "name": "Trésorerie (CF)",
-                          "path": "03_ANALYSE_BILAN.md#03-analyse-du-bilan/1-vue-d-ensemble-de-l-actif/1-2-structure-de-l-actif-detail-par-poste/tresorerie-cf"
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "name": "2. Vue d'ensemble du passif",
-                  "path": "03_ANALYSE_BILAN.md#03-analyse-du-bilan/2-vue-d-ensemble-du-passif",
-                  "children": [
-                    {
-                      "name": "2.1 Capitaux propres (I)",
-                      "path": "03_ANALYSE_BILAN.md#03-analyse-du-bilan/2-vue-d-ensemble-du-passif/2-1-capitaux-propres-i"
+                      "name": "Immobilisations corporelles (AR + AT)",
+                      "path": "03_ANALYSE_BILAN.md#03-analyse-du-bilan/1-vue-d-ensemble-de-l-actif/1-2-structure-de-l-actif-detail-par-poste/immobilisations-corporelles-ar-at"
                     },
                     {
-                      "name": "2.2 Provisions pour risques et charges (II)",
-                      "path": "03_ANALYSE_BILAN.md#03-analyse-du-bilan/2-vue-d-ensemble-du-passif/2-2-provisions-pour-risques-et-charges-ii"
+                      "name": "Immobilisations financières",
+                      "path": "03_ANALYSE_BILAN.md#03-analyse-du-bilan/1-vue-d-ensemble-de-l-actif/1-2-structure-de-l-actif-detail-par-poste/immobilisations-financieres"
                     },
                     {
-                      "name": "2.3 Dettes (III)",
-                      "path": "03_ANALYSE_BILAN.md#03-analyse-du-bilan/2-vue-d-ensemble-du-passif/2-3-dettes-iii"
-                    }
-                  ]
-                },
-                {
-                  "name": "3. Équilibre bilanciel",
-                  "path": "03_ANALYSE_BILAN.md#03-analyse-du-bilan/3-equilibre-bilanciel",
-                  "children": [
-                    {
-                      "name": "3.1 Fonds de roulement",
-                      "path": "03_ANALYSE_BILAN.md#03-analyse-du-bilan/3-equilibre-bilanciel/3-1-fonds-de-roulement"
+                      "name": "Créances d'exploitation",
+                      "path": "03_ANALYSE_BILAN.md#03-analyse-du-bilan/1-vue-d-ensemble-de-l-actif/1-2-structure-de-l-actif-detail-par-poste/creances-d-exploitation"
                     },
                     {
-                      "name": "3.2 Ratio capitaux propres / total actif",
-                      "path": "03_ANALYSE_BILAN.md#03-analyse-du-bilan/3-equilibre-bilanciel/3-2-ratio-capitaux-propres-total-actif"
-                    }
-                  ]
-                },
-                {
-                  "name": "4. Points d'attention spécifiques",
-                  "path": "03_ANALYSE_BILAN.md#03-analyse-du-bilan/4-points-d-attention-specifiques",
-                  "children": [
-                    {
-                      "name": "4.1 Dépréciation massive des « autres créances »",
-                      "path": "03_ANALYSE_BILAN.md#03-analyse-du-bilan/4-points-d-attention-specifiques/4-1-depreciation-massive-des-autres-creances"
-                    },
-                    {
-                      "name": "4.2 Explosion des « autres dettes » — Comptes courants probables",
-                      "path": "03_ANALYSE_BILAN.md#03-analyse-du-bilan/4-points-d-attention-specifiques/4-2-explosion-des-autres-dettes-comptes-courants-probables"
-                    },
-                    {
-                      "name": "4.3 Absence d'emprunt bancaire classique",
-                      "path": "03_ANALYSE_BILAN.md#03-analyse-du-bilan/4-points-d-attention-specifiques/4-3-absence-d-emprunt-bancaire-classique"
-                    }
-                  ]
-                },
-                {
-                  "name": "5. Synthèse bilan",
-                  "path": "03_ANALYSE_BILAN.md#03-analyse-du-bilan/5-synthese-bilan"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Analyse du compte de resultat",
-          "path": "04_ANALYSE_RESULTATS.md",
-          "children": [
-            {
-              "name": "04 — Analyse du compte de résultat",
-              "path": "04_ANALYSE_RESULTATS.md#04-analyse-du-compte-de-resultat",
-              "children": [
-                {
-                  "name": "1. Tableau synthétique du P&L (2016-2021)",
-                  "path": "04_ANALYSE_RESULTATS.md#04-analyse-du-compte-de-resultat/1-tableau-synthetique-du-p-l-2016-2021"
-                },
-                {
-                  "name": "2. Analyse des produits d'exploitation",
-                  "path": "04_ANALYSE_RESULTATS.md#04-analyse-du-compte-de-resultat/2-analyse-des-produits-d-exploitation",
-                  "children": [
-                    {
-                      "name": "2.1 Chiffre d'affaires net",
-                      "path": "04_ANALYSE_RESULTATS.md#04-analyse-du-compte-de-resultat/2-analyse-des-produits-d-exploitation/2-1-chiffre-d-affaires-net"
-                    },
-                    {
-                      "name": "2.2 Production stockée (FN) — Signal d'alerte",
-                      "path": "04_ANALYSE_RESULTATS.md#04-analyse-du-compte-de-resultat/2-analyse-des-produits-d-exploitation/2-2-production-stockee-fn-signal-d-alerte"
-                    },
-                    {
-                      "name": "2.3 Production immobilisée (FO)",
-                      "path": "04_ANALYSE_RESULTATS.md#04-analyse-du-compte-de-resultat/2-analyse-des-produits-d-exploitation/2-3-production-immobilisee-fo"
-                    },
-                    {
-                      "name": "2.4 Subventions d'exploitation",
-                      "path": "04_ANALYSE_RESULTATS.md#04-analyse-du-compte-de-resultat/2-analyse-des-produits-d-exploitation/2-4-subventions-d-exploitation"
-                    }
-                  ]
-                },
-                {
-                  "name": "3. Analyse des charges d'exploitation",
-                  "path": "04_ANALYSE_RESULTATS.md#04-analyse-du-compte-de-resultat/3-analyse-des-charges-d-exploitation",
-                  "children": [
-                    {
-                      "name": "3.1 Structure des charges",
-                      "path": "04_ANALYSE_RESULTATS.md#04-analyse-du-compte-de-resultat/3-analyse-des-charges-d-exploitation/3-1-structure-des-charges"
-                    },
-                    {
-                      "name": "3.2 Achats et charges externes (FW) — Premier poste de charges en 2021",
-                      "path": "04_ANALYSE_RESULTATS.md#04-analyse-du-compte-de-resultat/3-analyse-des-charges-d-exploitation/3-2-achats-et-charges-externes-fw-premier-poste-de-charges-en-2021"
-                    },
-                    {
-                      "name": "3.3 Masse salariale (FY + FZ)",
-                      "path": "04_ANALYSE_RESULTATS.md#04-analyse-du-compte-de-resultat/3-analyse-des-charges-d-exploitation/3-3-masse-salariale-fy-fz"
-                    },
-                    {
-                      "name": "3.4 Dotations aux amortissements (GA) — Le cycle d'investissement",
-                      "path": "04_ANALYSE_RESULTATS.md#04-analyse-du-compte-de-resultat/3-analyse-des-charges-d-exploitation/3-4-dotations-aux-amortissements-ga-le-cycle-d-investissement"
-                    }
-                  ]
-                },
-                {
-                  "name": "4. Résultat d'exploitation — Déficit structurel",
-                  "path": "04_ANALYSE_RESULTATS.md#04-analyse-du-compte-de-resultat/4-resultat-d-exploitation-deficit-structurel"
-                },
-                {
-                  "name": "5. Résultat financier",
-                  "path": "04_ANALYSE_RESULTATS.md#04-analyse-du-compte-de-resultat/5-resultat-financier"
-                },
-                {
-                  "name": "6. Résultat de l'exercice — L'impact des éléments exceptionnels",
-                  "path": "04_ANALYSE_RESULTATS.md#04-analyse-du-compte-de-resultat/6-resultat-de-l-exercice-l-impact-des-elements-exceptionnels"
-                },
-                {
-                  "name": "7. Pertes cumulées",
-                  "path": "04_ANALYSE_RESULTATS.md#04-analyse-du-compte-de-resultat/7-pertes-cumulees"
-                },
-                {
-                  "name": "8. Points d'attention spécifiques",
-                  "path": "04_ANALYSE_RESULTATS.md#04-analyse-du-compte-de-resultat/8-points-d-attention-specifiques",
-                  "children": [
-                    {
-                      "name": "8.1 La question du CIR (Crédit d'Impôt Recherche)",
-                      "path": "04_ANALYSE_RESULTATS.md#04-analyse-du-compte-de-resultat/8-points-d-attention-specifiques/8-1-la-question-du-cir-credit-d-impot-recherche"
-                    },
-                    {
-                      "name": "8.2 L'opacité des « achats et charges externes »",
-                      "path": "04_ANALYSE_RESULTATS.md#04-analyse-du-compte-de-resultat/8-points-d-attention-specifiques/8-2-l-opacite-des-achats-et-charges-externes"
-                    },
-                    {
-                      "name": "8.3 Revenue vs. coûts — Le « business model » Qwant",
-                      "path": "04_ANALYSE_RESULTATS.md#04-analyse-du-compte-de-resultat/8-points-d-attention-specifiques/8-3-revenue-vs-couts-le-business-model-qwant"
+                      "name": "Trésorerie (CF)",
+                      "path": "03_ANALYSE_BILAN.md#03-analyse-du-bilan/1-vue-d-ensemble-de-l-actif/1-2-structure-de-l-actif-detail-par-poste/tresorerie-cf"
                     }
                   ]
                 }
               ]
-            }
-          ]
-        },
-        {
-          "name": "Tresorerie et solvabilite",
-          "path": "05_TRESORERIE_SOLVABILITE.md",
-          "children": [
+            },
             {
-              "name": "05 — Trésorerie et solvabilité",
-              "path": "05_TRESORERIE_SOLVABILITE.md#05-tresorerie-et-solvabilite",
+              "name": "2. Vue d'ensemble du passif",
+              "path": "03_ANALYSE_BILAN.md#03-analyse-du-bilan/2-vue-d-ensemble-du-passif",
               "children": [
                 {
-                  "name": "1. Évolution de la trésorerie",
-                  "path": "05_TRESORERIE_SOLVABILITE.md#05-tresorerie-et-solvabilite/1-evolution-de-la-tresorerie",
-                  "children": [
-                    {
-                      "name": "Analyse du profil de trésorerie",
-                      "path": "05_TRESORERIE_SOLVABILITE.md#05-tresorerie-et-solvabilite/1-evolution-de-la-tresorerie/analyse-du-profil-de-tresorerie"
-                    }
-                  ]
+                  "name": "2.1 Capitaux propres (I)",
+                  "path": "03_ANALYSE_BILAN.md#03-analyse-du-bilan/2-vue-d-ensemble-du-passif/2-1-capitaux-propres-i"
                 },
                 {
-                  "name": "2. Burn rate et autonomie financière",
-                  "path": "05_TRESORERIE_SOLVABILITE.md#05-tresorerie-et-solvabilite/2-burn-rate-et-autonomie-financiere",
-                  "children": [
-                    {
-                      "name": "2.1 Burn rate opérationnel",
-                      "path": "05_TRESORERIE_SOLVABILITE.md#05-tresorerie-et-solvabilite/2-burn-rate-et-autonomie-financiere/2-1-burn-rate-operationnel"
-                    },
-                    {
-                      "name": "2.2 Autonomie de trésorerie estimée (à fin d'exercice)",
-                      "path": "05_TRESORERIE_SOLVABILITE.md#05-tresorerie-et-solvabilite/2-burn-rate-et-autonomie-financiere/2-2-autonomie-de-tresorerie-estimee-a-fin-d-exercice"
-                    }
-                  ]
+                  "name": "2.2 Provisions pour risques et charges (II)",
+                  "path": "03_ANALYSE_BILAN.md#03-analyse-du-bilan/2-vue-d-ensemble-du-passif/2-2-provisions-pour-risques-et-charges-ii"
                 },
                 {
-                  "name": "3. Analyse de la solvabilité",
-                  "path": "05_TRESORERIE_SOLVABILITE.md#05-tresorerie-et-solvabilite/3-analyse-de-la-solvabilite",
-                  "children": [
-                    {
-                      "name": "3.1 Test de solvabilité bilancielle",
-                      "path": "05_TRESORERIE_SOLVABILITE.md#05-tresorerie-et-solvabilite/3-analyse-de-la-solvabilite/3-1-test-de-solvabilite-bilancielle"
-                    },
-                    {
-                      "name": "3.2 Article L. 225-248 du Code de commerce",
-                      "path": "05_TRESORERIE_SOLVABILITE.md#05-tresorerie-et-solvabilite/3-analyse-de-la-solvabilite/3-2-article-l-225-248-du-code-de-commerce"
-                    },
-                    {
-                      "name": "3.3 Risque de cessation de paiement",
-                      "path": "05_TRESORERIE_SOLVABILITE.md#05-tresorerie-et-solvabilite/3-analyse-de-la-solvabilite/3-3-risque-de-cessation-de-paiement"
-                    }
-                  ]
-                },
-                {
-                  "name": "4. Capacité d'autofinancement (CAF) estimée",
-                  "path": "05_TRESORERIE_SOLVABILITE.md#05-tresorerie-et-solvabilite/4-capacite-d-autofinancement-caf-estimee"
-                },
-                {
-                  "name": "5. Synthèse trésorerie et solvabilité",
-                  "path": "05_TRESORERIE_SOLVABILITE.md#05-tresorerie-et-solvabilite/5-synthese-tresorerie-et-solvabilite"
+                  "name": "2.3 Dettes (III)",
+                  "path": "03_ANALYSE_BILAN.md#03-analyse-du-bilan/2-vue-d-ensemble-du-passif/2-3-dettes-iii"
                 }
               ]
-            }
-          ]
-        },
-        {
-          "name": "Ratios financiers",
-          "path": "06_RATIOS_FINANCIERS.md",
-          "children": [
+            },
             {
-              "name": "06 — Ratios financiers",
-              "path": "06_RATIOS_FINANCIERS.md#06-ratios-financiers",
+              "name": "3. Équilibre bilanciel",
+              "path": "03_ANALYSE_BILAN.md#03-analyse-du-bilan/3-equilibre-bilanciel",
               "children": [
                 {
-                  "name": "1. Ratios de structure financière",
-                  "path": "06_RATIOS_FINANCIERS.md#06-ratios-financiers/1-ratios-de-structure-financiere",
-                  "children": [
-                    {
-                      "name": "1.1 Autonomie financière (Capitaux propres / Total passif)",
-                      "path": "06_RATIOS_FINANCIERS.md#06-ratios-financiers/1-ratios-de-structure-financiere/1-1-autonomie-financiere-capitaux-propres-total-passif"
-                    },
-                    {
-                      "name": "1.2 Endettement (Dettes financières / Capitaux propres)",
-                      "path": "06_RATIOS_FINANCIERS.md#06-ratios-financiers/1-ratios-de-structure-financiere/1-2-endettement-dettes-financieres-capitaux-propres"
-                    },
-                    {
-                      "name": "1.3 Indépendance financière (CP / Ressources stables)",
-                      "path": "06_RATIOS_FINANCIERS.md#06-ratios-financiers/1-ratios-de-structure-financiere/1-3-independance-financiere-cp-ressources-stables"
-                    }
-                  ]
+                  "name": "3.1 Fonds de roulement",
+                  "path": "03_ANALYSE_BILAN.md#03-analyse-du-bilan/3-equilibre-bilanciel/3-1-fonds-de-roulement"
                 },
                 {
-                  "name": "2. Ratios de rentabilité",
-                  "path": "06_RATIOS_FINANCIERS.md#06-ratios-financiers/2-ratios-de-rentabilite",
-                  "children": [
-                    {
-                      "name": "2.1 Marge opérationnelle (Résultat exploitation / CA net)",
-                      "path": "06_RATIOS_FINANCIERS.md#06-ratios-financiers/2-ratios-de-rentabilite/2-1-marge-operationnelle-resultat-exploitation-ca-net"
-                    },
-                    {
-                      "name": "2.2 Marge nette (Résultat net / CA net)",
-                      "path": "06_RATIOS_FINANCIERS.md#06-ratios-financiers/2-ratios-de-rentabilite/2-2-marge-nette-resultat-net-ca-net"
-                    },
-                    {
-                      "name": "2.3 Rentabilité des capitaux propres (ROE)",
-                      "path": "06_RATIOS_FINANCIERS.md#06-ratios-financiers/2-ratios-de-rentabilite/2-3-rentabilite-des-capitaux-propres-roe"
-                    },
-                    {
-                      "name": "2.4 Rentabilité économique (Résultat exploitation / Total actif)",
-                      "path": "06_RATIOS_FINANCIERS.md#06-ratios-financiers/2-ratios-de-rentabilite/2-4-rentabilite-economique-resultat-exploitation-total-actif"
-                    }
-                  ]
+                  "name": "3.2 Ratio capitaux propres / total actif",
+                  "path": "03_ANALYSE_BILAN.md#03-analyse-du-bilan/3-equilibre-bilanciel/3-2-ratio-capitaux-propres-total-actif"
+                }
+              ]
+            },
+            {
+              "name": "4. Points d'attention spécifiques",
+              "path": "03_ANALYSE_BILAN.md#03-analyse-du-bilan/4-points-d-attention-specifiques",
+              "children": [
+                {
+                  "name": "4.1 Dépréciation massive des « autres créances »",
+                  "path": "03_ANALYSE_BILAN.md#03-analyse-du-bilan/4-points-d-attention-specifiques/4-1-depreciation-massive-des-autres-creances"
                 },
                 {
-                  "name": "3. Ratios d'activité",
-                  "path": "06_RATIOS_FINANCIERS.md#06-ratios-financiers/3-ratios-d-activite",
-                  "children": [
-                    {
-                      "name": "3.1 Taux de couverture des charges par le CA",
-                      "path": "06_RATIOS_FINANCIERS.md#06-ratios-financiers/3-ratios-d-activite/3-1-taux-de-couverture-des-charges-par-le-ca"
-                    },
-                    {
-                      "name": "3.2 Charges de personnel / CA net",
-                      "path": "06_RATIOS_FINANCIERS.md#06-ratios-financiers/3-ratios-d-activite/3-2-charges-de-personnel-ca-net"
-                    },
-                    {
-                      "name": "3.3 Achats et charges externes / CA net",
-                      "path": "06_RATIOS_FINANCIERS.md#06-ratios-financiers/3-ratios-d-activite/3-3-achats-et-charges-externes-ca-net"
-                    }
-                  ]
+                  "name": "4.2 Explosion des « autres dettes » — Comptes courants probables",
+                  "path": "03_ANALYSE_BILAN.md#03-analyse-du-bilan/4-points-d-attention-specifiques/4-2-explosion-des-autres-dettes-comptes-courants-probables"
                 },
                 {
-                  "name": "4. Ratios de liquidité",
-                  "path": "06_RATIOS_FINANCIERS.md#06-ratios-financiers/4-ratios-de-liquidite",
-                  "children": [
-                    {
-                      "name": "4.1 Liquidité générale (Actif circulant / Dettes court terme)",
-                      "path": "06_RATIOS_FINANCIERS.md#06-ratios-financiers/4-ratios-de-liquidite/4-1-liquidite-generale-actif-circulant-dettes-court-terme"
-                    },
-                    {
-                      "name": "4.2 Liquidité immédiate (Disponibilités / Dettes court terme)",
-                      "path": "06_RATIOS_FINANCIERS.md#06-ratios-financiers/4-ratios-de-liquidite/4-2-liquidite-immediate-disponibilites-dettes-court-terme"
-                    }
-                  ]
+                  "name": "4.3 Absence d'emprunt bancaire classique",
+                  "path": "03_ANALYSE_BILAN.md#03-analyse-du-bilan/4-points-d-attention-specifiques/4-3-absence-d-emprunt-bancaire-classique"
+                }
+              ]
+            },
+            {
+              "name": "5. Synthèse bilan",
+              "path": "03_ANALYSE_BILAN.md#03-analyse-du-bilan/5-synthese-bilan"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "04 — Analyse du compte de résultat",
+      "path": "04_ANALYSE_RESULTATS.md",
+      "children": [
+        {
+          "name": "04 — Analyse du compte de résultat",
+          "path": "04_ANALYSE_RESULTATS.md#04-analyse-du-compte-de-resultat",
+          "children": [
+            {
+              "name": "1. Tableau synthétique du P&L (2016-2021)",
+              "path": "04_ANALYSE_RESULTATS.md#04-analyse-du-compte-de-resultat/1-tableau-synthetique-du-p-l-2016-2021"
+            },
+            {
+              "name": "2. Analyse des produits d'exploitation",
+              "path": "04_ANALYSE_RESULTATS.md#04-analyse-du-compte-de-resultat/2-analyse-des-produits-d-exploitation",
+              "children": [
+                {
+                  "name": "2.1 Chiffre d'affaires net",
+                  "path": "04_ANALYSE_RESULTATS.md#04-analyse-du-compte-de-resultat/2-analyse-des-produits-d-exploitation/2-1-chiffre-d-affaires-net"
                 },
                 {
-                  "name": "5. Tableau de synthèse des ratios",
-                  "path": "06_RATIOS_FINANCIERS.md#06-ratios-financiers/5-tableau-de-synthese-des-ratios"
+                  "name": "2.2 Production stockée (FN) — Signal d'alerte",
+                  "path": "04_ANALYSE_RESULTATS.md#04-analyse-du-compte-de-resultat/2-analyse-des-produits-d-exploitation/2-2-production-stockee-fn-signal-d-alerte"
+                },
+                {
+                  "name": "2.3 Production immobilisée (FO)",
+                  "path": "04_ANALYSE_RESULTATS.md#04-analyse-du-compte-de-resultat/2-analyse-des-produits-d-exploitation/2-3-production-immobilisee-fo"
+                },
+                {
+                  "name": "2.4 Subventions d'exploitation",
+                  "path": "04_ANALYSE_RESULTATS.md#04-analyse-du-compte-de-resultat/2-analyse-des-produits-d-exploitation/2-4-subventions-d-exploitation"
+                }
+              ]
+            },
+            {
+              "name": "3. Analyse des charges d'exploitation",
+              "path": "04_ANALYSE_RESULTATS.md#04-analyse-du-compte-de-resultat/3-analyse-des-charges-d-exploitation",
+              "children": [
+                {
+                  "name": "3.1 Structure des charges",
+                  "path": "04_ANALYSE_RESULTATS.md#04-analyse-du-compte-de-resultat/3-analyse-des-charges-d-exploitation/3-1-structure-des-charges"
+                },
+                {
+                  "name": "3.2 Achats et charges externes (FW) — Premier poste de charges en 2021",
+                  "path": "04_ANALYSE_RESULTATS.md#04-analyse-du-compte-de-resultat/3-analyse-des-charges-d-exploitation/3-2-achats-et-charges-externes-fw-premier-poste-de-charges-en-2021"
+                },
+                {
+                  "name": "3.3 Masse salariale (FY + FZ)",
+                  "path": "04_ANALYSE_RESULTATS.md#04-analyse-du-compte-de-resultat/3-analyse-des-charges-d-exploitation/3-3-masse-salariale-fy-fz"
+                },
+                {
+                  "name": "3.4 Dotations aux amortissements (GA) — Le cycle d'investissement",
+                  "path": "04_ANALYSE_RESULTATS.md#04-analyse-du-compte-de-resultat/3-analyse-des-charges-d-exploitation/3-4-dotations-aux-amortissements-ga-le-cycle-d-investissement"
+                }
+              ]
+            },
+            {
+              "name": "4. Résultat d'exploitation — Déficit structurel",
+              "path": "04_ANALYSE_RESULTATS.md#04-analyse-du-compte-de-resultat/4-resultat-d-exploitation-deficit-structurel"
+            },
+            {
+              "name": "5. Résultat financier",
+              "path": "04_ANALYSE_RESULTATS.md#04-analyse-du-compte-de-resultat/5-resultat-financier"
+            },
+            {
+              "name": "6. Résultat de l'exercice — L'impact des éléments exceptionnels",
+              "path": "04_ANALYSE_RESULTATS.md#04-analyse-du-compte-de-resultat/6-resultat-de-l-exercice-l-impact-des-elements-exceptionnels"
+            },
+            {
+              "name": "7. Pertes cumulées",
+              "path": "04_ANALYSE_RESULTATS.md#04-analyse-du-compte-de-resultat/7-pertes-cumulees"
+            },
+            {
+              "name": "8. Points d'attention spécifiques",
+              "path": "04_ANALYSE_RESULTATS.md#04-analyse-du-compte-de-resultat/8-points-d-attention-specifiques",
+              "children": [
+                {
+                  "name": "8.1 La question du CIR (Crédit d'Impôt Recherche)",
+                  "path": "04_ANALYSE_RESULTATS.md#04-analyse-du-compte-de-resultat/8-points-d-attention-specifiques/8-1-la-question-du-cir-credit-d-impot-recherche"
+                },
+                {
+                  "name": "8.2 L'opacité des « achats et charges externes »",
+                  "path": "04_ANALYSE_RESULTATS.md#04-analyse-du-compte-de-resultat/8-points-d-attention-specifiques/8-2-l-opacite-des-achats-et-charges-externes"
+                },
+                {
+                  "name": "8.3 Revenue vs. coûts — Le « business model » Qwant",
+                  "path": "04_ANALYSE_RESULTATS.md#04-analyse-du-compte-de-resultat/8-points-d-attention-specifiques/8-3-revenue-vs-couts-le-business-model-qwant"
                 }
               ]
             }
@@ -475,241 +320,270 @@
       ]
     },
     {
-      "name": "Actes sociaux",
+      "name": "05 — Trésorerie et solvabilité",
+      "path": "05_TRESORERIE_SOLVABILITE.md",
       "children": [
         {
-          "name": "Actes sociaux - Qwant SAS",
-          "path": "07_ACTES_SOCIAUX_QWANT.md",
+          "name": "05 — Trésorerie et solvabilité",
+          "path": "05_TRESORERIE_SOLVABILITE.md#05-tresorerie-et-solvabilite",
           "children": [
             {
-              "name": "07 — Actes sociaux Qwant SAS",
-              "path": "07_ACTES_SOCIAUX_QWANT.md#07-actes-sociaux-qwant-sas",
+              "name": "1. Évolution de la trésorerie",
+              "path": "05_TRESORERIE_SOLVABILITE.md#05-tresorerie-et-solvabilite/1-evolution-de-la-tresorerie",
               "children": [
                 {
-                  "name": "1. Assemblée générale du 9 janvier 2012",
-                  "path": "07_ACTES_SOCIAUX_QWANT.md#07-actes-sociaux-qwant-sas/1-assemblee-generale-du-9-janvier-2012",
-                  "children": [
-                    {
-                      "name": "Contexte",
-                      "path": "07_ACTES_SOCIAUX_QWANT.md#07-actes-sociaux-qwant-sas/1-assemblee-generale-du-9-janvier-2012/contexte"
-                    },
-                    {
-                      "name": "Résolutions adoptées (toutes à l'unanimité)",
-                      "path": "07_ACTES_SOCIAUX_QWANT.md#07-actes-sociaux-qwant-sas/1-assemblee-generale-du-9-janvier-2012/resolutions-adoptees-toutes-a-l-unanimite"
-                    },
-                    {
-                      "name": "Observations",
-                      "path": "07_ACTES_SOCIAUX_QWANT.md#07-actes-sociaux-qwant-sas/1-assemblee-generale-du-9-janvier-2012/observations"
-                    }
-                  ]
-                },
-                {
-                  "name": "2. Assemblée générale ordinaire et extraordinaire du 31 janvier 2017",
-                  "path": "07_ACTES_SOCIAUX_QWANT.md#07-actes-sociaux-qwant-sas/2-assemblee-generale-ordinaire-et-extraordinaire-du-31-janvier-2017",
-                  "children": [
-                    {
-                      "name": "Contexte",
-                      "path": "07_ACTES_SOCIAUX_QWANT.md#07-actes-sociaux-qwant-sas/2-assemblee-generale-ordinaire-et-extraordinaire-du-31-janvier-2017/contexte"
-                    },
-                    {
-                      "name": "Changement de gouvernance",
-                      "path": "07_ACTES_SOCIAUX_QWANT.md#07-actes-sociaux-qwant-sas/2-assemblee-generale-ordinaire-et-extraordinaire-du-31-janvier-2017/changement-de-gouvernance"
-                    },
-                    {
-                      "name": "Ordre du jour",
-                      "path": "07_ACTES_SOCIAUX_QWANT.md#07-actes-sociaux-qwant-sas/2-assemblee-generale-ordinaire-et-extraordinaire-du-31-janvier-2017/ordre-du-jour"
-                    },
-                    {
-                      "name": "Observations critiques",
-                      "path": "07_ACTES_SOCIAUX_QWANT.md#07-actes-sociaux-qwant-sas/2-assemblee-generale-ordinaire-et-extraordinaire-du-31-janvier-2017/observations-critiques"
-                    }
-                  ]
-                },
-                {
-                  "name": "3. Attestation bancaire BNP Paribas (3 mars 2017)",
-                  "path": "07_ACTES_SOCIAUX_QWANT.md#07-actes-sociaux-qwant-sas/3-attestation-bancaire-bnp-paribas-3-mars-2017",
-                  "children": [
-                    {
-                      "name": "Observations",
-                      "path": "07_ACTES_SOCIAUX_QWANT.md#07-actes-sociaux-qwant-sas/3-attestation-bancaire-bnp-paribas-3-mars-2017/observations"
-                    }
-                  ]
-                },
-                {
-                  "name": "4. Certification des comptes courants (GAMAF, 30 janvier 2017)",
-                  "path": "07_ACTES_SOCIAUX_QWANT.md#07-actes-sociaux-qwant-sas/4-certification-des-comptes-courants-gamaf-30-janvier-2017",
-                  "children": [
-                    {
-                      "name": "Observations",
-                      "path": "07_ACTES_SOCIAUX_QWANT.md#07-actes-sociaux-qwant-sas/4-certification-des-comptes-courants-gamaf-30-janvier-2017/observations"
-                    }
-                  ]
-                },
-                {
-                  "name": "5. Nomination du Directeur Général (30 janvier 2017)",
-                  "path": "07_ACTES_SOCIAUX_QWANT.md#07-actes-sociaux-qwant-sas/5-nomination-du-directeur-general-30-janvier-2017",
-                  "children": [
-                    {
-                      "name": "Décisions",
-                      "path": "07_ACTES_SOCIAUX_QWANT.md#07-actes-sociaux-qwant-sas/5-nomination-du-directeur-general-30-janvier-2017/decisions"
-                    },
-                    {
-                      "name": "Observations",
-                      "path": "07_ACTES_SOCIAUX_QWANT.md#07-actes-sociaux-qwant-sas/5-nomination-du-directeur-general-30-janvier-2017/observations"
-                    }
-                  ]
-                },
-                {
-                  "name": "6. Rapport du commissaire aux comptes (Ernst & Young, 2017)",
-                  "path": "07_ACTES_SOCIAUX_QWANT.md#07-actes-sociaux-qwant-sas/6-rapport-du-commissaire-aux-comptes-ernst-young-2017",
-                  "children": [
-                    {
-                      "name": "Conclusions",
-                      "path": "07_ACTES_SOCIAUX_QWANT.md#07-actes-sociaux-qwant-sas/6-rapport-du-commissaire-aux-comptes-ernst-young-2017/conclusions"
-                    },
-                    {
-                      "name": "Chiffres clés certifiés",
-                      "path": "07_ACTES_SOCIAUX_QWANT.md#07-actes-sociaux-qwant-sas/6-rapport-du-commissaire-aux-comptes-ernst-young-2017/chiffres-cles-certifies"
-                    },
-                    {
-                      "name": "Observations critiques",
-                      "path": "07_ACTES_SOCIAUX_QWANT.md#07-actes-sociaux-qwant-sas/6-rapport-du-commissaire-aux-comptes-ernst-young-2017/observations-critiques"
-                    },
-                    {
-                      "name": "Note sur le changement de CAC",
-                      "path": "07_ACTES_SOCIAUX_QWANT.md#07-actes-sociaux-qwant-sas/6-rapport-du-commissaire-aux-comptes-ernst-young-2017/note-sur-le-changement-de-cac"
-                    }
-                  ]
-                },
-                {
-                  "name": "7. Synthèse des actes sociaux Qwant",
-                  "path": "07_ACTES_SOCIAUX_QWANT.md#07-actes-sociaux-qwant-sas/7-synthese-des-actes-sociaux-qwant",
-                  "children": [
-                    {
-                      "name": "Évolution de la gouvernance",
-                      "path": "07_ACTES_SOCIAUX_QWANT.md#07-actes-sociaux-qwant-sas/7-synthese-des-actes-sociaux-qwant/evolution-de-la-gouvernance"
-                    },
-                    {
-                      "name": "Points saillants",
-                      "path": "07_ACTES_SOCIAUX_QWANT.md#07-actes-sociaux-qwant-sas/7-synthese-des-actes-sociaux-qwant/points-saillants"
-                    }
-                  ]
+                  "name": "Analyse du profil de trésorerie",
+                  "path": "05_TRESORERIE_SOLVABILITE.md#05-tresorerie-et-solvabilite/1-evolution-de-la-tresorerie/analyse-du-profil-de-tresorerie"
                 }
               ]
-            }
-          ]
-        },
-        {
-          "name": "Actes sociaux - Angels",
-          "path": "08_ACTES_SOCIAUX_ANGELS.md",
-          "children": [
+            },
             {
-              "name": "08 — Actes sociaux Angels 1 & Angels 2",
-              "path": "08_ACTES_SOCIAUX_ANGELS.md#08-actes-sociaux-angels-1-angels-2",
+              "name": "2. Burn rate et autonomie financière",
+              "path": "05_TRESORERIE_SOLVABILITE.md#05-tresorerie-et-solvabilite/2-burn-rate-et-autonomie-financiere",
               "children": [
                 {
-                  "name": "1. Présentation des holdings Angels",
-                  "path": "08_ACTES_SOCIAUX_ANGELS.md#08-actes-sociaux-angels-1-angels-2/1-presentation-des-holdings-angels",
-                  "children": [
-                    {
-                      "name": "Angels 1 (SIREN 825 063 167)",
-                      "path": "08_ACTES_SOCIAUX_ANGELS.md#08-actes-sociaux-angels-1-angels-2/1-presentation-des-holdings-angels/angels-1-siren-825-063-167"
-                    },
-                    {
-                      "name": "Angels 2 (SIREN 825 081 714)",
-                      "path": "08_ACTES_SOCIAUX_ANGELS.md#08-actes-sociaux-angels-1-angels-2/1-presentation-des-holdings-angels/angels-2-siren-825-081-714"
-                    },
-                    {
-                      "name": "Rôle des holdings",
-                      "path": "08_ACTES_SOCIAUX_ANGELS.md#08-actes-sociaux-angels-1-angels-2/1-presentation-des-holdings-angels/role-des-holdings"
-                    }
-                  ]
+                  "name": "2.1 Burn rate opérationnel",
+                  "path": "05_TRESORERIE_SOLVABILITE.md#05-tresorerie-et-solvabilite/2-burn-rate-et-autonomie-financiere/2-1-burn-rate-operationnel"
                 },
                 {
-                  "name": "2. Assemblée générale d'Angels 1 — 9 juin 2020",
-                  "path": "08_ACTES_SOCIAUX_ANGELS.md#08-actes-sociaux-angels-1-angels-2/2-assemblee-generale-d-angels-1-9-juin-2020",
-                  "children": [
-                    {
-                      "name": "Conditions de l'AG",
-                      "path": "08_ACTES_SOCIAUX_ANGELS.md#08-actes-sociaux-angels-1-angels-2/2-assemblee-generale-d-angels-1-9-juin-2020/conditions-de-l-ag"
-                    },
-                    {
-                      "name": "Résolutions",
-                      "path": "08_ACTES_SOCIAUX_ANGELS.md#08-actes-sociaux-angels-1-angels-2/2-assemblee-generale-d-angels-1-9-juin-2020/resolutions"
-                    },
-                    {
-                      "name": "Analyse du refus de quitus",
-                      "path": "08_ACTES_SOCIAUX_ANGELS.md#08-actes-sociaux-angels-1-angels-2/2-assemblee-generale-d-angels-1-9-juin-2020/analyse-du-refus-de-quitus",
-                      "children": [
-                        {
-                          "name": "Signification juridique",
-                          "path": "08_ACTES_SOCIAUX_ANGELS.md#08-actes-sociaux-angels-1-angels-2/2-assemblee-generale-d-angels-1-9-juin-2020/analyse-du-refus-de-quitus/signification-juridique"
-                        },
-                        {
-                          "name": "Analyse des votes",
-                          "path": "08_ACTES_SOCIAUX_ANGELS.md#08-actes-sociaux-angels-1-angels-2/2-assemblee-generale-d-angels-1-9-juin-2020/analyse-du-refus-de-quitus/analyse-des-votes"
-                        },
-                        {
-                          "name": "Contexte",
-                          "path": "08_ACTES_SOCIAUX_ANGELS.md#08-actes-sociaux-angels-1-angels-2/2-assemblee-generale-d-angels-1-9-juin-2020/analyse-du-refus-de-quitus/contexte"
-                        }
-                      ]
-                    }
-                  ]
+                  "name": "2.2 Autonomie de trésorerie estimée (à fin d'exercice)",
+                  "path": "05_TRESORERIE_SOLVABILITE.md#05-tresorerie-et-solvabilite/2-burn-rate-et-autonomie-financiere/2-2-autonomie-de-tresorerie-estimee-a-fin-d-exercice"
+                }
+              ]
+            },
+            {
+              "name": "3. Analyse de la solvabilité",
+              "path": "05_TRESORERIE_SOLVABILITE.md#05-tresorerie-et-solvabilite/3-analyse-de-la-solvabilite",
+              "children": [
+                {
+                  "name": "3.1 Test de solvabilité bilancielle",
+                  "path": "05_TRESORERIE_SOLVABILITE.md#05-tresorerie-et-solvabilite/3-analyse-de-la-solvabilite/3-1-test-de-solvabilite-bilancielle"
                 },
                 {
-                  "name": "3. Assemblée générale d'Angels 2 — 9 juin 2020",
-                  "path": "08_ACTES_SOCIAUX_ANGELS.md#08-actes-sociaux-angels-1-angels-2/3-assemblee-generale-d-angels-2-9-juin-2020",
-                  "children": [
-                    {
-                      "name": "Conditions de l'AG",
-                      "path": "08_ACTES_SOCIAUX_ANGELS.md#08-actes-sociaux-angels-1-angels-2/3-assemblee-generale-d-angels-2-9-juin-2020/conditions-de-l-ag"
-                    },
-                    {
-                      "name": "Résolutions",
-                      "path": "08_ACTES_SOCIAUX_ANGELS.md#08-actes-sociaux-angels-1-angels-2/3-assemblee-generale-d-angels-2-9-juin-2020/resolutions"
-                    },
-                    {
-                      "name": "Analyse comparative Angels 1 vs Angels 2",
-                      "path": "08_ACTES_SOCIAUX_ANGELS.md#08-actes-sociaux-angels-1-angels-2/3-assemblee-generale-d-angels-2-9-juin-2020/analyse-comparative-angels-1-vs-angels-2",
-                      "children": [
-                        {
-                          "name": "Le contraste sur le quitus",
-                          "path": "08_ACTES_SOCIAUX_ANGELS.md#08-actes-sociaux-angels-1-angels-2/3-assemblee-generale-d-angels-2-9-juin-2020/analyse-comparative-angels-1-vs-angels-2/le-contraste-sur-le-quitus"
-                        },
-                        {
-                          "name": "L'opposition sur le transfert de siège dans Angels 2",
-                          "path": "08_ACTES_SOCIAUX_ANGELS.md#08-actes-sociaux-angels-1-angels-2/3-assemblee-generale-d-angels-2-9-juin-2020/analyse-comparative-angels-1-vs-angels-2/l-opposition-sur-le-transfert-de-siege-dans-angels-2"
-                        }
-                      ]
-                    }
-                  ]
+                  "name": "3.2 Article L. 225-248 du Code de commerce",
+                  "path": "05_TRESORERIE_SOLVABILITE.md#05-tresorerie-et-solvabilite/3-analyse-de-la-solvabilite/3-2-article-l-225-248-du-code-de-commerce"
                 },
                 {
-                  "name": "4. Observations sur les statuts des holdings",
-                  "path": "08_ACTES_SOCIAUX_ANGELS.md#08-actes-sociaux-angels-1-angels-2/4-observations-sur-les-statuts-des-holdings",
-                  "children": [
-                    {
-                      "name": "Objet social limité",
-                      "path": "08_ACTES_SOCIAUX_ANGELS.md#08-actes-sociaux-angels-1-angels-2/4-observations-sur-les-statuts-des-holdings/objet-social-limite"
-                    },
-                    {
-                      "name": "Durée de 99 ans",
-                      "path": "08_ACTES_SOCIAUX_ANGELS.md#08-actes-sociaux-angels-1-angels-2/4-observations-sur-les-statuts-des-holdings/duree-de-99-ans"
-                    },
-                    {
-                      "name": "Concentration du pouvoir",
-                      "path": "08_ACTES_SOCIAUX_ANGELS.md#08-actes-sociaux-angels-1-angels-2/4-observations-sur-les-statuts-des-holdings/concentration-du-pouvoir"
-                    }
-                  ]
+                  "name": "3.3 Risque de cessation de paiement",
+                  "path": "05_TRESORERIE_SOLVABILITE.md#05-tresorerie-et-solvabilite/3-analyse-de-la-solvabilite/3-3-risque-de-cessation-de-paiement"
+                }
+              ]
+            },
+            {
+              "name": "4. Capacité d'autofinancement (CAF) estimée",
+              "path": "05_TRESORERIE_SOLVABILITE.md#05-tresorerie-et-solvabilite/4-capacite-d-autofinancement-caf-estimee"
+            },
+            {
+              "name": "5. Synthèse trésorerie et solvabilité",
+              "path": "05_TRESORERIE_SOLVABILITE.md#05-tresorerie-et-solvabilite/5-synthese-tresorerie-et-solvabilite"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "06 — Ratios financiers",
+      "path": "06_RATIOS_FINANCIERS.md",
+      "children": [
+        {
+          "name": "06 — Ratios financiers",
+          "path": "06_RATIOS_FINANCIERS.md#06-ratios-financiers",
+          "children": [
+            {
+              "name": "1. Ratios de structure financière",
+              "path": "06_RATIOS_FINANCIERS.md#06-ratios-financiers/1-ratios-de-structure-financiere",
+              "children": [
+                {
+                  "name": "1.1 Autonomie financière (Capitaux propres / Total passif)",
+                  "path": "06_RATIOS_FINANCIERS.md#06-ratios-financiers/1-ratios-de-structure-financiere/1-1-autonomie-financiere-capitaux-propres-total-passif"
                 },
                 {
-                  "name": "5. Retards de dépôt",
-                  "path": "08_ACTES_SOCIAUX_ANGELS.md#08-actes-sociaux-angels-1-angels-2/5-retards-de-depot"
+                  "name": "1.2 Endettement (Dettes financières / Capitaux propres)",
+                  "path": "06_RATIOS_FINANCIERS.md#06-ratios-financiers/1-ratios-de-structure-financiere/1-2-endettement-dettes-financieres-capitaux-propres"
                 },
                 {
-                  "name": "6. Synthèse",
-                  "path": "08_ACTES_SOCIAUX_ANGELS.md#08-actes-sociaux-angels-1-angels-2/6-synthese"
+                  "name": "1.3 Indépendance financière (CP / Ressources stables)",
+                  "path": "06_RATIOS_FINANCIERS.md#06-ratios-financiers/1-ratios-de-structure-financiere/1-3-independance-financiere-cp-ressources-stables"
+                }
+              ]
+            },
+            {
+              "name": "2. Ratios de rentabilité",
+              "path": "06_RATIOS_FINANCIERS.md#06-ratios-financiers/2-ratios-de-rentabilite",
+              "children": [
+                {
+                  "name": "2.1 Marge opérationnelle (Résultat exploitation / CA net)",
+                  "path": "06_RATIOS_FINANCIERS.md#06-ratios-financiers/2-ratios-de-rentabilite/2-1-marge-operationnelle-resultat-exploitation-ca-net"
+                },
+                {
+                  "name": "2.2 Marge nette (Résultat net / CA net)",
+                  "path": "06_RATIOS_FINANCIERS.md#06-ratios-financiers/2-ratios-de-rentabilite/2-2-marge-nette-resultat-net-ca-net"
+                },
+                {
+                  "name": "2.3 Rentabilité des capitaux propres (ROE)",
+                  "path": "06_RATIOS_FINANCIERS.md#06-ratios-financiers/2-ratios-de-rentabilite/2-3-rentabilite-des-capitaux-propres-roe"
+                },
+                {
+                  "name": "2.4 Rentabilité économique (Résultat exploitation / Total actif)",
+                  "path": "06_RATIOS_FINANCIERS.md#06-ratios-financiers/2-ratios-de-rentabilite/2-4-rentabilite-economique-resultat-exploitation-total-actif"
+                }
+              ]
+            },
+            {
+              "name": "3. Ratios d'activité",
+              "path": "06_RATIOS_FINANCIERS.md#06-ratios-financiers/3-ratios-d-activite",
+              "children": [
+                {
+                  "name": "3.1 Taux de couverture des charges par le CA",
+                  "path": "06_RATIOS_FINANCIERS.md#06-ratios-financiers/3-ratios-d-activite/3-1-taux-de-couverture-des-charges-par-le-ca"
+                },
+                {
+                  "name": "3.2 Charges de personnel / CA net",
+                  "path": "06_RATIOS_FINANCIERS.md#06-ratios-financiers/3-ratios-d-activite/3-2-charges-de-personnel-ca-net"
+                },
+                {
+                  "name": "3.3 Achats et charges externes / CA net",
+                  "path": "06_RATIOS_FINANCIERS.md#06-ratios-financiers/3-ratios-d-activite/3-3-achats-et-charges-externes-ca-net"
+                }
+              ]
+            },
+            {
+              "name": "4. Ratios de liquidité",
+              "path": "06_RATIOS_FINANCIERS.md#06-ratios-financiers/4-ratios-de-liquidite",
+              "children": [
+                {
+                  "name": "4.1 Liquidité générale (Actif circulant / Dettes court terme)",
+                  "path": "06_RATIOS_FINANCIERS.md#06-ratios-financiers/4-ratios-de-liquidite/4-1-liquidite-generale-actif-circulant-dettes-court-terme"
+                },
+                {
+                  "name": "4.2 Liquidité immédiate (Disponibilités / Dettes court terme)",
+                  "path": "06_RATIOS_FINANCIERS.md#06-ratios-financiers/4-ratios-de-liquidite/4-2-liquidite-immediate-disponibilites-dettes-court-terme"
+                }
+              ]
+            },
+            {
+              "name": "5. Tableau de synthèse des ratios",
+              "path": "06_RATIOS_FINANCIERS.md#06-ratios-financiers/5-tableau-de-synthese-des-ratios"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "07 — Actes sociaux Qwant SAS",
+      "path": "07_ACTES_SOCIAUX_QWANT.md",
+      "children": [
+        {
+          "name": "07 — Actes sociaux Qwant SAS",
+          "path": "07_ACTES_SOCIAUX_QWANT.md#07-actes-sociaux-qwant-sas",
+          "children": [
+            {
+              "name": "1. Assemblée générale du 9 janvier 2012",
+              "path": "07_ACTES_SOCIAUX_QWANT.md#07-actes-sociaux-qwant-sas/1-assemblee-generale-du-9-janvier-2012",
+              "children": [
+                {
+                  "name": "Contexte",
+                  "path": "07_ACTES_SOCIAUX_QWANT.md#07-actes-sociaux-qwant-sas/1-assemblee-generale-du-9-janvier-2012/contexte"
+                },
+                {
+                  "name": "Résolutions adoptées (toutes à l'unanimité)",
+                  "path": "07_ACTES_SOCIAUX_QWANT.md#07-actes-sociaux-qwant-sas/1-assemblee-generale-du-9-janvier-2012/resolutions-adoptees-toutes-a-l-unanimite"
+                },
+                {
+                  "name": "Observations",
+                  "path": "07_ACTES_SOCIAUX_QWANT.md#07-actes-sociaux-qwant-sas/1-assemblee-generale-du-9-janvier-2012/observations"
+                }
+              ]
+            },
+            {
+              "name": "2. Assemblée générale ordinaire et extraordinaire du 31 janvier 2017",
+              "path": "07_ACTES_SOCIAUX_QWANT.md#07-actes-sociaux-qwant-sas/2-assemblee-generale-ordinaire-et-extraordinaire-du-31-janvier-2017",
+              "children": [
+                {
+                  "name": "Contexte",
+                  "path": "07_ACTES_SOCIAUX_QWANT.md#07-actes-sociaux-qwant-sas/2-assemblee-generale-ordinaire-et-extraordinaire-du-31-janvier-2017/contexte"
+                },
+                {
+                  "name": "Changement de gouvernance",
+                  "path": "07_ACTES_SOCIAUX_QWANT.md#07-actes-sociaux-qwant-sas/2-assemblee-generale-ordinaire-et-extraordinaire-du-31-janvier-2017/changement-de-gouvernance"
+                },
+                {
+                  "name": "Ordre du jour",
+                  "path": "07_ACTES_SOCIAUX_QWANT.md#07-actes-sociaux-qwant-sas/2-assemblee-generale-ordinaire-et-extraordinaire-du-31-janvier-2017/ordre-du-jour"
+                },
+                {
+                  "name": "Observations critiques",
+                  "path": "07_ACTES_SOCIAUX_QWANT.md#07-actes-sociaux-qwant-sas/2-assemblee-generale-ordinaire-et-extraordinaire-du-31-janvier-2017/observations-critiques"
+                }
+              ]
+            },
+            {
+              "name": "3. Attestation bancaire BNP Paribas (3 mars 2017)",
+              "path": "07_ACTES_SOCIAUX_QWANT.md#07-actes-sociaux-qwant-sas/3-attestation-bancaire-bnp-paribas-3-mars-2017",
+              "children": [
+                {
+                  "name": "Observations",
+                  "path": "07_ACTES_SOCIAUX_QWANT.md#07-actes-sociaux-qwant-sas/3-attestation-bancaire-bnp-paribas-3-mars-2017/observations"
+                }
+              ]
+            },
+            {
+              "name": "4. Certification des comptes courants (GAMAF, 30 janvier 2017)",
+              "path": "07_ACTES_SOCIAUX_QWANT.md#07-actes-sociaux-qwant-sas/4-certification-des-comptes-courants-gamaf-30-janvier-2017",
+              "children": [
+                {
+                  "name": "Observations",
+                  "path": "07_ACTES_SOCIAUX_QWANT.md#07-actes-sociaux-qwant-sas/4-certification-des-comptes-courants-gamaf-30-janvier-2017/observations"
+                }
+              ]
+            },
+            {
+              "name": "5. Nomination du Directeur Général (30 janvier 2017)",
+              "path": "07_ACTES_SOCIAUX_QWANT.md#07-actes-sociaux-qwant-sas/5-nomination-du-directeur-general-30-janvier-2017",
+              "children": [
+                {
+                  "name": "Décisions",
+                  "path": "07_ACTES_SOCIAUX_QWANT.md#07-actes-sociaux-qwant-sas/5-nomination-du-directeur-general-30-janvier-2017/decisions"
+                },
+                {
+                  "name": "Observations",
+                  "path": "07_ACTES_SOCIAUX_QWANT.md#07-actes-sociaux-qwant-sas/5-nomination-du-directeur-general-30-janvier-2017/observations"
+                }
+              ]
+            },
+            {
+              "name": "6. Rapport du commissaire aux comptes (Ernst & Young, 2017)",
+              "path": "07_ACTES_SOCIAUX_QWANT.md#07-actes-sociaux-qwant-sas/6-rapport-du-commissaire-aux-comptes-ernst-young-2017",
+              "children": [
+                {
+                  "name": "Conclusions",
+                  "path": "07_ACTES_SOCIAUX_QWANT.md#07-actes-sociaux-qwant-sas/6-rapport-du-commissaire-aux-comptes-ernst-young-2017/conclusions"
+                },
+                {
+                  "name": "Chiffres clés certifiés",
+                  "path": "07_ACTES_SOCIAUX_QWANT.md#07-actes-sociaux-qwant-sas/6-rapport-du-commissaire-aux-comptes-ernst-young-2017/chiffres-cles-certifies"
+                },
+                {
+                  "name": "Observations critiques",
+                  "path": "07_ACTES_SOCIAUX_QWANT.md#07-actes-sociaux-qwant-sas/6-rapport-du-commissaire-aux-comptes-ernst-young-2017/observations-critiques"
+                },
+                {
+                  "name": "Note sur le changement de CAC",
+                  "path": "07_ACTES_SOCIAUX_QWANT.md#07-actes-sociaux-qwant-sas/6-rapport-du-commissaire-aux-comptes-ernst-young-2017/note-sur-le-changement-de-cac"
+                }
+              ]
+            },
+            {
+              "name": "7. Synthèse des actes sociaux Qwant",
+              "path": "07_ACTES_SOCIAUX_QWANT.md#07-actes-sociaux-qwant-sas/7-synthese-des-actes-sociaux-qwant",
+              "children": [
+                {
+                  "name": "Évolution de la gouvernance",
+                  "path": "07_ACTES_SOCIAUX_QWANT.md#07-actes-sociaux-qwant-sas/7-synthese-des-actes-sociaux-qwant/evolution-de-la-gouvernance"
+                },
+                {
+                  "name": "Points saillants",
+                  "path": "07_ACTES_SOCIAUX_QWANT.md#07-actes-sociaux-qwant-sas/7-synthese-des-actes-sociaux-qwant/points-saillants"
                 }
               ]
             }
@@ -718,7 +592,123 @@
       ]
     },
     {
-      "name": "Valorisation et apports",
+      "name": "08 — Actes sociaux Angels 1 & Angels 2",
+      "path": "08_ACTES_SOCIAUX_ANGELS.md",
+      "children": [
+        {
+          "name": "08 — Actes sociaux Angels 1 & Angels 2",
+          "path": "08_ACTES_SOCIAUX_ANGELS.md#08-actes-sociaux-angels-1-angels-2",
+          "children": [
+            {
+              "name": "1. Présentation des holdings Angels",
+              "path": "08_ACTES_SOCIAUX_ANGELS.md#08-actes-sociaux-angels-1-angels-2/1-presentation-des-holdings-angels",
+              "children": [
+                {
+                  "name": "Angels 1 (SIREN 825 063 167)",
+                  "path": "08_ACTES_SOCIAUX_ANGELS.md#08-actes-sociaux-angels-1-angels-2/1-presentation-des-holdings-angels/angels-1-siren-825-063-167"
+                },
+                {
+                  "name": "Angels 2 (SIREN 825 081 714)",
+                  "path": "08_ACTES_SOCIAUX_ANGELS.md#08-actes-sociaux-angels-1-angels-2/1-presentation-des-holdings-angels/angels-2-siren-825-081-714"
+                },
+                {
+                  "name": "Rôle des holdings",
+                  "path": "08_ACTES_SOCIAUX_ANGELS.md#08-actes-sociaux-angels-1-angels-2/1-presentation-des-holdings-angels/role-des-holdings"
+                }
+              ]
+            },
+            {
+              "name": "2. Assemblée générale d'Angels 1 — 9 juin 2020",
+              "path": "08_ACTES_SOCIAUX_ANGELS.md#08-actes-sociaux-angels-1-angels-2/2-assemblee-generale-d-angels-1-9-juin-2020",
+              "children": [
+                {
+                  "name": "Conditions de l'AG",
+                  "path": "08_ACTES_SOCIAUX_ANGELS.md#08-actes-sociaux-angels-1-angels-2/2-assemblee-generale-d-angels-1-9-juin-2020/conditions-de-l-ag"
+                },
+                {
+                  "name": "Résolutions",
+                  "path": "08_ACTES_SOCIAUX_ANGELS.md#08-actes-sociaux-angels-1-angels-2/2-assemblee-generale-d-angels-1-9-juin-2020/resolutions"
+                },
+                {
+                  "name": "Analyse du refus de quitus",
+                  "path": "08_ACTES_SOCIAUX_ANGELS.md#08-actes-sociaux-angels-1-angels-2/2-assemblee-generale-d-angels-1-9-juin-2020/analyse-du-refus-de-quitus",
+                  "children": [
+                    {
+                      "name": "Signification juridique",
+                      "path": "08_ACTES_SOCIAUX_ANGELS.md#08-actes-sociaux-angels-1-angels-2/2-assemblee-generale-d-angels-1-9-juin-2020/analyse-du-refus-de-quitus/signification-juridique"
+                    },
+                    {
+                      "name": "Analyse des votes",
+                      "path": "08_ACTES_SOCIAUX_ANGELS.md#08-actes-sociaux-angels-1-angels-2/2-assemblee-generale-d-angels-1-9-juin-2020/analyse-du-refus-de-quitus/analyse-des-votes"
+                    },
+                    {
+                      "name": "Contexte",
+                      "path": "08_ACTES_SOCIAUX_ANGELS.md#08-actes-sociaux-angels-1-angels-2/2-assemblee-generale-d-angels-1-9-juin-2020/analyse-du-refus-de-quitus/contexte"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "3. Assemblée générale d'Angels 2 — 9 juin 2020",
+              "path": "08_ACTES_SOCIAUX_ANGELS.md#08-actes-sociaux-angels-1-angels-2/3-assemblee-generale-d-angels-2-9-juin-2020",
+              "children": [
+                {
+                  "name": "Conditions de l'AG",
+                  "path": "08_ACTES_SOCIAUX_ANGELS.md#08-actes-sociaux-angels-1-angels-2/3-assemblee-generale-d-angels-2-9-juin-2020/conditions-de-l-ag"
+                },
+                {
+                  "name": "Résolutions",
+                  "path": "08_ACTES_SOCIAUX_ANGELS.md#08-actes-sociaux-angels-1-angels-2/3-assemblee-generale-d-angels-2-9-juin-2020/resolutions"
+                },
+                {
+                  "name": "Analyse comparative Angels 1 vs Angels 2",
+                  "path": "08_ACTES_SOCIAUX_ANGELS.md#08-actes-sociaux-angels-1-angels-2/3-assemblee-generale-d-angels-2-9-juin-2020/analyse-comparative-angels-1-vs-angels-2",
+                  "children": [
+                    {
+                      "name": "Le contraste sur le quitus",
+                      "path": "08_ACTES_SOCIAUX_ANGELS.md#08-actes-sociaux-angels-1-angels-2/3-assemblee-generale-d-angels-2-9-juin-2020/analyse-comparative-angels-1-vs-angels-2/le-contraste-sur-le-quitus"
+                    },
+                    {
+                      "name": "L'opposition sur le transfert de siège dans Angels 2",
+                      "path": "08_ACTES_SOCIAUX_ANGELS.md#08-actes-sociaux-angels-1-angels-2/3-assemblee-generale-d-angels-2-9-juin-2020/analyse-comparative-angels-1-vs-angels-2/l-opposition-sur-le-transfert-de-siege-dans-angels-2"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "4. Observations sur les statuts des holdings",
+              "path": "08_ACTES_SOCIAUX_ANGELS.md#08-actes-sociaux-angels-1-angels-2/4-observations-sur-les-statuts-des-holdings",
+              "children": [
+                {
+                  "name": "Objet social limité",
+                  "path": "08_ACTES_SOCIAUX_ANGELS.md#08-actes-sociaux-angels-1-angels-2/4-observations-sur-les-statuts-des-holdings/objet-social-limite"
+                },
+                {
+                  "name": "Durée de 99 ans",
+                  "path": "08_ACTES_SOCIAUX_ANGELS.md#08-actes-sociaux-angels-1-angels-2/4-observations-sur-les-statuts-des-holdings/duree-de-99-ans"
+                },
+                {
+                  "name": "Concentration du pouvoir",
+                  "path": "08_ACTES_SOCIAUX_ANGELS.md#08-actes-sociaux-angels-1-angels-2/4-observations-sur-les-statuts-des-holdings/concentration-du-pouvoir"
+                }
+              ]
+            },
+            {
+              "name": "5. Retards de dépôt",
+              "path": "08_ACTES_SOCIAUX_ANGELS.md#08-actes-sociaux-angels-1-angels-2/5-retards-de-depot"
+            },
+            {
+              "name": "6. Synthèse",
+              "path": "08_ACTES_SOCIAUX_ANGELS.md#08-actes-sociaux-angels-1-angels-2/6-synthese"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "09 — Valorisation et apports",
       "path": "09_VALORISATION_APPORTS.md",
       "children": [
         {
@@ -832,7 +822,7 @@
       ]
     },
     {
-      "name": "Chronologie et alertes",
+      "name": "10 — Chronologie et alertes",
       "path": "10_CHRONOLOGIE_ALERTES.md",
       "children": [
         {
@@ -912,7 +902,7 @@
       ]
     },
     {
-      "name": "Conclusions",
+      "name": "11 — Conclusions",
       "path": "11_CONCLUSIONS.md",
       "children": [
         {
@@ -996,7 +986,571 @@
       ]
     },
     {
-      "name": "Poursuites",
+      "name": "12 — ANALYSE D'INVESTIGATION FINANCIÈRE",
+      "path": "12_ANALYSE_INVESTIGATION.md",
+      "children": [
+        {
+          "name": "12 — ANALYSE D'INVESTIGATION FINANCIÈRE",
+          "path": "12_ANALYSE_INVESTIGATION.md#12-analyse-d-investigation-financiere",
+          "children": [
+            {
+              "name": "Recherche d'infractions pénales et fondements d'actions civiles",
+              "path": "12_ANALYSE_INVESTIGATION.md#12-analyse-d-investigation-financiere/recherche-d-infractions-penales-et-fondements-d-actions-civiles",
+              "children": [
+                {
+                  "name": "QWANT SAS (SIREN 532 867 256), ANGELS 1, ANGELS 2",
+                  "path": "12_ANALYSE_INVESTIGATION.md#12-analyse-d-investigation-financiere/recherche-d-infractions-penales-et-fondements-d-actions-civiles/qwant-sas-siren-532-867-256-angels-1-angels-2"
+                },
+                {
+                  "name": "Personnes mises en cause : Éric LEANDRI, Jean-Manuel ROZAN, Alberto CHALON",
+                  "path": "12_ANALYSE_INVESTIGATION.md#12-analyse-d-investigation-financiere/recherche-d-infractions-penales-et-fondements-d-actions-civiles/personnes-mises-en-cause-eric-leandri-jean-manuel-rozan-alberto-chalon"
+                }
+              ]
+            },
+            {
+              "name": "PRÉAMBULE MÉTHODOLOGIQUE",
+              "path": "12_ANALYSE_INVESTIGATION.md#12-analyse-d-investigation-financiere/preambule-methodologique"
+            }
+          ]
+        },
+        {
+          "name": "PARTIE I — INFRACTIONS PÉNALES IDENTIFIÉES",
+          "path": "12_ANALYSE_INVESTIGATION.md#partie-i-infractions-penales-identifiees",
+          "children": [
+            {
+              "name": "INFRACTION 1 : PRÉSENTATION DE COMPTES INFIDÈLES",
+              "path": "12_ANALYSE_INVESTIGATION.md#partie-i-infractions-penales-identifiees/infraction-1-presentation-de-comptes-infideles",
+              "children": [
+                {
+                  "name": "1.1 — La production vendue artificiellement gonflée (2017-2018)",
+                  "path": "12_ANALYSE_INVESTIGATION.md#partie-i-infractions-penales-identifiees/infraction-1-presentation-de-comptes-infideles/1-1-la-production-vendue-artificiellement-gonflee-2017-2018",
+                  "children": [
+                    {
+                      "name": "Les faits",
+                      "path": "12_ANALYSE_INVESTIGATION.md#partie-i-infractions-penales-identifiees/infraction-1-presentation-de-comptes-infideles/1-1-la-production-vendue-artificiellement-gonflee-2017-2018/les-faits"
+                    },
+                    {
+                      "name": "La question de la ventilation France/Export",
+                      "path": "12_ANALYSE_INVESTIGATION.md#partie-i-infractions-penales-identifiees/infraction-1-presentation-de-comptes-infideles/1-1-la-production-vendue-artificiellement-gonflee-2017-2018/la-question-de-la-ventilation-france-export"
+                    },
+                    {
+                      "name": "Élément moral",
+                      "path": "12_ANALYSE_INVESTIGATION.md#partie-i-infractions-penales-identifiees/infraction-1-presentation-de-comptes-infideles/1-1-la-production-vendue-artificiellement-gonflee-2017-2018/element-moral"
+                    },
+                    {
+                      "name": "Référence documentaire",
+                      "path": "12_ANALYSE_INVESTIGATION.md#partie-i-infractions-penales-identifiees/infraction-1-presentation-de-comptes-infideles/1-1-la-production-vendue-artificiellement-gonflee-2017-2018/reference-documentaire"
+                    }
+                  ]
+                },
+                {
+                  "name": "1.2 — Les « autres créances » surévaluées puis massivement dépréciées",
+                  "path": "12_ANALYSE_INVESTIGATION.md#partie-i-infractions-penales-identifiees/infraction-1-presentation-de-comptes-infideles/1-2-les-autres-creances-surevaluees-puis-massivement-depreciees",
+                  "children": [
+                    {
+                      "name": "Les faits",
+                      "path": "12_ANALYSE_INVESTIGATION.md#partie-i-infractions-penales-identifiees/infraction-1-presentation-de-comptes-infideles/1-2-les-autres-creances-surevaluees-puis-massivement-depreciees/les-faits"
+                    },
+                    {
+                      "name": "Référence documentaire",
+                      "path": "12_ANALYSE_INVESTIGATION.md#partie-i-infractions-penales-identifiees/infraction-1-presentation-de-comptes-infideles/1-2-les-autres-creances-surevaluees-puis-massivement-depreciees/reference-documentaire"
+                    }
+                  ]
+                },
+                {
+                  "name": "1.3 — L'anomalie des primes d'émission 2019",
+                  "path": "12_ANALYSE_INVESTIGATION.md#partie-i-infractions-penales-identifiees/infraction-1-presentation-de-comptes-infideles/1-3-l-anomalie-des-primes-d-emission-2019",
+                  "children": [
+                    {
+                      "name": "Les faits",
+                      "path": "12_ANALYSE_INVESTIGATION.md#partie-i-infractions-penales-identifiees/infraction-1-presentation-de-comptes-infideles/1-3-l-anomalie-des-primes-d-emission-2019/les-faits"
+                    },
+                    {
+                      "name": "Référence documentaire",
+                      "path": "12_ANALYSE_INVESTIGATION.md#partie-i-infractions-penales-identifiees/infraction-1-presentation-de-comptes-infideles/1-3-l-anomalie-des-primes-d-emission-2019/reference-documentaire"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "INFRACTION 2 : ABUS DE BIENS SOCIAUX (ABS)",
+              "path": "12_ANALYSE_INVESTIGATION.md#partie-i-infractions-penales-identifiees/infraction-2-abus-de-biens-sociaux-abs",
+              "children": [
+                {
+                  "name": "2.1 — La rémunération d'Alberto Chalon",
+                  "path": "12_ANALYSE_INVESTIGATION.md#partie-i-infractions-penales-identifiees/infraction-2-abus-de-biens-sociaux-abs/2-1-la-remuneration-d-alberto-chalon",
+                  "children": [
+                    {
+                      "name": "Les faits",
+                      "path": "12_ANALYSE_INVESTIGATION.md#partie-i-infractions-penales-identifiees/infraction-2-abus-de-biens-sociaux-abs/2-1-la-remuneration-d-alberto-chalon/les-faits"
+                    }
+                  ]
+                },
+                {
+                  "name": "2.2 — L'opacité des charges externes",
+                  "path": "12_ANALYSE_INVESTIGATION.md#partie-i-infractions-penales-identifiees/infraction-2-abus-de-biens-sociaux-abs/2-2-l-opacite-des-charges-externes",
+                  "children": [
+                    {
+                      "name": "Les faits",
+                      "path": "12_ANALYSE_INVESTIGATION.md#partie-i-infractions-penales-identifiees/infraction-2-abus-de-biens-sociaux-abs/2-2-l-opacite-des-charges-externes/les-faits"
+                    }
+                  ]
+                },
+                {
+                  "name": "2.3 — La structure des holdings Angels comme instrument de captation",
+                  "path": "12_ANALYSE_INVESTIGATION.md#partie-i-infractions-penales-identifiees/infraction-2-abus-de-biens-sociaux-abs/2-3-la-structure-des-holdings-angels-comme-instrument-de-captation",
+                  "children": [
+                    {
+                      "name": "Les faits",
+                      "path": "12_ANALYSE_INVESTIGATION.md#partie-i-infractions-penales-identifiees/infraction-2-abus-de-biens-sociaux-abs/2-3-la-structure-des-holdings-angels-comme-instrument-de-captation/les-faits"
+                    },
+                    {
+                      "name": "Référence documentaire",
+                      "path": "12_ANALYSE_INVESTIGATION.md#partie-i-infractions-penales-identifiees/infraction-2-abus-de-biens-sociaux-abs/2-3-la-structure-des-holdings-angels-comme-instrument-de-captation/reference-documentaire"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "INFRACTION 3 : SURÉVALUATION D'APPORTS EN NATURE",
+              "path": "12_ANALYSE_INVESTIGATION.md#partie-i-infractions-penales-identifiees/infraction-3-surevaluation-d-apports-en-nature",
+              "children": [
+                {
+                  "name": "3.1 — La valorisation de Qwant à 70 millions d'euros",
+                  "path": "12_ANALYSE_INVESTIGATION.md#partie-i-infractions-penales-identifiees/infraction-3-surevaluation-d-apports-en-nature/3-1-la-valorisation-de-qwant-a-70-millions-d-euros",
+                  "children": [
+                    {
+                      "name": "Les faits",
+                      "path": "12_ANALYSE_INVESTIGATION.md#partie-i-infractions-penales-identifiees/infraction-3-surevaluation-d-apports-en-nature/3-1-la-valorisation-de-qwant-a-70-millions-d-euros/les-faits"
+                    },
+                    {
+                      "name": "L'impossibilité mathématique",
+                      "path": "12_ANALYSE_INVESTIGATION.md#partie-i-infractions-penales-identifiees/infraction-3-surevaluation-d-apports-en-nature/3-1-la-valorisation-de-qwant-a-70-millions-d-euros/l-impossibilite-mathematique"
+                    },
+                    {
+                      "name": "Le plan d'affaires était-il sincère ?",
+                      "path": "12_ANALYSE_INVESTIGATION.md#partie-i-infractions-penales-identifiees/infraction-3-surevaluation-d-apports-en-nature/3-1-la-valorisation-de-qwant-a-70-millions-d-euros/le-plan-d-affaires-etait-il-sincere"
+                    },
+                    {
+                      "name": "Le rôle de Jean-Manuel Rozan",
+                      "path": "12_ANALYSE_INVESTIGATION.md#partie-i-infractions-penales-identifiees/infraction-3-surevaluation-d-apports-en-nature/3-1-la-valorisation-de-qwant-a-70-millions-d-euros/le-role-de-jean-manuel-rozan"
+                    },
+                    {
+                      "name": "Le raisonnement circulaire de la validation",
+                      "path": "12_ANALYSE_INVESTIGATION.md#partie-i-infractions-penales-identifiees/infraction-3-surevaluation-d-apports-en-nature/3-1-la-valorisation-de-qwant-a-70-millions-d-euros/le-raisonnement-circulaire-de-la-validation"
+                    },
+                    {
+                      "name": "L'erreur matérielle",
+                      "path": "12_ANALYSE_INVESTIGATION.md#partie-i-infractions-penales-identifiees/infraction-3-surevaluation-d-apports-en-nature/3-1-la-valorisation-de-qwant-a-70-millions-d-euros/l-erreur-materielle"
+                    },
+                    {
+                      "name": "Référence documentaire",
+                      "path": "12_ANALYSE_INVESTIGATION.md#partie-i-infractions-penales-identifiees/infraction-3-surevaluation-d-apports-en-nature/3-1-la-valorisation-de-qwant-a-70-millions-d-euros/reference-documentaire"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "INFRACTION 4 : POURSUITE ABUSIVE D'UNE ACTIVITÉ DÉFICITAIRE",
+              "path": "12_ANALYSE_INVESTIGATION.md#partie-i-infractions-penales-identifiees/infraction-4-poursuite-abusive-d-une-activite-deficitaire",
+              "children": [
+                {
+                  "name": "4.1 — Le non-respect de l'article L. 225-248",
+                  "path": "12_ANALYSE_INVESTIGATION.md#partie-i-infractions-penales-identifiees/infraction-4-poursuite-abusive-d-une-activite-deficitaire/4-1-le-non-respect-de-l-article-l-225-248",
+                  "children": [
+                    {
+                      "name": "Les faits",
+                      "path": "12_ANALYSE_INVESTIGATION.md#partie-i-infractions-penales-identifiees/infraction-4-poursuite-abusive-d-une-activite-deficitaire/4-1-le-non-respect-de-l-article-l-225-248/les-faits"
+                    }
+                  ]
+                },
+                {
+                  "name": "4.2 — La poursuite d'activité en état de cessation de paiement virtuel",
+                  "path": "12_ANALYSE_INVESTIGATION.md#partie-i-infractions-penales-identifiees/infraction-4-poursuite-abusive-d-une-activite-deficitaire/4-2-la-poursuite-d-activite-en-etat-de-cessation-de-paiement-virtuel",
+                  "children": [
+                    {
+                      "name": "Les faits",
+                      "path": "12_ANALYSE_INVESTIGATION.md#partie-i-infractions-penales-identifiees/infraction-4-poursuite-abusive-d-une-activite-deficitaire/4-2-la-poursuite-d-activite-en-etat-de-cessation-de-paiement-virtuel/les-faits"
+                    },
+                    {
+                      "name": "Référence documentaire",
+                      "path": "12_ANALYSE_INVESTIGATION.md#partie-i-infractions-penales-identifiees/infraction-4-poursuite-abusive-d-une-activite-deficitaire/4-2-la-poursuite-d-activite-en-etat-de-cessation-de-paiement-virtuel/reference-documentaire"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "INFRACTION 5 : ESCROQUERIE OU TROMPERIE SUR LA VALORISATION",
+              "path": "12_ANALYSE_INVESTIGATION.md#partie-i-infractions-penales-identifiees/infraction-5-escroquerie-ou-tromperie-sur-la-valorisation",
+              "children": [
+                {
+                  "name": "5.1 — La tromperie sur les investisseurs institutionnels",
+                  "path": "12_ANALYSE_INVESTIGATION.md#partie-i-infractions-penales-identifiees/infraction-5-escroquerie-ou-tromperie-sur-la-valorisation/5-1-la-tromperie-sur-les-investisseurs-institutionnels",
+                  "children": [
+                    {
+                      "name": "Les faits",
+                      "path": "12_ANALYSE_INVESTIGATION.md#partie-i-infractions-penales-identifiees/infraction-5-escroquerie-ou-tromperie-sur-la-valorisation/5-1-la-tromperie-sur-les-investisseurs-institutionnels/les-faits"
+                    }
+                  ]
+                },
+                {
+                  "name": "5.2 — La tromperie sur les investisseurs des holdings Angels",
+                  "path": "12_ANALYSE_INVESTIGATION.md#partie-i-infractions-penales-identifiees/infraction-5-escroquerie-ou-tromperie-sur-la-valorisation/5-2-la-tromperie-sur-les-investisseurs-des-holdings-angels"
+                }
+              ]
+            },
+            {
+              "name": "INFRACTION 6 : BANQUEROUTE (en cas de liquidation)",
+              "path": "12_ANALYSE_INVESTIGATION.md#partie-i-infractions-penales-identifiees/infraction-6-banqueroute-en-cas-de-liquidation"
+            }
+          ]
+        },
+        {
+          "name": "PARTIE II — FONDEMENTS D'ACTIONS CIVILES",
+          "path": "12_ANALYSE_INVESTIGATION.md#partie-ii-fondements-d-actions-civiles",
+          "children": [
+            {
+              "name": "ACTION 1 : RESPONSABILITÉ DES DIRIGEANTS (Article L. 225-251 C. com.)",
+              "path": "12_ANALYSE_INVESTIGATION.md#partie-ii-fondements-d-actions-civiles/action-1-responsabilite-des-dirigeants-article-l-225-251-c-com",
+              "children": [
+                {
+                  "name": "Fondement",
+                  "path": "12_ANALYSE_INVESTIGATION.md#partie-ii-fondements-d-actions-civiles/action-1-responsabilite-des-dirigeants-article-l-225-251-c-com/fondement"
+                },
+                {
+                  "name": "Fautes de gestion identifiées",
+                  "path": "12_ANALYSE_INVESTIGATION.md#partie-ii-fondements-d-actions-civiles/action-1-responsabilite-des-dirigeants-article-l-225-251-c-com/fautes-de-gestion-identifiees"
+                },
+                {
+                  "name": "Évaluation du préjudice",
+                  "path": "12_ANALYSE_INVESTIGATION.md#partie-ii-fondements-d-actions-civiles/action-1-responsabilite-des-dirigeants-article-l-225-251-c-com/evaluation-du-prejudice"
+                }
+              ]
+            },
+            {
+              "name": "ACTION 2 : ACTION EN RESPONSABILITÉ POUR INVESTISSEMENT PUBLIC FAUTIF",
+              "path": "12_ANALYSE_INVESTIGATION.md#partie-ii-fondements-d-actions-civiles/action-2-action-en-responsabilite-pour-investissement-public-fautif",
+              "children": [
+                {
+                  "name": "Fondement",
+                  "path": "12_ANALYSE_INVESTIGATION.md#partie-ii-fondements-d-actions-civiles/action-2-action-en-responsabilite-pour-investissement-public-fautif/fondement"
+                },
+                {
+                  "name": "Le courrier Moscovici (16 juin 2022)",
+                  "path": "12_ANALYSE_INVESTIGATION.md#partie-ii-fondements-d-actions-civiles/action-2-action-en-responsabilite-pour-investissement-public-fautif/le-courrier-moscovici-16-juin-2022"
+                }
+              ]
+            },
+            {
+              "name": "ACTION 3 : ACTION EN NULLITÉ DE LA VALORISATION ET DES APPORTS",
+              "path": "12_ANALYSE_INVESTIGATION.md#partie-ii-fondements-d-actions-civiles/action-3-action-en-nullite-de-la-valorisation-et-des-apports",
+              "children": [
+                {
+                  "name": "Fondement",
+                  "path": "12_ANALYSE_INVESTIGATION.md#partie-ii-fondements-d-actions-civiles/action-3-action-en-nullite-de-la-valorisation-et-des-apports/fondement"
+                },
+                {
+                  "name": "Application",
+                  "path": "12_ANALYSE_INVESTIGATION.md#partie-ii-fondements-d-actions-civiles/action-3-action-en-nullite-de-la-valorisation-et-des-apports/application"
+                }
+              ]
+            },
+            {
+              "name": "ACTION 4 : ACTION UT SINGULI (pour les actionnaires des holdings)",
+              "path": "12_ANALYSE_INVESTIGATION.md#partie-ii-fondements-d-actions-civiles/action-4-action-ut-singuli-pour-les-actionnaires-des-holdings",
+              "children": [
+                {
+                  "name": "Fondement",
+                  "path": "12_ANALYSE_INVESTIGATION.md#partie-ii-fondements-d-actions-civiles/action-4-action-ut-singuli-pour-les-actionnaires-des-holdings/fondement"
+                },
+                {
+                  "name": "Application",
+                  "path": "12_ANALYSE_INVESTIGATION.md#partie-ii-fondements-d-actions-civiles/action-4-action-ut-singuli-pour-les-actionnaires-des-holdings/application"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "PARTIE III — IMPLICATION SPÉCIFIQUE DE CHAQUE PERSONNE",
+          "path": "12_ANALYSE_INVESTIGATION.md#partie-iii-implication-specifique-de-chaque-personne",
+          "children": [
+            {
+              "name": "ÉRIC LEANDRI — Président de Qwant SAS, Président d'Angels 1 et 2",
+              "path": "12_ANALYSE_INVESTIGATION.md#partie-iii-implication-specifique-de-chaque-personne/eric-leandri-president-de-qwant-sas-president-d-angels-1-et-2",
+              "children": [
+                {
+                  "name": "Fonctions exercées",
+                  "path": "12_ANALYSE_INVESTIGATION.md#partie-iii-implication-specifique-de-chaque-personne/eric-leandri-president-de-qwant-sas-president-d-angels-1-et-2/fonctions-exercees"
+                },
+                {
+                  "name": "Responsabilités engagées",
+                  "path": "12_ANALYSE_INVESTIGATION.md#partie-iii-implication-specifique-de-chaque-personne/eric-leandri-president-de-qwant-sas-president-d-angels-1-et-2/responsabilites-engagees"
+                }
+              ]
+            },
+            {
+              "name": "JEAN-MANUEL ROZAN — Président fondateur de Qwant SAS",
+              "path": "12_ANALYSE_INVESTIGATION.md#partie-iii-implication-specifique-de-chaque-personne/jean-manuel-rozan-president-fondateur-de-qwant-sas",
+              "children": [
+                {
+                  "name": "Fonctions exercées",
+                  "path": "12_ANALYSE_INVESTIGATION.md#partie-iii-implication-specifique-de-chaque-personne/jean-manuel-rozan-president-fondateur-de-qwant-sas/fonctions-exercees"
+                },
+                {
+                  "name": "Responsabilités engagées",
+                  "path": "12_ANALYSE_INVESTIGATION.md#partie-iii-implication-specifique-de-chaque-personne/jean-manuel-rozan-president-fondateur-de-qwant-sas/responsabilites-engagees"
+                }
+              ]
+            },
+            {
+              "name": "ALBERTO CHALON — Directeur Général de Qwant SAS",
+              "path": "12_ANALYSE_INVESTIGATION.md#partie-iii-implication-specifique-de-chaque-personne/alberto-chalon-directeur-general-de-qwant-sas",
+              "children": [
+                {
+                  "name": "Fonctions exercées",
+                  "path": "12_ANALYSE_INVESTIGATION.md#partie-iii-implication-specifique-de-chaque-personne/alberto-chalon-directeur-general-de-qwant-sas/fonctions-exercees"
+                },
+                {
+                  "name": "Responsabilités engagées",
+                  "path": "12_ANALYSE_INVESTIGATION.md#partie-iii-implication-specifique-de-chaque-personne/alberto-chalon-directeur-general-de-qwant-sas/responsabilites-engagees"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "PARTIE IV — TABLEAU RÉCAPITULATIF DES INFRACTIONS",
+          "path": "12_ANALYSE_INVESTIGATION.md#partie-iv-tableau-recapitulatif-des-infractions"
+        },
+        {
+          "name": "PARTIE V — DILIGENCES D'INVESTIGATION RECOMMANDÉES",
+          "path": "12_ANALYSE_INVESTIGATION.md#partie-v-diligences-d-investigation-recommandees",
+          "children": [
+            {
+              "name": "5.1 — Pièces à obtenir en priorité",
+              "path": "12_ANALYSE_INVESTIGATION.md#partie-v-diligences-d-investigation-recommandees/5-1-pieces-a-obtenir-en-priorite"
+            },
+            {
+              "name": "5.2 — Auditions recommandées",
+              "path": "12_ANALYSE_INVESTIGATION.md#partie-v-diligences-d-investigation-recommandees/5-2-auditions-recommandees"
+            },
+            {
+              "name": "5.3 — Expertises à diligenter",
+              "path": "12_ANALYSE_INVESTIGATION.md#partie-v-diligences-d-investigation-recommandees/5-3-expertises-a-diligenter"
+            }
+          ]
+        },
+        {
+          "name": "PARTIE VI — PRESCRIPTION ET STRATÉGIE PROCÉDURALE",
+          "path": "12_ANALYSE_INVESTIGATION.md#partie-vi-prescription-et-strategie-procedurale",
+          "children": [
+            {
+              "name": "6.1 — Délais de prescription",
+              "path": "12_ANALYSE_INVESTIGATION.md#partie-vi-prescription-et-strategie-procedurale/6-1-delais-de-prescription"
+            },
+            {
+              "name": "6.2 — Stratégie procédurale recommandée",
+              "path": "12_ANALYSE_INVESTIGATION.md#partie-vi-prescription-et-strategie-procedurale/6-2-strategie-procedurale-recommandee",
+              "children": [
+                {
+                  "name": "Voie pénale",
+                  "path": "12_ANALYSE_INVESTIGATION.md#partie-vi-prescription-et-strategie-procedurale/6-2-strategie-procedurale-recommandee/voie-penale"
+                },
+                {
+                  "name": "Voie civile",
+                  "path": "12_ANALYSE_INVESTIGATION.md#partie-vi-prescription-et-strategie-procedurale/6-2-strategie-procedurale-recommandee/voie-civile"
+                },
+                {
+                  "name": "Actions conservatoires",
+                  "path": "12_ANALYSE_INVESTIGATION.md#partie-vi-prescription-et-strategie-procedurale/6-2-strategie-procedurale-recommandee/actions-conservatoires"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "13 — Limites de l'analyse et actions à mener",
+      "path": "13_LIMITES_ET_ACTIONS.md",
+      "children": [
+        {
+          "name": "13 — Limites de l'analyse et actions à mener",
+          "path": "13_LIMITES_ET_ACTIONS.md#13-limites-de-l-analyse-et-actions-a-mener",
+          "children": [
+            {
+              "name": "PRÉAMBULE",
+              "path": "13_LIMITES_ET_ACTIONS.md#13-limites-de-l-analyse-et-actions-a-mener/preambule"
+            }
+          ]
+        },
+        {
+          "name": "PARTIE I — CE QUE L'ANALYSE A ÉTABLI",
+          "path": "13_LIMITES_ET_ACTIONS.md#partie-i-ce-que-l-analyse-a-etabli",
+          "children": [
+            {
+              "name": "1.1 — Le périmètre couvert",
+              "path": "13_LIMITES_ET_ACTIONS.md#partie-i-ce-que-l-analyse-a-etabli/1-1-le-perimetre-couvert"
+            },
+            {
+              "name": "1.2 — Ce que l'analyse démontre solidement",
+              "path": "13_LIMITES_ET_ACTIONS.md#partie-i-ce-que-l-analyse-a-etabli/1-2-ce-que-l-analyse-demontre-solidement"
+            }
+          ]
+        },
+        {
+          "name": "PARTIE II — CE QUI MANQUE",
+          "path": "13_LIMITES_ET_ACTIONS.md#partie-ii-ce-qui-manque",
+          "children": [
+            {
+              "name": "2.1 — Les limites fondamentales",
+              "path": "13_LIMITES_ET_ACTIONS.md#partie-ii-ce-qui-manque/2-1-les-limites-fondamentales",
+              "children": [
+                {
+                  "name": "L'élément intentionnel",
+                  "path": "13_LIMITES_ET_ACTIONS.md#partie-ii-ce-qui-manque/2-1-les-limites-fondamentales/l-element-intentionnel"
+                },
+                {
+                  "name": "L'absence de comptes annuels complets",
+                  "path": "13_LIMITES_ET_ACTIONS.md#partie-ii-ce-qui-manque/2-1-les-limites-fondamentales/l-absence-de-comptes-annuels-complets"
+                },
+                {
+                  "name": "L'absence de données sur les flux intragroupe",
+                  "path": "13_LIMITES_ET_ACTIONS.md#partie-ii-ce-qui-manque/2-1-les-limites-fondamentales/l-absence-de-donnees-sur-les-flux-intragroupe"
+                },
+                {
+                  "name": "L'absence d'informations sur Rozan",
+                  "path": "13_LIMITES_ET_ACTIONS.md#partie-ii-ce-qui-manque/2-1-les-limites-fondamentales/l-absence-d-informations-sur-rozan"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "PARTIE III — ACTIONS À MENER",
+          "path": "13_LIMITES_ET_ACTIONS.md#partie-iii-actions-a-mener",
+          "children": [
+            {
+              "name": "3.1 — Demandes CADA (Commission d'Accès aux Documents Administratifs)",
+              "path": "13_LIMITES_ET_ACTIONS.md#partie-iii-actions-a-mener/3-1-demandes-cada-commission-d-acces-aux-documents-administratifs",
+              "children": [
+                {
+                  "name": "Demandes prioritaires",
+                  "path": "13_LIMITES_ET_ACTIONS.md#partie-iii-actions-a-mener/3-1-demandes-cada-commission-d-acces-aux-documents-administratifs/demandes-prioritaires"
+                },
+                {
+                  "name": "Mode opératoire",
+                  "path": "13_LIMITES_ET_ACTIONS.md#partie-iii-actions-a-mener/3-1-demandes-cada-commission-d-acces-aux-documents-administratifs/mode-operatoire"
+                },
+                {
+                  "name": "Limites de la CADA",
+                  "path": "13_LIMITES_ET_ACTIONS.md#partie-iii-actions-a-mener/3-1-demandes-cada-commission-d-acces-aux-documents-administratifs/limites-de-la-cada"
+                },
+                {
+                  "name": "Astuce procédurale",
+                  "path": "13_LIMITES_ET_ACTIONS.md#partie-iii-actions-a-mener/3-1-demandes-cada-commission-d-acces-aux-documents-administratifs/astuce-procedurale"
+                }
+              ]
+            },
+            {
+              "name": "3.2 — Plainte pénale : mode opératoire",
+              "path": "13_LIMITES_ET_ACTIONS.md#partie-iii-actions-a-mener/3-2-plainte-penale-mode-operatoire",
+              "children": [
+                {
+                  "name": "Option A : Plainte simple au Procureur",
+                  "path": "13_LIMITES_ET_ACTIONS.md#partie-iii-actions-a-mener/3-2-plainte-penale-mode-operatoire/option-a-plainte-simple-au-procureur"
+                },
+                {
+                  "name": "Option B : Plainte avec constitution de partie civile (RECOMMANDÉE)",
+                  "path": "13_LIMITES_ET_ACTIONS.md#partie-iii-actions-a-mener/3-2-plainte-penale-mode-operatoire/option-b-plainte-avec-constitution-de-partie-civile-recommandee"
+                },
+                {
+                  "name": "Stratégie recommandée",
+                  "path": "13_LIMITES_ET_ACTIONS.md#partie-iii-actions-a-mener/3-2-plainte-penale-mode-operatoire/strategie-recommandee"
+                },
+                {
+                  "name": "Infractions à viser dans la plainte",
+                  "path": "13_LIMITES_ET_ACTIONS.md#partie-iii-actions-a-mener/3-2-plainte-penale-mode-operatoire/infractions-a-viser-dans-la-plainte"
+                },
+                {
+                  "name": "Point critique sur la prescription",
+                  "path": "13_LIMITES_ET_ACTIONS.md#partie-iii-actions-a-mener/3-2-plainte-penale-mode-operatoire/point-critique-sur-la-prescription"
+                }
+              ]
+            },
+            {
+              "name": "3.3 — Action civile : mode opératoire",
+              "path": "13_LIMITES_ET_ACTIONS.md#partie-iii-actions-a-mener/3-3-action-civile-mode-operatoire",
+              "children": [
+                {
+                  "name": "En tant qu'actionnaire des holdings",
+                  "path": "13_LIMITES_ET_ACTIONS.md#partie-iii-actions-a-mener/3-3-action-civile-mode-operatoire/en-tant-qu-actionnaire-des-holdings"
+                },
+                {
+                  "name": "En tant que tiers (créancier, lanceur d'alerte)",
+                  "path": "13_LIMITES_ET_ACTIONS.md#partie-iii-actions-a-mener/3-3-action-civile-mode-operatoire/en-tant-que-tiers-creancier-lanceur-d-alerte"
+                }
+              ]
+            },
+            {
+              "name": "3.4 — Demande de communication de pièces (article 145 CPC)",
+              "path": "13_LIMITES_ET_ACTIONS.md#partie-iii-actions-a-mener/3-4-demande-de-communication-de-pieces-article-145-cpc",
+              "children": [
+                {
+                  "name": "Fondement",
+                  "path": "13_LIMITES_ET_ACTIONS.md#partie-iii-actions-a-mener/3-4-demande-de-communication-de-pieces-article-145-cpc/fondement"
+                },
+                {
+                  "name": "Application concrète",
+                  "path": "13_LIMITES_ET_ACTIONS.md#partie-iii-actions-a-mener/3-4-demande-de-communication-de-pieces-article-145-cpc/application-concrete"
+                },
+                {
+                  "name": "Avantages du référé 145",
+                  "path": "13_LIMITES_ET_ACTIONS.md#partie-iii-actions-a-mener/3-4-demande-de-communication-de-pieces-article-145-cpc/avantages-du-refere-145"
+                }
+              ]
+            },
+            {
+              "name": "3.5 — Démarches complémentaires",
+              "path": "13_LIMITES_ET_ACTIONS.md#partie-iii-actions-a-mener/3-5-demarches-complementaires",
+              "children": [
+                {
+                  "name": "Saisine de l'AMF (si des titres financiers sont concernés)",
+                  "path": "13_LIMITES_ET_ACTIONS.md#partie-iii-actions-a-mener/3-5-demarches-complementaires/saisine-de-l-amf-si-des-titres-financiers-sont-concernes"
+                },
+                {
+                  "name": "Saisine de la DGCCRF",
+                  "path": "13_LIMITES_ET_ACTIONS.md#partie-iii-actions-a-mener/3-5-demarches-complementaires/saisine-de-la-dgccrf"
+                },
+                {
+                  "name": "Signalement à l'Ordre des experts-comptables et au H3C",
+                  "path": "13_LIMITES_ET_ACTIONS.md#partie-iii-actions-a-mener/3-5-demarches-complementaires/signalement-a-l-ordre-des-experts-comptables-et-au-h3c"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "PARTIE IV — CALENDRIER D'ACTIONS RECOMMANDÉ",
+          "path": "13_LIMITES_ET_ACTIONS.md#partie-iv-calendrier-d-actions-recommande"
+        },
+        {
+          "name": "PARTIE V — CHOIX DE L'AVOCAT",
+          "path": "13_LIMITES_ET_ACTIONS.md#partie-v-choix-de-l-avocat"
+        },
+        {
+          "name": "PARTIE VI — RÉSUMÉ EN UNE PAGE",
+          "path": "13_LIMITES_ET_ACTIONS.md#partie-vi-resume-en-une-page"
+        }
+      ]
+    },
+    {
+      "name": "RAPPORT — COMMENT POURSUIVRE QWANT ET SES RESPONSABLES",
       "path": "RAPPORT_POURSUITES_QWANT.md",
       "children": [
         {
@@ -1198,6 +1752,1271 @@
             {
               "name": "CONCLUSION",
               "path": "RAPPORT_POURSUITES_QWANT.md#rapport-comment-poursuivre-qwant-et-ses-responsables/conclusion"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rapport Poursuites Qwant",
+      "path": "RAPPORT_POURSUITES_QWANT.pdf"
+    },
+    {
+      "name": "Longo Synthese",
+      "children": [
+        {
+          "name": "RAPPORT LONGO – SYNTHÈSE COMPLÈTE",
+          "path": "Longo_Synthese/00_SOMMAIRE_RAPPORT_LONGO.md",
+          "children": [
+            {
+              "name": "RAPPORT LONGO – SYNTHÈSE COMPLÈTE",
+              "path": "Longo_Synthese/00_SOMMAIRE_RAPPORT_LONGO.md#rapport-longo-synthese-complete",
+              "children": [
+                {
+                  "name": "« QWANT, UNE SOCIÉTÉ MAFIEUSE LÉGALE – UN SCANDALE D'ÉTAT ET DU GOUVERNEMENT »",
+                  "path": "Longo_Synthese/00_SOMMAIRE_RAPPORT_LONGO.md#rapport-longo-synthese-complete/qwant-une-societe-mafieuse-legale-un-scandale-d-etat-et-du-gouvernement"
+                },
+                {
+                  "name": "Nature du document",
+                  "path": "Longo_Synthese/00_SOMMAIRE_RAPPORT_LONGO.md#rapport-longo-synthese-complete/nature-du-document"
+                },
+                {
+                  "name": "Personnes visées par les plaintes",
+                  "path": "Longo_Synthese/00_SOMMAIRE_RAPPORT_LONGO.md#rapport-longo-synthese-complete/personnes-visees-par-les-plaintes",
+                  "children": [
+                    {
+                      "name": "Au titre de la corruption active, favoritisme, trafic d'influence :",
+                      "path": "Longo_Synthese/00_SOMMAIRE_RAPPORT_LONGO.md#rapport-longo-synthese-complete/personnes-visees-par-les-plaintes/au-titre-de-la-corruption-active-favoritisme-trafic-d-influence"
+                    },
+                    {
+                      "name": "Au titre de la corruption passive :",
+                      "path": "Longo_Synthese/00_SOMMAIRE_RAPPORT_LONGO.md#rapport-longo-synthese-complete/personnes-visees-par-les-plaintes/au-titre-de-la-corruption-passive"
+                    },
+                    {
+                      "name": "Fondateurs et dirigeants de Qwant :",
+                      "path": "Longo_Synthese/00_SOMMAIRE_RAPPORT_LONGO.md#rapport-longo-synthese-complete/personnes-visees-par-les-plaintes/fondateurs-et-dirigeants-de-qwant"
+                    },
+                    {
+                      "name": "Commissaires aux comptes et apports :",
+                      "path": "Longo_Synthese/00_SOMMAIRE_RAPPORT_LONGO.md#rapport-longo-synthese-complete/personnes-visees-par-les-plaintes/commissaires-aux-comptes-et-apports"
+                    }
+                  ]
+                },
+                {
+                  "name": "Structure des fichiers de synthèse",
+                  "path": "Longo_Synthese/00_SOMMAIRE_RAPPORT_LONGO.md#rapport-longo-synthese-complete/structure-des-fichiers-de-synthese"
+                },
+                {
+                  "name": "Thèses centrales du rapport",
+                  "path": "Longo_Synthese/00_SOMMAIRE_RAPPORT_LONGO.md#rapport-longo-synthese-complete/theses-centrales-du-rapport"
+                },
+                {
+                  "name": "Montants clés",
+                  "path": "Longo_Synthese/00_SOMMAIRE_RAPPORT_LONGO.md#rapport-longo-synthese-complete/montants-cles"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "01 – LETTRE INTRODUCTIVE À PIERRE MOSCOVICI",
+          "path": "Longo_Synthese/01_LETTRE_INTRODUCTIVE.md",
+          "children": [
+            {
+              "name": "01 – LETTRE INTRODUCTIVE À PIERRE MOSCOVICI",
+              "path": "Longo_Synthese/01_LETTRE_INTRODUCTIVE.md#01-lettre-introductive-a-pierre-moscovici",
+              "children": [
+                {
+                  "name": "Pages 1-7 du rapport Longo",
+                  "path": "Longo_Synthese/01_LETTRE_INTRODUCTIVE.md#01-lettre-introductive-a-pierre-moscovici/pages-1-7-du-rapport-longo"
+                },
+                {
+                  "name": "Contexte",
+                  "path": "Longo_Synthese/01_LETTRE_INTRODUCTIVE.md#01-lettre-introductive-a-pierre-moscovici/contexte"
+                },
+                {
+                  "name": "Objet de la plainte",
+                  "path": "Longo_Synthese/01_LETTRE_INTRODUCTIVE.md#01-lettre-introductive-a-pierre-moscovici/objet-de-la-plainte"
+                },
+                {
+                  "name": "Motivations personnelles de l'auteur",
+                  "path": "Longo_Synthese/01_LETTRE_INTRODUCTIVE.md#01-lettre-introductive-a-pierre-moscovici/motivations-personnelles-de-l-auteur"
+                },
+                {
+                  "name": "Demandes",
+                  "path": "Longo_Synthese/01_LETTRE_INTRODUCTIVE.md#01-lettre-introductive-a-pierre-moscovici/demandes"
+                },
+                {
+                  "name": "Positionnement de l'auteur",
+                  "path": "Longo_Synthese/01_LETTRE_INTRODUCTIVE.md#01-lettre-introductive-a-pierre-moscovici/positionnement-de-l-auteur"
+                },
+                {
+                  "name": "Pièces et sources",
+                  "path": "Longo_Synthese/01_LETTRE_INTRODUCTIVE.md#01-lettre-introductive-a-pierre-moscovici/pieces-et-sources"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "02 – BILANS 2010-2020 ET ANOMALIES FINANCIÈRES",
+          "path": "Longo_Synthese/02_BILANS_ANOMALIES_FINANCIERES.md",
+          "children": [
+            {
+              "name": "02 – BILANS 2010-2020 ET ANOMALIES FINANCIÈRES",
+              "path": "Longo_Synthese/02_BILANS_ANOMALIES_FINANCIERES.md#02-bilans-2010-2020-et-anomalies-financieres",
+              "children": [
+                {
+                  "name": "Section A – Pages 8-13 du rapport Longo",
+                  "path": "Longo_Synthese/02_BILANS_ANOMALIES_FINANCIERES.md#02-bilans-2010-2020-et-anomalies-financieres/section-a-pages-8-13-du-rapport-longo"
+                },
+                {
+                  "name": "Tableau des bilans Qwant 2010-2020",
+                  "path": "Longo_Synthese/02_BILANS_ANOMALIES_FINANCIERES.md#02-bilans-2010-2020-et-anomalies-financieres/tableau-des-bilans-qwant-2010-2020",
+                  "children": [
+                    {
+                      "name": "Données consolidées",
+                      "path": "Longo_Synthese/02_BILANS_ANOMALIES_FINANCIERES.md#02-bilans-2010-2020-et-anomalies-financieres/tableau-des-bilans-qwant-2010-2020/donnees-consolidees"
+                    }
+                  ]
+                },
+                {
+                  "name": "Anomalies financières identifiées",
+                  "path": "Longo_Synthese/02_BILANS_ANOMALIES_FINANCIERES.md#02-bilans-2010-2020-et-anomalies-financieres/anomalies-financieres-identifiees",
+                  "children": [
+                    {
+                      "name": "1. Fraude à la TVA (~7 M€ estimés)",
+                      "path": "Longo_Synthese/02_BILANS_ANOMALIES_FINANCIERES.md#02-bilans-2010-2020-et-anomalies-financieres/anomalies-financieres-identifiees/1-fraude-a-la-tva-7-m-estimes"
+                    },
+                    {
+                      "name": "2. « Autres achats externes » inexpliqués (~8 M€/an)",
+                      "path": "Longo_Synthese/02_BILANS_ANOMALIES_FINANCIERES.md#02-bilans-2010-2020-et-anomalies-financieres/anomalies-financieres-identifiees/2-autres-achats-externes-inexpliques-8-m-an"
+                    },
+                    {
+                      "name": "3. Brevets et droits divers (17-18 M€)",
+                      "path": "Longo_Synthese/02_BILANS_ANOMALIES_FINANCIERES.md#02-bilans-2010-2020-et-anomalies-financieres/anomalies-financieres-identifiees/3-brevets-et-droits-divers-17-18-m"
+                    },
+                    {
+                      "name": "4. Trésorerie artificielle",
+                      "path": "Longo_Synthese/02_BILANS_ANOMALIES_FINANCIERES.md#02-bilans-2010-2020-et-anomalies-financieres/anomalies-financieres-identifiees/4-tresorerie-artificielle"
+                    },
+                    {
+                      "name": "5. Le « coup de l'accordéon »",
+                      "path": "Longo_Synthese/02_BILANS_ANOMALIES_FINANCIERES.md#02-bilans-2010-2020-et-anomalies-financieres/anomalies-financieres-identifiees/5-le-coup-de-l-accordeon"
+                    },
+                    {
+                      "name": "6. Crédit Impôt Recherche suspect",
+                      "path": "Longo_Synthese/02_BILANS_ANOMALIES_FINANCIERES.md#02-bilans-2010-2020-et-anomalies-financieres/anomalies-financieres-identifiees/6-credit-impot-recherche-suspect"
+                    }
+                  ]
+                },
+                {
+                  "name": "Conclusion de l'analyse financière",
+                  "path": "Longo_Synthese/02_BILANS_ANOMALIES_FINANCIERES.md#02-bilans-2010-2020-et-anomalies-financieres/conclusion-de-l-analyse-financiere"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "03 – LES PROTAGONISTES PRINCIPAUX",
+          "path": "Longo_Synthese/03_PROTAGONISTES.md",
+          "children": [
+            {
+              "name": "03 – LES PROTAGONISTES PRINCIPAUX",
+              "path": "Longo_Synthese/03_PROTAGONISTES.md#03-les-protagonistes-principaux",
+              "children": [
+                {
+                  "name": "Section B – Page 14 du rapport Longo",
+                  "path": "Longo_Synthese/03_PROTAGONISTES.md#03-les-protagonistes-principaux/section-b-page-14-du-rapport-longo"
+                },
+                {
+                  "name": "Les cinq figures clés selon le rapport",
+                  "path": "Longo_Synthese/03_PROTAGONISTES.md#03-les-protagonistes-principaux/les-cinq-figures-cles-selon-le-rapport",
+                  "children": [
+                    {
+                      "name": "1. Éric Léandri – Cofondateur, ex-PDG",
+                      "path": "Longo_Synthese/03_PROTAGONISTES.md#03-les-protagonistes-principaux/les-cinq-figures-cles-selon-le-rapport/1-eric-leandri-cofondateur-ex-pdg"
+                    },
+                    {
+                      "name": "2. Jean-Manuel Rozan – Cofondateur, PDG historique",
+                      "path": "Longo_Synthese/03_PROTAGONISTES.md#03-les-protagonistes-principaux/les-cinq-figures-cles-selon-le-rapport/2-jean-manuel-rozan-cofondateur-pdg-historique"
+                    },
+                    {
+                      "name": "3. Philippe Micaelli – Directeur des partenariats",
+                      "path": "Longo_Synthese/03_PROTAGONISTES.md#03-les-protagonistes-principaux/les-cinq-figures-cles-selon-le-rapport/3-philippe-micaelli-directeur-des-partenariats"
+                    },
+                    {
+                      "name": "4. Marc Constant – Directeur mentionné parmi les protagonistes",
+                      "path": "Longo_Synthese/03_PROTAGONISTES.md#03-les-protagonistes-principaux/les-cinq-figures-cles-selon-le-rapport/4-marc-constant-directeur-mentionne-parmi-les-protagonistes"
+                    },
+                    {
+                      "name": "5. Alberto Chalon – Représentant de BAD BOYS SA, ex-DG Qwant",
+                      "path": "Longo_Synthese/03_PROTAGONISTES.md#03-les-protagonistes-principaux/les-cinq-figures-cles-selon-le-rapport/5-alberto-chalon-representant-de-bad-boys-sa-ex-dg-qwant"
+                    }
+                  ]
+                },
+                {
+                  "name": "Réseau élargi mentionné",
+                  "path": "Longo_Synthese/03_PROTAGONISTES.md#03-les-protagonistes-principaux/reseau-elargi-mentionne"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "04 – LA CDC AIDE À DÉTOURNER 13 MILLIONS D'EUROS",
+          "path": "Longo_Synthese/04_CDC_DETOURNEMENT_13M.md",
+          "children": [
+            {
+              "name": "04 – LA CDC AIDE À DÉTOURNER 13 MILLIONS D'EUROS",
+              "path": "Longo_Synthese/04_CDC_DETOURNEMENT_13M.md#04-la-cdc-aide-a-detourner-13-millions-d-euros",
+              "children": [
+                {
+                  "name": "Section C – Pages 15-22 du rapport Longo",
+                  "path": "Longo_Synthese/04_CDC_DETOURNEMENT_13M.md#04-la-cdc-aide-a-detourner-13-millions-d-euros/section-c-pages-15-22-du-rapport-longo"
+                },
+                {
+                  "name": "L'anomalie des BSA de février 2013",
+                  "path": "Longo_Synthese/04_CDC_DETOURNEMENT_13M.md#04-la-cdc-aide-a-detourner-13-millions-d-euros/l-anomalie-des-bsa-de-fevrier-2013",
+                  "children": [
+                    {
+                      "name": "Le mécanisme",
+                      "path": "Longo_Synthese/04_CDC_DETOURNEMENT_13M.md#04-la-cdc-aide-a-detourner-13-millions-d-euros/l-anomalie-des-bsa-de-fevrier-2013/le-mecanisme"
+                    },
+                    {
+                      "name": "L'anomalie",
+                      "path": "Longo_Synthese/04_CDC_DETOURNEMENT_13M.md#04-la-cdc-aide-a-detourner-13-millions-d-euros/l-anomalie-des-bsa-de-fevrier-2013/l-anomalie"
+                    }
+                  ]
+                },
+                {
+                  "name": "MLM Trust B Holdings LLC – Delaware",
+                  "path": "Longo_Synthese/04_CDC_DETOURNEMENT_13M.md#04-la-cdc-aide-a-detourner-13-millions-d-euros/mlm-trust-b-holdings-llc-delaware",
+                  "children": [
+                    {
+                      "name": "Les faits",
+                      "path": "Longo_Synthese/04_CDC_DETOURNEMENT_13M.md#04-la-cdc-aide-a-detourner-13-millions-d-euros/mlm-trust-b-holdings-llc-delaware/les-faits"
+                    },
+                    {
+                      "name": "Responsabilité",
+                      "path": "Longo_Synthese/04_CDC_DETOURNEMENT_13M.md#04-la-cdc-aide-a-detourner-13-millions-d-euros/mlm-trust-b-holdings-llc-delaware/responsabilite"
+                    }
+                  ]
+                },
+                {
+                  "name": "La valorisation fraudée à 70 millions d'euros (2016)",
+                  "path": "Longo_Synthese/04_CDC_DETOURNEMENT_13M.md#04-la-cdc-aide-a-detourner-13-millions-d-euros/la-valorisation-fraudee-a-70-millions-d-euros-2016",
+                  "children": [
+                    {
+                      "name": "Contexte",
+                      "path": "Longo_Synthese/04_CDC_DETOURNEMENT_13M.md#04-la-cdc-aide-a-detourner-13-millions-d-euros/la-valorisation-fraudee-a-70-millions-d-euros-2016/contexte"
+                    },
+                    {
+                      "name": "La fraude à la valorisation",
+                      "path": "Longo_Synthese/04_CDC_DETOURNEMENT_13M.md#04-la-cdc-aide-a-detourner-13-millions-d-euros/la-valorisation-fraudee-a-70-millions-d-euros-2016/la-fraude-a-la-valorisation"
+                    },
+                    {
+                      "name": "Les holdings créées immédiatement après l'audit",
+                      "path": "Longo_Synthese/04_CDC_DETOURNEMENT_13M.md#04-la-cdc-aide-a-detourner-13-millions-d-euros/la-valorisation-fraudee-a-70-millions-d-euros-2016/les-holdings-creees-immediatement-apres-l-audit"
+                    },
+                    {
+                      "name": "Mouvement de 17% des actions",
+                      "path": "Longo_Synthese/04_CDC_DETOURNEMENT_13M.md#04-la-cdc-aide-a-detourner-13-millions-d-euros/la-valorisation-fraudee-a-70-millions-d-euros-2016/mouvement-de-17-des-actions"
+                    }
+                  ]
+                },
+                {
+                  "name": "La phrase clé de Cédric Clément (CDC)",
+                  "path": "Longo_Synthese/04_CDC_DETOURNEMENT_13M.md#04-la-cdc-aide-a-detourner-13-millions-d-euros/la-phrase-cle-de-cedric-clement-cdc"
+                },
+                {
+                  "name": "Infractions alléguées (Section C)",
+                  "path": "Longo_Synthese/04_CDC_DETOURNEMENT_13M.md#04-la-cdc-aide-a-detourner-13-millions-d-euros/infractions-alleguees-section-c"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "05 – HISTORIQUE 2011-2014 : DES ORIGINES À AXEL SPRINGER",
+          "path": "Longo_Synthese/05_HISTORIQUE_2011_2014.md",
+          "children": [
+            {
+              "name": "05 – HISTORIQUE 2011-2014 : DES ORIGINES À AXEL SPRINGER",
+              "path": "Longo_Synthese/05_HISTORIQUE_2011_2014.md#05-historique-2011-2014-des-origines-a-axel-springer",
+              "children": [
+                {
+                  "name": "Section D, Chapitres 1-24 – Pages 23-40 du rapport Longo",
+                  "path": "Longo_Synthese/05_HISTORIQUE_2011_2014.md#05-historique-2011-2014-des-origines-a-axel-springer/section-d-chapitres-1-24-pages-23-40-du-rapport-longo"
+                },
+                {
+                  "name": "2011-2012 : Les origines luxembourgeoises",
+                  "path": "Longo_Synthese/05_HISTORIQUE_2011_2014.md#05-historique-2011-2014-des-origines-a-axel-springer/2011-2012-les-origines-luxembourgeoises",
+                  "children": [
+                    {
+                      "name": "Quantum Of Search (Chapitres 1-5)",
+                      "path": "Longo_Synthese/05_HISTORIQUE_2011_2014.md#05-historique-2011-2014-des-origines-a-axel-springer/2011-2012-les-origines-luxembourgeoises/quantum-of-search-chapitres-1-5"
+                    },
+                    {
+                      "name": "Liquidation de Quantum (Chapitres 6-8)",
+                      "path": "Longo_Synthese/05_HISTORIQUE_2011_2014.md#05-historique-2011-2014-des-origines-a-axel-springer/2011-2012-les-origines-luxembourgeoises/liquidation-de-quantum-chapitres-6-8"
+                    },
+                    {
+                      "name": "Le faux moteur dès le départ (Chapitres 9-12)",
+                      "path": "Longo_Synthese/05_HISTORIQUE_2011_2014.md#05-historique-2011-2014-des-origines-a-axel-springer/2011-2012-les-origines-luxembourgeoises/le-faux-moteur-des-le-depart-chapitres-9-12"
+                    },
+                    {
+                      "name": "Le vol des données Bros (Chapitres 9, 11)",
+                      "path": "Longo_Synthese/05_HISTORIQUE_2011_2014.md#05-historique-2011-2014-des-origines-a-axel-springer/2011-2012-les-origines-luxembourgeoises/le-vol-des-donnees-bros-chapitres-9-11"
+                    }
+                  ]
+                },
+                {
+                  "name": "2013-2014 : L'arrivée d'Axel Springer",
+                  "path": "Longo_Synthese/05_HISTORIQUE_2011_2014.md#05-historique-2011-2014-des-origines-a-axel-springer/2013-2014-l-arrivee-d-axel-springer",
+                  "children": [
+                    {
+                      "name": "Investissement Axel Springer (Chapitres 13-20)",
+                      "path": "Longo_Synthese/05_HISTORIQUE_2011_2014.md#05-historique-2011-2014-des-origines-a-axel-springer/2013-2014-l-arrivee-d-axel-springer/investissement-axel-springer-chapitres-13-20"
+                    },
+                    {
+                      "name": "BSA de février 2013 : les 400 000 actions (Chapitres 14-16)",
+                      "path": "Longo_Synthese/05_HISTORIQUE_2011_2014.md#05-historique-2011-2014-des-origines-a-axel-springer/2013-2014-l-arrivee-d-axel-springer/bsa-de-fevrier-2013-les-400-000-actions-chapitres-14-16"
+                    },
+                    {
+                      "name": "Fin 2014 : situation critique",
+                      "path": "Longo_Synthese/05_HISTORIQUE_2011_2014.md#05-historique-2011-2014-des-origines-a-axel-springer/2013-2014-l-arrivee-d-axel-springer/fin-2014-situation-critique"
+                    }
+                  ]
+                },
+                {
+                  "name": "Activités parallèles douteuses documentées (2012-2014)",
+                  "path": "Longo_Synthese/05_HISTORIQUE_2011_2014.md#05-historique-2011-2014-des-origines-a-axel-springer/activites-paralleles-douteuses-documentees-2012-2014"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "06 – HISTORIQUE 2015-2016 : MACRON, AUDIT CDC, HOLDINGS",
+          "path": "Longo_Synthese/06_HISTORIQUE_2015_2016.md",
+          "children": [
+            {
+              "name": "06 – HISTORIQUE 2015-2016 : MACRON, AUDIT CDC, HOLDINGS",
+              "path": "Longo_Synthese/06_HISTORIQUE_2015_2016.md#06-historique-2015-2016-macron-audit-cdc-holdings",
+              "children": [
+                {
+                  "name": "Section D, Chapitres 25-50 – Pages 41-80 du rapport Longo",
+                  "path": "Longo_Synthese/06_HISTORIQUE_2015_2016.md#06-historique-2015-2016-macron-audit-cdc-holdings/section-d-chapitres-25-50-pages-41-80-du-rapport-longo"
+                },
+                {
+                  "name": "2015 : Emmanuel Macron entre en scène",
+                  "path": "Longo_Synthese/06_HISTORIQUE_2015_2016.md#06-historique-2015-2016-macron-audit-cdc-holdings/2015-emmanuel-macron-entre-en-scene",
+                  "children": [
+                    {
+                      "name": "Avril 2015 : Le tweet fondateur (Chapitres 25-28)",
+                      "path": "Longo_Synthese/06_HISTORIQUE_2015_2016.md#06-historique-2015-2016-macron-audit-cdc-holdings/2015-emmanuel-macron-entre-en-scene/avril-2015-le-tweet-fondateur-chapitres-25-28"
+                    },
+                    {
+                      "name": "Rendez-vous officiels documentés des ex-Xilopix (2015-2016)",
+                      "path": "Longo_Synthese/06_HISTORIQUE_2015_2016.md#06-historique-2015-2016-macron-audit-cdc-holdings/2015-emmanuel-macron-entre-en-scene/rendez-vous-officiels-documentes-des-ex-xilopix-2015-2016"
+                    },
+                    {
+                      "name": "Macron emmène Rozan en voyage (Chapitres 29-31)",
+                      "path": "Longo_Synthese/06_HISTORIQUE_2015_2016.md#06-historique-2015-2016-macron-audit-cdc-holdings/2015-emmanuel-macron-entre-en-scene/macron-emmene-rozan-en-voyage-chapitres-29-31"
+                    },
+                    {
+                      "name": "Actions gratuites suspectes (Chapitres 30-32)",
+                      "path": "Longo_Synthese/06_HISTORIQUE_2015_2016.md#06-historique-2015-2016-macron-audit-cdc-holdings/2015-emmanuel-macron-entre-en-scene/actions-gratuites-suspectes-chapitres-30-32"
+                    }
+                  ]
+                },
+                {
+                  "name": "2016 : L'audit fraudé de la CDC",
+                  "path": "Longo_Synthese/06_HISTORIQUE_2015_2016.md#06-historique-2015-2016-macron-audit-cdc-holdings/2016-l-audit-fraude-de-la-cdc",
+                  "children": [
+                    {
+                      "name": "L'audit Cédric Clément / Cardiweb – 21 juin 2016 (Chapitres 33-38)",
+                      "path": "Longo_Synthese/06_HISTORIQUE_2015_2016.md#06-historique-2015-2016-macron-audit-cdc-holdings/2016-l-audit-fraude-de-la-cdc/l-audit-cedric-clement-cardiweb-21-juin-2016-chapitres-33-38",
+                      "children": [
+                        {
+                          "name": "Contexte",
+                          "path": "Longo_Synthese/06_HISTORIQUE_2015_2016.md#06-historique-2015-2016-macron-audit-cdc-holdings/2016-l-audit-fraude-de-la-cdc/l-audit-cedric-clement-cardiweb-21-juin-2016-chapitres-33-38/contexte"
+                        },
+                        {
+                          "name": "La fraude à l'audit (témoignage du lanceur d'alerte)",
+                          "path": "Longo_Synthese/06_HISTORIQUE_2015_2016.md#06-historique-2015-2016-macron-audit-cdc-holdings/2016-l-audit-fraude-de-la-cdc/l-audit-cedric-clement-cardiweb-21-juin-2016-chapitres-33-38/la-fraude-a-l-audit-temoignage-du-lanceur-d-alerte"
+                        },
+                        {
+                          "name": "Résultat",
+                          "path": "Longo_Synthese/06_HISTORIQUE_2015_2016.md#06-historique-2015-2016-macron-audit-cdc-holdings/2016-l-audit-fraude-de-la-cdc/l-audit-cedric-clement-cardiweb-21-juin-2016-chapitres-33-38/resultat"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "La valorisation frauduleuse (Chapitres 34-36)",
+                      "path": "Longo_Synthese/06_HISTORIQUE_2015_2016.md#06-historique-2015-2016-macron-audit-cdc-holdings/2016-l-audit-fraude-de-la-cdc/la-valorisation-frauduleuse-chapitres-34-36"
+                    }
+                  ]
+                },
+                {
+                  "name": "Création des holdings (juillet 2016 - janvier 2017)",
+                  "path": "Longo_Synthese/06_HISTORIQUE_2015_2016.md#06-historique-2015-2016-macron-audit-cdc-holdings/creation-des-holdings-juillet-2016-janvier-2017",
+                  "children": [
+                    {
+                      "name": "Victor 47 – Juillet 2016 (Chapitre 37)",
+                      "path": "Longo_Synthese/06_HISTORIQUE_2015_2016.md#06-historique-2015-2016-macron-audit-cdc-holdings/creation-des-holdings-juillet-2016-janvier-2017/victor-47-juillet-2016-chapitre-37"
+                    },
+                    {
+                      "name": "Victor 48 – 12 janvier 2017 (Chapitre 38)",
+                      "path": "Longo_Synthese/06_HISTORIQUE_2015_2016.md#06-historique-2015-2016-macron-audit-cdc-holdings/creation-des-holdings-juillet-2016-janvier-2017/victor-48-12-janvier-2017-chapitre-38"
+                    },
+                    {
+                      "name": "Angels 1 et Angels 2 – Janvier 2017 (Chapitre 39)",
+                      "path": "Longo_Synthese/06_HISTORIQUE_2015_2016.md#06-historique-2015-2016-macron-audit-cdc-holdings/creation-des-holdings-juillet-2016-janvier-2017/angels-1-et-angels-2-janvier-2017-chapitre-39"
+                    },
+                    {
+                      "name": "31 janvier 2017 : Les fonds arrivent (Chapitre 40)",
+                      "path": "Longo_Synthese/06_HISTORIQUE_2015_2016.md#06-historique-2015-2016-macron-audit-cdc-holdings/creation-des-holdings-juillet-2016-janvier-2017/31-janvier-2017-les-fonds-arrivent-chapitre-40"
+                    }
+                  ]
+                },
+                {
+                  "name": "Double facturation documentée (Chapitre 50)",
+                  "path": "Longo_Synthese/06_HISTORIQUE_2015_2016.md#06-historique-2015-2016-macron-audit-cdc-holdings/double-facturation-documentee-chapitre-50"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "07 – HISTORIQUE 2017-2018 : DESTRUCTION DE XILOPIX ET CAMPAGNE 2017",
+          "path": "Longo_Synthese/07_HISTORIQUE_2017_2018.md",
+          "children": [
+            {
+              "name": "07 – HISTORIQUE 2017-2018 : DESTRUCTION DE XILOPIX ET CAMPAGNE 2017",
+              "path": "Longo_Synthese/07_HISTORIQUE_2017_2018.md#07-historique-2017-2018-destruction-de-xilopix-et-campagne-2017",
+              "children": [
+                {
+                  "name": "Section D, Chapitres 51-70 – Pages 80-100 du rapport Longo",
+                  "path": "Longo_Synthese/07_HISTORIQUE_2017_2018.md#07-historique-2017-2018-destruction-de-xilopix-et-campagne-2017/section-d-chapitres-51-70-pages-80-100-du-rapport-longo"
+                },
+                {
+                  "name": "2017 : La destruction du moteur Xaphir",
+                  "path": "Longo_Synthese/07_HISTORIQUE_2017_2018.md#07-historique-2017-2018-destruction-de-xilopix-et-campagne-2017/2017-la-destruction-du-moteur-xaphir",
+                  "children": [
+                    {
+                      "name": "Xilopix et le moteur Xaphir (Chapitres 51-55)",
+                      "path": "Longo_Synthese/07_HISTORIQUE_2017_2018.md#07-historique-2017-2018-destruction-de-xilopix-et-campagne-2017/2017-la-destruction-du-moteur-xaphir/xilopix-et-le-moteur-xaphir-chapitres-51-55"
+                    },
+                    {
+                      "name": "Le trafic d'influence CDC/BPI (Chapitres 56-60)",
+                      "path": "Longo_Synthese/07_HISTORIQUE_2017_2018.md#07-historique-2017-2018-destruction-de-xilopix-et-campagne-2017/2017-la-destruction-du-moteur-xaphir/le-trafic-d-influence-cdc-bpi-chapitres-56-60"
+                    },
+                    {
+                      "name": "Travail dissimulé et procès (Chapitres 61-63)",
+                      "path": "Longo_Synthese/07_HISTORIQUE_2017_2018.md#07-historique-2017-2018-destruction-de-xilopix-et-campagne-2017/2017-la-destruction-du-moteur-xaphir/travail-dissimule-et-proces-chapitres-61-63"
+                    },
+                    {
+                      "name": "Qwant Music en Corse (Chapitres 64-66)",
+                      "path": "Longo_Synthese/07_HISTORIQUE_2017_2018.md#07-historique-2017-2018-destruction-de-xilopix-et-campagne-2017/2017-la-destruction-du-moteur-xaphir/qwant-music-en-corse-chapitres-64-66"
+                    }
+                  ]
+                },
+                {
+                  "name": "La campagne Macron 2017 : l'hypothèse centrale",
+                  "path": "Longo_Synthese/07_HISTORIQUE_2017_2018.md#07-historique-2017-2018-destruction-de-xilopix-et-campagne-2017/la-campagne-macron-2017-l-hypothese-centrale",
+                  "children": [
+                    {
+                      "name": "Le contexte financier de « En Marche » (Chapitres 67-70)",
+                      "path": "Longo_Synthese/07_HISTORIQUE_2017_2018.md#07-historique-2017-2018-destruction-de-xilopix-et-campagne-2017/la-campagne-macron-2017-l-hypothese-centrale/le-contexte-financier-de-en-marche-chapitres-67-70"
+                    },
+                    {
+                      "name": "La séquence chronologique suspecte",
+                      "path": "Longo_Synthese/07_HISTORIQUE_2017_2018.md#07-historique-2017-2018-destruction-de-xilopix-et-campagne-2017/la-campagne-macron-2017-l-hypothese-centrale/la-sequence-chronologique-suspecte"
+                    },
+                    {
+                      "name": "L'hypothèse de Longo",
+                      "path": "Longo_Synthese/07_HISTORIQUE_2017_2018.md#07-historique-2017-2018-destruction-de-xilopix-et-campagne-2017/la-campagne-macron-2017-l-hypothese-centrale/l-hypothese-de-longo"
+                    }
+                  ]
+                },
+                {
+                  "name": "2018 : L'engrenage continue",
+                  "path": "Longo_Synthese/07_HISTORIQUE_2017_2018.md#07-historique-2017-2018-destruction-de-xilopix-et-campagne-2017/2018-l-engrenage-continue",
+                  "children": [
+                    {
+                      "name": "Bilans 2018 non publiés (Chapitre 70)",
+                      "path": "Longo_Synthese/07_HISTORIQUE_2017_2018.md#07-historique-2017-2018-destruction-de-xilopix-et-campagne-2017/2018-l-engrenage-continue/bilans-2018-non-publies-chapitre-70"
+                    },
+                    {
+                      "name": "L'aveu de Piacentino (Chapitre 70)",
+                      "path": "Longo_Synthese/07_HISTORIQUE_2017_2018.md#07-historique-2017-2018-destruction-de-xilopix-et-campagne-2017/2018-l-engrenage-continue/l-aveu-de-piacentino-chapitre-70"
+                    },
+                    {
+                      "name": "Installation de Qwant dans les administrations (2017-2018)",
+                      "path": "Longo_Synthese/07_HISTORIQUE_2017_2018.md#07-historique-2017-2018-destruction-de-xilopix-et-campagne-2017/2018-l-engrenage-continue/installation-de-qwant-dans-les-administrations-2017-2018"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "08 – HISTORIQUE 2019 : AUDIT DINUM ET RÉVÉLATIONS",
+          "path": "Longo_Synthese/08_HISTORIQUE_2019.md",
+          "children": [
+            {
+              "name": "08 – HISTORIQUE 2019 : AUDIT DINUM ET RÉVÉLATIONS",
+              "path": "Longo_Synthese/08_HISTORIQUE_2019.md#08-historique-2019-audit-dinum-et-revelations",
+              "children": [
+                {
+                  "name": "Section D, Chapitres 71-76 – Pages 100-120 du rapport Longo",
+                  "path": "Longo_Synthese/08_HISTORIQUE_2019.md#08-historique-2019-audit-dinum-et-revelations/section-d-chapitres-71-76-pages-100-120-du-rapport-longo"
+                },
+                {
+                  "name": "L'année des révélations",
+                  "path": "Longo_Synthese/08_HISTORIQUE_2019.md#08-historique-2019-audit-dinum-et-revelations/l-annee-des-revelations",
+                  "children": [
+                    {
+                      "name": "Mars-Avril 2019 : L'escalade (Chapitres 71-72)",
+                      "path": "Longo_Synthese/08_HISTORIQUE_2019.md#08-historique-2019-audit-dinum-et-revelations/l-annee-des-revelations/mars-avril-2019-l-escalade-chapitres-71-72"
+                    },
+                    {
+                      "name": "La préméditation de Cédric O (Chapitre 73)",
+                      "path": "Longo_Synthese/08_HISTORIQUE_2019.md#08-historique-2019-audit-dinum-et-revelations/l-annee-des-revelations/la-premeditation-de-cedric-o-chapitre-73"
+                    },
+                    {
+                      "name": "Mediapart et le mandat d'arrêt (Chapitre 74)",
+                      "path": "Longo_Synthese/08_HISTORIQUE_2019.md#08-historique-2019-audit-dinum-et-revelations/l-annee-des-revelations/mediapart-et-le-mandat-d-arret-chapitre-74"
+                    }
+                  ]
+                },
+                {
+                  "name": "L'audit DINUM – 19 juillet 2019",
+                  "path": "Longo_Synthese/08_HISTORIQUE_2019.md#08-historique-2019-audit-dinum-et-revelations/l-audit-dinum-19-juillet-2019",
+                  "children": [
+                    {
+                      "name": "Le contexte (Chapitre 75)",
+                      "path": "Longo_Synthese/08_HISTORIQUE_2019.md#08-historique-2019-audit-dinum-et-revelations/l-audit-dinum-19-juillet-2019/le-contexte-chapitre-75"
+                    },
+                    {
+                      "name": "Les conclusions",
+                      "path": "Longo_Synthese/08_HISTORIQUE_2019.md#08-historique-2019-audit-dinum-et-revelations/l-audit-dinum-19-juillet-2019/les-conclusions"
+                    },
+                    {
+                      "name": "Réactions",
+                      "path": "Longo_Synthese/08_HISTORIQUE_2019.md#08-historique-2019-audit-dinum-et-revelations/l-audit-dinum-19-juillet-2019/reactions"
+                    }
+                  ]
+                },
+                {
+                  "name": "La descente du FISC – Novembre 2019",
+                  "path": "Longo_Synthese/08_HISTORIQUE_2019.md#08-historique-2019-audit-dinum-et-revelations/la-descente-du-fisc-novembre-2019",
+                  "children": [
+                    {
+                      "name": "Les faits (Chapitre 76)",
+                      "path": "Longo_Synthese/08_HISTORIQUE_2019.md#08-historique-2019-audit-dinum-et-revelations/la-descente-du-fisc-novembre-2019/les-faits-chapitre-76"
+                    }
+                  ]
+                },
+                {
+                  "name": "Harcèlement de Longo et tentative de destruction via la CNIL",
+                  "path": "Longo_Synthese/08_HISTORIQUE_2019.md#08-historique-2019-audit-dinum-et-revelations/harcelement-de-longo-et-tentative-de-destruction-via-la-cnil",
+                  "children": [
+                    {
+                      "name": "CNIL instrumentalisée (Chapitre 76)",
+                      "path": "Longo_Synthese/08_HISTORIQUE_2019.md#08-historique-2019-audit-dinum-et-revelations/harcelement-de-longo-et-tentative-de-destruction-via-la-cnil/cnil-instrumentalisee-chapitre-76"
+                    }
+                  ]
+                },
+                {
+                  "name": "La BRDA – Brigade spécialisée",
+                  "path": "Longo_Synthese/08_HISTORIQUE_2019.md#08-historique-2019-audit-dinum-et-revelations/la-brda-brigade-specialisee",
+                  "children": [
+                    {
+                      "name": "L'épisode de la lettre anonyme (Chapitre 76)",
+                      "path": "Longo_Synthese/08_HISTORIQUE_2019.md#08-historique-2019-audit-dinum-et-revelations/la-brda-brigade-specialisee/l-episode-de-la-lettre-anonyme-chapitre-76"
+                    },
+                    {
+                      "name": "L'interrogatoire de l'ex-comptable",
+                      "path": "Longo_Synthese/08_HISTORIQUE_2019.md#08-historique-2019-audit-dinum-et-revelations/la-brda-brigade-specialisee/l-interrogatoire-de-l-ex-comptable"
+                    }
+                  ]
+                },
+                {
+                  "name": "QwantuRank – Le concours piège (Chapitre 75)",
+                  "path": "Longo_Synthese/08_HISTORIQUE_2019.md#08-historique-2019-audit-dinum-et-revelations/qwanturank-le-concours-piege-chapitre-75"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "09 – HISTORIQUE 2020 : CÉDRIC O, MARCHÉS PUBLICS, BILANS PUBLIÉS",
+          "path": "Longo_Synthese/09_HISTORIQUE_2020.md",
+          "children": [
+            {
+              "name": "09 – HISTORIQUE 2020 : CÉDRIC O, MARCHÉS PUBLICS, BILANS PUBLIÉS",
+              "path": "Longo_Synthese/09_HISTORIQUE_2020.md#09-historique-2020-cedric-o-marches-publics-bilans-publies",
+              "children": [
+                {
+                  "name": "Section D, Chapitres 77-89 – Pages 121-152 du rapport Longo",
+                  "path": "Longo_Synthese/09_HISTORIQUE_2020.md#09-historique-2020-cedric-o-marches-publics-bilans-publies/section-d-chapitres-77-89-pages-121-152-du-rapport-longo"
+                },
+                {
+                  "name": "Résultats politiques trafiqués (Chapitre 77)",
+                  "path": "Longo_Synthese/09_HISTORIQUE_2020.md#09-historique-2020-cedric-o-marches-publics-bilans-publies/resultats-politiques-trafiques-chapitre-77"
+                },
+                {
+                  "name": "La fraude aux marchés publics de Cédric O (Chapitre 78)",
+                  "path": "Longo_Synthese/09_HISTORIQUE_2020.md#09-historique-2020-cedric-o-marches-publics-bilans-publies/la-fraude-aux-marches-publics-de-cedric-o-chapitre-78",
+                  "children": [
+                    {
+                      "name": "Chronologie de la fraude en 10 actes",
+                      "path": "Longo_Synthese/09_HISTORIQUE_2020.md#09-historique-2020-cedric-o-marches-publics-bilans-publies/la-fraude-aux-marches-publics-de-cedric-o-chapitre-78/chronologie-de-la-fraude-en-10-actes"
+                    },
+                    {
+                      "name": "Infractions relevées",
+                      "path": "Longo_Synthese/09_HISTORIQUE_2020.md#09-historique-2020-cedric-o-marches-publics-bilans-publies/la-fraude-aux-marches-publics-de-cedric-o-chapitre-78/infractions-relevees"
+                    }
+                  ]
+                },
+                {
+                  "name": "Démissions et révélations internes",
+                  "path": "Longo_Synthese/09_HISTORIQUE_2020.md#09-historique-2020-cedric-o-marches-publics-bilans-publies/demissions-et-revelations-internes",
+                  "children": [
+                    {
+                      "name": "Sylvain Peyronnet quitte Qwant (Chapitres 81-82)",
+                      "path": "Longo_Synthese/09_HISTORIQUE_2020.md#09-historique-2020-cedric-o-marches-publics-bilans-publies/demissions-et-revelations-internes/sylvain-peyronnet-quitte-qwant-chapitres-81-82"
+                    },
+                    {
+                      "name": "Fermeture de Qwant Research (Chapitre 83)",
+                      "path": "Longo_Synthese/09_HISTORIQUE_2020.md#09-historique-2020-cedric-o-marches-publics-bilans-publies/demissions-et-revelations-internes/fermeture-de-qwant-research-chapitre-83"
+                    },
+                    {
+                      "name": "Qwant Italy (Chapitre 84)",
+                      "path": "Longo_Synthese/09_HISTORIQUE_2020.md#09-historique-2020-cedric-o-marches-publics-bilans-publies/demissions-et-revelations-internes/qwant-italy-chapitre-84"
+                    }
+                  ]
+                },
+                {
+                  "name": "Publication tardive des bilans (Chapitre 89)",
+                  "path": "Longo_Synthese/09_HISTORIQUE_2020.md#09-historique-2020-cedric-o-marches-publics-bilans-publies/publication-tardive-des-bilans-chapitre-89",
+                  "children": [
+                    {
+                      "name": "Bilans 2018 et 2019 publiés en novembre 2020",
+                      "path": "Longo_Synthese/09_HISTORIQUE_2020.md#09-historique-2020-cedric-o-marches-publics-bilans-publies/publication-tardive-des-bilans-chapitre-89/bilans-2018-et-2019-publies-en-novembre-2020"
+                    },
+                    {
+                      "name": "Rémunérations scandaleuses (Chapitre 89)",
+                      "path": "Longo_Synthese/09_HISTORIQUE_2020.md#09-historique-2020-cedric-o-marches-publics-bilans-publies/publication-tardive-des-bilans-chapitre-89/remunerations-scandaleuses-chapitre-89"
+                    },
+                    {
+                      "name": "Le rapport Bros (Chapitres 88-89)",
+                      "path": "Longo_Synthese/09_HISTORIQUE_2020.md#09-historique-2020-cedric-o-marches-publics-bilans-publies/publication-tardive-des-bilans-chapitre-89/le-rapport-bros-chapitres-88-89"
+                    }
+                  ]
+                },
+                {
+                  "name": "Part de marché réelle de Qwant",
+                  "path": "Longo_Synthese/09_HISTORIQUE_2020.md#09-historique-2020-cedric-o-marches-publics-bilans-publies/part-de-marche-reelle-de-qwant"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "10 – HISTORIQUE 2021-2022 : NOUVELLES DIRECTIONS, TROMPERIES PERSISTANTES",
+          "path": "Longo_Synthese/10_HISTORIQUE_2021_2022.md",
+          "children": [
+            {
+              "name": "10 – HISTORIQUE 2021-2022 : NOUVELLES DIRECTIONS, TROMPERIES PERSISTANTES",
+              "path": "Longo_Synthese/10_HISTORIQUE_2021_2022.md#10-historique-2021-2022-nouvelles-directions-tromperies-persistantes",
+              "children": [
+                {
+                  "name": "Section D, Chapitres 100-113 – Pages 152-181 du rapport Longo",
+                  "path": "Longo_Synthese/10_HISTORIQUE_2021_2022.md#10-historique-2021-2022-nouvelles-directions-tromperies-persistantes/section-d-chapitres-100-113-pages-152-181-du-rapport-longo"
+                },
+                {
+                  "name": "Les annonces mensongères de Venturini (Chapitre 100)",
+                  "path": "Longo_Synthese/10_HISTORIQUE_2021_2022.md#10-historique-2021-2022-nouvelles-directions-tromperies-persistantes/les-annonces-mensongeres-de-venturini-chapitre-100",
+                  "children": [
+                    {
+                      "name": "Décembre 2020 : annonce de 40% d'autonomie",
+                      "path": "Longo_Synthese/10_HISTORIQUE_2021_2022.md#10-historique-2021-2022-nouvelles-directions-tromperies-persistantes/les-annonces-mensongeres-de-venturini-chapitre-100/decembre-2020-annonce-de-40-d-autonomie"
+                    },
+                    {
+                      "name": "Janvier 2021 : vérification par Longo",
+                      "path": "Longo_Synthese/10_HISTORIQUE_2021_2022.md#10-historique-2021-2022-nouvelles-directions-tromperies-persistantes/les-annonces-mensongeres-de-venturini-chapitre-100/janvier-2021-verification-par-longo"
+                    },
+                    {
+                      "name": "Mécanisme de tromperie technique identifié",
+                      "path": "Longo_Synthese/10_HISTORIQUE_2021_2022.md#10-historique-2021-2022-nouvelles-directions-tromperies-persistantes/les-annonces-mensongeres-de-venturini-chapitre-100/mecanisme-de-tromperie-technique-identifie"
+                    },
+                    {
+                      "name": "Triche sur l'adresse IP du robot (Chapitre 102)",
+                      "path": "Longo_Synthese/10_HISTORIQUE_2021_2022.md#10-historique-2021-2022-nouvelles-directions-tromperies-persistantes/les-annonces-mensongeres-de-venturini-chapitre-100/triche-sur-l-adresse-ip-du-robot-chapitre-102"
+                    }
+                  ]
+                },
+                {
+                  "name": "L'aveu de Léandri (Chapitre 103 – Juillet 2021)",
+                  "path": "Longo_Synthese/10_HISTORIQUE_2021_2022.md#10-historique-2021-2022-nouvelles-directions-tromperies-persistantes/l-aveu-de-leandri-chapitre-103-juillet-2021"
+                },
+                {
+                  "name": "L'affaire Huawei (Chapitre 104)",
+                  "path": "Longo_Synthese/10_HISTORIQUE_2021_2022.md#10-historique-2021-2022-nouvelles-directions-tromperies-persistantes/l-affaire-huawei-chapitre-104"
+                },
+                {
+                  "name": "La vidéo révélatrice des ingénieurs (Chapitre 105 – Août 2021)",
+                  "path": "Longo_Synthese/10_HISTORIQUE_2021_2022.md#10-historique-2021-2022-nouvelles-directions-tromperies-persistantes/la-video-revelatrice-des-ingenieurs-chapitre-105-aout-2021"
+                },
+                {
+                  "name": "La campagne publicitaire Axel Springer (Chapitre 100 – 10 M€)",
+                  "path": "Longo_Synthese/10_HISTORIQUE_2021_2022.md#10-historique-2021-2022-nouvelles-directions-tromperies-persistantes/la-campagne-publicitaire-axel-springer-chapitre-100-10-m",
+                  "children": [
+                    {
+                      "name": "Les faits",
+                      "path": "Longo_Synthese/10_HISTORIQUE_2021_2022.md#10-historique-2021-2022-nouvelles-directions-tromperies-persistantes/la-campagne-publicitaire-axel-springer-chapitre-100-10-m/les-faits"
+                    },
+                    {
+                      "name": "Les suspicions",
+                      "path": "Longo_Synthese/10_HISTORIQUE_2021_2022.md#10-historique-2021-2022-nouvelles-directions-tromperies-persistantes/la-campagne-publicitaire-axel-springer-chapitre-100-10-m/les-suspicions"
+                    },
+                    {
+                      "name": "L'enrichissement de Rozan",
+                      "path": "Longo_Synthese/10_HISTORIQUE_2021_2022.md#10-historique-2021-2022-nouvelles-directions-tromperies-persistantes/la-campagne-publicitaire-axel-springer-chapitre-100-10-m/l-enrichissement-de-rozan"
+                    }
+                  ]
+                },
+                {
+                  "name": "Procès en cascade (Chapitre 106)",
+                  "path": "Longo_Synthese/10_HISTORIQUE_2021_2022.md#10-historique-2021-2022-nouvelles-directions-tromperies-persistantes/proces-en-cascade-chapitre-106"
+                },
+                {
+                  "name": "Nouvelles directions (Chapitres 108-110)",
+                  "path": "Longo_Synthese/10_HISTORIQUE_2021_2022.md#10-historique-2021-2022-nouvelles-directions-tromperies-persistantes/nouvelles-directions-chapitres-108-110",
+                  "children": [
+                    {
+                      "name": "Ghinozzi/Venturini virés (2021)",
+                      "path": "Longo_Synthese/10_HISTORIQUE_2021_2022.md#10-historique-2021-2022-nouvelles-directions-tromperies-persistantes/nouvelles-directions-chapitres-108-110/ghinozzi-venturini-vires-2021"
+                    },
+                    {
+                      "name": "Corinne Lejbowicz (PDG depuis 2021)",
+                      "path": "Longo_Synthese/10_HISTORIQUE_2021_2022.md#10-historique-2021-2022-nouvelles-directions-tromperies-persistantes/nouvelles-directions-chapitres-108-110/corinne-lejbowicz-pdg-depuis-2021"
+                    }
+                  ]
+                },
+                {
+                  "name": "La BRDA et le chapitre 113",
+                  "path": "Longo_Synthese/10_HISTORIQUE_2021_2022.md#10-historique-2021-2022-nouvelles-directions-tromperies-persistantes/la-brda-et-le-chapitre-113",
+                  "children": [
+                    {
+                      "name": "Protection policière de Qwant",
+                      "path": "Longo_Synthese/10_HISTORIQUE_2021_2022.md#10-historique-2021-2022-nouvelles-directions-tromperies-persistantes/la-brda-et-le-chapitre-113/protection-policiere-de-qwant"
+                    }
+                  ]
+                },
+                {
+                  "name": "Qwant Music – Bilan 2020 (Chapitre 111)",
+                  "path": "Longo_Synthese/10_HISTORIQUE_2021_2022.md#10-historique-2021-2022-nouvelles-directions-tromperies-persistantes/qwant-music-bilan-2020-chapitre-111"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "11 – LA SOUVERAINETÉ NUMÉRIQUE DÉTRUITE",
+          "path": "Longo_Synthese/11_SOUVERAINETE_DETRUITE.md",
+          "children": [
+            {
+              "name": "11 – LA SOUVERAINETÉ NUMÉRIQUE DÉTRUITE",
+              "path": "Longo_Synthese/11_SOUVERAINETE_DETRUITE.md#11-la-souverainete-numerique-detruite",
+              "children": [
+                {
+                  "name": "Section E – Pages 182-189 du rapport Longo",
+                  "path": "Longo_Synthese/11_SOUVERAINETE_DETRUITE.md#11-la-souverainete-numerique-detruite/section-e-pages-182-189-du-rapport-longo"
+                },
+                {
+                  "name": "Thèse centrale",
+                  "path": "Longo_Synthese/11_SOUVERAINETE_DETRUITE.md#11-la-souverainete-numerique-detruite/these-centrale"
+                },
+                {
+                  "name": "Destruction du moteur Xaphir",
+                  "path": "Longo_Synthese/11_SOUVERAINETE_DETRUITE.md#11-la-souverainete-numerique-detruite/destruction-du-moteur-xaphir",
+                  "children": [
+                    {
+                      "name": "Chronologie reconstituée par l'auteur",
+                      "path": "Longo_Synthese/11_SOUVERAINETE_DETRUITE.md#11-la-souverainete-numerique-detruite/destruction-du-moteur-xaphir/chronologie-reconstituee-par-l-auteur"
+                    },
+                    {
+                      "name": "L'analyse de Longo",
+                      "path": "Longo_Synthese/11_SOUVERAINETE_DETRUITE.md#11-la-souverainete-numerique-detruite/destruction-du-moteur-xaphir/l-analyse-de-longo"
+                    }
+                  ]
+                },
+                {
+                  "name": "Mise à l'écart de Premsgo",
+                  "path": "Longo_Synthese/11_SOUVERAINETE_DETRUITE.md#11-la-souverainete-numerique-detruite/mise-a-l-ecart-de-premsgo"
+                },
+                {
+                  "name": "Mise à l'écart de Lilo et des autres",
+                  "path": "Longo_Synthese/11_SOUVERAINETE_DETRUITE.md#11-la-souverainete-numerique-detruite/mise-a-l-ecart-de-lilo-et-des-autres"
+                },
+                {
+                  "name": "Le rôle de la CDC dans la destruction de Xilopix",
+                  "path": "Longo_Synthese/11_SOUVERAINETE_DETRUITE.md#11-la-souverainete-numerique-detruite/le-role-de-la-cdc-dans-la-destruction-de-xilopix"
+                },
+                {
+                  "name": "L'analyse politique de Macron",
+                  "path": "Longo_Synthese/11_SOUVERAINETE_DETRUITE.md#11-la-souverainete-numerique-detruite/l-analyse-politique-de-macron"
+                },
+                {
+                  "name": "Qwant : « le pot de miel personnel de Macron dès 2015 »",
+                  "path": "Longo_Synthese/11_SOUVERAINETE_DETRUITE.md#11-la-souverainete-numerique-detruite/qwant-le-pot-de-miel-personnel-de-macron-des-2015"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "12 – LA POLITIQUE EN FAVEUR DES GAFAM DU GOUVERNEMENT",
+          "path": "Longo_Synthese/12_POLITIQUE_GAFAM.md",
+          "children": [
+            {
+              "name": "12 – LA POLITIQUE EN FAVEUR DES GAFAM DU GOUVERNEMENT",
+              "path": "Longo_Synthese/12_POLITIQUE_GAFAM.md#12-la-politique-en-faveur-des-gafam-du-gouvernement",
+              "children": [
+                {
+                  "name": "Section F – Pages 190-192 du rapport Longo",
+                  "path": "Longo_Synthese/12_POLITIQUE_GAFAM.md#12-la-politique-en-faveur-des-gafam-du-gouvernement/section-f-pages-190-192-du-rapport-longo"
+                },
+                {
+                  "name": "FranceNum : exclusion des acteurs français",
+                  "path": "Longo_Synthese/12_POLITIQUE_GAFAM.md#12-la-politique-en-faveur-des-gafam-du-gouvernement/francenum-exclusion-des-acteurs-francais",
+                  "children": [
+                    {
+                      "name": "Le dispositif",
+                      "path": "Longo_Synthese/12_POLITIQUE_GAFAM.md#12-la-politique-en-faveur-des-gafam-du-gouvernement/francenum-exclusion-des-acteurs-francais/le-dispositif"
+                    },
+                    {
+                      "name": "La réalité selon Longo",
+                      "path": "Longo_Synthese/12_POLITIQUE_GAFAM.md#12-la-politique-en-faveur-des-gafam-du-gouvernement/francenum-exclusion-des-acteurs-francais/la-realite-selon-longo"
+                    }
+                  ]
+                },
+                {
+                  "name": "La taxe GAFAM : un échec cuisant",
+                  "path": "Longo_Synthese/12_POLITIQUE_GAFAM.md#12-la-politique-en-faveur-des-gafam-du-gouvernement/la-taxe-gafam-un-echec-cuisant"
+                },
+                {
+                  "name": "Cédric O et le maillot Google",
+                  "path": "Longo_Synthese/12_POLITIQUE_GAFAM.md#12-la-politique-en-faveur-des-gafam-du-gouvernement/cedric-o-et-le-maillot-google",
+                  "children": [
+                    {
+                      "name": "Le symbole",
+                      "path": "Longo_Synthese/12_POLITIQUE_GAFAM.md#12-la-politique-en-faveur-des-gafam-du-gouvernement/cedric-o-et-le-maillot-google/le-symbole"
+                    },
+                    {
+                      "name": "L'analyse de Longo",
+                      "path": "Longo_Synthese/12_POLITIQUE_GAFAM.md#12-la-politique-en-faveur-des-gafam-du-gouvernement/cedric-o-et-le-maillot-google/l-analyse-de-longo"
+                    },
+                    {
+                      "name": "La double communication",
+                      "path": "Longo_Synthese/12_POLITIQUE_GAFAM.md#12-la-politique-en-faveur-des-gafam-du-gouvernement/cedric-o-et-le-maillot-google/la-double-communication"
+                    }
+                  ]
+                },
+                {
+                  "name": "Le paradoxe Qwant/Microsoft",
+                  "path": "Longo_Synthese/12_POLITIQUE_GAFAM.md#12-la-politique-en-faveur-des-gafam-du-gouvernement/le-paradoxe-qwant-microsoft"
+                },
+                {
+                  "name": "Conclusion de l'auteur",
+                  "path": "Longo_Synthese/12_POLITIQUE_GAFAM.md#12-la-politique-en-faveur-des-gafam-du-gouvernement/conclusion-de-l-auteur"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "13 – INFRACTIONS SOULEVÉES ET CADRE JURIDIQUE",
+          "path": "Longo_Synthese/13_INFRACTIONS_LOI.md",
+          "children": [
+            {
+              "name": "13 – INFRACTIONS SOULEVÉES ET CADRE JURIDIQUE",
+              "path": "Longo_Synthese/13_INFRACTIONS_LOI.md#13-infractions-soulevees-et-cadre-juridique",
+              "children": [
+                {
+                  "name": "Section G – Pages 192-210 du rapport Longo",
+                  "path": "Longo_Synthese/13_INFRACTIONS_LOI.md#13-infractions-soulevees-et-cadre-juridique/section-g-pages-192-210-du-rapport-longo"
+                },
+                {
+                  "name": "1. Pratiques commerciales mensongères et trompeuses",
+                  "path": "Longo_Synthese/13_INFRACTIONS_LOI.md#13-infractions-soulevees-et-cadre-juridique/1-pratiques-commerciales-mensongeres-et-trompeuses",
+                  "children": [
+                    {
+                      "name": "Textes applicables",
+                      "path": "Longo_Synthese/13_INFRACTIONS_LOI.md#13-infractions-soulevees-et-cadre-juridique/1-pratiques-commerciales-mensongeres-et-trompeuses/textes-applicables"
+                    },
+                    {
+                      "name": "Faits reprochés",
+                      "path": "Longo_Synthese/13_INFRACTIONS_LOI.md#13-infractions-soulevees-et-cadre-juridique/1-pratiques-commerciales-mensongeres-et-trompeuses/faits-reproches"
+                    }
+                  ]
+                },
+                {
+                  "name": "2. Infractions de survalorisation",
+                  "path": "Longo_Synthese/13_INFRACTIONS_LOI.md#13-infractions-soulevees-et-cadre-juridique/2-infractions-de-survalorisation",
+                  "children": [
+                    {
+                      "name": "Textes applicables",
+                      "path": "Longo_Synthese/13_INFRACTIONS_LOI.md#13-infractions-soulevees-et-cadre-juridique/2-infractions-de-survalorisation/textes-applicables"
+                    },
+                    {
+                      "name": "Faits reprochés",
+                      "path": "Longo_Synthese/13_INFRACTIONS_LOI.md#13-infractions-soulevees-et-cadre-juridique/2-infractions-de-survalorisation/faits-reproches"
+                    }
+                  ]
+                },
+                {
+                  "name": "3. Escroquerie",
+                  "path": "Longo_Synthese/13_INFRACTIONS_LOI.md#13-infractions-soulevees-et-cadre-juridique/3-escroquerie",
+                  "children": [
+                    {
+                      "name": "Texte applicable",
+                      "path": "Longo_Synthese/13_INFRACTIONS_LOI.md#13-infractions-soulevees-et-cadre-juridique/3-escroquerie/texte-applicable"
+                    },
+                    {
+                      "name": "Faits reprochés",
+                      "path": "Longo_Synthese/13_INFRACTIONS_LOI.md#13-infractions-soulevees-et-cadre-juridique/3-escroquerie/faits-reproches"
+                    }
+                  ]
+                },
+                {
+                  "name": "4. Soutien abusif",
+                  "path": "Longo_Synthese/13_INFRACTIONS_LOI.md#13-infractions-soulevees-et-cadre-juridique/4-soutien-abusif",
+                  "children": [
+                    {
+                      "name": "Texte applicable",
+                      "path": "Longo_Synthese/13_INFRACTIONS_LOI.md#13-infractions-soulevees-et-cadre-juridique/4-soutien-abusif/texte-applicable"
+                    },
+                    {
+                      "name": "Organismes visés",
+                      "path": "Longo_Synthese/13_INFRACTIONS_LOI.md#13-infractions-soulevees-et-cadre-juridique/4-soutien-abusif/organismes-vises"
+                    },
+                    {
+                      "name": "Remarque sur le commissaire aux comptes",
+                      "path": "Longo_Synthese/13_INFRACTIONS_LOI.md#13-infractions-soulevees-et-cadre-juridique/4-soutien-abusif/remarque-sur-le-commissaire-aux-comptes"
+                    }
+                  ]
+                },
+                {
+                  "name": "5. Banqueroute et faillite personnelle",
+                  "path": "Longo_Synthese/13_INFRACTIONS_LOI.md#13-infractions-soulevees-et-cadre-juridique/5-banqueroute-et-faillite-personnelle",
+                  "children": [
+                    {
+                      "name": "Texte applicable",
+                      "path": "Longo_Synthese/13_INFRACTIONS_LOI.md#13-infractions-soulevees-et-cadre-juridique/5-banqueroute-et-faillite-personnelle/texte-applicable"
+                    },
+                    {
+                      "name": "Faits constitutifs",
+                      "path": "Longo_Synthese/13_INFRACTIONS_LOI.md#13-infractions-soulevees-et-cadre-juridique/5-banqueroute-et-faillite-personnelle/faits-constitutifs"
+                    },
+                    {
+                      "name": "Personnes visées",
+                      "path": "Longo_Synthese/13_INFRACTIONS_LOI.md#13-infractions-soulevees-et-cadre-juridique/5-banqueroute-et-faillite-personnelle/personnes-visees"
+                    }
+                  ]
+                },
+                {
+                  "name": "6. Détournement de fonds publics",
+                  "path": "Longo_Synthese/13_INFRACTIONS_LOI.md#13-infractions-soulevees-et-cadre-juridique/6-detournement-de-fonds-publics",
+                  "children": [
+                    {
+                      "name": "Texte applicable",
+                      "path": "Longo_Synthese/13_INFRACTIONS_LOI.md#13-infractions-soulevees-et-cadre-juridique/6-detournement-de-fonds-publics/texte-applicable"
+                    },
+                    {
+                      "name": "Faits reprochés",
+                      "path": "Longo_Synthese/13_INFRACTIONS_LOI.md#13-infractions-soulevees-et-cadre-juridique/6-detournement-de-fonds-publics/faits-reproches"
+                    }
+                  ]
+                },
+                {
+                  "name": "7. Abus de confiance",
+                  "path": "Longo_Synthese/13_INFRACTIONS_LOI.md#13-infractions-soulevees-et-cadre-juridique/7-abus-de-confiance",
+                  "children": [
+                    {
+                      "name": "Texte applicable",
+                      "path": "Longo_Synthese/13_INFRACTIONS_LOI.md#13-infractions-soulevees-et-cadre-juridique/7-abus-de-confiance/texte-applicable"
+                    },
+                    {
+                      "name": "Fait spécifique",
+                      "path": "Longo_Synthese/13_INFRACTIONS_LOI.md#13-infractions-soulevees-et-cadre-juridique/7-abus-de-confiance/fait-specifique"
+                    }
+                  ]
+                },
+                {
+                  "name": "8. Concurrence déloyale et pratiques anticoncurrentielles",
+                  "path": "Longo_Synthese/13_INFRACTIONS_LOI.md#13-infractions-soulevees-et-cadre-juridique/8-concurrence-deloyale-et-pratiques-anticoncurrentielles",
+                  "children": [
+                    {
+                      "name": "Texte applicable",
+                      "path": "Longo_Synthese/13_INFRACTIONS_LOI.md#13-infractions-soulevees-et-cadre-juridique/8-concurrence-deloyale-et-pratiques-anticoncurrentielles/texte-applicable"
+                    },
+                    {
+                      "name": "Faits reprochés",
+                      "path": "Longo_Synthese/13_INFRACTIONS_LOI.md#13-infractions-soulevees-et-cadre-juridique/8-concurrence-deloyale-et-pratiques-anticoncurrentielles/faits-reproches"
+                    }
+                  ]
+                },
+                {
+                  "name": "9. Fraude aux marchés publics / Favoritisme",
+                  "path": "Longo_Synthese/13_INFRACTIONS_LOI.md#13-infractions-soulevees-et-cadre-juridique/9-fraude-aux-marches-publics-favoritisme",
+                  "children": [
+                    {
+                      "name": "Texte applicable",
+                      "path": "Longo_Synthese/13_INFRACTIONS_LOI.md#13-infractions-soulevees-et-cadre-juridique/9-fraude-aux-marches-publics-favoritisme/texte-applicable"
+                    },
+                    {
+                      "name": "Personnes visées",
+                      "path": "Longo_Synthese/13_INFRACTIONS_LOI.md#13-infractions-soulevees-et-cadre-juridique/9-fraude-aux-marches-publics-favoritisme/personnes-visees"
+                    }
+                  ]
+                },
+                {
+                  "name": "10. Corruption passive et trafic d'influence",
+                  "path": "Longo_Synthese/13_INFRACTIONS_LOI.md#13-infractions-soulevees-et-cadre-juridique/10-corruption-passive-et-trafic-d-influence",
+                  "children": [
+                    {
+                      "name": "Texte applicable",
+                      "path": "Longo_Synthese/13_INFRACTIONS_LOI.md#13-infractions-soulevees-et-cadre-juridique/10-corruption-passive-et-trafic-d-influence/texte-applicable"
+                    },
+                    {
+                      "name": "Personnes visées (corruption active)",
+                      "path": "Longo_Synthese/13_INFRACTIONS_LOI.md#13-infractions-soulevees-et-cadre-juridique/10-corruption-passive-et-trafic-d-influence/personnes-visees-corruption-active"
+                    },
+                    {
+                      "name": "Personnes visées (corruption passive)",
+                      "path": "Longo_Synthese/13_INFRACTIONS_LOI.md#13-infractions-soulevees-et-cadre-juridique/10-corruption-passive-et-trafic-d-influence/personnes-visees-corruption-passive"
+                    }
+                  ]
+                },
+                {
+                  "name": "11. Blanchiment",
+                  "path": "Longo_Synthese/13_INFRACTIONS_LOI.md#13-infractions-soulevees-et-cadre-juridique/11-blanchiment",
+                  "children": [
+                    {
+                      "name": "Texte applicable",
+                      "path": "Longo_Synthese/13_INFRACTIONS_LOI.md#13-infractions-soulevees-et-cadre-juridique/11-blanchiment/texte-applicable"
+                    },
+                    {
+                      "name": "Trois faisceaux de soupçon",
+                      "path": "Longo_Synthese/13_INFRACTIONS_LOI.md#13-infractions-soulevees-et-cadre-juridique/11-blanchiment/trois-faisceaux-de-soupcon"
+                    }
+                  ]
+                },
+                {
+                  "name": "12. Atteintes aux intérêts fondamentaux de la Nation",
+                  "path": "Longo_Synthese/13_INFRACTIONS_LOI.md#13-infractions-soulevees-et-cadre-juridique/12-atteintes-aux-interets-fondamentaux-de-la-nation",
+                  "children": [
+                    {
+                      "name": "Textes applicables",
+                      "path": "Longo_Synthese/13_INFRACTIONS_LOI.md#13-infractions-soulevees-et-cadre-juridique/12-atteintes-aux-interets-fondamentaux-de-la-nation/textes-applicables"
+                    },
+                    {
+                      "name": "Faits reprochés",
+                      "path": "Longo_Synthese/13_INFRACTIONS_LOI.md#13-infractions-soulevees-et-cadre-juridique/12-atteintes-aux-interets-fondamentaux-de-la-nation/faits-reproches"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "14 – SYNTHÈSE DES DEUX AFFAIRES QWANT ET MACRON",
+          "path": "Longo_Synthese/14_SYNTHESE_QWANT_MACRON.md",
+          "children": [
+            {
+              "name": "14 – SYNTHÈSE DES DEUX AFFAIRES QWANT ET MACRON",
+              "path": "Longo_Synthese/14_SYNTHESE_QWANT_MACRON.md#14-synthese-des-deux-affaires-qwant-et-macron",
+              "children": [
+                {
+                  "name": "Section H – Pages 211-215 du rapport Longo",
+                  "path": "Longo_Synthese/14_SYNTHESE_QWANT_MACRON.md#14-synthese-des-deux-affaires-qwant-et-macron/section-h-pages-211-215-du-rapport-longo"
+                },
+                {
+                  "name": "1. L'affaire de l'arnaque Qwant",
+                  "path": "Longo_Synthese/14_SYNTHESE_QWANT_MACRON.md#14-synthese-des-deux-affaires-qwant-et-macron/1-l-affaire-de-l-arnaque-qwant",
+                  "children": [
+                    {
+                      "name": "Genèse",
+                      "path": "Longo_Synthese/14_SYNTHESE_QWANT_MACRON.md#14-synthese-des-deux-affaires-qwant-et-macron/1-l-affaire-de-l-arnaque-qwant/genese"
+                    },
+                    {
+                      "name": "Le faux moteur",
+                      "path": "Longo_Synthese/14_SYNTHESE_QWANT_MACRON.md#14-synthese-des-deux-affaires-qwant-et-macron/1-l-affaire-de-l-arnaque-qwant/le-faux-moteur"
+                    },
+                    {
+                      "name": "Le vol Bros et Axel Springer",
+                      "path": "Longo_Synthese/14_SYNTHESE_QWANT_MACRON.md#14-synthese-des-deux-affaires-qwant-et-macron/1-l-affaire-de-l-arnaque-qwant/le-vol-bros-et-axel-springer"
+                    },
+                    {
+                      "name": "Le passage au politique (2015)",
+                      "path": "Longo_Synthese/14_SYNTHESE_QWANT_MACRON.md#14-synthese-des-deux-affaires-qwant-et-macron/1-l-affaire-de-l-arnaque-qwant/le-passage-au-politique-2015"
+                    }
+                  ]
+                },
+                {
+                  "name": "2. L'affaire Emmanuel Macron",
+                  "path": "Longo_Synthese/14_SYNTHESE_QWANT_MACRON.md#14-synthese-des-deux-affaires-qwant-et-macron/2-l-affaire-emmanuel-macron",
+                  "children": [
+                    {
+                      "name": "Les ambitions présidentielles (2015)",
+                      "path": "Longo_Synthese/14_SYNTHESE_QWANT_MACRON.md#14-synthese-des-deux-affaires-qwant-et-macron/2-l-affaire-emmanuel-macron/les-ambitions-presidentielles-2015"
+                    },
+                    {
+                      "name": "Le financement (2016-2017)",
+                      "path": "Longo_Synthese/14_SYNTHESE_QWANT_MACRON.md#14-synthese-des-deux-affaires-qwant-et-macron/2-l-affaire-emmanuel-macron/le-financement-2016-2017"
+                    },
+                    {
+                      "name": "La séquence des holdings",
+                      "path": "Longo_Synthese/14_SYNTHESE_QWANT_MACRON.md#14-synthese-des-deux-affaires-qwant-et-macron/2-l-affaire-emmanuel-macron/la-sequence-des-holdings"
+                    },
+                    {
+                      "name": "Hiérarchie contournée pour l'investissement CDC",
+                      "path": "Longo_Synthese/14_SYNTHESE_QWANT_MACRON.md#14-synthese-des-deux-affaires-qwant-et-macron/2-l-affaire-emmanuel-macron/hierarchie-contournee-pour-l-investissement-cdc"
+                    }
+                  ]
+                },
+                {
+                  "name": "3. Léandri, le grain de sable",
+                  "path": "Longo_Synthese/14_SYNTHESE_QWANT_MACRON.md#14-synthese-des-deux-affaires-qwant-et-macron/3-leandri-le-grain-de-sable",
+                  "children": [
+                    {
+                      "name": "L'incontrôlable",
+                      "path": "Longo_Synthese/14_SYNTHESE_QWANT_MACRON.md#14-synthese-des-deux-affaires-qwant-et-macron/3-leandri-le-grain-de-sable/l-incontrolable"
+                    },
+                    {
+                      "name": "La destruction de Xilopix",
+                      "path": "Longo_Synthese/14_SYNTHESE_QWANT_MACRON.md#14-synthese-des-deux-affaires-qwant-et-macron/3-leandri-le-grain-de-sable/la-destruction-de-xilopix"
+                    },
+                    {
+                      "name": "L'éviction de Léandri (2019-2020)",
+                      "path": "Longo_Synthese/14_SYNTHESE_QWANT_MACRON.md#14-synthese-des-deux-affaires-qwant-et-macron/3-leandri-le-grain-de-sable/l-eviction-de-leandri-2019-2020"
+                    }
+                  ]
+                },
+                {
+                  "name": "4. Aujourd'hui (mars 2022)",
+                  "path": "Longo_Synthese/14_SYNTHESE_QWANT_MACRON.md#14-synthese-des-deux-affaires-qwant-et-macron/4-aujourd-hui-mars-2022",
+                  "children": [
+                    {
+                      "name": "Situation irrémédiable",
+                      "path": "Longo_Synthese/14_SYNTHESE_QWANT_MACRON.md#14-synthese-des-deux-affaires-qwant-et-macron/4-aujourd-hui-mars-2022/situation-irremediable"
+                    },
+                    {
+                      "name": "Le risque permanent",
+                      "path": "Longo_Synthese/14_SYNTHESE_QWANT_MACRON.md#14-synthese-des-deux-affaires-qwant-et-macron/4-aujourd-hui-mars-2022/le-risque-permanent"
+                    },
+                    {
+                      "name": "Jugement de l'auteur sur Macron",
+                      "path": "Longo_Synthese/14_SYNTHESE_QWANT_MACRON.md#14-synthese-des-deux-affaires-qwant-et-macron/4-aujourd-hui-mars-2022/jugement-de-l-auteur-sur-macron"
+                    },
+                    {
+                      "name": "Atteintes aux intérêts fondamentaux de la Nation",
+                      "path": "Longo_Synthese/14_SYNTHESE_QWANT_MACRON.md#14-synthese-des-deux-affaires-qwant-et-macron/4-aujourd-hui-mars-2022/atteintes-aux-interets-fondamentaux-de-la-nation"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "15 – HAUTE COUR, QUESTIONS EN SUSPENS ET ANNEXES",
+          "path": "Longo_Synthese/15_HAUTE_COUR_ANNEXES.md",
+          "children": [
+            {
+              "name": "15 – HAUTE COUR, QUESTIONS EN SUSPENS ET ANNEXES",
+              "path": "Longo_Synthese/15_HAUTE_COUR_ANNEXES.md#15-haute-cour-questions-en-suspens-et-annexes",
+              "children": [
+                {
+                  "name": "Sections I, J, K – Pages 215-219 du rapport Longo",
+                  "path": "Longo_Synthese/15_HAUTE_COUR_ANNEXES.md#15-haute-cour-questions-en-suspens-et-annexes/sections-i-j-k-pages-215-219-du-rapport-longo"
+                },
+                {
+                  "name": "Section I : Haute-Cour de Justice et destitution (page 215)",
+                  "path": "Longo_Synthese/15_HAUTE_COUR_ANNEXES.md#15-haute-cour-questions-en-suspens-et-annexes/section-i-haute-cour-de-justice-et-destitution-page-215",
+                  "children": [
+                    {
+                      "name": "Position de l'auteur",
+                      "path": "Longo_Synthese/15_HAUTE_COUR_ANNEXES.md#15-haute-cour-questions-en-suspens-et-annexes/section-i-haute-cour-de-justice-et-destitution-page-215/position-de-l-auteur"
+                    },
+                    {
+                      "name": "Actions demandées",
+                      "path": "Longo_Synthese/15_HAUTE_COUR_ANNEXES.md#15-haute-cour-questions-en-suspens-et-annexes/section-i-haute-cour-de-justice-et-destitution-page-215/actions-demandees"
+                    },
+                    {
+                      "name": "Question de haute trahison posée",
+                      "path": "Longo_Synthese/15_HAUTE_COUR_ANNEXES.md#15-haute-cour-questions-en-suspens-et-annexes/section-i-haute-cour-de-justice-et-destitution-page-215/question-de-haute-trahison-posee"
+                    },
+                    {
+                      "name": "Appel final de l'auteur",
+                      "path": "Longo_Synthese/15_HAUTE_COUR_ANNEXES.md#15-haute-cour-questions-en-suspens-et-annexes/section-i-haute-cour-de-justice-et-destitution-page-215/appel-final-de-l-auteur"
+                    }
+                  ]
+                },
+                {
+                  "name": "Section J : Annexe – Questions en suspens (page 216)",
+                  "path": "Longo_Synthese/15_HAUTE_COUR_ANNEXES.md#15-haute-cour-questions-en-suspens-et-annexes/section-j-annexe-questions-en-suspens-page-216",
+                  "children": [
+                    {
+                      "name": "Documents et informations demandés par l'auteur",
+                      "path": "Longo_Synthese/15_HAUTE_COUR_ANNEXES.md#15-haute-cour-questions-en-suspens-et-annexes/section-j-annexe-questions-en-suspens-page-216/documents-et-informations-demandes-par-l-auteur"
+                    },
+                    {
+                      "name": "Cagnotte Premsgo",
+                      "path": "Longo_Synthese/15_HAUTE_COUR_ANNEXES.md#15-haute-cour-questions-en-suspens-et-annexes/section-j-annexe-questions-en-suspens-page-216/cagnotte-premsgo"
+                    }
+                  ]
+                },
+                {
+                  "name": "Section K : Annexe II – Retranscription Piacentino/Montaut (pages 217-219)",
+                  "path": "Longo_Synthese/15_HAUTE_COUR_ANNEXES.md#15-haute-cour-questions-en-suspens-et-annexes/section-k-annexe-ii-retranscription-piacentino-montaut-pages-217-219",
+                  "children": [
+                    {
+                      "name": "Contexte",
+                      "path": "Longo_Synthese/15_HAUTE_COUR_ANNEXES.md#15-haute-cour-questions-en-suspens-et-annexes/section-k-annexe-ii-retranscription-piacentino-montaut-pages-217-219/contexte"
+                    },
+                    {
+                      "name": "Infractions alléguées",
+                      "path": "Longo_Synthese/15_HAUTE_COUR_ANNEXES.md#15-haute-cour-questions-en-suspens-et-annexes/section-k-annexe-ii-retranscription-piacentino-montaut-pages-217-219/infractions-alleguees"
+                    },
+                    {
+                      "name": "Extrait 1 : Menaces physiques (à partir de 1h04)",
+                      "path": "Longo_Synthese/15_HAUTE_COUR_ANNEXES.md#15-haute-cour-questions-en-suspens-et-annexes/section-k-annexe-ii-retranscription-piacentino-montaut-pages-217-219/extrait-1-menaces-physiques-a-partir-de-1h04"
+                    },
+                    {
+                      "name": "Extrait 2 : Compensation financière pour retrait de plainte (à partir de 1h01)",
+                      "path": "Longo_Synthese/15_HAUTE_COUR_ANNEXES.md#15-haute-cour-questions-en-suspens-et-annexes/section-k-annexe-ii-retranscription-piacentino-montaut-pages-217-219/extrait-2-compensation-financiere-pour-retrait-de-plainte-a-partir-de-1h01"
+                    },
+                    {
+                      "name": "Extrait 3 : Aveu du mensonge à la CDC (à partir de 0h27)",
+                      "path": "Longo_Synthese/15_HAUTE_COUR_ANNEXES.md#15-haute-cour-questions-en-suspens-et-annexes/section-k-annexe-ii-retranscription-piacentino-montaut-pages-217-219/extrait-3-aveu-du-mensonge-a-la-cdc-a-partir-de-0h27"
+                    },
+                    {
+                      "name": "Extrait 4 : Confirmation des propos de Léandri (à partir de 0h58)",
+                      "path": "Longo_Synthese/15_HAUTE_COUR_ANNEXES.md#15-haute-cour-questions-en-suspens-et-annexes/section-k-annexe-ii-retranscription-piacentino-montaut-pages-217-219/extrait-4-confirmation-des-propos-de-leandri-a-partir-de-0h58"
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
