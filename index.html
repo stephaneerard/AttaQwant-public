@@ -1048,15 +1048,19 @@
 
   // Resolve a relative path against the current file's directory
   function resolveRelativeLink(href) {
-    if (!href || href.startsWith('/') || href.match(/^https?:\/\//)) return href;
+    if (!href || href.match(/^https?:\/\//)) return href;
+    // Strip leading ./
+    href = href.replace(/^\.\//, '');
+    // Absolute path: leave as-is
+    if (href.startsWith('/')) return href;
     const dir = currentFile.includes('/') ? currentFile.substring(0, currentFile.lastIndexOf('/') + 1) : '';
     if (!dir) return href;
     // Split file part and anchor part
     const hashIdx = href.indexOf('#');
     const filePart = hashIdx >= 0 ? href.substring(0, hashIdx) : href;
     const anchorPart = hashIdx >= 0 ? href.substring(hashIdx) : '';
-    // Only prepend dir if the file part doesn't already contain a /
-    if (filePart && !filePart.includes('/')) {
+    // Prepend dir if the file part doesn't already include the directory
+    if (filePart && !filePart.startsWith(dir)) {
       return dir + filePart + anchorPart;
     }
     return href;
