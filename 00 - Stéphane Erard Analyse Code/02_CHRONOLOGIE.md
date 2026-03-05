@@ -60,8 +60,11 @@ Compilé par **Stéphane Erard**, lanceur d'alerte — Mars 2026
 
 | Date | Acteur | Événement | Détails |
 |------|--------|----------|---------|
+| Août 2016 | 🟣 ERARD | Stéphane Erard documente la pseudo-anonymisation | Tweet documentant les données pseudo-anonymisées d'IP transmises à Bing. |
 | Mai 2016 | 🟠 CDC/ÉTAT | La CDC refuse d'auditer Xilopix | Gabriel Gauthey, directrice de l'investissement numérique à la CDC, refuse d'auditer la technologie Xilopix. Raison invoquée : une « file d'attente ». Les financements régionaux s'assèchent en parallèle. |
 | 20 juin 2016 | 🔵 QWANT | Audit frauduleux de Cardiweb pour Qwant | L'API Bing est masquée la veille de l'audit pour simuler l'existence d'une technologie propriétaire. Cet audit frauduleux servira de base à l'investissement de la CDC. |
+
+![Tweet de Stéphane Erard sur la pseudo-anonymisation des IP — Août 2016](./images/tweet_erard_25aout2016_ips.png)
 
 ---
 
@@ -103,6 +106,9 @@ Compilé par **Stéphane Erard**, lanceur d'alerte — Mars 2026
 | Date | Acteur | Événement | Détails |
 |------|--------|----------|---------|
 | Juillet 2020 | 🔵 QWANT | La Lettre A : enquête « Datas, procès et paradis fiscaux » | Enquête de presse révélant des connexions avec les Paradise Papers et des montages financiers opaques dans l'écosystème Qwant. |
+
+![La Lettre A — Enquête sur les affaires Qwant, BPI et CDC — Juillet 2020](./images/lettre_a_hiatus_bpi_cdc.jpg)
+
 | Septembre 2020 | 🟢 XILOPIX | Éric Mathieu publie son dossier de 87 pages | Document exhaustif détaillant la destruction de Xilopix, le rôle de la CDC, les montages financiers de Qwant, et les phases d'élimination délibérée. |
 
 ---

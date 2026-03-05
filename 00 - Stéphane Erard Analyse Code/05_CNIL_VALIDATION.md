@@ -36,6 +36,14 @@ La CNIL constate, après « analyses approfondies » :
 
 Texte exact de la décision : « compte tenu notamment des recommandations et jurisprudences pertinentes à l'époque des faits, les données transmises à la société Microsoft Ireland Operations Limited ne pouvaient pas être qualifiées d'anonymes ».
 
+![Official CNIL letter page 1 from La Présidente, dated February 2025, saisine n°19005268](./images/05_lettre_cnil_page1.jpg)
+
+![CNIL letter page 2 continuation](./images/05_lettre_cnil_page2.jpg)
+
+![CNIL letter page 3](./images/05_lettre_cnil_page3.jpg)
+
+![CNIL letter signature by Marie-Laure Denis](./images/05_lettre_cnil_signature.jpg)
+
 ### 4. Manquements relevés à l'encontre de Qwant
 
 | Manquement | Article RGPD | Détail |
@@ -84,6 +92,12 @@ Résultat : Les autorités européennes ont retiré leurs objections ; le projet
 ## PARTIE II : Réponse de Stéphane Erard (25 juin 2025)
 
 Email adressé à SEDP@cnil.fr. Stéphane Erard annonce son intention de porter plainte contre les services de la CNIL et développe sept arguments.
+
+![Erard's response to CNIL page 1](./images/05_reponse_erard_cnil_p1.jpg)
+
+![Erard's response to CNIL page 2](./images/05_reponse_erard_cnil_p2.jpg)
+
+![Erard's response to CNIL page 3](./images/05_reponse_erard_cnil_p3.jpg)
 
 ### Argument n°1 : L'IP/24 est une donnée personnelle indirecte
 

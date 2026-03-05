@@ -80,6 +80,8 @@ Le plus révélateur est la suite. Léandri déclare lui-même que « quand on a
 
 Mais des 35 personnes de Xilopix, il ne reste bientôt plus que deux ingénieurs chez Qwant. Les fondateurs, Eric Mathieu et Cyril March, ont été éjectés après avoir travaillé cinq mois sans contrat ni salaire. Un contentieux prud'hommal les oppose encore à Qwant. La Cour de cassation a cassé un arrêt en leur faveur, renvoyant l'affaire en appel.
 
+![Cartographie affaire - Englebert webBrainLocales](./images/cartographie_affaire_01.png)
+
 Eric Mathieu lui-même l'affirme : « Il n'existe pas de souveraineté numérique sans moteur de recherche. Le moteur de recherche, ce sont les yeux et les oreilles des gouvernants. »
 
 ### 2.4. Comparaison : Xilopix/Xaphir vs Qwant
@@ -150,6 +152,10 @@ Cinq ans plus tard, en février 2025, la CNIL rend sa décision (saisine n°1900
 | 2020 | Rapport Eric Mathieu (83 pages) aux parlementaires | Document public |
 | Fin 2019 | Olivier Sichel (DG CDC) ment devant la Commission de l'AN | Rapport CDC au Parlement |
 | Fév. 2025 | CNIL confirme intégralement les faits dénoncés | Décision CNIL |
+
+![La Lettre A - BPI CDC hiatus](./images/lettre_a_hiatus_bpi_cdc.jpg)
+
+![Moscovici Cour des Comptes](./images/reponse_moscovici_cour_comptes.jpg)
 
 ---
 

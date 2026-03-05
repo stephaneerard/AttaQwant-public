@@ -756,6 +756,16 @@
         + '</h' + depth + '>';
     };
 
+    // Rewrite image paths relative to the current markdown file's directory
+    renderer.image = function({ href, title, text }) {
+      if (href && !href.match(/^https?:\/\//) && !href.startsWith('data:')) {
+        href = resolveRelativeLink(href);
+      }
+      const titleAttr = title ? ' title="' + escHtml(title) + '"' : '';
+      const altAttr = text ? ' alt="' + escHtml(text) + '"' : '';
+      return '<img src="' + escHtml(href) + '"' + altAttr + titleAttr + ' style="max-width:100%">';
+    };
+
     // Handle internal .md/.pdf links and pure anchor links
     renderer.link = function({ href, title, text }) {
       if (!href) return text;

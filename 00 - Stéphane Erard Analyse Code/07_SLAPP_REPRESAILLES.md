@@ -35,6 +35,8 @@ Le présent document établit la stratégie systématique de représailles et de
 
 Qwant a cité directement Stéphane Erard devant le Tribunal de Grande Instance pour diffamation publique et injure publique (loi du 29 juillet 1881), sur le fondement des mêmes tweets qui motivaient par ailleurs son licenciement. Cette citation visait des tweets posant des questions techniques légitimes sur le traitement des données par Qwant (adresses IP, user agent, lien avec Bing) et des commentaires sur l'audit CDC/Cardiweb.
 
+![Citation directe 5 sept 2018](./images/tweet_citation_directe_5sept2018.png)
+
 L'irrecevabilité de la citation a été obtenue par Me Ronan Hardouin, avocat d'Erard au pénal, pour défaut de notification au ministère public (art. 53 de la loi du 29/07/1881). Me Hardouin a également démontré sur le fond que les tweets ne constituaient ni diffamation ni injure : absence d'imputation de faits précis portant atteinte à l'honneur, et simple critique légitime d'un service participant d'un débat d'intérêt public. Me Hardouin a qualifié la démarche de Qwant de tentative de « procédure bâillon ».
 
 ### 3.2. La qualification de procédure-bâillon (SLAPP)
@@ -64,6 +66,8 @@ Les 12 et 13 mai 2019, Laurent Bourrelly a publié sur Twitter une série d'inju
 - « T'es un gros nul qui n'a jamais rien fait de sa vie et qui veut prendre un chèque sans rien glander. Toxique comme on en fait rarement. »
 - « Le seul qui s'est incrusté pour rien branler et se foutre en arrêt maladie longue durée c'est toi. Toxique, minable et fainéant. »
 
+![Décaux tweet grand malade](./images/tweet_decaux_grand_malade.png)
+
 ### 4.2. Condamnation
 
 Par jugement du 27 janvier 2021, le Tribunal judiciaire de Paris (Présidente Delphine Chauchis) a jugé que ces propos constituaient une injure publique et a condamné Laurent Bourrelly à verser 3 000 € de dommages-intérêts et 2 000 € au titre de l'article 700. Le tribunal a constaté que ces propos « dépassent largement les limites admissibles de la liberté d'expression ».
@@ -79,6 +83,10 @@ Les liens entre Bourrelly et Léandri sont documentés par de multiples sources 
 | **Le Média (18/05/2020)** | « Éric Léandri reçoit aussi le soutien de son ami Laurent Bourrelly, un temps conseiller chez Qwant. » |
 | **SEO By Night 2019** | Compte-rendu mentionnant Léandri intervenant et « orchestration » par Bourrelly. |
 | **Assignation TGI Paris** | « Il travaille depuis près de deux ans pour la société QWANT » (non contesté en défense). |
+
+![SMS de Chemin 001](./images/sms_chemin_001.png)
+
+![SMS de Chemin 002](./images/sms_chemin_002.png)
 
 Ces éléments permettent raisonnablement d'imputer à Léandri la responsabilité de la campagne de harcèlement. La note de Bourrelly révélant les méthodes managériales de Léandri (« éruptif », « violemment colérique », « agressif » — Mediapart) confirme un schéma général d'intimidation.
 

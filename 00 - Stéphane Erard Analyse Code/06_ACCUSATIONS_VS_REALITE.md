@@ -78,6 +78,8 @@ Rendre les propos d'Erard mensongers par postulat.
 **La réalité :**
 La CNIL établit en février 2025 que les données transmises à Microsoft Ireland étaient **pseudonymes** (et non anonymes) : « les données transmises ne pouvaient pas être qualifiées d'anonymes mais le terme pseudonymes était le plus exact ». Rappel aux obligations pour manquement aux articles 12 et 13 du RGPD (transparence et information). Les faits dénoncés par Erard étaient **VRAIS**.
 
+![Champeau tweet sur API Bing 2017](./images/tweet_champeau_api_bing_2017.png)
+
 **Sources :**
 - Courrier de clôture CNIL (Présidente Denis), saisine n°19005268
 - Conclusions Qwant CPH p.3 et p.12
@@ -98,6 +100,10 @@ Rendre les alertes d'Erard techniquement infondées.
 
 **La réalité :**
 La CNIL a analysé le dispositif et conclu que malgré les mesures de Qwant, les données transmises à Microsoft n'étaient que **pseudonymisées**. Une IP tronquée reste une donnée à caractère personnel au sens du RGPD. La combinaison IP/24 + user-agent permet une réidentification. Le Conseil d'État (arrêt JC Decaux, 8 février 2017) avait déjà jugé que la troncature d'un identifiant unique n'était pas suffisante pour anonymiser. Le Groupe de travail Article 29 (2014) : « Les requêtes transmises à un moteur de recherche, couplées avec les adresses IP ou d'autres paramètres, ont un potentiel d'identification très élevé ».
+
+![Champeau tweet IP tronquée 2018](./images/tweet_champeau_ip_tronquee_2018.png)
+
+![Preuve technique MSNBot Bing](./images/preuve_technique_msnbot_bing.png)
 
 **Sources :**
 - Décision CNIL 2025
@@ -121,6 +127,8 @@ Présenter l'entreprise comme irréprochable en matière RGPD.
 
 **La réalité :**
 La CNIL constate que la politique de confidentialité était **inexacte et incomplète** : ne mentionnait pas la finalité publicitaire de la transmission à Microsoft, ne mentionnait pas la base légale du traitement, qualifiait les données d'« anonymes » au lieu de « pseudonymes », les versions italienne et allemande différaient des versions FR/EN. Manquement aux articles 12 et 13 du RGPD.
+
+![Citation directe CGU IPv4](./images/tweet_citation_directe_cgu_ipv4.png)
 
 **Sources :**
 - Courrier de clôture CNIL, 2025
@@ -162,6 +170,8 @@ Minimiser la dépendance à Bing pour invalider l'alerte.
 **La réalité :**
 Le partenariat Bing couvrait la quasi-totalité des résultats Web et la totalité des publicités (modèle économique entier). Article Mediapart (2013) : Qwant avait « massivement recours à Bing pour fournir des résultats sans qu'il en ait été fait mention lors du lancement » (repris par l'arrêt d'appel). La FAQ de Qwant n'a été mise à jour qu'en septembre 2016, et la FAQ Search Lite n'était toujours pas mise à jour en décembre 2016. L'historique du code source confirme le retrait puis la remise du code Bing autour de l'audit CDC.
 
+![Champeau tweet index indépendant 2016](./images/tweet_champeau_index_2016.png)
+
 **Sources :**
 - Conclusions CPH p.12
 - Arrêt CA Aix-en-Provence
@@ -185,6 +195,8 @@ Réfuter l'accusation de fraude à l'audit CDC.
 **La réalité :**
 Mails internes de juin 2016 (pièce n°10 au correctionnel) : des salariés déclarent explicitement avoir modifié le code source pour dissimuler la collecte et la transmission à Bing avant l'audit. Jean-Charles Chemin a ouvert la réunion par : « Ce qui va être dit ici ne doit pas en sortir » (attesté par Erard dans sa réponse à l'avertissement et dans sa réponse à la CNIL). L'historique du code source (search_ads) montre le retrait puis la remise du code d'appel Bing après l'audit.
 
+![SMS de Chemin](./images/sms_chemin_001.png)
+
 **Sources :**
 - Conclusions en appel p.17
 - Mails internes, juin 2016
@@ -207,6 +219,10 @@ Requalifier l'alerte en faute disciplinaire.
 
 **La réalité :**
 La CNIL confirme en 2025 exactement ce qu'Erard dénonçait : données pseudonymes présentées comme anonymes, politique de confidentialité trompeuse, manquement RGPD. Les « violations » que Qwant niait catégoriquement ont été constatées par l'autorité compétente. La prémisse centrale de Qwant (« faits faux ») est détruite.
+
+![Citation directe 5 sept 2018](./images/tweet_citation_directe_5sept2018.png)
+
+![Citation directe papier recherche](./images/tweet_citation_directe_papier_recherche.png)
 
 **Sources :**
 - Conclusions Qwant CPH p.12
@@ -249,6 +265,8 @@ Utiliser la clause contractuelle comme baillon.
 
 **La réalité :**
 Le partenariat Qwant/Bing était **PUBLIC depuis 2013**. Articles Le Figaro, Mediapart, WebRankInfo dès 2013. Qwant le mentionnait elle-même sur qwant.com et dans sa politique de protection des données. Erard répond dans son LRAR : « il me semble évident qu'une entreprise passe des partenariats [...] Je n'ai à aucun moment dévoilé quelque contrat que ce soit ». On ne peut violer la confidentialité d'une information publique.
+
+![Citation directe audit CDC](./images/tweet_citation_directe_audit_cdc.png)
 
 **Sources :**
 - Conclusions CPH p.12
@@ -335,6 +353,8 @@ Retourner les preuves de tension en preuves de bienveillance ; éliminer les pre
 **La réalité :**
 Erard décrit dans sa réponse au 1er avertissement un épisode de violence physique de J.-C. Chemin : « il s'en est pris physiquement à ma personne, en fonçant sur moi, me prenant fortement par ses poignets pour me retourner » devant l'open-space. Propos de Chemin rapportés : « gratte-papier cégétiste », insultes envers fonctionnaires et cheminots. L'avertissement du 7/09/2016 a été donné pendant l'arrêt maladie, sans citer les tweets reprochés ni fournir de captures. Christophe Bourrelly (collaborateur lié à Qwant) a été **CONDAMNÉ par le TJ de Paris le 27/01/2021** pour injures publiques envers Erard. Le fait qu'un témoin ait été licencié n'invalide pas juridiquement son attestation. Chronologie cohérente : alerte → avertissement → licenciement.
 
+![Decaux tweet grand malade](./images/tweet_decaux_grand_malade.png)
+
 **Sources :**
 - Conclusions CPH p.13
 - Conclusions en appel
@@ -357,6 +377,8 @@ Occulter la défaillance du contrôle interne.
 
 **La réalité :**
 Conversation Erard/Yau (décembre 2016) : la DPO était informée de l'envoi de données pseudo-anonymisées à Bing. Yau reconnaît que l'ajout de Bing dans les FAQ « semble avoir été fait après [la] mise en arrêt maladie » d'Erard. Yau affirme à tort que « on n'envoie rien à Bing, c'est eux qui récupèrent l'IP » — contredit par le code source. Erard : « au sens de la CNIL, les infos pseudo-anonymisées ne sont pas des infos anonymisées » — confirmé par la CNIL en 2025. La DPO n'avait accès ni au code source, ni au contrat Microsoft, ni au payload des données transmises.
+
+![Champeau aveu conformité 2024](./images/tweet_champeau_aveu_2024.png)
 
 **Sources :**
 - Conversation Erard/Yau, décembre 2016

@@ -30,11 +30,15 @@ Les captures Thunderbird du webmail Zimbra de Stéphane Erard (s.erard@qwant.com
 
 Le CTO transfère à l'équipe technique (Vignaux, Luddeni, Massiere, Erard, Cassar, Corbi, Savinel, Laville) la liste des projets que Cardiweb souhaitait auditer. **C'est l'acte déclencheur de la falsification.**
 
+![Email showing "Audit de code" from Cardiweb with list of projects to audit (search, boards, API qwant_v2, etc.)](./images/04_email_audit_code_cardiweb.png)
+
 ### 3.2. Pierre Vignaux — 20 juin 2016, 09:25
 
 Vignaux propose des intervenants pour chaque projet, puis pose une question révélatrice suivie d'une proposition opérationnelle :
 
 > La question fondamentale est : « il faut préparer l'API avant ». Pourquoi faudrait-il procéder à des modifications du code source pour le montrer à un auditeur, si Qwant disposait réellement de son propre moteur de recherche ? Le besoin même de « préparer » l'API révèle que le code en production ne pouvait pas être montré tel quel — parce qu'il n'était qu'un proxy vers Bing. **La proposition subsidiaire « sur une branche à part » est la genèse opérationnelle de la branche « demo ».**
+
+![Email from Pierre Vignaux proposing people for audit and asking "how do we show them the source code? we need to prepare the API first, should we do it on a separate branch?"](./images/04_email_re_audit_code_vignaux.png)
 
 ### 3.3. Jonathan Cassar — 20 juin 2016, 09:53
 
@@ -48,13 +52,21 @@ Ce service WebBrain est une instance du logiciel WebBrain qui a été modifié p
 
 C'est d'ailleurs ce pourquoi Stéphane Erard a du produire une CI pour WebBrain.
 
+![Email from Jonathan Cassar saying "I made a branch on the api (demo) where I removed the Bing call code and replaced it with a fake call to the brain"](./images/04_email_cassar_branche_demo.png)
+
 ### 3.4. Stéphane Erard — 20 juin 2016, 10:36
 
 Erard prépare les projets SonarQube (CI/QA) pour l'audit : FRONT/SEARCH, FRONT/BOARDS, FRONT/SEARCH-LITE, FRONT/BOARDS-LITE, INSTANT-ANSWERS (http://sonar.qwant.ci:9000/). **Cela confirme que l'audit n'avait pas encore eu lieu.**
 
+![Email about SONAR listing projects including FRONT-SEARCH, FRONT-BOARDS-LITE, INSTANT-ANSWERS with the demo branch code](./images/04_email_sonar_projets_audit.png)
+
 ### 3.5. Pierre Vignaux — 20 juin 2016, 10:51
 
 > La question « On a + droit sur la date JC ? » prouve que la visite d'audit n'avait pas encore eu lieu au 20 juin.
+
+![Email from Erard saying "I just understood that we need to send someone to present the code. We would need to send 2 people (data + front/api)"](./images/04_email_erard_envoi_personnes.png)
+
+![Full email thread about code audit sonarqube showing Cassar's "fake" branch message](./images/04_email_audit_sonarqube.png)
 
 ## 4. Analyse du dépôt git
 

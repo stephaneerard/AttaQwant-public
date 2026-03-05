@@ -6,7 +6,9 @@ Compilé par **Stéphane Erard**, lanceur d'alerte — Mars 2026
 
 ## Vue d'ensemble
 
-Ce dossier documente comment, pendant une décennie, la France a investi massivement dans un simulacre de moteur de recherche souverain (Qwant), tout en laissant détruire la seule technologie souveraine réelle (Xaphir, développée par Xilopix).
+Ce dossier documente comment, pendant deux décennies, la France a investi massivement dans un simulacre de moteur de recherche souverain (Qwant), tout en laissant détruire la seule technologie souveraine réelle (Xaphir, développée par Xilopix).
+
+![Cartographie de l'affaire Qwant](./images/cartographie_affaire_01.png)
 
 **Bilan en chiffres :**
 - **20 ans de perte** : 8 ans de R&D Xilopix détruite (2008–2017) + 12 ans de simulacre Qwant (2013–2025)
@@ -76,6 +78,9 @@ Destinée aux techniciens, chercheurs, et institutions de gouvernance. Analyses 
 - **Décrets** : Imposition de Qwant dans les administrations et les écoles
 
 ### Les lanceurs d'alerte
+
+![Stéphane Erard — Ingénieur Qwant, lanceur d'alerte](./images/photo_erard_2017.jpg)
+
 - **Stéphane Erard** : Ingénieur Qwant, alerte sur la dépendance Bing et les violations de données
 - **Éric Mathieu** : Fondateur Xilopix, documente la destruction délibérée de sa société
 

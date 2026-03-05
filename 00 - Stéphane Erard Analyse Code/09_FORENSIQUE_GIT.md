@@ -40,6 +40,8 @@ Cet unique commit transforme le comportement de Qwant : 100% des requêtes Web s
 
 **Preuve de déploiement en production** : Ce commit apparaît dans des versions taguées (tags de versioning), confirmant que ce code a bien été déployé en production et n'était pas un artefact de développement.
 
+![Technical proof showing msnbot/Bing crawler presence](./images/preuve_technique_msnbot_bing.png)
+
 ---
 
 ## II. La manœuvre de dissimulation : déport de l'appel Bing
@@ -61,6 +63,8 @@ Pour l'audit technique commandé par la CDC en mai 2016, Jonathan Cassar a cré�
 > « Comme demandé ce code est juste un fake »
 
 Cette confession écrite établit que le code présenté aux auditeurs était volontairement falsifié.
+
+![Champeau admitting Bing API usage (Jan 2017)](./images/tweet_champeau_api_bing_2017.png)
 
 ### C. Le déploiement hors CI (Continuous Integration)
 
@@ -125,6 +129,12 @@ Le code source révèle également l'existence d'un **DataHub** qui envoie un me
 - Mots-clés de recherche
 
 Ce système s'ajoute à l'envoi direct à Microsoft, créant une **double traçabilité** des activités utilisateurs.
+
+![Extract from lanceur d'alerte note with screenshots](./images/note_lanceur_alerte_001.png)
+
+![Extract from lanceur d'alerte note](./images/note_lanceur_alerte_002.png)
+
+![Extract from lanceur d'alerte note](./images/note_lanceur_alerte_003.png)
 
 ---
 

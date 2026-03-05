@@ -45,6 +45,8 @@ Dès ses débuts, des controverses ont émergé sur la réalité technologique d
 
 **Régie publicitaire** : Celle utilisée était également celle de **Microsoft Advertising**, qui représentait **environ 90% du chiffre d'affaires**.
 
+![Moscovici/Cour des Comptes response about public funds](./images/reponse_moscovici_cour_comptes.jpg)
+
 ### C. Position de marché inexistante
 
 **En 2018**, la part de marché de Qwant en France était estimée à seulement **1,78%**, très loin de :
@@ -131,6 +133,8 @@ Cela signifie que :
 - Qwant dépendait à 90% de Microsoft pour ses revenus
 - Qwant dépendait à 100% de Microsoft pour sa technologie de recherche
 - **Qwant était doublement verrouillé par Microsoft** : techniquement et commercialement
+
+![La Lettre A article about BPI/CDC financing](./images/lettre_a_hiatus_bpi_cdc.jpg)
 
 ---
 

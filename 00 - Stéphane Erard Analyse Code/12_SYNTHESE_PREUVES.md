@@ -45,12 +45,16 @@ Champeau déclare dans la conversation :
 3. **Autoqualification du mensonge** : Champeau le qualifie lui-même de « faute historique » et de « connerie », termes indiquant la gravité du mensonge
 4. **Reconnaissance tardive** : Léandri a « reconnu tardivement » — preuve qu'il savait et a d'abord nié
 
+![Champeau admission 2024](./images/tweet_champeau_aveu_2024.png)
+
 #### Contradiction avec la défense de Qwant
 
 Dans ses conclusions en appel (2021), Qwant affirmait :
 > « La société Qwant n'a jamais caché qu'une partie des résultats de recherches apparaissant sur son site proviennent du moteur de recherche Bing » et que le moteur « a sa propre indexation et ses propres réponses aux requêtes des internautes, réponses qui sont seulement complétées par des réponses données par Bing ».
 
 **Champeau dément frontalement cette défense** : Léandri a prétendu qu'il n'utilisait PAS du tout Bing, ce qui contredit l'affirmation de « complémentation ».
+
+![Champeau Bing API admission](./images/tweet_champeau_api_bing_2017.png)
 
 ### C. Admission n°2 : Pratiques internes répréhensibles
 
@@ -124,6 +128,8 @@ C'est exactement ce que **démontrent les pièces techniques** du dossier : l'hi
 
 La décision de la CNIL de février 2025 (réf. MLD/VBR/CLA251094) confirme substantiellement les allégations de Stéphane Erard sur plusieurs points essentiels :
 
+![CNIL official letter](./images/05_lettre_cnil_page1.jpg)
+
 #### Constat n°1 : Traitements sans base légale
 
 **La CNIL a confirmé** que Qwant procédait à des **traitements automatisés de données personnelles sans base légale adéquate**.
@@ -146,6 +152,8 @@ La décision CNIL démontre que **lorsqu'Erard tweetait en 2016-2017** au sujet 
 
 La défense de Qwant en appel qualifiait les tweets d'Erard de :
 > « Dénigrants et mensongers » — « Les Tweets publics de Monsieur Erard insinuant l'envoi de données personnelles à Bing sont donc dénigrants et mensongers »
+
+![Victoire chat about data to Bing](./images/01_reponse_cnil_victoire_chat.jpg)
 
 **La CNIL dément frontalement cette affirmation** : c'est **Qwant qui mentait**, devant la Cour, sur la réalité de ses pratiques.
 
@@ -264,6 +272,8 @@ Le tableau suivant met en regard chaque **allégation initiale de Stéphane Erar
 | **Fraude organisée** | N/A | N/A | **Organisation visible (3 acteurs)** | Visible (nettoyage post-plainte) | Confirmé | Rapports internes |
 
 **Conclusion du tableau** : **Neuf sources indépendantes** arrivent aux **mêmes constats** que Stéphane Erard sur la dépendance à Bing et la non-protection des données. Cette convergence massive est un argument **déterminant pour établir la bonne foi d'Erard** et la **légitimité de son alerte**.
+
+![Cartography of the affair](./images/cartographie_affaire_01.png)
 
 ---
 

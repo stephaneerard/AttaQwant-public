@@ -8,6 +8,8 @@ En juillet et septembre 2019, une équipe interministérielle composée d'agents
 
 Cet audit constitue une **validation indépendante institutionnelle** des allégations de Stéphane Erard. Les auditeurs d'État ont découvert, par la suite d'une enquête technique rigoureuse, exactement ce que le lanceur d'alerte dénonçait depuis 2016.
 
+![Video capture of DINUM audit document showing "Audit technique partiel du moteur de recherche Qwant" header with DINSIC/ANSSI/ENS team](./images/10_dinum_audit_synthese.jpg)
+
 ---
 
 ## I. Contexte politique et mandat de l'audit
@@ -43,6 +45,8 @@ La DINUM constate que Qwant développe une « nouvelle version » de son moteur 
 
 **Constat** : La Version 2 est décrite comme un « prototype » non opérationnel et loin d'être prêt pour une utilisation en production.
 
+![DINUM audit page 2](./images/10_dinum_audit_page2.jpg)
+
 **Implication** : Cela révèle que après **7 ans d'existence** et **plusieurs dizaines de millions d'euros investis**, Qwant n'avait pas de véritable moteur de recherche secondaire et restait entièrement dépendant de sa première version — elle-même basée sur Bing.
 
 ### B. Dépendance à Bing : « peu claire »
@@ -56,6 +60,8 @@ Les auditeurs expriment une **frustration évidente** face à l'opacité de Qwan
 #### Quantification impossible
 
 **Constat clé** : Les auditeurs découvrent que **Qwant ne sait pas quantifier sa propre dépendance à Bing**. Une entreprise dépendante à 100% d'un moteur externe devrait pouvoir mesurer ce taux. L'incapacité à le faire est révélatrice : soit l'entreprise ment, soit elle n'a jamais eu de véritable moteur propre.
+
+![DINUM audit page 3](./images/10_dinum_audit_page3.jpg)
 
 #### L'articulation Qwant/Bing est opaque
 
@@ -76,6 +82,8 @@ Cette formulation diplomatique masque une réalité explosive : les auditeurs d'
 
 Lors du second audit (25 septembre 2019), les auditeurs ont récupéré un document que Qwant avait désormais obligé de transmettre : un **« indicateur d'autonomie »** fourni par Qwant elle-même.
 
+![DINUM audit page 4](./images/10_dinum_audit_page4.jpg)
+
 ### B. Les chiffres accablants
 
 **En juillet 2019** : Le taux de dépendance à Bing dépassait **75%**
@@ -85,6 +93,8 @@ Lors du second audit (25 septembre 2019), les auditeurs ont récupéré un docum
 ### C. Signification
 
 Autrement dit, **sept ans après sa création**, le moteur de recherche « souverain » faisait traiter **les deux tiers de ses requêtes par Microsoft**. Et cela en septembre 2019, soit **après qu'Erard ait déposé plainte à la CNIL** (mars 2019) et **après les contrôles CNIL sur place** (août-septembre 2019), qui avaient probablement forcé Qwant à améliorer ses chiffres.
+
+![DINUM audit page 5](./images/10_dinum_audit_page5.jpg)
 
 ---
 

@@ -42,6 +42,9 @@ De 2013 à 2025, **100 % des résultats de recherche de Qwant provenaient de l'A
 Cette réalité était connue de certains acteurs de l'écosystème dès 2013. Des experts et forums spécialisés avaient immédiatement qualifié Qwant de « méta-moteur ». Pourtant, Qwant a continué à se présenter publiquement comme un moteur souverain, bénéficiant du soutien actif de l'État.
 
 **Preuves techniques documentées :**
+
+![Tweet de Champeau admettant l'utilisation de l'API Bing — Janvier 2017](./images/tweet_champeau_api_bing_2017.png)
+
 - En **août 2015**, l'application mobile Qwapp a révélé la dépendance technique totale à l'API Bing
 - En **juin 2016**, un audit réalisé par Cardiweb a tenté de masquer cette réalité : l'API Bing avait été désactivée la veille de l'audit pour simuler l'existence d'une technologie propriétaire
 
@@ -50,6 +53,8 @@ Cette réalité était connue de certains acteurs de l'écosystème dès 2013. D
 Qwant se présentait comme le champion de la protection des données personnelles. Son slogan — **« le moteur de recherche qui respecte votre vie privée »** — était au cœur de sa communication et de sa proposition de valeur auprès des investisseurs publics.
 
 La réalité était diamétralement opposée. **Les données de recherche des utilisateurs étaient transmises à Microsoft sans anonymisation.** Chaque requête effectuée sur Qwant partait vers les serveurs de Bing aux États-Unis, avec les données d'identification de l'utilisateur.
+
+![Email de saisine à la CNIL — Stéphane Erard et Victoire Yau (Legal Officer, ancienne stagiaire CNIL)](./images/01_email_cnil_saisine_erard.jpg)
 
 Ce fait est documenté par :
 - Des captures d'écran
