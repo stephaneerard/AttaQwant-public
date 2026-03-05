@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#161b22"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Qwant-style color bars (top accent) -->
+  <rect x="0"   y="0" width="240" height="6" fill="#5c97bf"/>
+  <rect x="240" y="0" width="240" height="6" fill="#59c4b1"/>
+  <rect x="480" y="0" width="240" height="6" fill="#d4145a"/>
+  <rect x="720" y="0" width="240" height="6" fill="#f0ad4e"/>
+  <rect x="960" y="0" width="240" height="6" fill="#8e44ad"/>
+
+  <!-- Same bars bottom -->
+  <rect x="0"   y="624" width="240" height="6" fill="#5c97bf"/>
+  <rect x="240" y="624" width="240" height="6" fill="#59c4b1"/>
+  <rect x="480" y="624" width="240" height="6" fill="#d4145a"/>
+  <rect x="720" y="624" width="240" height="6" fill="#f0ad4e"/>
+  <rect x="960" y="624" width="240" height="6" fill="#8e44ad"/>
+
+  <!-- Main title: AttaQwant -->
+  <text x="600" y="250" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="96" font-weight="700" fill="#e6edf3">
+    Atta<tspan fill="#d4145a">Q</tspan>want
+  </text>
+
+  <!-- Subtitle -->
+  <text x="600" y="330" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="32" font-weight="400" fill="#8b949e">
+    Dossier d'Analyse Financiere
+  </text>
+
+  <!-- Key figures line -->
+  <line x1="300" y1="380" x2="900" y2="380" stroke="#30363d" stroke-width="1"/>
+
+  <text x="600" y="430" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="24" fill="#58a6ff">
+    Qwant SAS  |  2016-2021  |  SIREN 532 867 256
+  </text>
+
+  <!-- Bottom tagline -->
+  <text x="600" y="490" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" fill="#f85149">
+    63 M&#8364; de pertes cumulees  |  Capitaux propres negatifs des 2018
+  </text>
+
+  <text x="600" y="540" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" fill="#8b949e">
+    Signalement au Parquet National Financier par la Cour des comptes
+  </text>
+</svg>

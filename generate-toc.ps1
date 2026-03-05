@@ -47,27 +47,32 @@ function Get-MarkdownHeadings([string]$FilePath) {
 }
 
 # --- Build nested heading tree from flat list ---
+# Uses hierarchical compound slugs: parent-slug/child-slug (mirrors JS renderer)
 function Build-HeadingTree([array]$Headings, [string]$FilePath) {
     $root = [System.Collections.ArrayList]::new()
-    # Stack: each entry is @{ node, level }
+    # Stack: each entry is @{ node, level, slug }
     $stack = [System.Collections.ArrayList]::new()
 
     foreach ($h in $Headings) {
-        $node = [ordered]@{
-            name = $h.Name
-            path = "$FilePath#$($h.Slug)"
-        }
-
-        # Pop stack until we find a parent with a lower level
+        # Pop stack back to parent level
         while ($stack.Count -gt 0 -and $stack[$stack.Count - 1].level -ge $h.Level) {
             $stack.RemoveAt($stack.Count - 1)
         }
 
+        # Build compound slug from hierarchy
+        $slugParts = @()
+        foreach ($s in $stack) { $slugParts += $s.slug }
+        $slugParts += $h.Slug
+        $compoundSlug = $slugParts -join '/'
+
+        $node = [ordered]@{
+            name = $h.Name
+            path = "$FilePath#$compoundSlug"
+        }
+
         if ($stack.Count -eq 0) {
-            # Top level
             [void]$root.Add($node)
         } else {
-            # Add as child of the last stack entry
             $parent = $stack[$stack.Count - 1].node
             if (-not $parent.Contains('children')) {
                 $parent['children'] = [System.Collections.ArrayList]::new()
@@ -75,7 +80,7 @@ function Build-HeadingTree([array]$Headings, [string]$FilePath) {
             [void]$parent['children'].Add($node)
         }
 
-        [void]$stack.Add(@{ node = $node; level = $h.Level })
+        [void]$stack.Add(@{ node = $node; level = $h.Level; slug = $h.Slug })
     }
 
     return , $root

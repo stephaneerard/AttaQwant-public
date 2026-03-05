@@ -3,7 +3,24 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Chargement...</title>
+<title>Dossier d'Analyse Financiere - Qwant SAS</title>
+
+<!-- Twitter Card / Open Graph -->
+<meta property="og:type" content="article">
+<meta property="og:title" content="Dossier d'Analyse Financiere - Qwant SAS">
+<meta property="og:description" content="Analyse financiere complete de Qwant SAS (2016-2021) : 63 M de pertes cumulees, capitaux propres negatifs, valorisation contestee, signalement au Parquet National Financier.">
+<meta property="og:image" content="og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="fr_FR">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Dossier d'Analyse Financiere - Qwant SAS">
+<meta name="twitter:description" content="Analyse financiere complete de Qwant SAS (2016-2021) : 63 M de pertes cumulees, capitaux propres negatifs, valorisation contestee, signalement au Parquet National Financier.">
+<meta name="twitter:image" content="og-image.png">
+
+<meta name="description" content="Analyse financiere complete de Qwant SAS (2016-2021) : liasses fiscales, actes sociaux, ratios financiers, chronologie des alertes.">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/github-markdown-css@5/github-markdown.min.css">
 <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.min.js"></script>
@@ -57,14 +74,38 @@
     padding: 16px;
     border-bottom: 1px solid var(--border);
     display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  #sidebar-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  #sidebar-logo svg { flex-shrink: 0; }
+  #sidebar-logo .logo-text {
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--text);
+    letter-spacing: -0.5px;
+  }
+  #sidebar-logo .logo-text .q { color: #d4145a; }
+  #sidebar-sep {
+    height: 1px;
+    background: linear-gradient(90deg, #5c97bf, #59c4b1, #d4145a, #f0ad4e, #8e44ad);
+    border: none;
+  }
+  #sidebar-title-row {
+    display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 8px;
   }
   #sidebar-header h1 {
-    font-size: 14px;
-    font-weight: 600;
-    color: var(--text);
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--text-muted);
     line-height: 1.3;
     flex: 1;
   }
@@ -198,6 +239,26 @@
     background: var(--bg-sidebar) !important;
     color: var(--text) !important;
   }
+  .markdown-body h1, .markdown-body h2, .markdown-body h3,
+  .markdown-body h4, .markdown-body h5, .markdown-body h6 {
+    position: relative;
+    color: var(--text) !important;
+  }
+  .heading-link {
+    position: absolute;
+    left: -1.5em;
+    color: var(--text-muted) !important;
+    text-decoration: none !important;
+    font-weight: 400;
+    opacity: 0;
+    transition: opacity .15s;
+  }
+  .markdown-body h1:hover .heading-link,
+  .markdown-body h2:hover .heading-link,
+  .markdown-body h3:hover .heading-link,
+  .markdown-body h4:hover .heading-link,
+  .markdown-body h5:hover .heading-link,
+  .markdown-body h6:hover .heading-link { opacity: 1; }
 
   /* --- Mermaid container --- */
   .mermaid-wrapper {
@@ -318,9 +379,24 @@
 
 <nav id="sidebar">
   <div id="sidebar-header">
-    <h1 id="app-title">...</h1>
-    <div id="sidebar-controls">
-      <button id="btn-theme" title="Basculer clair/sombre">&#9789;</button>
+    <div id="sidebar-logo">
+      <svg width="28" height="28" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+        <rect width="32" height="32" rx="6" fill="#0d1117"/>
+        <rect x="0" y="0" width="6.4" height="3" fill="#5c97bf"/>
+        <rect x="6.4" y="0" width="6.4" height="3" fill="#59c4b1"/>
+        <rect x="12.8" y="0" width="6.4" height="3" fill="#d4145a"/>
+        <rect x="19.2" y="0" width="6.4" height="3" fill="#f0ad4e"/>
+        <rect x="25.6" y="0" width="6.4" height="3" fill="#8e44ad"/>
+        <text x="16" y="24" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#e6edf3">A<tspan fill="#d4145a">Q</tspan></text>
+      </svg>
+      <span class="logo-text">Atta<span class="q">Q</span>want</span>
+    </div>
+    <hr id="sidebar-sep">
+    <div id="sidebar-title-row">
+      <h1 id="app-title">...</h1>
+      <div id="sidebar-controls">
+        <button id="btn-theme" title="Basculer clair/sombre">&#9789;</button>
+      </div>
     </div>
   </div>
   <div id="toc"></div>
@@ -567,6 +643,9 @@
     const renderer = new marked.Renderer();
     const defaultCode = renderer.code.bind(renderer);
 
+    // Heading hierarchy stack for compound IDs: [ { level, slug } ]
+    const headingStack = [];
+
     let mermaidIdx = 0;
     const mermaidBlocks = [];
 
@@ -586,6 +665,23 @@
           + '</div>';
       }
       return defaultCode({ text, lang });
+    };
+
+    // Headings: hierarchical compound IDs (parent/child) for disambiguation
+    renderer.heading = function({ text, depth }) {
+      const baseSlug = slugify(text.replace(/<[^>]*>/g, ''));
+      // Pop stack back to parent level
+      while (headingStack.length > 0 && headingStack[headingStack.length - 1].level >= depth) {
+        headingStack.pop();
+      }
+      headingStack.push({ level: depth, slug: baseSlug });
+      // Build compound ID: h1-slug/h2-slug/h3-slug
+      const compoundId = headingStack.map(h => h.slug).join('/');
+      const href = currentFile + '#' + compoundId;
+      return '<h' + depth + ' id="' + escHtml(compoundId) + '">'
+        + '<a class="heading-link" href="#' + escHtml(href) + '" aria-hidden="true">#</a>'
+        + text
+        + '</h' + depth + '>';
     };
 
     // Handle internal .md/.pdf links
@@ -625,9 +721,13 @@
       });
     });
 
-    // Generate heading IDs for deep linking
-    contentEl.querySelectorAll('h1,h2,h3,h4,h5,h6').forEach(h => {
-      if (!h.id) h.id = slugify(h.textContent);
+    // Heading anchor clicks
+    contentEl.querySelectorAll('a.heading-link').forEach(a => {
+      a.addEventListener('click', e => {
+        e.preventDefault();
+        const href = a.getAttribute('href').replace(/^#/, '');
+        navigateToPath(href);
+      });
     });
 
     if (anchor) {
