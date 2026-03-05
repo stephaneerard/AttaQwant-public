@@ -24,7 +24,7 @@
 | 11 | [Conclusions](11_CONCLUSIONS.md) | Synthèse des irrégularités, questions ouvertes, pistes d'investigation |
 | **12** | **[ANALYSE D'INVESTIGATION](12_ANALYSE_INVESTIGATION.md)** | **Recherche d'infractions pénales, fondements d'actions civiles, responsabilités individuelles (Leandri, Rozan, Chalon), diligences recommandées, stratégie procédurale** |
 | **13** | **[LIMITES ET ACTIONS À MENER](13_LIMITES_ET_ACTIONS.md)** | **Limites de l'analyse documentaire, demandes CADA, plainte pénale (mode opératoire), prescription, référé 145, calendrier d'actions, choix de l'avocat** |
-
+| **14** | **[POURSUITES À MENER](RAPPORT_POURSUITES_QWANT.pdf)** | **Analyse des poursuites à engager** |
 ---
 
 ## Chiffres clés (aperçu rapide)
