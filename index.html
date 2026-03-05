@@ -413,6 +413,7 @@
 
   // --- TOC builder (recursive, array-based { name, path?, children? }) ---
   function buildToc(items, parent, depth) {
+    if (!Array.isArray(items)) return;
     const ul = document.createElement('ul');
     for (const item of items) {
       const li = document.createElement('li');
@@ -424,7 +425,9 @@
         li.classList.add('toc-group');
 
         if (hasPath) {
-          // Document node: clickable label that also loads the file
+          // Document node: start collapsed (opened via updateActiveToc when anchor matches)
+          li.classList.add('collapsed');
+
           const wrapper = document.createElement('div');
           wrapper.style.display = 'flex';
           wrapper.style.alignItems = 'center';
@@ -433,6 +436,7 @@
           toggle.classList.add('toc-group-toggle');
           toggle.textContent = '\u25BE';
           toggle.style.cssText = 'cursor:pointer;padding:4px 6px;font-size:10px;color:var(--text-muted);transition:transform .15s;display:inline-block;';
+          toggle.style.transform = 'rotate(-90deg)';
           toggle.addEventListener('click', e => {
             e.stopPropagation();
             li.classList.toggle('collapsed');
@@ -511,6 +515,7 @@
   }
 
   function findFirstPath(items) {
+    if (!Array.isArray(items)) return null;
     for (const item of items) {
       if (item.path) return item.path;
       if (item.children) {
@@ -638,12 +643,23 @@
   // --- TOC active state ---
   function updateActiveToc(file, anchor) {
     const fullPath = anchor ? file + '#' + anchor : file;
+
+    // Collapse all document-level groups (those with a toggle)
+    tocEl.querySelectorAll('.toc-group').forEach(g => {
+      const toggle = g.querySelector(':scope > div > .toc-group-toggle');
+      if (toggle) {
+        g.classList.add('collapsed');
+        toggle.style.transform = 'rotate(-90deg)';
+      }
+    });
+
+    // Update active link
     tocEl.querySelectorAll('a').forEach(a => {
-      // Exact match on full path, or file-only match
       const isActive = a.dataset.path === fullPath || (!anchor && a.dataset.file === file && !a.dataset.path.includes('#'));
       a.classList.toggle('active', isActive);
     });
-    // Auto-expand parent groups
+
+    // Expand path to the active link
     const activeLink = tocEl.querySelector('a.active');
     if (activeLink) {
       let parent = activeLink.closest('.toc-group');
@@ -662,6 +678,7 @@
   }
 
   function findBreadcrumb(items, file, anchor, path) {
+    if (!Array.isArray(items)) return null;
     const fullPath = anchor ? file + '#' + anchor : file;
     for (const item of items) {
       if (item.path === fullPath) return [...path, item.name].join(' > ');

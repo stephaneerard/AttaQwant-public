@@ -78,7 +78,7 @@ function Build-HeadingTree([array]$Headings, [string]$FilePath) {
         [void]$stack.Add(@{ node = $node; level = $h.Level })
     }
 
-    return $root
+    return , $root
 }
 
 # --- Process a manifest TOC entry (recursive) ---
@@ -133,9 +133,46 @@ foreach ($prop in $manifest.toc.PSObject.Properties) {
     [void]$toc['toc'].Add($entry)
 }
 
-$json = $toc | ConvertTo-Json -Depth 20 -Compress:$false
-# Fix encoding: ConvertTo-Json escapes unicode, we want readable French
-$json = [System.Text.RegularExpressions.Regex]::Unescape($json)
+# ConvertTo-Json unwraps single-element arrays; use a custom serializer
+Add-Type -AssemblyName System.Web.Extensions 2>$null
+function ConvertTo-SafeJson($obj, $indent) {
+    if ($null -eq $indent) { $indent = 0 }
+    $pad = '  ' * $indent
+    $pad1 = '  ' * ($indent + 1)
+
+    if ($obj -is [System.Collections.ArrayList] -or $obj -is [System.Collections.IList] -or $obj -is [array]) {
+        if ($obj.Count -eq 0) { return '[]' }
+        $items = @()
+        foreach ($item in $obj) {
+            $items += "$pad1$(ConvertTo-SafeJson $item ($indent + 1))"
+        }
+        return "[$([Environment]::NewLine)$($items -join ",$([Environment]::NewLine)")$([Environment]::NewLine)$pad]"
+    }
+    elseif ($obj -is [System.Collections.IDictionary]) {
+        $entries = @()
+        foreach ($key in $obj.Keys) {
+            $val = ConvertTo-SafeJson $obj[$key] ($indent + 1)
+            $escapedKey = $key.Replace('\','\\').Replace('"','\"')
+            $entries += "$pad1""$escapedKey"": $val"
+        }
+        return "{$([Environment]::NewLine)$($entries -join ",$([Environment]::NewLine)")$([Environment]::NewLine)$pad}"
+    }
+    elseif ($obj -is [string]) {
+        $escaped = $obj.Replace('\','\\').Replace('"','\"').Replace("`n",'\n').Replace("`r",'\r').Replace("`t",'\t')
+        return """$escaped"""
+    }
+    elseif ($obj -is [bool]) {
+        return if ($obj) { 'true' } else { 'false' }
+    }
+    elseif ($null -eq $obj) {
+        return 'null'
+    }
+    else {
+        return "$obj"
+    }
+}
+
+$json = ConvertTo-SafeJson $toc 0
 
 $json | Out-File $OutputPath -Encoding UTF8 -NoNewline
 Write-Host "TOC generated: $OutputPath"
