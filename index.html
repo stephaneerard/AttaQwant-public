@@ -257,6 +257,14 @@
     justify-content: center;
   }
 
+  /* --- PDF embed --- */
+  .pdf-embed {
+    width: 100%;
+    height: calc(100vh - 80px);
+    border: none;
+    border-radius: 8px;
+  }
+
   /* --- Loading --- */
   #loading {
     display: flex;
@@ -451,11 +459,22 @@
     return null;
   }
 
+  function isPdf(file) {
+    return /\.pdf$/i.test(file);
+  }
+
   // --- File loading ---
   async function loadFile(file, anchor) {
     currentFile = file;
     updateActiveToc(file);
     updateBreadcrumb(file);
+
+    // PDF: embed directly, no fetch-as-text
+    if (isPdf(file)) {
+      const src = resolvePath(file) + (anchor ? '#' + anchor : '');
+      contentEl.innerHTML = '<embed class="pdf-embed" src="' + escHtml(src) + '" type="application/pdf">';
+      return;
+    }
 
     if (!fileCache[file]) {
       contentEl.innerHTML = '<div id="loading"><div class="spinner"></div>Chargement...</div>';
