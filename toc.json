@@ -1,10 +1,14 @@
 ﻿{
-  "name": "Dossier d'Analyse - Qwant SAS",
+  "name": "Dossier d'Analyse Lanceur d'Alerte - Qwant SAS & al",
   "toc": [
     {
       "name": "Sommaire",
       "path": "SOMMAIRE.md",
       "children": [
+        {
+          "name": "00 - Introduction",
+          "path": "SOMMAIRE.md#sommaire-qwant-analyse/00-introduction"
+        },
         {
           "name": "00 - Inventaire",
           "path": "SOMMAIRE.md#sommaire-qwant-analyse/00-inventaire"
@@ -28,6 +32,2141 @@
       ]
     },
     {
+      "name": "00 - Introduction",
+      "children": [
+        {
+          "name": "Affaire Qwant Introduction",
+          "path": "00 - Introduction/00_Affaire_Qwant_Introduction.pdf"
+        },
+        {
+          "name": "Dossier Qwant — Publication publique",
+          "path": "00 - Introduction/00_SOMMAIRE.md",
+          "children": [
+            {
+              "name": "Vue d'ensemble",
+              "path": "00 - Introduction/00_SOMMAIRE.md#dossier-qwant-publication-publique/vue-d-ensemble"
+            },
+            {
+              "name": "Structure de la publication",
+              "path": "00 - Introduction/00_SOMMAIRE.md#dossier-qwant-publication-publique/structure-de-la-publication",
+              "children": [
+                {
+                  "name": "Couche 1 — Vue d'ensemble (grand public)",
+                  "path": "00 - Introduction/00_SOMMAIRE.md#dossier-qwant-publication-publique/structure-de-la-publication/couche-1-vue-d-ensemble-grand-public"
+                },
+                {
+                  "name": "Couche 2 — Faits documentés et cadre légal",
+                  "path": "00 - Introduction/00_SOMMAIRE.md#dossier-qwant-publication-publique/structure-de-la-publication/couche-2-faits-documentes-et-cadre-legal"
+                },
+                {
+                  "name": "Couche 3 — Analyses techniques complètes",
+                  "path": "00 - Introduction/00_SOMMAIRE.md#dossier-qwant-publication-publique/structure-de-la-publication/couche-3-analyses-techniques-completes"
+                }
+              ]
+            },
+            {
+              "name": "Les acteurs clés",
+              "path": "00 - Introduction/00_SOMMAIRE.md#dossier-qwant-publication-publique/les-acteurs-cles",
+              "children": [
+                {
+                  "name": "Le simulacre : Qwant (2013-2025)",
+                  "path": "00 - Introduction/00_SOMMAIRE.md#dossier-qwant-publication-publique/les-acteurs-cles/le-simulacre-qwant-2013-2025"
+                },
+                {
+                  "name": "La technologie détruite : Xilopix/Xaphir (2008-2017)",
+                  "path": "00 - Introduction/00_SOMMAIRE.md#dossier-qwant-publication-publique/les-acteurs-cles/la-technologie-detruite-xilopix-xaphir-2008-2017"
+                },
+                {
+                  "name": "L'État et ses défaillances",
+                  "path": "00 - Introduction/00_SOMMAIRE.md#dossier-qwant-publication-publique/les-acteurs-cles/l-etat-et-ses-defaillances"
+                },
+                {
+                  "name": "Les lanceurs d'alerte",
+                  "path": "00 - Introduction/00_SOMMAIRE.md#dossier-qwant-publication-publique/les-acteurs-cles/les-lanceurs-d-alerte"
+                }
+              ]
+            },
+            {
+              "name": "Demandes et actions en cours",
+              "path": "00 - Introduction/00_SOMMAIRE.md#dossier-qwant-publication-publique/demandes-et-actions-en-cours"
+            },
+            {
+              "name": "Sources documentaires principales",
+              "path": "00 - Introduction/00_SOMMAIRE.md#dossier-qwant-publication-publique/sources-documentaires-principales"
+            },
+            {
+              "name": "Calendrier de publication",
+              "path": "00 - Introduction/00_SOMMAIRE.md#dossier-qwant-publication-publique/calendrier-de-publication"
+            },
+            {
+              "name": "Navigation",
+              "path": "00 - Introduction/00_SOMMAIRE.md#dossier-qwant-publication-publique/navigation"
+            }
+          ]
+        },
+        {
+          "name": "Synthèse — Qwant : autopsie d'un simulacre souverain",
+          "path": "00 - Introduction/01_SYNTHESE.md",
+          "children": [
+            {
+              "name": "Comment la France a financé pendant douze ans un méta-moteur Bing, détruit la seule technologie souveraine réelle, et laissé prescrire les infractions à la protection des données.",
+              "path": "00 - Introduction/01_SYNTHESE.md#synthese-qwant-autopsie-d-un-simulacre-souverain/comment-la-france-a-finance-pendant-douze-ans-un-meta-moteur-bing-detruit-la-seule-technologie-souveraine-reelle-et-laisse-prescrire-les-infractions-a-la-protection-des-donnees"
+            },
+            {
+              "name": "Résumé exécutif",
+              "path": "00 - Introduction/01_SYNTHESE.md#synthese-qwant-autopsie-d-un-simulacre-souverain/resume-executif"
+            },
+            {
+              "name": "Chiffres clés",
+              "path": "00 - Introduction/01_SYNTHESE.md#synthese-qwant-autopsie-d-un-simulacre-souverain/chiffres-cles"
+            },
+            {
+              "name": "PARTIE I — LE SIMULACRE QWANT",
+              "path": "00 - Introduction/01_SYNTHESE.md#synthese-qwant-autopsie-d-un-simulacre-souverain/partie-i-le-simulacre-qwant",
+              "children": [
+                {
+                  "name": "La dépendance totale à Microsoft Bing",
+                  "path": "00 - Introduction/01_SYNTHESE.md#synthese-qwant-autopsie-d-un-simulacre-souverain/partie-i-le-simulacre-qwant/la-dependance-totale-a-microsoft-bing"
+                },
+                {
+                  "name": "La violation massive de la vie privée",
+                  "path": "00 - Introduction/01_SYNTHESE.md#synthese-qwant-autopsie-d-un-simulacre-souverain/partie-i-le-simulacre-qwant/la-violation-massive-de-la-vie-privee"
+                },
+                {
+                  "name": "Les chiffres accablants : comptes annuels 2017",
+                  "path": "00 - Introduction/01_SYNTHESE.md#synthese-qwant-autopsie-d-un-simulacre-souverain/partie-i-le-simulacre-qwant/les-chiffres-accablants-comptes-annuels-2017"
+                }
+              ]
+            },
+            {
+              "name": "PARTIE II — LA DESTRUCTION DE XILOPIX/XAPHIR",
+              "path": "00 - Introduction/01_SYNTHESE.md#synthese-qwant-autopsie-d-un-simulacre-souverain/partie-ii-la-destruction-de-xilopix-xaphir",
+              "children": [
+                {
+                  "name": "Une véritable technologie souveraine",
+                  "path": "00 - Introduction/01_SYNTHESE.md#synthese-qwant-autopsie-d-un-simulacre-souverain/partie-ii-la-destruction-de-xilopix-xaphir/une-veritable-technologie-souveraine"
+                },
+                {
+                  "name": "Le mécanisme d'élimination : quatre phases documentées",
+                  "path": "00 - Introduction/01_SYNTHESE.md#synthese-qwant-autopsie-d-un-simulacre-souverain/partie-ii-la-destruction-de-xilopix-xaphir/le-mecanisme-d-elimination-quatre-phases-documentees",
+                  "children": [
+                    {
+                      "name": "Phase 1 : Assèchement des financements (mai 2016)",
+                      "path": "00 - Introduction/01_SYNTHESE.md#synthese-qwant-autopsie-d-un-simulacre-souverain/partie-ii-la-destruction-de-xilopix-xaphir/le-mecanisme-d-elimination-quatre-phases-documentees/phase-1-assechement-des-financements-mai-2016"
+                    },
+                    {
+                      "name": "Phase 2 : L'audit frauduleux de Cardiweb (20 juin 2016)",
+                      "path": "00 - Introduction/01_SYNTHESE.md#synthese-qwant-autopsie-d-un-simulacre-souverain/partie-ii-la-destruction-de-xilopix-xaphir/le-mecanisme-d-elimination-quatre-phases-documentees/phase-2-l-audit-frauduleux-de-cardiweb-20-juin-2016"
+                    },
+                    {
+                      "name": "Phase 3 : Investissement CDC dans Qwant (31 janvier 2017)",
+                      "path": "00 - Introduction/01_SYNTHESE.md#synthese-qwant-autopsie-d-un-simulacre-souverain/partie-ii-la-destruction-de-xilopix-xaphir/le-mecanisme-d-elimination-quatre-phases-documentees/phase-3-investissement-cdc-dans-qwant-31-janvier-2017"
+                    },
+                    {
+                      "name": "Phase 4 : Rachat et liquidation de Xilopix (10 novembre 2017)",
+                      "path": "00 - Introduction/01_SYNTHESE.md#synthese-qwant-autopsie-d-un-simulacre-souverain/partie-ii-la-destruction-de-xilopix-xaphir/le-mecanisme-d-elimination-quatre-phases-documentees/phase-4-rachat-et-liquidation-de-xilopix-10-novembre-2017"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "PARTIE III — LA DÉFAILLANCE DE L'ÉTAT",
+              "path": "00 - Introduction/01_SYNTHESE.md#synthese-qwant-autopsie-d-un-simulacre-souverain/partie-iii-la-defaillance-de-l-etat",
+              "children": [
+                {
+                  "name": "Les mensonges publics documentés",
+                  "path": "00 - Introduction/01_SYNTHESE.md#synthese-qwant-autopsie-d-un-simulacre-souverain/partie-iii-la-defaillance-de-l-etat/les-mensonges-publics-documentes",
+                  "children": [
+                    {
+                      "name": "Éric Léandri (cofondateur et PDG de Qwant)",
+                      "path": "00 - Introduction/01_SYNTHESE.md#synthese-qwant-autopsie-d-un-simulacre-souverain/partie-iii-la-defaillance-de-l-etat/les-mensonges-publics-documentes/eric-leandri-cofondateur-et-pdg-de-qwant"
+                    },
+                    {
+                      "name": "Cédric O (secrétaire d'État au Numérique)",
+                      "path": "00 - Introduction/01_SYNTHESE.md#synthese-qwant-autopsie-d-un-simulacre-souverain/partie-iii-la-defaillance-de-l-etat/les-mensonges-publics-documentes/cedric-o-secretaire-d-etat-au-numerique"
+                    },
+                    {
+                      "name": "Bruno Le Maire (ministre de l'Économie)",
+                      "path": "00 - Introduction/01_SYNTHESE.md#synthese-qwant-autopsie-d-un-simulacre-souverain/partie-iii-la-defaillance-de-l-etat/les-mensonges-publics-documentes/bruno-le-maire-ministre-de-l-economie"
+                    },
+                    {
+                      "name": "Jean-Michel Blanquer (ministre de l'Éducation nationale)",
+                      "path": "00 - Introduction/01_SYNTHESE.md#synthese-qwant-autopsie-d-un-simulacre-souverain/partie-iii-la-defaillance-de-l-etat/les-mensonges-publics-documentes/jean-michel-blanquer-ministre-de-l-education-nationale"
+                    },
+                    {
+                      "name": "DINUM (Direction interministérielle du numérique)",
+                      "path": "00 - Introduction/01_SYNTHESE.md#synthese-qwant-autopsie-d-un-simulacre-souverain/partie-iii-la-defaillance-de-l-etat/les-mensonges-publics-documentes/dinum-direction-interministerielle-du-numerique"
+                    }
+                  ]
+                },
+                {
+                  "name": "Les montages financiers et connexions politiques",
+                  "path": "00 - Introduction/01_SYNTHESE.md#synthese-qwant-autopsie-d-un-simulacre-souverain/partie-iii-la-defaillance-de-l-etat/les-montages-financiers-et-connexions-politiques"
+                },
+                {
+                  "name": "La Caisse des Dépôts : un rôle central et accablant",
+                  "path": "00 - Introduction/01_SYNTHESE.md#synthese-qwant-autopsie-d-un-simulacre-souverain/partie-iii-la-defaillance-de-l-etat/la-caisse-des-depots-un-role-central-et-accablant"
+                }
+              ]
+            },
+            {
+              "name": "PARTIE IV — LA DÉFAILLANCE DE LA CNIL",
+              "path": "00 - Introduction/01_SYNTHESE.md#synthese-qwant-autopsie-d-un-simulacre-souverain/partie-iv-la-defaillance-de-la-cnil",
+              "children": [
+                {
+                  "name": "Plainte déposée (2019)",
+                  "path": "00 - Introduction/01_SYNTHESE.md#synthese-qwant-autopsie-d-un-simulacre-souverain/partie-iv-la-defaillance-de-la-cnil/plainte-deposee-2019"
+                },
+                {
+                  "name": "Clôture sans sanction (février 2025)",
+                  "path": "00 - Introduction/01_SYNTHESE.md#synthese-qwant-autopsie-d-un-simulacre-souverain/partie-iv-la-defaillance-de-la-cnil/cloture-sans-sanction-fevrier-2025"
+                },
+                {
+                  "name": "Trois problèmes majeurs",
+                  "path": "00 - Introduction/01_SYNTHESE.md#synthese-qwant-autopsie-d-un-simulacre-souverain/partie-iv-la-defaillance-de-la-cnil/trois-problemes-majeurs",
+                  "children": [
+                    {
+                      "name": "Inertie délibérée",
+                      "path": "00 - Introduction/01_SYNTHESE.md#synthese-qwant-autopsie-d-un-simulacre-souverain/partie-iv-la-defaillance-de-la-cnil/trois-problemes-majeurs/inertie-deliberee"
+                    },
+                    {
+                      "name": "Signal envoyé aux entreprises",
+                      "path": "00 - Introduction/01_SYNTHESE.md#synthese-qwant-autopsie-d-un-simulacre-souverain/partie-iv-la-defaillance-de-la-cnil/trois-problemes-majeurs/signal-envoye-aux-entreprises"
+                    },
+                    {
+                      "name": "Signal envoyé aux lanceurs d'alerte",
+                      "path": "00 - Introduction/01_SYNTHESE.md#synthese-qwant-autopsie-d-un-simulacre-souverain/partie-iv-la-defaillance-de-la-cnil/trois-problemes-majeurs/signal-envoye-aux-lanceurs-d-alerte"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "PARTIE V — LE PARCOURS DU LANCEUR D'ALERTE",
+              "path": "00 - Introduction/01_SYNTHESE.md#synthese-qwant-autopsie-d-un-simulacre-souverain/partie-v-le-parcours-du-lanceur-d-alerte",
+              "children": [
+                {
+                  "name": "Stéphane Erard",
+                  "path": "00 - Introduction/01_SYNTHESE.md#synthese-qwant-autopsie-d-un-simulacre-souverain/partie-v-le-parcours-du-lanceur-d-alerte/stephane-erard"
+                },
+                {
+                  "name": "Tentative d'alerte interne",
+                  "path": "00 - Introduction/01_SYNTHESE.md#synthese-qwant-autopsie-d-un-simulacre-souverain/partie-v-le-parcours-du-lanceur-d-alerte/tentative-d-alerte-interne"
+                },
+                {
+                  "name": "Rendre publiques les constatations",
+                  "path": "00 - Introduction/01_SYNTHESE.md#synthese-qwant-autopsie-d-un-simulacre-souverain/partie-v-le-parcours-du-lanceur-d-alerte/rendre-publiques-les-constatations"
+                },
+                {
+                  "name": "Licenciement",
+                  "path": "00 - Introduction/01_SYNTHESE.md#synthese-qwant-autopsie-d-un-simulacre-souverain/partie-v-le-parcours-du-lanceur-d-alerte/licenciement"
+                },
+                {
+                  "name": "Documentation exhaustive",
+                  "path": "00 - Introduction/01_SYNTHESE.md#synthese-qwant-autopsie-d-un-simulacre-souverain/partie-v-le-parcours-du-lanceur-d-alerte/documentation-exhaustive"
+                },
+                {
+                  "name": "Corroboration par Éric Mathieu",
+                  "path": "00 - Introduction/01_SYNTHESE.md#synthese-qwant-autopsie-d-un-simulacre-souverain/partie-v-le-parcours-du-lanceur-d-alerte/corroboration-par-eric-mathieu"
+                }
+              ]
+            },
+            {
+              "name": "PARTIE VI — DEMANDES",
+              "path": "00 - Introduction/01_SYNTHESE.md#synthese-qwant-autopsie-d-un-simulacre-souverain/partie-vi-demandes",
+              "children": [
+                {
+                  "name": "1. Commission d'enquête parlementaire",
+                  "path": "00 - Introduction/01_SYNTHESE.md#synthese-qwant-autopsie-d-un-simulacre-souverain/partie-vi-demandes/1-commission-d-enquete-parlementaire"
+                },
+                {
+                  "name": "2. Reconnaissance du statut de lanceur d'alerte",
+                  "path": "00 - Introduction/01_SYNTHESE.md#synthese-qwant-autopsie-d-un-simulacre-souverain/partie-vi-demandes/2-reconnaissance-du-statut-de-lanceur-d-alerte"
+                },
+                {
+                  "name": "3. Réouverture du dossier CNIL",
+                  "path": "00 - Introduction/01_SYNTHESE.md#synthese-qwant-autopsie-d-un-simulacre-souverain/partie-vi-demandes/3-reouverture-du-dossier-cnil"
+                }
+              ]
+            },
+            {
+              "name": "Annexes et sources",
+              "path": "00 - Introduction/01_SYNTHESE.md#synthese-qwant-autopsie-d-un-simulacre-souverain/annexes-et-sources",
+              "children": [
+                {
+                  "name": "Sources documentaires principales",
+                  "path": "00 - Introduction/01_SYNTHESE.md#synthese-qwant-autopsie-d-un-simulacre-souverain/annexes-et-sources/sources-documentaires-principales"
+                }
+              ]
+            },
+            {
+              "name": "Navigation",
+              "path": "00 - Introduction/01_SYNTHESE.md#synthese-qwant-autopsie-d-un-simulacre-souverain/navigation"
+            }
+          ]
+        },
+        {
+          "name": "Chronologie factuelle — L'affaire Qwant de 2008 à 2026",
+          "path": "00 - Introduction/02_CHRONOLOGIE.md",
+          "children": [
+            {
+              "name": "Légende des couleurs",
+              "path": "00 - Introduction/02_CHRONOLOGIE.md#chronologie-factuelle-l-affaire-qwant-de-2008-a-2026/legende-des-couleurs"
+            },
+            {
+              "name": "Bilan : 20 ANS DE PERTE",
+              "path": "00 - Introduction/02_CHRONOLOGIE.md#chronologie-factuelle-l-affaire-qwant-de-2008-a-2026/bilan-20-ans-de-perte"
+            },
+            {
+              "name": "Chronologie détaillée",
+              "path": "00 - Introduction/02_CHRONOLOGIE.md#chronologie-factuelle-l-affaire-qwant-de-2008-a-2026/chronologie-detaillee",
+              "children": [
+                {
+                  "name": "2008",
+                  "path": "00 - Introduction/02_CHRONOLOGIE.md#chronologie-factuelle-l-affaire-qwant-de-2008-a-2026/chronologie-detaillee/2008"
+                },
+                {
+                  "name": "2013",
+                  "path": "00 - Introduction/02_CHRONOLOGIE.md#chronologie-factuelle-l-affaire-qwant-de-2008-a-2026/chronologie-detaillee/2013"
+                },
+                {
+                  "name": "2015",
+                  "path": "00 - Introduction/02_CHRONOLOGIE.md#chronologie-factuelle-l-affaire-qwant-de-2008-a-2026/chronologie-detaillee/2015"
+                },
+                {
+                  "name": "2016",
+                  "path": "00 - Introduction/02_CHRONOLOGIE.md#chronologie-factuelle-l-affaire-qwant-de-2008-a-2026/chronologie-detaillee/2016"
+                },
+                {
+                  "name": "2017",
+                  "path": "00 - Introduction/02_CHRONOLOGIE.md#chronologie-factuelle-l-affaire-qwant-de-2008-a-2026/chronologie-detaillee/2017"
+                },
+                {
+                  "name": "2018",
+                  "path": "00 - Introduction/02_CHRONOLOGIE.md#chronologie-factuelle-l-affaire-qwant-de-2008-a-2026/chronologie-detaillee/2018"
+                },
+                {
+                  "name": "2019",
+                  "path": "00 - Introduction/02_CHRONOLOGIE.md#chronologie-factuelle-l-affaire-qwant-de-2008-a-2026/chronologie-detaillee/2019"
+                },
+                {
+                  "name": "2020",
+                  "path": "00 - Introduction/02_CHRONOLOGIE.md#chronologie-factuelle-l-affaire-qwant-de-2008-a-2026/chronologie-detaillee/2020"
+                },
+                {
+                  "name": "2021",
+                  "path": "00 - Introduction/02_CHRONOLOGIE.md#chronologie-factuelle-l-affaire-qwant-de-2008-a-2026/chronologie-detaillee/2021"
+                },
+                {
+                  "name": "2025",
+                  "path": "00 - Introduction/02_CHRONOLOGIE.md#chronologie-factuelle-l-affaire-qwant-de-2008-a-2026/chronologie-detaillee/2025"
+                },
+                {
+                  "name": "2026",
+                  "path": "00 - Introduction/02_CHRONOLOGIE.md#chronologie-factuelle-l-affaire-qwant-de-2008-a-2026/chronologie-detaillee/2026"
+                }
+              ]
+            },
+            {
+              "name": "Synthèse par acteur",
+              "path": "00 - Introduction/02_CHRONOLOGIE.md#chronologie-factuelle-l-affaire-qwant-de-2008-a-2026/synthese-par-acteur",
+              "children": [
+                {
+                  "name": "🔵 QWANT : La trajectoire du simulacre",
+                  "path": "00 - Introduction/02_CHRONOLOGIE.md#chronologie-factuelle-l-affaire-qwant-de-2008-a-2026/synthese-par-acteur/qwant-la-trajectoire-du-simulacre"
+                },
+                {
+                  "name": "🟢 XILOPIX : La trajectoire de la destruction",
+                  "path": "00 - Introduction/02_CHRONOLOGIE.md#chronologie-factuelle-l-affaire-qwant-de-2008-a-2026/synthese-par-acteur/xilopix-la-trajectoire-de-la-destruction"
+                },
+                {
+                  "name": "🟠 CDC/ÉTAT : Les défaillances institutionnelles",
+                  "path": "00 - Introduction/02_CHRONOLOGIE.md#chronologie-factuelle-l-affaire-qwant-de-2008-a-2026/synthese-par-acteur/cdc-etat-les-defaillances-institutionnelles"
+                },
+                {
+                  "name": "🟣 ERARD : Le parcours du lanceur d'alerte",
+                  "path": "00 - Introduction/02_CHRONOLOGIE.md#chronologie-factuelle-l-affaire-qwant-de-2008-a-2026/synthese-par-acteur/erard-le-parcours-du-lanceur-d-alerte"
+                },
+                {
+                  "name": "🔴 CNIL : L'inaction régulatrice",
+                  "path": "00 - Introduction/02_CHRONOLOGIE.md#chronologie-factuelle-l-affaire-qwant-de-2008-a-2026/synthese-par-acteur/cnil-l-inaction-regulatrice"
+                }
+              ]
+            },
+            {
+              "name": "Convergences clés",
+              "path": "00 - Introduction/02_CHRONOLOGIE.md#chronologie-factuelle-l-affaire-qwant-de-2008-a-2026/convergences-cles"
+            },
+            {
+              "name": "Points critiques",
+              "path": "00 - Introduction/02_CHRONOLOGIE.md#chronologie-factuelle-l-affaire-qwant-de-2008-a-2026/points-critiques",
+              "children": [
+                {
+                  "name": "1. La mascerade technique (2013-2017)",
+                  "path": "00 - Introduction/02_CHRONOLOGIE.md#chronologie-factuelle-l-affaire-qwant-de-2008-a-2026/points-critiques/1-la-mascerade-technique-2013-2017"
+                },
+                {
+                  "name": "2. L'élimination programmée (2016-2017)",
+                  "path": "00 - Introduction/02_CHRONOLOGIE.md#chronologie-factuelle-l-affaire-qwant-de-2008-a-2026/points-critiques/2-l-elimination-programmee-2016-2017"
+                },
+                {
+                  "name": "3. L'inaction complice (2019-2025)",
+                  "path": "00 - Introduction/02_CHRONOLOGIE.md#chronologie-factuelle-l-affaire-qwant-de-2008-a-2026/points-critiques/3-l-inaction-complice-2019-2025"
+                },
+                {
+                  "name": "4. L'absence de responsabilité (2026)",
+                  "path": "00 - Introduction/02_CHRONOLOGIE.md#chronologie-factuelle-l-affaire-qwant-de-2008-a-2026/points-critiques/4-l-absence-de-responsabilite-2026"
+                }
+              ]
+            },
+            {
+              "name": "Sources",
+              "path": "00 - Introduction/02_CHRONOLOGIE.md#chronologie-factuelle-l-affaire-qwant-de-2008-a-2026/sources"
+            },
+            {
+              "name": "Navigation",
+              "path": "00 - Introduction/02_CHRONOLOGIE.md#chronologie-factuelle-l-affaire-qwant-de-2008-a-2026/navigation"
+            }
+          ]
+        },
+        {
+          "name": "Tribune — J'ai lancé l'alerte sur Qwant. L'État a choisi le silence.",
+          "path": "00 - Introduction/03_TRIBUNE.md",
+          "children": [
+            {
+              "name": "Un simulacre de douze ans",
+              "path": "00 - Introduction/03_TRIBUNE.md#tribune-j-ai-lance-l-alerte-sur-qwant-l-etat-a-choisi-le-silence/un-simulacre-de-douze-ans",
+              "children": [
+                {
+                  "name": "Les responsables ont menti publiquement",
+                  "path": "00 - Introduction/03_TRIBUNE.md#tribune-j-ai-lance-l-alerte-sur-qwant-l-etat-a-choisi-le-silence/un-simulacre-de-douze-ans/les-responsables-ont-menti-publiquement"
+                }
+              ]
+            },
+            {
+              "name": "Le meurtre d'une technologie réelle",
+              "path": "00 - Introduction/03_TRIBUNE.md#tribune-j-ai-lance-l-alerte-sur-qwant-l-etat-a-choisi-le-silence/le-meurtre-d-une-technologie-reelle",
+              "children": [
+                {
+                  "name": "Phase 1 : L'assèchement des financements (mai 2016)",
+                  "path": "00 - Introduction/03_TRIBUNE.md#tribune-j-ai-lance-l-alerte-sur-qwant-l-etat-a-choisi-le-silence/le-meurtre-d-une-technologie-reelle/phase-1-l-assechement-des-financements-mai-2016"
+                },
+                {
+                  "name": "Phase 2 : L'audit frauduleux (20 juin 2016)",
+                  "path": "00 - Introduction/03_TRIBUNE.md#tribune-j-ai-lance-l-alerte-sur-qwant-l-etat-a-choisi-le-silence/le-meurtre-d-une-technologie-reelle/phase-2-l-audit-frauduleux-20-juin-2016"
+                },
+                {
+                  "name": "Phase 3 : L'investissement massif (31 janvier 2017)",
+                  "path": "00 - Introduction/03_TRIBUNE.md#tribune-j-ai-lance-l-alerte-sur-qwant-l-etat-a-choisi-le-silence/le-meurtre-d-une-technologie-reelle/phase-3-l-investissement-massif-31-janvier-2017"
+                },
+                {
+                  "name": "Phase 4 : L'exécution (10 novembre 2017)",
+                  "path": "00 - Introduction/03_TRIBUNE.md#tribune-j-ai-lance-l-alerte-sur-qwant-l-etat-a-choisi-le-silence/le-meurtre-d-une-technologie-reelle/phase-4-l-execution-10-novembre-2017"
+                }
+              ]
+            },
+            {
+              "name": "La Caisse des Dépôts, bras armé d'une politique du simulacre",
+              "path": "00 - Introduction/03_TRIBUNE.md#tribune-j-ai-lance-l-alerte-sur-qwant-l-etat-a-choisi-le-silence/la-caisse-des-depots-bras-arme-d-une-politique-du-simulacre"
+            },
+            {
+              "name": "La CNIL, ou l'art de ne rien faire",
+              "path": "00 - Introduction/03_TRIBUNE.md#tribune-j-ai-lance-l-alerte-sur-qwant-l-etat-a-choisi-le-silence/la-cnil-ou-l-art-de-ne-rien-faire"
+            },
+            {
+              "name": "Ce qui reste à faire",
+              "path": "00 - Introduction/03_TRIBUNE.md#tribune-j-ai-lance-l-alerte-sur-qwant-l-etat-a-choisi-le-silence/ce-qui-reste-a-faire",
+              "children": [
+                {
+                  "name": "Premièrement : une commission d'enquête parlementaire",
+                  "path": "00 - Introduction/03_TRIBUNE.md#tribune-j-ai-lance-l-alerte-sur-qwant-l-etat-a-choisi-le-silence/ce-qui-reste-a-faire/premierement-une-commission-d-enquete-parlementaire"
+                },
+                {
+                  "name": "Deuxièmement : la reconnaissance de mon statut de lanceur d'alerte",
+                  "path": "00 - Introduction/03_TRIBUNE.md#tribune-j-ai-lance-l-alerte-sur-qwant-l-etat-a-choisi-le-silence/ce-qui-reste-a-faire/deuxiemement-la-reconnaissance-de-mon-statut-de-lanceur-d-alerte"
+                },
+                {
+                  "name": "Troisièmement : la réouverture du dossier CNIL",
+                  "path": "00 - Introduction/03_TRIBUNE.md#tribune-j-ai-lance-l-alerte-sur-qwant-l-etat-a-choisi-le-silence/ce-qui-reste-a-faire/troisiemement-la-reouverture-du-dossier-cnil"
+                }
+              ]
+            },
+            {
+              "name": "Une question d'intérêt général",
+              "path": "00 - Introduction/03_TRIBUNE.md#tribune-j-ai-lance-l-alerte-sur-qwant-l-etat-a-choisi-le-silence/une-question-d-interet-general"
+            },
+            {
+              "name": "Qui je suis",
+              "path": "00 - Introduction/03_TRIBUNE.md#tribune-j-ai-lance-l-alerte-sur-qwant-l-etat-a-choisi-le-silence/qui-je-suis"
+            },
+            {
+              "name": "Navigation",
+              "path": "00 - Introduction/03_TRIBUNE.md#tribune-j-ai-lance-l-alerte-sur-qwant-l-etat-a-choisi-le-silence/navigation"
+            }
+          ]
+        },
+        {
+          "name": "L'audit CDC fraudé de juin 2016 — Analyse forensique de la branche « demo »",
+          "path": "00 - Introduction/04_AUDIT_CDC_2016.md",
+          "children": [
+            {
+              "name": "1. Objet de l'analyse",
+              "path": "00 - Introduction/04_AUDIT_CDC_2016.md#l-audit-cdc-fraude-de-juin-2016-analyse-forensique-de-la-branche-demo/1-objet-de-l-analyse"
+            },
+            {
+              "name": "2. Contexte : l'audit CDC-DIDL / Cardiweb",
+              "path": "00 - Introduction/04_AUDIT_CDC_2016.md#l-audit-cdc-fraude-de-juin-2016-analyse-forensique-de-la-branche-demo/2-contexte-l-audit-cdc-didl-cardiweb"
+            },
+            {
+              "name": "3. La chaîne d'emails « Audit de code » (17-20 juin 2016)",
+              "path": "00 - Introduction/04_AUDIT_CDC_2016.md#l-audit-cdc-fraude-de-juin-2016-analyse-forensique-de-la-branche-demo/3-la-chaine-d-emails-audit-de-code-17-20-juin-2016",
+              "children": [
+                {
+                  "name": "3.1. JC Chemin — 17 juin 2016, 20:44",
+                  "path": "00 - Introduction/04_AUDIT_CDC_2016.md#l-audit-cdc-fraude-de-juin-2016-analyse-forensique-de-la-branche-demo/3-la-chaine-d-emails-audit-de-code-17-20-juin-2016/3-1-jc-chemin-17-juin-2016-20-44"
+                },
+                {
+                  "name": "3.2. Pierre Vignaux — 20 juin 2016, 09:25",
+                  "path": "00 - Introduction/04_AUDIT_CDC_2016.md#l-audit-cdc-fraude-de-juin-2016-analyse-forensique-de-la-branche-demo/3-la-chaine-d-emails-audit-de-code-17-20-juin-2016/3-2-pierre-vignaux-20-juin-2016-09-25"
+                },
+                {
+                  "name": "3.3. Jonathan Cassar — 20 juin 2016, 09:53",
+                  "path": "00 - Introduction/04_AUDIT_CDC_2016.md#l-audit-cdc-fraude-de-juin-2016-analyse-forensique-de-la-branche-demo/3-la-chaine-d-emails-audit-de-code-17-20-juin-2016/3-3-jonathan-cassar-20-juin-2016-09-53"
+                },
+                {
+                  "name": "3.4. Stéphane Erard — 20 juin 2016, 10:36",
+                  "path": "00 - Introduction/04_AUDIT_CDC_2016.md#l-audit-cdc-fraude-de-juin-2016-analyse-forensique-de-la-branche-demo/3-la-chaine-d-emails-audit-de-code-17-20-juin-2016/3-4-stephane-erard-20-juin-2016-10-36"
+                },
+                {
+                  "name": "3.5. Pierre Vignaux — 20 juin 2016, 10:51",
+                  "path": "00 - Introduction/04_AUDIT_CDC_2016.md#l-audit-cdc-fraude-de-juin-2016-analyse-forensique-de-la-branche-demo/3-la-chaine-d-emails-audit-de-code-17-20-juin-2016/3-5-pierre-vignaux-20-juin-2016-10-51"
+                }
+              ]
+            },
+            {
+              "name": "4. Analyse du dépôt git",
+              "path": "00 - Introduction/04_AUDIT_CDC_2016.md#l-audit-cdc-fraude-de-juin-2016-analyse-forensique-de-la-branche-demo/4-analyse-du-depot-git",
+              "children": [
+                {
+                  "name": "4.1. Structure du dépôt",
+                  "path": "00 - Introduction/04_AUDIT_CDC_2016.md#l-audit-cdc-fraude-de-juin-2016-analyse-forensique-de-la-branche-demo/4-analyse-du-depot-git/4-1-structure-du-depot"
+                },
+                {
+                  "name": "4.2. Commits de la branche « demo »",
+                  "path": "00 - Introduction/04_AUDIT_CDC_2016.md#l-audit-cdc-fraude-de-juin-2016-analyse-forensique-de-la-branche-demo/4-analyse-du-depot-git/4-2-commits-de-la-branche-demo"
+                },
+                {
+                  "name": "4.3. Modification de search_web.php",
+                  "path": "00 - Introduction/04_AUDIT_CDC_2016.md#l-audit-cdc-fraude-de-juin-2016-analyse-forensique-de-la-branche-demo/4-analyse-du-depot-git/4-3-modification-de-search-web-php"
+                },
+                {
+                  "name": "4.4. Tags contenant la branche demo",
+                  "path": "00 - Introduction/04_AUDIT_CDC_2016.md#l-audit-cdc-fraude-de-juin-2016-analyse-forensique-de-la-branche-demo/4-analyse-du-depot-git/4-4-tags-contenant-la-branche-demo"
+                }
+              ]
+            },
+            {
+              "name": "5. Corroboration : email Vignaux du 28 juin 2016",
+              "path": "00 - Introduction/04_AUDIT_CDC_2016.md#l-audit-cdc-fraude-de-juin-2016-analyse-forensique-de-la-branche-demo/5-corroboration-email-vignaux-du-28-juin-2016"
+            },
+            {
+              "name": "6. Chronologie consolidée",
+              "path": "00 - Introduction/04_AUDIT_CDC_2016.md#l-audit-cdc-fraude-de-juin-2016-analyse-forensique-de-la-branche-demo/6-chronologie-consolidee"
+            },
+            {
+              "name": "7. Qualification juridique",
+              "path": "00 - Introduction/04_AUDIT_CDC_2016.md#l-audit-cdc-fraude-de-juin-2016-analyse-forensique-de-la-branche-demo/7-qualification-juridique",
+              "children": [
+                {
+                  "name": "7.1. Escroquerie (art. 313-1 CP)",
+                  "path": "00 - Introduction/04_AUDIT_CDC_2016.md#l-audit-cdc-fraude-de-juin-2016-analyse-forensique-de-la-branche-demo/7-qualification-juridique/7-1-escroquerie-art-313-1-cp"
+                },
+                {
+                  "name": "7.2. Faux et usage de faux (art. 441-1 CP)",
+                  "path": "00 - Introduction/04_AUDIT_CDC_2016.md#l-audit-cdc-fraude-de-juin-2016-analyse-forensique-de-la-branche-demo/7-qualification-juridique/7-2-faux-et-usage-de-faux-art-441-1-cp"
+                },
+                {
+                  "name": "7.3. Participation (art. 121-6 et 121-7 CP)",
+                  "path": "00 - Introduction/04_AUDIT_CDC_2016.md#l-audit-cdc-fraude-de-juin-2016-analyse-forensique-de-la-branche-demo/7-qualification-juridique/7-3-participation-art-121-6-et-121-7-cp"
+                }
+              ]
+            },
+            {
+              "name": "8. Pièces jointes",
+              "path": "00 - Introduction/04_AUDIT_CDC_2016.md#l-audit-cdc-fraude-de-juin-2016-analyse-forensique-de-la-branche-demo/8-pieces-jointes"
+            }
+          ]
+        },
+        {
+          "name": "La décision CNIL de février 2025 — Validation et paradoxe",
+          "path": "00 - Introduction/05_CNIL_VALIDATION.md",
+          "children": [
+            {
+              "name": "Contexte",
+              "path": "00 - Introduction/05_CNIL_VALIDATION.md#la-decision-cnil-de-fevrier-2025-validation-et-paradoxe/contexte"
+            },
+            {
+              "name": "PARTIE I : La décision de la CNIL (février 2025)",
+              "path": "00 - Introduction/05_CNIL_VALIDATION.md#la-decision-cnil-de-fevrier-2025-validation-et-paradoxe/partie-i-la-decision-de-la-cnil-fevrier-2025",
+              "children": [
+                {
+                  "name": "1. La plainte initiale",
+                  "path": "00 - Introduction/05_CNIL_VALIDATION.md#la-decision-cnil-de-fevrier-2025-validation-et-paradoxe/partie-i-la-decision-de-la-cnil-fevrier-2025/1-la-plainte-initiale"
+                },
+                {
+                  "name": "2. Constats techniques de la CNIL après contrôles",
+                  "path": "00 - Introduction/05_CNIL_VALIDATION.md#la-decision-cnil-de-fevrier-2025-validation-et-paradoxe/partie-i-la-decision-de-la-cnil-fevrier-2025/2-constats-techniques-de-la-cnil-apres-controles"
+                },
+                {
+                  "name": "3. Conclusion de la CNIL : qualification juridique",
+                  "path": "00 - Introduction/05_CNIL_VALIDATION.md#la-decision-cnil-de-fevrier-2025-validation-et-paradoxe/partie-i-la-decision-de-la-cnil-fevrier-2025/3-conclusion-de-la-cnil-qualification-juridique"
+                },
+                {
+                  "name": "4. Manquements relevés à l'encontre de Qwant",
+                  "path": "00 - Introduction/05_CNIL_VALIDATION.md#la-decision-cnil-de-fevrier-2025-validation-et-paradoxe/partie-i-la-decision-de-la-cnil-fevrier-2025/4-manquements-releves-a-l-encontre-de-qwant"
+                },
+                {
+                  "name": "5. Corrections apportées par Qwant (2020)",
+                  "path": "00 - Introduction/05_CNIL_VALIDATION.md#la-decision-cnil-de-fevrier-2025-validation-et-paradoxe/partie-i-la-decision-de-la-cnil-fevrier-2025/5-corrections-apportees-par-qwant-2020"
+                },
+                {
+                  "name": "6. Procédure européenne de coopération",
+                  "path": "00 - Introduction/05_CNIL_VALIDATION.md#la-decision-cnil-de-fevrier-2025-validation-et-paradoxe/partie-i-la-decision-de-la-cnil-fevrier-2025/6-procedure-europeenne-de-cooperation"
+                },
+                {
+                  "name": "7. Sanction prononcée",
+                  "path": "00 - Introduction/05_CNIL_VALIDATION.md#la-decision-cnil-de-fevrier-2025-validation-et-paradoxe/partie-i-la-decision-de-la-cnil-fevrier-2025/7-sanction-prononcee"
+                }
+              ]
+            },
+            {
+              "name": "PARTIE II : Réponse de Stéphane Erard (25 juin 2025)",
+              "path": "00 - Introduction/05_CNIL_VALIDATION.md#la-decision-cnil-de-fevrier-2025-validation-et-paradoxe/partie-ii-reponse-de-stephane-erard-25-juin-2025",
+              "children": [
+                {
+                  "name": "Argument n°1 : L'IP/24 est une donnée personnelle indirecte",
+                  "path": "00 - Introduction/05_CNIL_VALIDATION.md#la-decision-cnil-de-fevrier-2025-validation-et-paradoxe/partie-ii-reponse-de-stephane-erard-25-juin-2025/argument-n-1-l-ip-24-est-une-donnee-personnelle-indirecte"
+                },
+                {
+                  "name": "Argument n°2 : Le comportement litigieux remonte à 2016, non à 2019",
+                  "path": "00 - Introduction/05_CNIL_VALIDATION.md#la-decision-cnil-de-fevrier-2025-validation-et-paradoxe/partie-ii-reponse-de-stephane-erard-25-juin-2025/argument-n-2-le-comportement-litigieux-remonte-a-2016-non-a-2019"
+                },
+                {
+                  "name": "Argument n°3 : Intention délibérée de fraude (2016-2020)",
+                  "path": "00 - Introduction/05_CNIL_VALIDATION.md#la-decision-cnil-de-fevrier-2025-validation-et-paradoxe/partie-ii-reponse-de-stephane-erard-25-juin-2025/argument-n-3-intention-deliberee-de-fraude-2016-2020"
+                },
+                {
+                  "name": "Argument n°4 : Audit maquillé pour la Caisse des Dépôts (2016-2017)",
+                  "path": "00 - Introduction/05_CNIL_VALIDATION.md#la-decision-cnil-de-fevrier-2025-validation-et-paradoxe/partie-ii-reponse-de-stephane-erard-25-juin-2025/argument-n-4-audit-maquille-pour-la-caisse-des-depots-2016-2017"
+                },
+                {
+                  "name": "Argument n°5 : Licenciement pour avoir dit la vérité",
+                  "path": "00 - Introduction/05_CNIL_VALIDATION.md#la-decision-cnil-de-fevrier-2025-validation-et-paradoxe/partie-ii-reponse-de-stephane-erard-25-juin-2025/argument-n-5-licenciement-pour-avoir-dit-la-verite"
+                },
+                {
+                  "name": "Argument n°6 : La DPO (Victoire Yau) était informée dès décembre 2016",
+                  "path": "00 - Introduction/05_CNIL_VALIDATION.md#la-decision-cnil-de-fevrier-2025-validation-et-paradoxe/partie-ii-reponse-de-stephane-erard-25-juin-2025/argument-n-6-la-dpo-victoire-yau-etait-informee-des-decembre-2016"
+                },
+                {
+                  "name": "Argument n°7 : Critique de la décision CNIL",
+                  "path": "00 - Introduction/05_CNIL_VALIDATION.md#la-decision-cnil-de-fevrier-2025-validation-et-paradoxe/partie-ii-reponse-de-stephane-erard-25-juin-2025/argument-n-7-critique-de-la-decision-cnil"
+                }
+              ]
+            },
+            {
+              "name": "PARTIE III : Synthèse — Ce que la CNIL confirme et ce qu'elle omet",
+              "path": "00 - Introduction/05_CNIL_VALIDATION.md#la-decision-cnil-de-fevrier-2025-validation-et-paradoxe/partie-iii-synthese-ce-que-la-cnil-confirme-et-ce-qu-elle-omet",
+              "children": [
+                {
+                  "name": "Ce que la CNIL confirme (donnant raison à Erard)",
+                  "path": "00 - Introduction/05_CNIL_VALIDATION.md#la-decision-cnil-de-fevrier-2025-validation-et-paradoxe/partie-iii-synthese-ce-que-la-cnil-confirme-et-ce-qu-elle-omet/ce-que-la-cnil-confirme-donnant-raison-a-erard"
+                },
+                {
+                  "name": "Ce que la CNIL n'a pas retenu (selon Erard)",
+                  "path": "00 - Introduction/05_CNIL_VALIDATION.md#la-decision-cnil-de-fevrier-2025-validation-et-paradoxe/partie-iii-synthese-ce-que-la-cnil-confirme-et-ce-qu-elle-omet/ce-que-la-cnil-n-a-pas-retenu-selon-erard"
+                },
+                {
+                  "name": "Le paradoxe soulevé par Erard",
+                  "path": "00 - Introduction/05_CNIL_VALIDATION.md#la-decision-cnil-de-fevrier-2025-validation-et-paradoxe/partie-iii-synthese-ce-que-la-cnil-confirme-et-ce-qu-elle-omet/le-paradoxe-souleve-par-erard"
+                }
+              ]
+            },
+            {
+              "name": "Conclusion",
+              "path": "00 - Introduction/05_CNIL_VALIDATION.md#la-decision-cnil-de-fevrier-2025-validation-et-paradoxe/conclusion"
+            }
+          ]
+        },
+        {
+          "name": "Accusations de Qwant vs Réalité — Les 15 accusations démontées",
+          "path": "00 - Introduction/06_ACCUSATIONS_VS_REALITE.md",
+          "children": [
+            {
+              "name": "Table des matières",
+              "path": "00 - Introduction/06_ACCUSATIONS_VS_REALITE.md#accusations-de-qwant-vs-realite-les-15-accusations-demontees/table-des-matieres"
+            },
+            {
+              "name": "PARTIE I — LA STRATÉGIE GLOBALE DE QWANT",
+              "path": "00 - Introduction/06_ACCUSATIONS_VS_REALITE.md#accusations-de-qwant-vs-realite-les-15-accusations-demontees/partie-i-la-strategie-globale-de-qwant",
+              "children": [
+                {
+                  "name": "Chaîne logique imposée par Qwant",
+                  "path": "00 - Introduction/06_ACCUSATIONS_VS_REALITE.md#accusations-de-qwant-vs-realite-les-15-accusations-demontees/partie-i-la-strategie-globale-de-qwant/chaine-logique-imposee-par-qwant"
+                },
+                {
+                  "name": "Les 6 objectifs stratégiques de Qwant",
+                  "path": "00 - Introduction/06_ACCUSATIONS_VS_REALITE.md#accusations-de-qwant-vs-realite-les-15-accusations-demontees/partie-i-la-strategie-globale-de-qwant/les-6-objectifs-strategiques-de-qwant"
+                }
+              ]
+            },
+            {
+              "name": "PARTIE II — ANALYSE DÉTAILLÉE DES 15 ACCUSATIONS",
+              "path": "00 - Introduction/06_ACCUSATIONS_VS_REALITE.md#accusations-de-qwant-vs-realite-les-15-accusations-demontees/partie-ii-analyse-detaillee-des-15-accusations",
+              "children": [
+                {
+                  "name": "Accusation N°1 — Aucune donnée personnelle transmise à Bing",
+                  "path": "00 - Introduction/06_ACCUSATIONS_VS_REALITE.md#accusations-de-qwant-vs-realite-les-15-accusations-demontees/partie-ii-analyse-detaillee-des-15-accusations/accusation-n-1-aucune-donnee-personnelle-transmise-a-bing"
+                },
+                {
+                  "name": "Accusation N°2 — L'IP tronquée (IP/24) est anonyme",
+                  "path": "00 - Introduction/06_ACCUSATIONS_VS_REALITE.md#accusations-de-qwant-vs-realite-les-15-accusations-demontees/partie-ii-analyse-detaillee-des-15-accusations/accusation-n-2-l-ip-tronquee-ip-24-est-anonyme"
+                },
+                {
+                  "name": "Accusation N°3 — Politique de confidentialité exacte et complète",
+                  "path": "00 - Introduction/06_ACCUSATIONS_VS_REALITE.md#accusations-de-qwant-vs-realite-les-15-accusations-demontees/partie-ii-analyse-detaillee-des-15-accusations/accusation-n-3-politique-de-confidentialite-exacte-et-complete"
+                },
+                {
+                  "name": "Accusation N°4 — Rejet du statut de lanceur d'alerte",
+                  "path": "00 - Introduction/06_ACCUSATIONS_VS_REALITE.md#accusations-de-qwant-vs-realite-les-15-accusations-demontees/partie-ii-analyse-detaillee-des-15-accusations/accusation-n-4-rejet-du-statut-de-lanceur-d-alerte"
+                },
+                {
+                  "name": "Accusation N°5 — Qwant n'est PAS un proxy de Bing",
+                  "path": "00 - Introduction/06_ACCUSATIONS_VS_REALITE.md#accusations-de-qwant-vs-realite-les-15-accusations-demontees/partie-ii-analyse-detaillee-des-15-accusations/accusation-n-5-qwant-n-est-pas-un-proxy-de-bing"
+                },
+                {
+                  "name": "Accusation N°6 — Le « fake call » était un simple test technique",
+                  "path": "00 - Introduction/06_ACCUSATIONS_VS_REALITE.md#accusations-de-qwant-vs-realite-les-15-accusations-demontees/partie-ii-analyse-detaillee-des-15-accusations/accusation-n-6-le-fake-call-etait-un-simple-test-technique"
+                },
+                {
+                  "name": "Accusation N°7 — Les tweets sont « dénigrants et mensongers »",
+                  "path": "00 - Introduction/06_ACCUSATIONS_VS_REALITE.md#accusations-de-qwant-vs-realite-les-15-accusations-demontees/partie-ii-analyse-detaillee-des-15-accusations/accusation-n-7-les-tweets-sont-denigrants-et-mensongers"
+                },
+                {
+                  "name": "Accusation N°8 — Violation de l'obligation de loyauté",
+                  "path": "00 - Introduction/06_ACCUSATIONS_VS_REALITE.md#accusations-de-qwant-vs-realite-les-15-accusations-demontees/partie-ii-analyse-detaillee-des-15-accusations/accusation-n-8-violation-de-l-obligation-de-loyaute"
+                },
+                {
+                  "name": "Accusation N°9 — Violation de l'obligation de confidentialité",
+                  "path": "00 - Introduction/06_ACCUSATIONS_VS_REALITE.md#accusations-de-qwant-vs-realite-les-15-accusations-demontees/partie-ii-analyse-detaillee-des-15-accusations/accusation-n-9-violation-de-l-obligation-de-confidentialite"
+                },
+                {
+                  "name": "Accusation N°10 — Erard a reconnu être l'auteur des tweets",
+                  "path": "00 - Introduction/06_ACCUSATIONS_VS_REALITE.md#accusations-de-qwant-vs-realite-les-15-accusations-demontees/partie-ii-analyse-detaillee-des-15-accusations/accusation-n-10-erard-a-reconnu-etre-l-auteur-des-tweets"
+                },
+                {
+                  "name": "Accusation N°11 — Citation en diffamation au TGI de Paris",
+                  "path": "00 - Introduction/06_ACCUSATIONS_VS_REALITE.md#accusations-de-qwant-vs-realite-les-15-accusations-demontees/partie-ii-analyse-detaillee-des-15-accusations/accusation-n-11-citation-en-diffamation-au-tgi-de-paris"
+                },
+                {
+                  "name": "Accusation N°12 — Visibilité des tweets (4ème rang Qwant/social)",
+                  "path": "00 - Introduction/06_ACCUSATIONS_VS_REALITE.md#accusations-de-qwant-vs-realite-les-15-accusations-demontees/partie-ii-analyse-detaillee-des-15-accusations/accusation-n-12-visibilite-des-tweets-4eme-rang-qwant-social"
+                },
+                {
+                  "name": "Accusation N°13 — Harcèlement moral inexistant",
+                  "path": "00 - Introduction/06_ACCUSATIONS_VS_REALITE.md#accusations-de-qwant-vs-realite-les-15-accusations-demontees/partie-ii-analyse-detaillee-des-15-accusations/accusation-n-13-harcelement-moral-inexistant"
+                },
+                {
+                  "name": "Accusation N°14 — Engagements vie privée respectés / Rôle de la DPO",
+                  "path": "00 - Introduction/06_ACCUSATIONS_VS_REALITE.md#accusations-de-qwant-vs-realite-les-15-accusations-demontees/partie-ii-analyse-detaillee-des-15-accusations/accusation-n-14-engagements-vie-privee-respectes-role-de-la-dpo"
+                },
+                {
+                  "name": "Accusation N°15 — Contestation du repositionnement en classification 3.2",
+                  "path": "00 - Introduction/06_ACCUSATIONS_VS_REALITE.md#accusations-de-qwant-vs-realite-les-15-accusations-demontees/partie-ii-analyse-detaillee-des-15-accusations/accusation-n-15-contestation-du-repositionnement-en-classification-3-2"
+                }
+              ]
+            },
+            {
+              "name": "PARTIE III — CONCLUSION GÉNÉRALE",
+              "path": "00 - Introduction/06_ACCUSATIONS_VS_REALITE.md#accusations-de-qwant-vs-realite-les-15-accusations-demontees/partie-iii-conclusion-generale"
+            },
+            {
+              "name": "PARTIE IV — ANNEXE : INVENTAIRE BRUT DES ACCUSATIONS",
+              "path": "00 - Introduction/06_ACCUSATIONS_VS_REALITE.md#accusations-de-qwant-vs-realite-les-15-accusations-demontees/partie-iv-annexe-inventaire-brut-des-accusations",
+              "children": [
+                {
+                  "name": "A. Accusations aux Prud'hommes (CPH Nice, 2 mars 2018)",
+                  "path": "00 - Introduction/06_ACCUSATIONS_VS_REALITE.md#accusations-de-qwant-vs-realite-les-15-accusations-demontees/partie-iv-annexe-inventaire-brut-des-accusations/a-accusations-aux-prud-hommes-cph-nice-2-mars-2018"
+                },
+                {
+                  "name": "B. Accusations en Appel (Cour d'Appel Aix-en-Provence, 23 juillet 2019)",
+                  "path": "00 - Introduction/06_ACCUSATIONS_VS_REALITE.md#accusations-de-qwant-vs-realite-les-15-accusations-demontees/partie-iv-annexe-inventaire-brut-des-accusations/b-accusations-en-appel-cour-d-appel-aix-en-provence-23-juillet-2019"
+                },
+                {
+                  "name": "C. Qualification juridique retenue par Qwant",
+                  "path": "00 - Introduction/06_ACCUSATIONS_VS_REALITE.md#accusations-de-qwant-vs-realite-les-15-accusations-demontees/partie-iv-annexe-inventaire-brut-des-accusations/c-qualification-juridique-retenue-par-qwant"
+                },
+                {
+                  "name": "D. Sources documentaires principales",
+                  "path": "00 - Introduction/06_ACCUSATIONS_VS_REALITE.md#accusations-de-qwant-vs-realite-les-15-accusations-demontees/partie-iv-annexe-inventaire-brut-des-accusations/d-sources-documentaires-principales"
+                }
+              ]
+            },
+            {
+              "name": "Navigation",
+              "path": "00 - Introduction/06_ACCUSATIONS_VS_REALITE.md#accusations-de-qwant-vs-realite-les-15-accusations-demontees/navigation"
+            }
+          ]
+        },
+        {
+          "name": "SLAPP et représailles systématiques contre le lanceur d'alerte",
+          "path": "00 - Introduction/07_SLAPP_REPRESAILLES.md",
+          "children": [
+            {
+              "name": "1. Objet de ce document",
+              "path": "00 - Introduction/07_SLAPP_REPRESAILLES.md#slapp-et-represailles-systematiques-contre-le-lanceur-d-alerte/1-objet-de-ce-document"
+            },
+            {
+              "name": "2. Inventaire chronologique des représailles (2016–2022)",
+              "path": "00 - Introduction/07_SLAPP_REPRESAILLES.md#slapp-et-represailles-systematiques-contre-le-lanceur-d-alerte/2-inventaire-chronologique-des-represailles-2016-2022"
+            },
+            {
+              "name": "3. La procédure-bâillon (SLAPP) : citation en diffamation",
+              "path": "00 - Introduction/07_SLAPP_REPRESAILLES.md#slapp-et-represailles-systematiques-contre-le-lanceur-d-alerte/3-la-procedure-baillon-slapp-citation-en-diffamation",
+              "children": [
+                {
+                  "name": "3.1. Les faits",
+                  "path": "00 - Introduction/07_SLAPP_REPRESAILLES.md#slapp-et-represailles-systematiques-contre-le-lanceur-d-alerte/3-la-procedure-baillon-slapp-citation-en-diffamation/3-1-les-faits"
+                },
+                {
+                  "name": "3.2. La qualification de procédure-bâillon (SLAPP)",
+                  "path": "00 - Introduction/07_SLAPP_REPRESAILLES.md#slapp-et-represailles-systematiques-contre-le-lanceur-d-alerte/3-la-procedure-baillon-slapp-citation-en-diffamation/3-2-la-qualification-de-procedure-baillon-slapp"
+                }
+              ]
+            },
+            {
+              "name": "4. La campagne de harcèlement de Laurent Bourrelly",
+              "path": "00 - Introduction/07_SLAPP_REPRESAILLES.md#slapp-et-represailles-systematiques-contre-le-lanceur-d-alerte/4-la-campagne-de-harcelement-de-laurent-bourrelly",
+              "children": [
+                {
+                  "name": "4.1. Les faits",
+                  "path": "00 - Introduction/07_SLAPP_REPRESAILLES.md#slapp-et-represailles-systematiques-contre-le-lanceur-d-alerte/4-la-campagne-de-harcelement-de-laurent-bourrelly/4-1-les-faits"
+                },
+                {
+                  "name": "4.2. Condamnation",
+                  "path": "00 - Introduction/07_SLAPP_REPRESAILLES.md#slapp-et-represailles-systematiques-contre-le-lanceur-d-alerte/4-la-campagne-de-harcelement-de-laurent-bourrelly/4-2-condamnation"
+                },
+                {
+                  "name": "4.3. Liens documentés Bourrelly / Léandri / Qwant",
+                  "path": "00 - Introduction/07_SLAPP_REPRESAILLES.md#slapp-et-represailles-systematiques-contre-le-lanceur-d-alerte/4-la-campagne-de-harcelement-de-laurent-bourrelly/4-3-liens-documentes-bourrelly-leandri-qwant"
+                }
+              ]
+            },
+            {
+              "name": "5. Conséquences sur le lanceur d'alerte",
+              "path": "00 - Introduction/07_SLAPP_REPRESAILLES.md#slapp-et-represailles-systematiques-contre-le-lanceur-d-alerte/5-consequences-sur-le-lanceur-d-alerte",
+              "children": [
+                {
+                  "name": "5.1. Effondrement de santé",
+                  "path": "00 - Introduction/07_SLAPP_REPRESAILLES.md#slapp-et-represailles-systematiques-contre-le-lanceur-d-alerte/5-consequences-sur-le-lanceur-d-alerte/5-1-effondrement-de-sante"
+                },
+                {
+                  "name": "5.2. Destruction familiale et sociale",
+                  "path": "00 - Introduction/07_SLAPP_REPRESAILLES.md#slapp-et-represailles-systematiques-contre-le-lanceur-d-alerte/5-consequences-sur-le-lanceur-d-alerte/5-2-destruction-familiale-et-sociale"
+                },
+                {
+                  "name": "5.3. Impossibilité matérielle d'exercer ses droits",
+                  "path": "00 - Introduction/07_SLAPP_REPRESAILLES.md#slapp-et-represailles-systematiques-contre-le-lanceur-d-alerte/5-consequences-sur-le-lanceur-d-alerte/5-3-impossibilite-materielle-d-exercer-ses-droits"
+                }
+              ]
+            },
+            {
+              "name": "6. Cadre juridique applicable",
+              "path": "00 - Introduction/07_SLAPP_REPRESAILLES.md#slapp-et-represailles-systematiques-contre-le-lanceur-d-alerte/6-cadre-juridique-applicable",
+              "children": [
+                {
+                  "name": "6.1. Protection des lanceurs d'alerte contre les représailles",
+                  "path": "00 - Introduction/07_SLAPP_REPRESAILLES.md#slapp-et-represailles-systematiques-contre-le-lanceur-d-alerte/6-cadre-juridique-applicable/6-1-protection-des-lanceurs-d-alerte-contre-les-represailles"
+                },
+                {
+                  "name": "6.2. La directive européenne anti-SLAPP",
+                  "path": "00 - Introduction/07_SLAPP_REPRESAILLES.md#slapp-et-represailles-systematiques-contre-le-lanceur-d-alerte/6-cadre-juridique-applicable/6-2-la-directive-europeenne-anti-slapp"
+                },
+                {
+                  "name": "6.3. L'impossibilité d'agir comme préjudice indemnisable",
+                  "path": "00 - Introduction/07_SLAPP_REPRESAILLES.md#slapp-et-represailles-systematiques-contre-le-lanceur-d-alerte/6-cadre-juridique-applicable/6-3-l-impossibilite-d-agir-comme-prejudice-indemnisable"
+                }
+              ]
+            },
+            {
+              "name": "7. Synthèse de la stratégie de Qwant : 6 objectifs stratégiques",
+              "path": "00 - Introduction/07_SLAPP_REPRESAILLES.md#slapp-et-represailles-systematiques-contre-le-lanceur-d-alerte/7-synthese-de-la-strategie-de-qwant-6-objectifs-strategiques"
+            },
+            {
+              "name": "8. Le coût des représailles : impossibilité d'agir",
+              "path": "00 - Introduction/07_SLAPP_REPRESAILLES.md#slapp-et-represailles-systematiques-contre-le-lanceur-d-alerte/8-le-cout-des-represailles-impossibilite-d-agir"
+            },
+            {
+              "name": "9. Stratégies de recours et procédures",
+              "path": "00 - Introduction/07_SLAPP_REPRESAILLES.md#slapp-et-represailles-systematiques-contre-le-lanceur-d-alerte/9-strategies-de-recours-et-procedures"
+            },
+            {
+              "name": "10. Conclusion",
+              "path": "00 - Introduction/07_SLAPP_REPRESAILLES.md#slapp-et-represailles-systematiques-contre-le-lanceur-d-alerte/10-conclusion"
+            },
+            {
+              "name": "Pièces jointes",
+              "path": "00 - Introduction/07_SLAPP_REPRESAILLES.md#slapp-et-represailles-systematiques-contre-le-lanceur-d-alerte/pieces-jointes"
+            }
+          ]
+        },
+        {
+          "name": "La destruction de Xilopix/Xaphir — 20 ans de R&D souveraine perdus",
+          "path": "00 - Introduction/08_DESTRUCTION_XILOPIX.md",
+          "children": [
+            {
+              "name": "Introduction",
+              "path": "00 - Introduction/08_DESTRUCTION_XILOPIX.md#la-destruction-de-xilopix-xaphir-20-ans-de-r-d-souveraine-perdus/introduction"
+            },
+            {
+              "name": "Partie I — Qwant : 13 ans sans moteur propre (2011–2024)",
+              "path": "00 - Introduction/08_DESTRUCTION_XILOPIX.md#la-destruction-de-xilopix-xaphir-20-ans-de-r-d-souveraine-perdus/partie-i-qwant-13-ans-sans-moteur-propre-2011-2024",
+              "children": [
+                {
+                  "name": "1.1. Un métamoteur déguisé en moteur de recherche",
+                  "path": "00 - Introduction/08_DESTRUCTION_XILOPIX.md#la-destruction-de-xilopix-xaphir-20-ans-de-r-d-souveraine-perdus/partie-i-qwant-13-ans-sans-moteur-propre-2011-2024/1-1-un-metamoteur-deguise-en-moteur-de-recherche"
+                },
+                {
+                  "name": "1.2. L'audit fraudé de 2016 et l'entrée de la CDC",
+                  "path": "00 - Introduction/08_DESTRUCTION_XILOPIX.md#la-destruction-de-xilopix-xaphir-20-ans-de-r-d-souveraine-perdus/partie-i-qwant-13-ans-sans-moteur-propre-2011-2024/1-2-l-audit-fraude-de-2016-et-l-entree-de-la-cdc"
+                },
+                {
+                  "name": "1.3. L'envoi de données non anonymisées à Microsoft",
+                  "path": "00 - Introduction/08_DESTRUCTION_XILOPIX.md#la-destruction-de-xilopix-xaphir-20-ans-de-r-d-souveraine-perdus/partie-i-qwant-13-ans-sans-moteur-propre-2011-2024/1-3-l-envoi-de-donnees-non-anonymisees-a-microsoft"
+                },
+                {
+                  "name": "1.4. Les audits officiels confirment la dépendance",
+                  "path": "00 - Introduction/08_DESTRUCTION_XILOPIX.md#la-destruction-de-xilopix-xaphir-20-ans-de-r-d-souveraine-perdus/partie-i-qwant-13-ans-sans-moteur-propre-2011-2024/1-4-les-audits-officiels-confirment-la-dependance"
+                },
+                {
+                  "name": "1.5. La fin de l'illusion (2023–2024)",
+                  "path": "00 - Introduction/08_DESTRUCTION_XILOPIX.md#la-destruction-de-xilopix-xaphir-20-ans-de-r-d-souveraine-perdus/partie-i-qwant-13-ans-sans-moteur-propre-2011-2024/1-5-la-fin-de-l-illusion-2023-2024"
+                }
+              ]
+            },
+            {
+              "name": "Partie II — Xilopix/Xaphir : 8 ans de R&D détruits (2008–2017)",
+              "path": "00 - Introduction/08_DESTRUCTION_XILOPIX.md#la-destruction-de-xilopix-xaphir-20-ans-de-r-d-souveraine-perdus/partie-ii-xilopix-xaphir-8-ans-de-r-d-detruits-2008-2017",
+              "children": [
+                {
+                  "name": "2.1. Un vrai moteur de recherche français",
+                  "path": "00 - Introduction/08_DESTRUCTION_XILOPIX.md#la-destruction-de-xilopix-xaphir-20-ans-de-r-d-souveraine-perdus/partie-ii-xilopix-xaphir-8-ans-de-r-d-detruits-2008-2017/2-1-un-vrai-moteur-de-recherche-francais"
+                },
+                {
+                  "name": "2.2. Le mécanisme de destruction",
+                  "path": "00 - Introduction/08_DESTRUCTION_XILOPIX.md#la-destruction-de-xilopix-xaphir-20-ans-de-r-d-souveraine-perdus/partie-ii-xilopix-xaphir-8-ans-de-r-d-detruits-2008-2017/2-2-le-mecanisme-de-destruction"
+                },
+                {
+                  "name": "2.3. La technologie rachetée, puis jetée",
+                  "path": "00 - Introduction/08_DESTRUCTION_XILOPIX.md#la-destruction-de-xilopix-xaphir-20-ans-de-r-d-souveraine-perdus/partie-ii-xilopix-xaphir-8-ans-de-r-d-detruits-2008-2017/2-3-la-technologie-rachetee-puis-jetee"
+                },
+                {
+                  "name": "2.4. Comparaison : Xilopix/Xaphir vs Qwant",
+                  "path": "00 - Introduction/08_DESTRUCTION_XILOPIX.md#la-destruction-de-xilopix-xaphir-20-ans-de-r-d-souveraine-perdus/partie-ii-xilopix-xaphir-8-ans-de-r-d-detruits-2008-2017/2-4-comparaison-xilopix-xaphir-vs-qwant"
+                }
+              ]
+            },
+            {
+              "name": "Partie III — Le lanceur d'alerte que personne n'a voulu entendre (2016–2025)",
+              "path": "00 - Introduction/08_DESTRUCTION_XILOPIX.md#la-destruction-de-xilopix-xaphir-20-ans-de-r-d-souveraine-perdus/partie-iii-le-lanceur-d-alerte-que-personne-n-a-voulu-entendre-2016-2025",
+              "children": [
+                {
+                  "name": "3.1. L'alerte interne (décembre 2016)",
+                  "path": "00 - Introduction/08_DESTRUCTION_XILOPIX.md#la-destruction-de-xilopix-xaphir-20-ans-de-r-d-souveraine-perdus/partie-iii-le-lanceur-d-alerte-que-personne-n-a-voulu-entendre-2016-2025/3-1-l-alerte-interne-decembre-2016"
+                },
+                {
+                  "name": "3.2. L'alerte publique et le licenciement (2017)",
+                  "path": "00 - Introduction/08_DESTRUCTION_XILOPIX.md#la-destruction-de-xilopix-xaphir-20-ans-de-r-d-souveraine-perdus/partie-iii-le-lanceur-d-alerte-que-personne-n-a-voulu-entendre-2016-2025/3-2-l-alerte-publique-et-le-licenciement-2017"
+                },
+                {
+                  "name": "3.3. Le harcèlement post-licenciement",
+                  "path": "00 - Introduction/08_DESTRUCTION_XILOPIX.md#la-destruction-de-xilopix-xaphir-20-ans-de-r-d-souveraine-perdus/partie-iii-le-lanceur-d-alerte-que-personne-n-a-voulu-entendre-2016-2025/3-3-le-harcelement-post-licenciement"
+                },
+                {
+                  "name": "3.4. La plainte CNIL et la validation (2019–2025)",
+                  "path": "00 - Introduction/08_DESTRUCTION_XILOPIX.md#la-destruction-de-xilopix-xaphir-20-ans-de-r-d-souveraine-perdus/partie-iii-le-lanceur-d-alerte-que-personne-n-a-voulu-entendre-2016-2025/3-4-la-plainte-cnil-et-la-validation-2019-2025"
+                },
+                {
+                  "name": "3.5. Chronologie intégrale de l'alerte",
+                  "path": "00 - Introduction/08_DESTRUCTION_XILOPIX.md#la-destruction-de-xilopix-xaphir-20-ans-de-r-d-souveraine-perdus/partie-iii-le-lanceur-d-alerte-que-personne-n-a-voulu-entendre-2016-2025/3-5-chronologie-integrale-de-l-alerte"
+                }
+              ]
+            },
+            {
+              "name": "Partie IV — Le contexte politique et financier",
+              "path": "00 - Introduction/08_DESTRUCTION_XILOPIX.md#la-destruction-de-xilopix-xaphir-20-ans-de-r-d-souveraine-perdus/partie-iv-le-contexte-politique-et-financier",
+              "children": [
+                {
+                  "name": "4.1. Près de 100 millions d'euros d'argent public",
+                  "path": "00 - Introduction/08_DESTRUCTION_XILOPIX.md#la-destruction-de-xilopix-xaphir-20-ans-de-r-d-souveraine-perdus/partie-iv-le-contexte-politique-et-financier/4-1-pres-de-100-millions-d-euros-d-argent-public"
+                },
+                {
+                  "name": "4.2. La galaxie des paradis fiscaux",
+                  "path": "00 - Introduction/08_DESTRUCTION_XILOPIX.md#la-destruction-de-xilopix-xaphir-20-ans-de-r-d-souveraine-perdus/partie-iv-le-contexte-politique-et-financier/4-2-la-galaxie-des-paradis-fiscaux"
+                },
+                {
+                  "name": "4.3. Le mensonge d'Olivier Sichel devant l'Assemblée nationale",
+                  "path": "00 - Introduction/08_DESTRUCTION_XILOPIX.md#la-destruction-de-xilopix-xaphir-20-ans-de-r-d-souveraine-perdus/partie-iv-le-contexte-politique-et-financier/4-3-le-mensonge-d-olivier-sichel-devant-l-assemblee-nationale"
+                },
+                {
+                  "name": "4.4. Le soutien politique aveugle",
+                  "path": "00 - Introduction/08_DESTRUCTION_XILOPIX.md#la-destruction-de-xilopix-xaphir-20-ans-de-r-d-souveraine-perdus/partie-iv-le-contexte-politique-et-financier/4-4-le-soutien-politique-aveugle"
+                }
+              ]
+            },
+            {
+              "name": "Partie V — Le bilan : 20 ans de R&D perdus",
+              "path": "00 - Introduction/08_DESTRUCTION_XILOPIX.md#la-destruction-de-xilopix-xaphir-20-ans-de-r-d-souveraine-perdus/partie-v-le-bilan-20-ans-de-r-d-perdus",
+              "children": [
+                {
+                  "name": "5.1. Ce qui a été détruit",
+                  "path": "00 - Introduction/08_DESTRUCTION_XILOPIX.md#la-destruction-de-xilopix-xaphir-20-ans-de-r-d-souveraine-perdus/partie-v-le-bilan-20-ans-de-r-d-perdus/5-1-ce-qui-a-ete-detruit"
+                },
+                {
+                  "name": "5.2. Ce qui a été gaspillé",
+                  "path": "00 - Introduction/08_DESTRUCTION_XILOPIX.md#la-destruction-de-xilopix-xaphir-20-ans-de-r-d-souveraine-perdus/partie-v-le-bilan-20-ans-de-r-d-perdus/5-2-ce-qui-a-ete-gaspille"
+                },
+                {
+                  "name": "5.3. Les 20 années perdues",
+                  "path": "00 - Introduction/08_DESTRUCTION_XILOPIX.md#la-destruction-de-xilopix-xaphir-20-ans-de-r-d-souveraine-perdus/partie-v-le-bilan-20-ans-de-r-d-perdus/5-3-les-20-annees-perdues"
+                },
+                {
+                  "name": "5.4. Les responsabilités",
+                  "path": "00 - Introduction/08_DESTRUCTION_XILOPIX.md#la-destruction-de-xilopix-xaphir-20-ans-de-r-d-souveraine-perdus/partie-v-le-bilan-20-ans-de-r-d-perdus/5-4-les-responsabilites"
+                }
+              ]
+            },
+            {
+              "name": "Conclusion",
+              "path": "00 - Introduction/08_DESTRUCTION_XILOPIX.md#la-destruction-de-xilopix-xaphir-20-ans-de-r-d-souveraine-perdus/conclusion"
+            },
+            {
+              "name": "Annexe — Sources et pièces",
+              "path": "00 - Introduction/08_DESTRUCTION_XILOPIX.md#la-destruction-de-xilopix-xaphir-20-ans-de-r-d-souveraine-perdus/annexe-sources-et-pieces",
+              "children": [
+                {
+                  "name": "Sources publiques citées",
+                  "path": "00 - Introduction/08_DESTRUCTION_XILOPIX.md#la-destruction-de-xilopix-xaphir-20-ans-de-r-d-souveraine-perdus/annexe-sources-et-pieces/sources-publiques-citees"
+                },
+                {
+                  "name": "Pièces du dossier juridique Erard c/ Qwant",
+                  "path": "00 - Introduction/08_DESTRUCTION_XILOPIX.md#la-destruction-de-xilopix-xaphir-20-ans-de-r-d-souveraine-perdus/annexe-sources-et-pieces/pieces-du-dossier-juridique-erard-c-qwant"
+                },
+                {
+                  "name": "Note importante",
+                  "path": "00 - Introduction/08_DESTRUCTION_XILOPIX.md#la-destruction-de-xilopix-xaphir-20-ans-de-r-d-souveraine-perdus/annexe-sources-et-pieces/note-importante"
+                }
+              ]
+            },
+            {
+              "name": "Faits clés",
+              "path": "00 - Introduction/08_DESTRUCTION_XILOPIX.md#la-destruction-de-xilopix-xaphir-20-ans-de-r-d-souveraine-perdus/faits-cles"
+            }
+          ]
+        },
+        {
+          "name": "09. Analyse forensique détaillée — Le dépôt git API-API-TAG-PACKAGER",
+          "path": "00 - Introduction/09_FORENSIQUE_GIT.md",
+          "children": [
+            {
+              "name": "Introduction",
+              "path": "00 - Introduction/09_FORENSIQUE_GIT.md#09-analyse-forensique-detaillee-le-depot-git-api-api-tag-packager/introduction"
+            },
+            {
+              "name": "I. La variable webBrainLocales : le cœur du routage des requêtes",
+              "path": "00 - Introduction/09_FORENSIQUE_GIT.md#09-analyse-forensique-detaillee-le-depot-git-api-api-tag-packager/i-la-variable-webbrainlocales-le-cour-du-routage-des-requetes",
+              "children": [
+                {
+                  "name": "A. Contexte technique",
+                  "path": "00 - Introduction/09_FORENSIQUE_GIT.md#09-analyse-forensique-detaillee-le-depot-git-api-api-tag-packager/i-la-variable-webbrainlocales-le-cour-du-routage-des-requetes/a-contexte-technique"
+                },
+                {
+                  "name": "B. La commande git révélatrice",
+                  "path": "00 - Introduction/09_FORENSIQUE_GIT.md#09-analyse-forensique-detaillee-le-depot-git-api-api-tag-packager/i-la-variable-webbrainlocales-le-cour-du-routage-des-requetes/b-la-commande-git-revelatrice"
+                },
+                {
+                  "name": "C. Le commit du 29 juin 2016 : la bascule vers Bing à 100%",
+                  "path": "00 - Introduction/09_FORENSIQUE_GIT.md#09-analyse-forensique-detaillee-le-depot-git-api-api-tag-packager/i-la-variable-webbrainlocales-le-cour-du-routage-des-requetes/c-le-commit-du-29-juin-2016-la-bascule-vers-bing-a-100"
+                }
+              ]
+            },
+            {
+              "name": "II. La manœuvre de dissimulation : déport de l'appel Bing",
+              "path": "00 - Introduction/09_FORENSIQUE_GIT.md#09-analyse-forensique-detaillee-le-depot-git-api-api-tag-packager/ii-la-manouvre-de-dissimulation-deport-de-l-appel-bing",
+              "children": [
+                {
+                  "name": "A. La stratégie de l'opacification",
+                  "path": "00 - Introduction/09_FORENSIQUE_GIT.md#09-analyse-forensique-detaillee-le-depot-git-api-api-tag-packager/ii-la-manouvre-de-dissimulation-deport-de-l-appel-bing/a-la-strategie-de-l-opacification"
+                },
+                {
+                  "name": "B. La branche 'demo' de Cassar",
+                  "path": "00 - Introduction/09_FORENSIQUE_GIT.md#09-analyse-forensique-detaillee-le-depot-git-api-api-tag-packager/ii-la-manouvre-de-dissimulation-deport-de-l-appel-bing/b-la-branche-demo-de-cassar"
+                },
+                {
+                  "name": "C. Le déploiement hors CI (Continuous Integration)",
+                  "path": "00 - Introduction/09_FORENSIQUE_GIT.md#09-analyse-forensique-detaillee-le-depot-git-api-api-tag-packager/ii-la-manouvre-de-dissimulation-deport-de-l-appel-bing/c-le-deploiement-hors-ci-continuous-integration"
+                },
+                {
+                  "name": "D. Implication des cadres dirigeants",
+                  "path": "00 - Introduction/09_FORENSIQUE_GIT.md#09-analyse-forensique-detaillee-le-depot-git-api-api-tag-packager/ii-la-manouvre-de-dissimulation-deport-de-l-appel-bing/d-implication-des-cadres-dirigeants"
+                }
+              ]
+            },
+            {
+              "name": "III. Envoi de données non-anonymisées à Bing Ads",
+              "path": "00 - Introduction/09_FORENSIQUE_GIT.md#09-analyse-forensique-detaillee-le-depot-git-api-api-tag-packager/iii-envoi-de-donnees-non-anonymisees-a-bing-ads",
+              "children": [
+                {
+                  "name": "A. Le fichier search_ads.php : analyse détaillée",
+                  "path": "00 - Introduction/09_FORENSIQUE_GIT.md#09-analyse-forensique-detaillee-le-depot-git-api-api-tag-packager/iii-envoi-de-donnees-non-anonymisees-a-bing-ads/a-le-fichier-search-ads-php-analyse-detaillee",
+                  "children": [
+                    {
+                      "name": "1. L'adresse IPv4 tronquée au /24",
+                      "path": "00 - Introduction/09_FORENSIQUE_GIT.md#09-analyse-forensique-detaillee-le-depot-git-api-api-tag-packager/iii-envoi-de-donnees-non-anonymisees-a-bing-ads/a-le-fichier-search-ads-php-analyse-detaillee/1-l-adresse-ipv4-tronquee-au-24"
+                    },
+                    {
+                      "name": "2. Le User-Agent (navigateur, système d'exploitation, version)",
+                      "path": "00 - Introduction/09_FORENSIQUE_GIT.md#09-analyse-forensique-detaillee-le-depot-git-api-api-tag-packager/iii-envoi-de-donnees-non-anonymisees-a-bing-ads/a-le-fichier-search-ads-php-analyse-detaillee/2-le-user-agent-navigateur-systeme-d-exploitation-version"
+                    },
+                    {
+                      "name": "3. Les mots-clés de recherche (requête utilisateur)",
+                      "path": "00 - Introduction/09_FORENSIQUE_GIT.md#09-analyse-forensique-detaillee-le-depot-git-api-api-tag-packager/iii-envoi-de-donnees-non-anonymisees-a-bing-ads/a-le-fichier-search-ads-php-analyse-detaillee/3-les-mots-cles-de-recherche-requete-utilisateur"
+                    }
+                  ]
+                },
+                {
+                  "name": "B. Pourquoi l'IPv4/24 n'est PAS une anonymisation",
+                  "path": "00 - Introduction/09_FORENSIQUE_GIT.md#09-analyse-forensique-detaillee-le-depot-git-api-api-tag-packager/iii-envoi-de-donnees-non-anonymisees-a-bing-ads/b-pourquoi-l-ipv4-24-n-est-pas-une-anonymisation"
+                },
+                {
+                  "name": "C. Le DataHub de traçabilité publicitaire",
+                  "path": "00 - Introduction/09_FORENSIQUE_GIT.md#09-analyse-forensique-detaillee-le-depot-git-api-api-tag-packager/iii-envoi-de-donnees-non-anonymisees-a-bing-ads/c-le-datahub-de-tracabilite-publicitaire"
+                }
+              ]
+            },
+            {
+              "name": "IV. L'agression physique de Chemin : contexte technique et chronologie",
+              "path": "00 - Introduction/09_FORENSIQUE_GIT.md#09-analyse-forensique-detaillee-le-depot-git-api-api-tag-packager/iv-l-agression-physique-de-chemin-contexte-technique-et-chronologie",
+              "children": [
+                {
+                  "name": "A. Contexte socio-professionnel",
+                  "path": "00 - Introduction/09_FORENSIQUE_GIT.md#09-analyse-forensique-detaillee-le-depot-git-api-api-tag-packager/iv-l-agression-physique-de-chemin-contexte-technique-et-chronologie/a-contexte-socio-professionnel"
+                },
+                {
+                  "name": "B. L'incident du 31 mars 2016 : recit détaillé",
+                  "path": "00 - Introduction/09_FORENSIQUE_GIT.md#09-analyse-forensique-detaillee-le-depot-git-api-api-tag-packager/iv-l-agression-physique-de-chemin-contexte-technique-et-chronologie/b-l-incident-du-31-mars-2016-recit-detaille"
+                }
+              ]
+            },
+            {
+              "name": "V. Synthèse : ce que prouvent ces éléments techniques",
+              "path": "00 - Introduction/09_FORENSIQUE_GIT.md#09-analyse-forensique-detaillee-le-depot-git-api-api-tag-packager/v-synthese-ce-que-prouvent-ces-elements-techniques",
+              "children": [
+                {
+                  "name": "A. Preuve de la dépendance à 100% à Bing",
+                  "path": "00 - Introduction/09_FORENSIQUE_GIT.md#09-analyse-forensique-detaillee-le-depot-git-api-api-tag-packager/v-synthese-ce-que-prouvent-ces-elements-techniques/a-preuve-de-la-dependance-a-100-a-bing"
+                },
+                {
+                  "name": "B. Preuve de la fraude technique planifiée",
+                  "path": "00 - Introduction/09_FORENSIQUE_GIT.md#09-analyse-forensique-detaillee-le-depot-git-api-api-tag-packager/v-synthese-ce-que-prouvent-ces-elements-techniques/b-preuve-de-la-fraude-technique-planifiee"
+                },
+                {
+                  "name": "C. Preuve de la transmission de données personnelles",
+                  "path": "00 - Introduction/09_FORENSIQUE_GIT.md#09-analyse-forensique-detaillee-le-depot-git-api-api-tag-packager/v-synthese-ce-que-prouvent-ces-elements-techniques/c-preuve-de-la-transmission-de-donnees-personnelles"
+                },
+                {
+                  "name": "D. Convergence avec les preuves administratives",
+                  "path": "00 - Introduction/09_FORENSIQUE_GIT.md#09-analyse-forensique-detaillee-le-depot-git-api-api-tag-packager/v-synthese-ce-que-prouvent-ces-elements-techniques/d-convergence-avec-les-preuves-administratives"
+                }
+              ]
+            },
+            {
+              "name": "VI. Conclusion de Layer 3",
+              "path": "00 - Introduction/09_FORENSIQUE_GIT.md#09-analyse-forensique-detaillee-le-depot-git-api-api-tag-packager/vi-conclusion-de-layer-3"
+            }
+          ]
+        },
+        {
+          "name": "10. L'audit DINUM de 2019 — Corroboration institutionnelle",
+          "path": "00 - Introduction/10_AUDIT_DINUM_2019.md",
+          "children": [
+            {
+              "name": "Introduction",
+              "path": "00 - Introduction/10_AUDIT_DINUM_2019.md#10-l-audit-dinum-de-2019-corroboration-institutionnelle/introduction"
+            },
+            {
+              "name": "I. Contexte politique et mandat de l'audit",
+              "path": "00 - Introduction/10_AUDIT_DINUM_2019.md#10-l-audit-dinum-de-2019-corroboration-institutionnelle/i-contexte-politique-et-mandat-de-l-audit",
+              "children": [
+                {
+                  "name": "A. La demande de Cédric O",
+                  "path": "00 - Introduction/10_AUDIT_DINUM_2019.md#10-l-audit-dinum-de-2019-corroboration-institutionnelle/i-contexte-politique-et-mandat-de-l-audit/a-la-demande-de-cedric-o"
+                },
+                {
+                  "name": "B. Équipe d'auditeurs",
+                  "path": "00 - Introduction/10_AUDIT_DINUM_2019.md#10-l-audit-dinum-de-2019-corroboration-institutionnelle/i-contexte-politique-et-mandat-de-l-audit/b-equipe-d-auditeurs"
+                },
+                {
+                  "name": "C. Deux sessions d'audit",
+                  "path": "00 - Introduction/10_AUDIT_DINUM_2019.md#10-l-audit-dinum-de-2019-corroboration-institutionnelle/i-contexte-politique-et-mandat-de-l-audit/c-deux-sessions-d-audit"
+                },
+                {
+                  "name": "D. Publication et révélation",
+                  "path": "00 - Introduction/10_AUDIT_DINUM_2019.md#10-l-audit-dinum-de-2019-corroboration-institutionnelle/i-contexte-politique-et-mandat-de-l-audit/d-publication-et-revelation"
+                }
+              ]
+            },
+            {
+              "name": "II. Les constats majeurs de la DINUM",
+              "path": "00 - Introduction/10_AUDIT_DINUM_2019.md#10-l-audit-dinum-de-2019-corroboration-institutionnelle/ii-les-constats-majeurs-de-la-dinum",
+              "children": [
+                {
+                  "name": "A. La « Version 2 fantôme »",
+                  "path": "00 - Introduction/10_AUDIT_DINUM_2019.md#10-l-audit-dinum-de-2019-corroboration-institutionnelle/ii-les-constats-majeurs-de-la-dinum/a-la-version-2-fantome"
+                },
+                {
+                  "name": "B. Dépendance à Bing : « peu claire »",
+                  "path": "00 - Introduction/10_AUDIT_DINUM_2019.md#10-l-audit-dinum-de-2019-corroboration-institutionnelle/ii-les-constats-majeurs-de-la-dinum/b-dependance-a-bing-peu-claire",
+                  "children": [
+                    {
+                      "name": "Observation des auditeurs",
+                      "path": "00 - Introduction/10_AUDIT_DINUM_2019.md#10-l-audit-dinum-de-2019-corroboration-institutionnelle/ii-les-constats-majeurs-de-la-dinum/b-dependance-a-bing-peu-claire/observation-des-auditeurs"
+                    },
+                    {
+                      "name": "Quantification impossible",
+                      "path": "00 - Introduction/10_AUDIT_DINUM_2019.md#10-l-audit-dinum-de-2019-corroboration-institutionnelle/ii-les-constats-majeurs-de-la-dinum/b-dependance-a-bing-peu-claire/quantification-impossible"
+                    },
+                    {
+                      "name": "L'articulation Qwant/Bing est opaque",
+                      "path": "00 - Introduction/10_AUDIT_DINUM_2019.md#10-l-audit-dinum-de-2019-corroboration-institutionnelle/ii-les-constats-majeurs-de-la-dinum/b-dependance-a-bing-peu-claire/l-articulation-qwant-bing-est-opaque"
+                    }
+                  ]
+                },
+                {
+                  "name": "C. Conclusion du premier audit : dépendance quasi-totale non exclue",
+                  "path": "00 - Introduction/10_AUDIT_DINUM_2019.md#10-l-audit-dinum-de-2019-corroboration-institutionnelle/ii-les-constats-majeurs-de-la-dinum/c-conclusion-du-premier-audit-dependance-quasi-totale-non-exclue"
+                }
+              ]
+            },
+            {
+              "name": "III. Taux de dépendance mesuré",
+              "path": "00 - Introduction/10_AUDIT_DINUM_2019.md#10-l-audit-dinum-de-2019-corroboration-institutionnelle/iii-taux-de-dependance-mesure",
+              "children": [
+                {
+                  "name": "A. Le second audit révélateur (25 septembre 2019)",
+                  "path": "00 - Introduction/10_AUDIT_DINUM_2019.md#10-l-audit-dinum-de-2019-corroboration-institutionnelle/iii-taux-de-dependance-mesure/a-le-second-audit-revelateur-25-septembre-2019"
+                },
+                {
+                  "name": "B. Les chiffres accablants",
+                  "path": "00 - Introduction/10_AUDIT_DINUM_2019.md#10-l-audit-dinum-de-2019-corroboration-institutionnelle/iii-taux-de-dependance-mesure/b-les-chiffres-accablants"
+                },
+                {
+                  "name": "C. Signification",
+                  "path": "00 - Introduction/10_AUDIT_DINUM_2019.md#10-l-audit-dinum-de-2019-corroboration-institutionnelle/iii-taux-de-dependance-mesure/c-signification"
+                }
+              ]
+            },
+            {
+              "name": "IV. Le timing mars 2019 : plainte CNIL et « détournement de ressources »",
+              "path": "00 - Introduction/10_AUDIT_DINUM_2019.md#10-l-audit-dinum-de-2019-corroboration-institutionnelle/iv-le-timing-mars-2019-plainte-cnil-et-detournement-de-ressources",
+              "children": [
+                {
+                  "name": "A. Chronologie révélatrice",
+                  "path": "00 - Introduction/10_AUDIT_DINUM_2019.md#10-l-audit-dinum-de-2019-corroboration-institutionnelle/iv-le-timing-mars-2019-plainte-cnil-et-detournement-de-ressources/a-chronologie-revelatrice"
+                },
+                {
+                  "name": "B. Mécanisme de dissimulation",
+                  "path": "00 - Introduction/10_AUDIT_DINUM_2019.md#10-l-audit-dinum-de-2019-corroboration-institutionnelle/iv-le-timing-mars-2019-plainte-cnil-et-detournement-de-ressources/b-mecanisme-de-dissimulation"
+                }
+              ]
+            },
+            {
+              "name": "V. La vie privée : une validation en trompe-l'œil",
+              "path": "00 - Introduction/10_AUDIT_DINUM_2019.md#10-l-audit-dinum-de-2019-corroboration-institutionnelle/v-la-vie-privee-une-validation-en-trompe-l-oil",
+              "children": [
+                {
+                  "name": "A. Conclusions positives sur la protection des données",
+                  "path": "00 - Introduction/10_AUDIT_DINUM_2019.md#10-l-audit-dinum-de-2019-corroboration-institutionnelle/v-la-vie-privee-une-validation-en-trompe-l-oil/a-conclusions-positives-sur-la-protection-des-donnees"
+                },
+                {
+                  "name": "B. Tempérament crucial",
+                  "path": "00 - Introduction/10_AUDIT_DINUM_2019.md#10-l-audit-dinum-de-2019-corroboration-institutionnelle/v-la-vie-privee-une-validation-en-trompe-l-oil/b-temperament-crucial"
+                },
+                {
+                  "name": "C. Le problème sous-jacent",
+                  "path": "00 - Introduction/10_AUDIT_DINUM_2019.md#10-l-audit-dinum-de-2019-corroboration-institutionnelle/v-la-vie-privee-une-validation-en-trompe-l-oil/c-le-probleme-sous-jacent"
+                },
+                {
+                  "name": "D. Conclusion sur les alternatives",
+                  "path": "00 - Introduction/10_AUDIT_DINUM_2019.md#10-l-audit-dinum-de-2019-corroboration-institutionnelle/v-la-vie-privee-une-validation-en-trompe-l-oil/d-conclusion-sur-les-alternatives"
+                }
+              ]
+            },
+            {
+              "name": "VI. L'override politique : Cédric O et Olivier Sichel",
+              "path": "00 - Introduction/10_AUDIT_DINUM_2019.md#10-l-audit-dinum-de-2019-corroboration-institutionnelle/vi-l-override-politique-cedric-o-et-olivier-sichel",
+              "children": [
+                {
+                  "name": "A. Non-respect des conditions",
+                  "path": "00 - Introduction/10_AUDIT_DINUM_2019.md#10-l-audit-dinum-de-2019-corroboration-institutionnelle/vi-l-override-politique-cedric-o-et-olivier-sichel/a-non-respect-des-conditions"
+                },
+                {
+                  "name": "B. Faux témoignage de Sichel",
+                  "path": "00 - Introduction/10_AUDIT_DINUM_2019.md#10-l-audit-dinum-de-2019-corroboration-institutionnelle/vi-l-override-politique-cedric-o-et-olivier-sichel/b-faux-temoignage-de-sichel"
+                }
+              ]
+            },
+            {
+              "name": "VII. Portée juridique pour le dossier Erard c/ Qwant",
+              "path": "00 - Introduction/10_AUDIT_DINUM_2019.md#10-l-audit-dinum-de-2019-corroboration-institutionnelle/vii-portee-juridique-pour-le-dossier-erard-c-qwant",
+              "children": [
+                {
+                  "name": "A. Corroboration de la dépendance à Bing",
+                  "path": "00 - Introduction/10_AUDIT_DINUM_2019.md#10-l-audit-dinum-de-2019-corroboration-institutionnelle/vii-portee-juridique-pour-le-dossier-erard-c-qwant/a-corroboration-de-la-dependance-a-bing"
+                },
+                {
+                  "name": "B. Timeline plainte CNIL / nettoyage code / audit DINUM",
+                  "path": "00 - Introduction/10_AUDIT_DINUM_2019.md#10-l-audit-dinum-de-2019-corroboration-institutionnelle/vii-portee-juridique-pour-le-dossier-erard-c-qwant/b-timeline-plainte-cnil-nettoyage-code-audit-dinum"
+                },
+                {
+                  "name": "C. Fraude au jugement",
+                  "path": "00 - Introduction/10_AUDIT_DINUM_2019.md#10-l-audit-dinum-de-2019-corroboration-institutionnelle/vii-portee-juridique-pour-le-dossier-erard-c-qwant/c-fraude-au-jugement"
+                },
+                {
+                  "name": "D. Faute professionnelle de l'avocate",
+                  "path": "00 - Introduction/10_AUDIT_DINUM_2019.md#10-l-audit-dinum-de-2019-corroboration-institutionnelle/vii-portee-juridique-pour-le-dossier-erard-c-qwant/d-faute-professionnelle-de-l-avocate"
+                }
+              ]
+            },
+            {
+              "name": "VIII. Pièces probantes du dossier DINUM",
+              "path": "00 - Introduction/10_AUDIT_DINUM_2019.md#10-l-audit-dinum-de-2019-corroboration-institutionnelle/viii-pieces-probantes-du-dossier-dinum"
+            },
+            {
+              "name": "IX. Conclusion : la corroboration institutionnelle",
+              "path": "00 - Introduction/10_AUDIT_DINUM_2019.md#10-l-audit-dinum-de-2019-corroboration-institutionnelle/ix-conclusion-la-corroboration-institutionnelle"
+            }
+          ]
+        },
+        {
+          "name": "11. Analyse financière Qwant SAS — 2013-2022",
+          "path": "00 - Introduction/11_ANALYSE_FINANCIERE.md",
+          "children": [
+            {
+              "name": "Introduction",
+              "path": "00 - Introduction/11_ANALYSE_FINANCIERE.md#11-analyse-financiere-qwant-sas-2013-2022/introduction"
+            },
+            {
+              "name": "I. Fiche d'identité de l'entreprise",
+              "path": "00 - Introduction/11_ANALYSE_FINANCIERE.md#11-analyse-financiere-qwant-sas-2013-2022/i-fiche-d-identite-de-l-entreprise"
+            },
+            {
+              "name": "II. Contexte stratégique et positionnement initial",
+              "path": "00 - Introduction/11_ANALYSE_FINANCIERE.md#11-analyse-financiere-qwant-sas-2013-2022/ii-contexte-strategique-et-positionnement-initial",
+              "children": [
+                {
+                  "name": "A. Le narratif de souveraineté numérique",
+                  "path": "00 - Introduction/11_ANALYSE_FINANCIERE.md#11-analyse-financiere-qwant-sas-2013-2022/ii-contexte-strategique-et-positionnement-initial/a-le-narratif-de-souverainete-numerique"
+                },
+                {
+                  "name": "B. La réalité technologique dès le départ",
+                  "path": "00 - Introduction/11_ANALYSE_FINANCIERE.md#11-analyse-financiere-qwant-sas-2013-2022/ii-contexte-strategique-et-positionnement-initial/b-la-realite-technologique-des-le-depart"
+                },
+                {
+                  "name": "C. Position de marché inexistante",
+                  "path": "00 - Introduction/11_ANALYSE_FINANCIERE.md#11-analyse-financiere-qwant-sas-2013-2022/ii-contexte-strategique-et-positionnement-initial/c-position-de-marche-inexistante"
+                }
+              ]
+            },
+            {
+              "name": "III. Chronologie des financements et événements clés",
+              "path": "00 - Introduction/11_ANALYSE_FINANCIERE.md#11-analyse-financiere-qwant-sas-2013-2022/iii-chronologie-des-financements-et-evenements-cles"
+            },
+            {
+              "name": "IV. Analyse financière détaillée",
+              "path": "00 - Introduction/11_ANALYSE_FINANCIERE.md#11-analyse-financiere-qwant-sas-2013-2022/iv-analyse-financiere-detaillee",
+              "children": [
+                {
+                  "name": "A. Évolution du chiffre d'affaires et du résultat net",
+                  "path": "00 - Introduction/11_ANALYSE_FINANCIERE.md#11-analyse-financiere-qwant-sas-2013-2022/iv-analyse-financiere-detaillee/a-evolution-du-chiffre-d-affaires-et-du-resultat-net",
+                  "children": [
+                    {
+                      "name": "Tableau synthétique (2013-2021)",
+                      "path": "00 - Introduction/11_ANALYSE_FINANCIERE.md#11-analyse-financiere-qwant-sas-2013-2022/iv-analyse-financiere-detaillee/a-evolution-du-chiffre-d-affaires-et-du-resultat-net/tableau-synthetique-2013-2021"
+                    },
+                    {
+                      "name": "Constats majeurs",
+                      "path": "00 - Introduction/11_ANALYSE_FINANCIERE.md#11-analyse-financiere-qwant-sas-2013-2022/iv-analyse-financiere-detaillee/a-evolution-du-chiffre-d-affaires-et-du-resultat-net/constats-majeurs"
+                    }
+                  ]
+                },
+                {
+                  "name": "B. Analyse détaillée du pic de pertes (2019)",
+                  "path": "00 - Introduction/11_ANALYSE_FINANCIERE.md#11-analyse-financiere-qwant-sas-2013-2022/iv-analyse-financiere-detaillee/b-analyse-detaillee-du-pic-de-pertes-2019",
+                  "children": [
+                    {
+                      "name": "Contexte de direction",
+                      "path": "00 - Introduction/11_ANALYSE_FINANCIERE.md#11-analyse-financiere-qwant-sas-2013-2022/iv-analyse-financiere-detaillee/b-analyse-detaillee-du-pic-de-pertes-2019/contexte-de-direction"
+                    },
+                    {
+                      "name": "Les chiffres",
+                      "path": "00 - Introduction/11_ANALYSE_FINANCIERE.md#11-analyse-financiere-qwant-sas-2013-2022/iv-analyse-financiere-detaillee/b-analyse-detaillee-du-pic-de-pertes-2019/les-chiffres"
+                    },
+                    {
+                      "name": "Ratio catastrophique",
+                      "path": "00 - Introduction/11_ANALYSE_FINANCIERE.md#11-analyse-financiere-qwant-sas-2013-2022/iv-analyse-financiere-detaillee/b-analyse-detaillee-du-pic-de-pertes-2019/ratio-catastrophique"
+                    }
+                  ]
+                },
+                {
+                  "name": "C. Composition du chiffre d'affaires",
+                  "path": "00 - Introduction/11_ANALYSE_FINANCIERE.md#11-analyse-financiere-qwant-sas-2013-2022/iv-analyse-financiere-detaillee/c-composition-du-chiffre-d-affaires",
+                  "children": [
+                    {
+                      "name": "Dépendance à Microsoft",
+                      "path": "00 - Introduction/11_ANALYSE_FINANCIERE.md#11-analyse-financiere-qwant-sas-2013-2022/iv-analyse-financiere-detaillee/c-composition-du-chiffre-d-affaires/dependance-a-microsoft"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "V. Structure du financement : trois piliers",
+              "path": "00 - Introduction/11_ANALYSE_FINANCIERE.md#11-analyse-financiere-qwant-sas-2013-2022/v-structure-du-financement-trois-piliers",
+              "children": [
+                {
+                  "name": "A. Les augmentations de capital successives",
+                  "path": "00 - Introduction/11_ANALYSE_FINANCIERE.md#11-analyse-financiere-qwant-sas-2013-2022/v-structure-du-financement-trois-piliers/a-les-augmentations-de-capital-successives",
+                  "children": [
+                    {
+                      "name": "Entrées d'investisseurs",
+                      "path": "00 - Introduction/11_ANALYSE_FINANCIERE.md#11-analyse-financiere-qwant-sas-2013-2022/v-structure-du-financement-trois-piliers/a-les-augmentations-de-capital-successives/entrees-d-investisseurs"
+                    },
+                    {
+                      "name": "Total levé en capital",
+                      "path": "00 - Introduction/11_ANALYSE_FINANCIERE.md#11-analyse-financiere-qwant-sas-2013-2022/v-structure-du-financement-trois-piliers/a-les-augmentations-de-capital-successives/total-leve-en-capital"
+                    }
+                  ]
+                },
+                {
+                  "name": "B. La dette bancaire institutionnelle",
+                  "path": "00 - Introduction/11_ANALYSE_FINANCIERE.md#11-analyse-financiere-qwant-sas-2013-2022/v-structure-du-financement-trois-piliers/b-la-dette-bancaire-institutionnelle",
+                  "children": [
+                    {
+                      "name": "Le prêt BEI de 25 millions d'euros",
+                      "path": "00 - Introduction/11_ANALYSE_FINANCIERE.md#11-analyse-financiere-qwant-sas-2013-2022/v-structure-du-financement-trois-piliers/b-la-dette-bancaire-institutionnelle/le-pret-bei-de-25-millions-d-euros"
+                    },
+                    {
+                      "name": "Impact",
+                      "path": "00 - Introduction/11_ANALYSE_FINANCIERE.md#11-analyse-financiere-qwant-sas-2013-2022/v-structure-du-financement-trois-piliers/b-la-dette-bancaire-institutionnelle/impact"
+                    }
+                  ]
+                },
+                {
+                  "name": "C. Subventions et soutiens publics",
+                  "path": "00 - Introduction/11_ANALYSE_FINANCIERE.md#11-analyse-financiere-qwant-sas-2013-2022/v-structure-du-financement-trois-piliers/c-subventions-et-soutiens-publics",
+                  "children": [
+                    {
+                      "name": "Montants identifiés",
+                      "path": "00 - Introduction/11_ANALYSE_FINANCIERE.md#11-analyse-financiere-qwant-sas-2013-2022/v-structure-du-financement-trois-piliers/c-subventions-et-soutiens-publics/montants-identifies"
+                    },
+                    {
+                      "name": "Fin 2022 : endettement excessif",
+                      "path": "00 - Introduction/11_ANALYSE_FINANCIERE.md#11-analyse-financiere-qwant-sas-2013-2022/v-structure-du-financement-trois-piliers/c-subventions-et-soutiens-publics/fin-2022-endettement-excessif"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "VI. Gouvernance et changements de direction",
+              "path": "00 - Introduction/11_ANALYSE_FINANCIERE.md#11-analyse-financiere-qwant-sas-2013-2022/vi-gouvernance-et-changements-de-direction",
+              "children": [
+                {
+                  "name": "A. Ère Léandri (2011-2020) : la divergence coûteuse",
+                  "path": "00 - Introduction/11_ANALYSE_FINANCIERE.md#11-analyse-financiere-qwant-sas-2013-2022/vi-gouvernance-et-changements-de-direction/a-ere-leandri-2011-2020-la-divergence-couteuse"
+                },
+                {
+                  "name": "B. Ère Ghinozzi (2020-2021) : le redressement partiel",
+                  "path": "00 - Introduction/11_ANALYSE_FINANCIERE.md#11-analyse-financiere-qwant-sas-2013-2022/vi-gouvernance-et-changements-de-direction/b-ere-ghinozzi-2020-2021-le-redressement-partiel"
+                },
+                {
+                  "name": "C. Ère Lejbowicz-Auphan (2021-2023) : réalisme stratégique",
+                  "path": "00 - Introduction/11_ANALYSE_FINANCIERE.md#11-analyse-financiere-qwant-sas-2013-2022/vi-gouvernance-et-changements-de-direction/c-ere-lejbowicz-auphan-2021-2023-realisme-strategique"
+                }
+              ]
+            },
+            {
+              "name": "VII. Diagnostic global et signaux d'alerte",
+              "path": "00 - Introduction/11_ANALYSE_FINANCIERE.md#11-analyse-financiere-qwant-sas-2013-2022/vii-diagnostic-global-et-signaux-d-alerte",
+              "children": [
+                {
+                  "name": "A. Points faibles structurels",
+                  "path": "00 - Introduction/11_ANALYSE_FINANCIERE.md#11-analyse-financiere-qwant-sas-2013-2022/vii-diagnostic-global-et-signaux-d-alerte/a-points-faibles-structurels",
+                  "children": [
+                    {
+                      "name": "1. Dépendance technologique absolue",
+                      "path": "00 - Introduction/11_ANALYSE_FINANCIERE.md#11-analyse-financiere-qwant-sas-2013-2022/vii-diagnostic-global-et-signaux-d-alerte/a-points-faibles-structurels/1-dependance-technologique-absolue"
+                    },
+                    {
+                      "name": "2. Modèle économique fragile",
+                      "path": "00 - Introduction/11_ANALYSE_FINANCIERE.md#11-analyse-financiere-qwant-sas-2013-2022/vii-diagnostic-global-et-signaux-d-alerte/a-points-faibles-structurels/2-modele-economique-fragile"
+                    },
+                    {
+                      "name": "3. Gouvernance défaillante (période Léandri)",
+                      "path": "00 - Introduction/11_ANALYSE_FINANCIERE.md#11-analyse-financiere-qwant-sas-2013-2022/vii-diagnostic-global-et-signaux-d-alerte/a-points-faibles-structurels/3-gouvernance-defaillante-periode-leandri"
+                    },
+                    {
+                      "name": "4. Sous-financement chronique",
+                      "path": "00 - Introduction/11_ANALYSE_FINANCIERE.md#11-analyse-financiere-qwant-sas-2013-2022/vii-diagnostic-global-et-signaux-d-alerte/a-points-faibles-structurels/4-sous-financement-chronique"
+                    }
+                  ]
+                },
+                {
+                  "name": "B. Points positifs (périodes 2020-2021)",
+                  "path": "00 - Introduction/11_ANALYSE_FINANCIERE.md#11-analyse-financiere-qwant-sas-2013-2022/vii-diagnostic-global-et-signaux-d-alerte/b-points-positifs-periodes-2020-2021",
+                  "children": [
+                    {
+                      "name": "1. Croissance du chiffre d'affaires",
+                      "path": "00 - Introduction/11_ANALYSE_FINANCIERE.md#11-analyse-financiere-qwant-sas-2013-2022/vii-diagnostic-global-et-signaux-d-alerte/b-points-positifs-periodes-2020-2021/1-croissance-du-chiffre-d-affaires"
+                    },
+                    {
+                      "name": "2. Réduction des pertes",
+                      "path": "00 - Introduction/11_ANALYSE_FINANCIERE.md#11-analyse-financiere-qwant-sas-2013-2022/vii-diagnostic-global-et-signaux-d-alerte/b-points-positifs-periodes-2020-2021/2-reduction-des-pertes"
+                    },
+                    {
+                      "name": "3. Soutien institutionnel durable",
+                      "path": "00 - Introduction/11_ANALYSE_FINANCIERE.md#11-analyse-financiere-qwant-sas-2013-2022/vii-diagnostic-global-et-signaux-d-alerte/b-points-positifs-periodes-2020-2021/3-soutien-institutionnel-durable"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "VIII. Le rapport Diane : analyse exhaustive",
+              "path": "00 - Introduction/11_ANALYSE_FINANCIERE.md#11-analyse-financiere-qwant-sas-2013-2022/viii-le-rapport-diane-analyse-exhaustive",
+              "children": [
+                {
+                  "name": "A. Trésorerie critique (2016)",
+                  "path": "00 - Introduction/11_ANALYSE_FINANCIERE.md#11-analyse-financiere-qwant-sas-2013-2022/viii-le-rapport-diane-analyse-exhaustive/a-tresorerie-critique-2016"
+                },
+                {
+                  "name": "B. Explosion de l'endettement financier",
+                  "path": "00 - Introduction/11_ANALYSE_FINANCIERE.md#11-analyse-financiere-qwant-sas-2013-2022/viii-le-rapport-diane-analyse-exhaustive/b-explosion-de-l-endettement-financier"
+                },
+                {
+                  "name": "C. Analyse de la structure actionnariale",
+                  "path": "00 - Introduction/11_ANALYSE_FINANCIERE.md#11-analyse-financiere-qwant-sas-2013-2022/viii-le-rapport-diane-analyse-exhaustive/c-analyse-de-la-structure-actionnariale",
+                  "children": [
+                    {
+                      "name": "La CDC à 20% du capital",
+                      "path": "00 - Introduction/11_ANALYSE_FINANCIERE.md#11-analyse-financiere-qwant-sas-2013-2022/viii-le-rapport-diane-analyse-exhaustive/c-analyse-de-la-structure-actionnariale/la-cdc-a-20-du-capital"
+                    },
+                    {
+                      "name": "Raisons du soutien malgré l'insolvabilité",
+                      "path": "00 - Introduction/11_ANALYSE_FINANCIERE.md#11-analyse-financiere-qwant-sas-2013-2022/viii-le-rapport-diane-analyse-exhaustive/c-analyse-de-la-structure-actionnariale/raisons-du-soutien-malgre-l-insolvabilite"
+                    }
+                  ]
+                },
+                {
+                  "name": "D. Les trois affirmations pour justifier les investissements",
+                  "path": "00 - Introduction/11_ANALYSE_FINANCIERE.md#11-analyse-financiere-qwant-sas-2013-2022/viii-le-rapport-diane-analyse-exhaustive/d-les-trois-affirmations-pour-justifier-les-investissements"
+                }
+              ]
+            },
+            {
+              "name": "IX. La mécanique de l'escroquerie",
+              "path": "00 - Introduction/11_ANALYSE_FINANCIERE.md#11-analyse-financiere-qwant-sas-2013-2022/ix-la-mecanique-de-l-escroquerie",
+              "children": [
+                {
+                  "name": "A. Ce que Qwant affirmait publiquement",
+                  "path": "00 - Introduction/11_ANALYSE_FINANCIERE.md#11-analyse-financiere-qwant-sas-2013-2022/ix-la-mecanique-de-l-escroquerie/a-ce-que-qwant-affirmait-publiquement"
+                },
+                {
+                  "name": "B. La réalité technique et financière",
+                  "path": "00 - Introduction/11_ANALYSE_FINANCIERE.md#11-analyse-financiere-qwant-sas-2013-2022/ix-la-mecanique-de-l-escroquerie/b-la-realite-technique-et-financiere"
+                },
+                {
+                  "name": "C. Le mobile de la fraude",
+                  "path": "00 - Introduction/11_ANALYSE_FINANCIERE.md#11-analyse-financiere-qwant-sas-2013-2022/ix-la-mecanique-de-l-escroquerie/c-le-mobile-de-la-fraude"
+                }
+              ]
+            },
+            {
+              "name": "X. Synthèse et conclusion",
+              "path": "00 - Introduction/11_ANALYSE_FINANCIERE.md#11-analyse-financiere-qwant-sas-2013-2022/x-synthese-et-conclusion",
+              "children": [
+                {
+                  "name": "Points essentiels",
+                  "path": "00 - Introduction/11_ANALYSE_FINANCIERE.md#11-analyse-financiere-qwant-sas-2013-2022/x-synthese-et-conclusion/points-essentiels"
+                },
+                {
+                  "name": "Implication juridique majeure",
+                  "path": "00 - Introduction/11_ANALYSE_FINANCIERE.md#11-analyse-financiere-qwant-sas-2013-2022/x-synthese-et-conclusion/implication-juridique-majeure"
+                },
+                {
+                  "name": "Qualification pénale",
+                  "path": "00 - Introduction/11_ANALYSE_FINANCIERE.md#11-analyse-financiere-qwant-sas-2013-2022/x-synthese-et-conclusion/qualification-penale"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "12. Synthèse des preuves et convergences",
+          "path": "00 - Introduction/12_SYNTHESE_PREUVES.md",
+          "children": [
+            {
+              "name": "Introduction",
+              "path": "00 - Introduction/12_SYNTHESE_PREUVES.md#12-synthese-des-preuves-et-convergences/introduction"
+            },
+            {
+              "name": "I. La conversation Champeau (janvier 2022) : aveux du directeur éthique et juridique",
+              "path": "00 - Introduction/12_SYNTHESE_PREUVES.md#12-synthese-des-preuves-et-convergences/i-la-conversation-champeau-janvier-2022-aveux-du-directeur-ethique-et-juridique",
+              "children": [
+                {
+                  "name": "A. Profil et crédibilité du témoin",
+                  "path": "00 - Introduction/12_SYNTHESE_PREUVES.md#12-synthese-des-preuves-et-convergences/i-la-conversation-champeau-janvier-2022-aveux-du-directeur-ethique-et-juridique/a-profil-et-credibilite-du-temoin",
+                  "children": [
+                    {
+                      "name": "Antécédents et autorité",
+                      "path": "00 - Introduction/12_SYNTHESE_PREUVES.md#12-synthese-des-preuves-et-convergences/i-la-conversation-champeau-janvier-2022-aveux-du-directeur-ethique-et-juridique/a-profil-et-credibilite-du-temoin/antecedents-et-autorite"
+                    }
+                  ]
+                },
+                {
+                  "name": "B. Admission n°1 : Léandri mentait volontairement sur Bing",
+                  "path": "00 - Introduction/12_SYNTHESE_PREUVES.md#12-synthese-des-preuves-et-convergences/i-la-conversation-champeau-janvier-2022-aveux-du-directeur-ethique-et-juridique/b-admission-n-1-leandri-mentait-volontairement-sur-bing",
+                  "children": [
+                    {
+                      "name": "Le passage clé",
+                      "path": "00 - Introduction/12_SYNTHESE_PREUVES.md#12-synthese-des-preuves-et-convergences/i-la-conversation-champeau-janvier-2022-aveux-du-directeur-ethique-et-juridique/b-admission-n-1-leandri-mentait-volontairement-sur-bing/le-passage-cle"
+                    },
+                    {
+                      "name": "Portée de cet aveu",
+                      "path": "00 - Introduction/12_SYNTHESE_PREUVES.md#12-synthese-des-preuves-et-convergences/i-la-conversation-champeau-janvier-2022-aveux-du-directeur-ethique-et-juridique/b-admission-n-1-leandri-mentait-volontairement-sur-bing/portee-de-cet-aveu"
+                    },
+                    {
+                      "name": "Contradiction avec la défense de Qwant",
+                      "path": "00 - Introduction/12_SYNTHESE_PREUVES.md#12-synthese-des-preuves-et-convergences/i-la-conversation-champeau-janvier-2022-aveux-du-directeur-ethique-et-juridique/b-admission-n-1-leandri-mentait-volontairement-sur-bing/contradiction-avec-la-defense-de-qwant"
+                    }
+                  ]
+                },
+                {
+                  "name": "C. Admission n°2 : Pratiques internes répréhensibles",
+                  "path": "00 - Introduction/12_SYNTHESE_PREUVES.md#12-synthese-des-preuves-et-convergences/i-la-conversation-champeau-janvier-2022-aveux-du-directeur-ethique-et-juridique/c-admission-n-2-pratiques-internes-reprehensibles"
+                },
+                {
+                  "name": "D. Admission n°3 : Débat interne sur la qualification des données",
+                  "path": "00 - Introduction/12_SYNTHESE_PREUVES.md#12-synthese-des-preuves-et-convergences/i-la-conversation-champeau-janvier-2022-aveux-du-directeur-ethique-et-juridique/d-admission-n-3-debat-interne-sur-la-qualification-des-donnees",
+                  "children": [
+                    {
+                      "name": "Trois implications majeurs",
+                      "path": "00 - Introduction/12_SYNTHESE_PREUVES.md#12-synthese-des-preuves-et-convergences/i-la-conversation-champeau-janvier-2022-aveux-du-directeur-ethique-et-juridique/d-admission-n-3-debat-interne-sur-la-qualification-des-donnees/trois-implications-majeurs"
+                    },
+                    {
+                      "name": "Validation technique d'Erard",
+                      "path": "00 - Introduction/12_SYNTHESE_PREUVES.md#12-synthese-des-preuves-et-convergences/i-la-conversation-champeau-janvier-2022-aveux-du-directeur-ethique-et-juridique/d-admission-n-3-debat-interne-sur-la-qualification-des-donnees/validation-technique-d-erard"
+                    }
+                  ]
+                },
+                {
+                  "name": "E. La stratégie de minimisation du lanceur d'alerte",
+                  "path": "00 - Introduction/12_SYNTHESE_PREUVES.md#12-synthese-des-preuves-et-convergences/i-la-conversation-champeau-janvier-2022-aveux-du-directeur-ethique-et-juridique/e-la-strategie-de-minimisation-du-lanceur-d-alerte",
+                  "children": [
+                    {
+                      "name": "Réaction d'Erard",
+                      "path": "00 - Introduction/12_SYNTHESE_PREUVES.md#12-synthese-des-preuves-et-convergences/i-la-conversation-champeau-janvier-2022-aveux-du-directeur-ethique-et-juridique/e-la-strategie-de-minimisation-du-lanceur-d-alerte/reaction-d-erard"
+                    }
+                  ]
+                },
+                {
+                  "name": "F. Confirmation technique sur l'index et le WebBrain",
+                  "path": "00 - Introduction/12_SYNTHESE_PREUVES.md#12-synthese-des-preuves-et-convergences/i-la-conversation-champeau-janvier-2022-aveux-du-directeur-ethique-et-juridique/f-confirmation-technique-sur-l-index-et-le-webbrain",
+                  "children": [
+                    {
+                      "name": "Portée de cet aveu",
+                      "path": "00 - Introduction/12_SYNTHESE_PREUVES.md#12-synthese-des-preuves-et-convergences/i-la-conversation-champeau-janvier-2022-aveux-du-directeur-ethique-et-juridique/f-confirmation-technique-sur-l-index-et-le-webbrain/portee-de-cet-aveu"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "II. Décision CNIL février 2025 : validation réglementaire",
+              "path": "00 - Introduction/12_SYNTHESE_PREUVES.md#12-synthese-des-preuves-et-convergences/ii-decision-cnil-fevrier-2025-validation-reglementaire",
+              "children": [
+                {
+                  "name": "A. Contexte et timeline",
+                  "path": "00 - Introduction/12_SYNTHESE_PREUVES.md#12-synthese-des-preuves-et-convergences/ii-decision-cnil-fevrier-2025-validation-reglementaire/a-contexte-et-timeline"
+                },
+                {
+                  "name": "B. Les constats de la CNIL",
+                  "path": "00 - Introduction/12_SYNTHESE_PREUVES.md#12-synthese-des-preuves-et-convergences/ii-decision-cnil-fevrier-2025-validation-reglementaire/b-les-constats-de-la-cnil",
+                  "children": [
+                    {
+                      "name": "Constat n°1 : Traitements sans base légale",
+                      "path": "00 - Introduction/12_SYNTHESE_PREUVES.md#12-synthese-des-preuves-et-convergences/ii-decision-cnil-fevrier-2025-validation-reglementaire/b-les-constats-de-la-cnil/constat-n-1-traitements-sans-base-legale"
+                    },
+                    {
+                      "name": "Constat n°2 : Pseudo-anonymisation, non anonymisation",
+                      "path": "00 - Introduction/12_SYNTHESE_PREUVES.md#12-synthese-des-preuves-et-convergences/ii-decision-cnil-fevrier-2025-validation-reglementaire/b-les-constats-de-la-cnil/constat-n-2-pseudo-anonymisation-non-anonymisation"
+                    },
+                    {
+                      "name": "Constat n°3 : Violation des obligations de transparence",
+                      "path": "00 - Introduction/12_SYNTHESE_PREUVES.md#12-synthese-des-preuves-et-convergences/ii-decision-cnil-fevrier-2025-validation-reglementaire/b-les-constats-de-la-cnil/constat-n-3-violation-des-obligations-de-transparence"
+                    }
+                  ]
+                },
+                {
+                  "name": "C. Portée pour le dossier Erard",
+                  "path": "00 - Introduction/12_SYNTHESE_PREUVES.md#12-synthese-des-preuves-et-convergences/ii-decision-cnil-fevrier-2025-validation-reglementaire/c-portee-pour-le-dossier-erard",
+                  "children": [
+                    {
+                      "name": "Validation de la bonne foi",
+                      "path": "00 - Introduction/12_SYNTHESE_PREUVES.md#12-synthese-des-preuves-et-convergences/ii-decision-cnil-fevrier-2025-validation-reglementaire/c-portee-pour-le-dossier-erard/validation-de-la-bonne-foi"
+                    },
+                    {
+                      "name": "Contradiction avec la défense de Qwant en justice",
+                      "path": "00 - Introduction/12_SYNTHESE_PREUVES.md#12-synthese-des-preuves-et-convergences/ii-decision-cnil-fevrier-2025-validation-reglementaire/c-portee-pour-le-dossier-erard/contradiction-avec-la-defense-de-qwant-en-justice"
+                    }
+                  ]
+                },
+                {
+                  "name": "D. Fait nouveau au sens de l'article 595 CPC",
+                  "path": "00 - Introduction/12_SYNTHESE_PREUVES.md#12-synthese-des-preuves-et-convergences/ii-decision-cnil-fevrier-2025-validation-reglementaire/d-fait-nouveau-au-sens-de-l-article-595-cpc"
+                },
+                {
+                  "name": "E. Le problème du timing",
+                  "path": "00 - Introduction/12_SYNTHESE_PREUVES.md#12-synthese-des-preuves-et-convergences/ii-decision-cnil-fevrier-2025-validation-reglementaire/e-le-probleme-du-timing"
+                }
+              ]
+            },
+            {
+              "name": "III. Preuves techniques : le code source et les commits",
+              "path": "00 - Introduction/12_SYNTHESE_PREUVES.md#12-synthese-des-preuves-et-convergences/iii-preuves-techniques-le-code-source-et-les-commits",
+              "children": [
+                {
+                  "name": "A. L'historique webBrainLocales : bascule vers Bing à 100%",
+                  "path": "00 - Introduction/12_SYNTHESE_PREUVES.md#12-synthese-des-preuves-et-convergences/iii-preuves-techniques-le-code-source-et-les-commits/a-l-historique-webbrainlocales-bascule-vers-bing-a-100",
+                  "children": [
+                    {
+                      "name": "Mécanisme du routage",
+                      "path": "00 - Introduction/12_SYNTHESE_PREUVES.md#12-synthese-des-preuves-et-convergences/iii-preuves-techniques-le-code-source-et-les-commits/a-l-historique-webbrainlocales-bascule-vers-bing-a-100/mecanisme-du-routage"
+                    },
+                    {
+                      "name": "Le commit du 29 juin 2016 : Pierre Vignaux",
+                      "path": "00 - Introduction/12_SYNTHESE_PREUVES.md#12-synthese-des-preuves-et-convergences/iii-preuves-techniques-le-code-source-et-les-commits/a-l-historique-webbrainlocales-bascule-vers-bing-a-100/le-commit-du-29-juin-2016-pierre-vignaux"
+                    }
+                  ]
+                },
+                {
+                  "name": "B. La manœuvre de dissimulation",
+                  "path": "00 - Introduction/12_SYNTHESE_PREUVES.md#12-synthese-des-preuves-et-convergences/iii-preuves-techniques-le-code-source-et-les-commits/b-la-manouvre-de-dissimulation",
+                  "children": [
+                    {
+                      "name": "Phase 1 : Déport de l'appel Bing",
+                      "path": "00 - Introduction/12_SYNTHESE_PREUVES.md#12-synthese-des-preuves-et-convergences/iii-preuves-techniques-le-code-source-et-les-commits/b-la-manouvre-de-dissimulation/phase-1-deport-de-l-appel-bing"
+                    },
+                    {
+                      "name": "Phase 2 : La branche « demo »",
+                      "path": "00 - Introduction/12_SYNTHESE_PREUVES.md#12-synthese-des-preuves-et-convergences/iii-preuves-techniques-le-code-source-et-les-commits/b-la-manouvre-de-dissimulation/phase-2-la-branche-demo"
+                    },
+                    {
+                      "name": "Phase 3 : Déploiements hors CI",
+                      "path": "00 - Introduction/12_SYNTHESE_PREUVES.md#12-synthese-des-preuves-et-convergences/iii-preuves-techniques-le-code-source-et-les-commits/b-la-manouvre-de-dissimulation/phase-3-deploiements-hors-ci"
+                    }
+                  ]
+                },
+                {
+                  "name": "C. Envoi de données pseudo-anonymisées à Bing Ads",
+                  "path": "00 - Introduction/12_SYNTHESE_PREUVES.md#12-synthese-des-preuves-et-convergences/iii-preuves-techniques-le-code-source-et-les-commits/c-envoi-de-donnees-pseudo-anonymisees-a-bing-ads",
+                  "children": [
+                    {
+                      "name": "Triplet de données transmises",
+                      "path": "00 - Introduction/12_SYNTHESE_PREUVES.md#12-synthese-des-preuves-et-convergences/iii-preuves-techniques-le-code-source-et-les-commits/c-envoi-de-donnees-pseudo-anonymisees-a-bing-ads/triplet-de-donnees-transmises"
+                    },
+                    {
+                      "name": "Non-anonymisation",
+                      "path": "00 - Introduction/12_SYNTHESE_PREUVES.md#12-synthese-des-preuves-et-convergences/iii-preuves-techniques-le-code-source-et-les-commits/c-envoi-de-donnees-pseudo-anonymisees-a-bing-ads/non-anonymisation"
+                    }
+                  ]
+                },
+                {
+                  "name": "D. Le DataHub de traçabilité",
+                  "path": "00 - Introduction/12_SYNTHESE_PREUVES.md#12-synthese-des-preuves-et-convergences/iii-preuves-techniques-le-code-source-et-les-commits/d-le-datahub-de-tracabilite"
+                }
+              ]
+            },
+            {
+              "name": "IV. Tableau de convergence des preuves",
+              "path": "00 - Introduction/12_SYNTHESE_PREUVES.md#12-synthese-des-preuves-et-convergences/iv-tableau-de-convergence-des-preuves"
+            },
+            {
+              "name": "V. Analyse financière et mobile de la fraude",
+              "path": "00 - Introduction/12_SYNTHESE_PREUVES.md#12-synthese-des-preuves-et-convergences/v-analyse-financiere-et-mobile-de-la-fraude",
+              "children": [
+                {
+                  "name": "Synthèse essentielle",
+                  "path": "00 - Introduction/12_SYNTHESE_PREUVES.md#12-synthese-des-preuves-et-convergences/v-analyse-financiere-et-mobile-de-la-fraude/synthese-essentielle"
+                },
+                {
+                  "name": "Mobile économique de la fraude",
+                  "path": "00 - Introduction/12_SYNTHESE_PREUVES.md#12-synthese-des-preuves-et-convergences/v-analyse-financiere-et-mobile-de-la-fraude/mobile-economique-de-la-fraude"
+                }
+              ]
+            },
+            {
+              "name": "VI. Rapports indépendants d'autres lanceurs d'alerte",
+              "path": "00 - Introduction/12_SYNTHESE_PREUVES.md#12-synthese-des-preuves-et-convergences/vi-rapports-independants-d-autres-lanceurs-d-alerte",
+              "children": [
+                {
+                  "name": "A. Le rapport d'Eric Mathieu (Xilopix/Xaphir, septembre 2020)",
+                  "path": "00 - Introduction/12_SYNTHESE_PREUVES.md#12-synthese-des-preuves-et-convergences/vi-rapports-independants-d-autres-lanceurs-d-alerte/a-le-rapport-d-eric-mathieu-xilopix-xaphir-septembre-2020",
+                  "children": [
+                    {
+                      "name": "Confirmations",
+                      "path": "00 - Introduction/12_SYNTHESE_PREUVES.md#12-synthese-des-preuves-et-convergences/vi-rapports-independants-d-autres-lanceurs-d-alerte/a-le-rapport-d-eric-mathieu-xilopix-xaphir-septembre-2020/confirmations"
+                    },
+                    {
+                      "name": "Implication pour le dossier",
+                      "path": "00 - Introduction/12_SYNTHESE_PREUVES.md#12-synthese-des-preuves-et-convergences/vi-rapports-independants-d-autres-lanceurs-d-alerte/a-le-rapport-d-eric-mathieu-xilopix-xaphir-septembre-2020/implication-pour-le-dossier"
+                    }
+                  ]
+                },
+                {
+                  "name": "B. La Lettre A (investigations de Robin Carcan)",
+                  "path": "00 - Introduction/12_SYNTHESE_PREUVES.md#12-synthese-des-preuves-et-convergences/vi-rapports-independants-d-autres-lanceurs-d-alerte/b-la-lettre-a-investigations-de-robin-carcan"
+                }
+              ]
+            },
+            {
+              "name": "VII. Contradictions avec la défense judiciaire de Qwant",
+              "path": "00 - Introduction/12_SYNTHESE_PREUVES.md#12-synthese-des-preuves-et-convergences/vii-contradictions-avec-la-defense-judiciaire-de-qwant",
+              "children": [
+                {
+                  "name": "A. Sur l'usage de Bing",
+                  "path": "00 - Introduction/12_SYNTHESE_PREUVES.md#12-synthese-des-preuves-et-convergences/vii-contradictions-avec-la-defense-judiciaire-de-qwant/a-sur-l-usage-de-bing"
+                },
+                {
+                  "name": "B. Sur les données personnelles",
+                  "path": "00 - Introduction/12_SYNTHESE_PREUVES.md#12-synthese-des-preuves-et-convergences/vii-contradictions-avec-la-defense-judiciaire-de-qwant/b-sur-les-donnees-personnelles"
+                },
+                {
+                  "name": "C. Sur le caractère dénigrant des tweets",
+                  "path": "00 - Introduction/12_SYNTHESE_PREUVES.md#12-synthese-des-preuves-et-convergences/vii-contradictions-avec-la-defense-judiciaire-de-qwant/c-sur-le-caractere-denigrant-des-tweets"
+                }
+              ]
+            },
+            {
+              "name": "VIII. Conséquences juridiques de la convergence",
+              "path": "00 - Introduction/12_SYNTHESE_PREUVES.md#12-synthese-des-preuves-et-convergences/viii-consequences-juridiques-de-la-convergence",
+              "children": [
+                {
+                  "name": "A. Statut de lanceur d'alerte (loi Sapin II / Waserman)",
+                  "path": "00 - Introduction/12_SYNTHESE_PREUVES.md#12-synthese-des-preuves-et-convergences/viii-consequences-juridiques-de-la-convergence/a-statut-de-lanceur-d-alerte-loi-sapin-ii-waserman",
+                  "children": [
+                    {
+                      "name": "Critère 1 : Connaissance des faits",
+                      "path": "00 - Introduction/12_SYNTHESE_PREUVES.md#12-synthese-des-preuves-et-convergences/viii-consequences-juridiques-de-la-convergence/a-statut-de-lanceur-d-alerte-loi-sapin-ii-waserman/critere-1-connaissance-des-faits"
+                    },
+                    {
+                      "name": "Critère 2 : Caractère délictuel des faits",
+                      "path": "00 - Introduction/12_SYNTHESE_PREUVES.md#12-synthese-des-preuves-et-convergences/viii-consequences-juridiques-de-la-convergence/a-statut-de-lanceur-d-alerte-loi-sapin-ii-waserman/critere-2-caractere-delictuel-des-faits"
+                    },
+                    {
+                      "name": "Critère 3 : Bonne foi",
+                      "path": "00 - Introduction/12_SYNTHESE_PREUVES.md#12-synthese-des-preuves-et-convergences/viii-consequences-juridiques-de-la-convergence/a-statut-de-lanceur-d-alerte-loi-sapin-ii-waserman/critere-3-bonne-foi"
+                    }
+                  ]
+                },
+                {
+                  "name": "B. Fraude au jugement (article 595 CPC)",
+                  "path": "00 - Introduction/12_SYNTHESE_PREUVES.md#12-synthese-des-preuves-et-convergences/viii-consequences-juridiques-de-la-convergence/b-fraude-au-jugement-article-595-cpc"
+                },
+                {
+                  "name": "C. Préjudices établis",
+                  "path": "00 - Introduction/12_SYNTHESE_PREUVES.md#12-synthese-des-preuves-et-convergences/viii-consequences-juridiques-de-la-convergence/c-prejudices-etablis",
+                  "children": [
+                    {
+                      "name": "Préjudice licenciement nul",
+                      "path": "00 - Introduction/12_SYNTHESE_PREUVES.md#12-synthese-des-preuves-et-convergences/viii-consequences-juridiques-de-la-convergence/c-prejudices-etablis/prejudice-licenciement-nul"
+                    },
+                    {
+                      "name": "Préjudice moral et physique",
+                      "path": "00 - Introduction/12_SYNTHESE_PREUVES.md#12-synthese-des-preuves-et-convergences/viii-consequences-juridiques-de-la-convergence/c-prejudices-etablis/prejudice-moral-et-physique"
+                    },
+                    {
+                      "name": "Préjudice d'intérêt général",
+                      "path": "00 - Introduction/12_SYNTHESE_PREUVES.md#12-synthese-des-preuves-et-convergences/viii-consequences-juridiques-de-la-convergence/c-prejudices-etablis/prejudice-d-interet-general"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "IX. Synthèse : le faisceau d'indices convergents",
+              "path": "00 - Introduction/12_SYNTHESE_PREUVES.md#12-synthese-des-preuves-et-convergences/ix-synthese-le-faisceau-d-indices-convergents",
+              "children": [
+                {
+                  "name": "Points de convergence absolue",
+                  "path": "00 - Introduction/12_SYNTHESE_PREUVES.md#12-synthese-des-preuves-et-convergences/ix-synthese-le-faisceau-d-indices-convergents/points-de-convergence-absolue"
+                },
+                {
+                  "name": "Réalité établie par la convergence",
+                  "path": "00 - Introduction/12_SYNTHESE_PREUVES.md#12-synthese-des-preuves-et-convergences/ix-synthese-le-faisceau-d-indices-convergents/realite-etablie-par-la-convergence"
+                }
+              ]
+            },
+            {
+              "name": "X. Conclusion : la convergence comme preuve",
+              "path": "00 - Introduction/12_SYNTHESE_PREUVES.md#12-synthese-des-preuves-et-convergences/x-conclusion-la-convergence-comme-preuve"
+            },
+            {
+              "name": "XI. Recommandations pour la stratégie contentieuse",
+              "path": "00 - Introduction/12_SYNTHESE_PREUVES.md#12-synthese-des-preuves-et-convergences/xi-recommandations-pour-la-strategie-contentieuse",
+              "children": [
+                {
+                  "name": "Devant le juge pénal (escroquerie art. 313-1/313-2)",
+                  "path": "00 - Introduction/12_SYNTHESE_PREUVES.md#12-synthese-des-preuves-et-convergences/xi-recommandations-pour-la-strategie-contentieuse/devant-le-juge-penal-escroquerie-art-313-1-313-2"
+                },
+                {
+                  "name": "Devant le juge civil (art. 1240 + 2226)",
+                  "path": "00 - Introduction/12_SYNTHESE_PREUVES.md#12-synthese-des-preuves-et-convergences/xi-recommandations-pour-la-strategie-contentieuse/devant-le-juge-civil-art-1240-2226"
+                },
+                {
+                  "name": "Devant le tribunal du travail (nullité lanceur d'alerte)",
+                  "path": "00 - Introduction/12_SYNTHESE_PREUVES.md#12-synthese-des-preuves-et-convergences/xi-recommandations-pour-la-strategie-contentieuse/devant-le-tribunal-du-travail-nullite-lanceur-d-alerte"
+                },
+                {
+                  "name": "Dans le dossier de presse",
+                  "path": "00 - Introduction/12_SYNTHESE_PREUVES.md#12-synthese-des-preuves-et-convergences/xi-recommandations-pour-la-strategie-contentieuse/dans-le-dossier-de-presse"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "13. La galaxie Qwant — Holdings, flux de capitaux et opacité structurelle",
+          "path": "00 - Introduction/13_HOLDINGS_STRUCTURE.md",
+          "children": [
+            {
+              "name": "Introduction",
+              "path": "00 - Introduction/13_HOLDINGS_STRUCTURE.md#13-la-galaxie-qwant-holdings-flux-de-capitaux-et-opacite-structurelle/introduction"
+            },
+            {
+              "name": "I. La galaxie Qwant : cartographie des entités",
+              "path": "00 - Introduction/13_HOLDINGS_STRUCTURE.md#13-la-galaxie-qwant-holdings-flux-de-capitaux-et-opacite-structurelle/i-la-galaxie-qwant-cartographie-des-entites",
+              "children": [
+                {
+                  "name": "A. Schéma de la structure",
+                  "path": "00 - Introduction/13_HOLDINGS_STRUCTURE.md#13-la-galaxie-qwant-holdings-flux-de-capitaux-et-opacite-structurelle/i-la-galaxie-qwant-cartographie-des-entites/a-schema-de-la-structure"
+                },
+                {
+                  "name": "B. Tableau des entités",
+                  "path": "00 - Introduction/13_HOLDINGS_STRUCTURE.md#13-la-galaxie-qwant-holdings-flux-de-capitaux-et-opacite-structurelle/i-la-galaxie-qwant-cartographie-des-entites/b-tableau-des-entites"
+                }
+              ]
+            },
+            {
+              "name": "II. L'actionnariat : concentration du pouvoir",
+              "path": "00 - Introduction/13_HOLDINGS_STRUCTURE.md#13-la-galaxie-qwant-holdings-flux-de-capitaux-et-opacite-structurelle/ii-l-actionnariat-concentration-du-pouvoir",
+              "children": [
+                {
+                  "name": "A. Éric Léandri : la triple casquette",
+                  "path": "00 - Introduction/13_HOLDINGS_STRUCTURE.md#13-la-galaxie-qwant-holdings-flux-de-capitaux-et-opacite-structurelle/ii-l-actionnariat-concentration-du-pouvoir/a-eric-leandri-la-triple-casquette"
+                },
+                {
+                  "name": "B. Évolution de l'actionnariat",
+                  "path": "00 - Introduction/13_HOLDINGS_STRUCTURE.md#13-la-galaxie-qwant-holdings-flux-de-capitaux-et-opacite-structurelle/ii-l-actionnariat-concentration-du-pouvoir/b-evolution-de-l-actionnariat"
+                },
+                {
+                  "name": "C. Le refus de quitus — signal d'alarme ignoré",
+                  "path": "00 - Introduction/13_HOLDINGS_STRUCTURE.md#13-la-galaxie-qwant-holdings-flux-de-capitaux-et-opacite-structurelle/ii-l-actionnariat-concentration-du-pouvoir/c-le-refus-de-quitus-signal-d-alarme-ignore"
+                }
+              ]
+            },
+            {
+              "name": "III. La valorisation à 70 M€ — une escroquerie intellectuelle",
+              "path": "00 - Introduction/13_HOLDINGS_STRUCTURE.md#13-la-galaxie-qwant-holdings-flux-de-capitaux-et-opacite-structurelle/iii-la-valorisation-a-70-m-une-escroquerie-intellectuelle",
+              "children": [
+                {
+                  "name": "A. Le mécanisme circulaire",
+                  "path": "00 - Introduction/13_HOLDINGS_STRUCTURE.md#13-la-galaxie-qwant-holdings-flux-de-capitaux-et-opacite-structurelle/iii-la-valorisation-a-70-m-une-escroquerie-intellectuelle/a-le-mecanisme-circulaire"
+                },
+                {
+                  "name": "B. Les multiples délirants",
+                  "path": "00 - Introduction/13_HOLDINGS_STRUCTURE.md#13-la-galaxie-qwant-holdings-flux-de-capitaux-et-opacite-structurelle/iii-la-valorisation-a-70-m-une-escroquerie-intellectuelle/b-les-multiples-delirants"
+                },
+                {
+                  "name": "C. La réalité vs. les projections",
+                  "path": "00 - Introduction/13_HOLDINGS_STRUCTURE.md#13-la-galaxie-qwant-holdings-flux-de-capitaux-et-opacite-structurelle/iii-la-valorisation-a-70-m-une-escroquerie-intellectuelle/c-la-realite-vs-les-projections"
+                }
+              ]
+            },
+            {
+              "name": "IV. Les 13 M€ qui disparaissent",
+              "path": "00 - Introduction/13_HOLDINGS_STRUCTURE.md#13-la-galaxie-qwant-holdings-flux-de-capitaux-et-opacite-structurelle/iv-les-13-m-qui-disparaissent",
+              "children": [
+                {
+                  "name": "A. Les BSA de février 2013",
+                  "path": "00 - Introduction/13_HOLDINGS_STRUCTURE.md#13-la-galaxie-qwant-holdings-flux-de-capitaux-et-opacite-structurelle/iv-les-13-m-qui-disparaissent/a-les-bsa-de-fevrier-2013"
+                },
+                {
+                  "name": "B. Le trou noir comptable",
+                  "path": "00 - Introduction/13_HOLDINGS_STRUCTURE.md#13-la-galaxie-qwant-holdings-flux-de-capitaux-et-opacite-structurelle/iv-les-13-m-qui-disparaissent/b-le-trou-noir-comptable"
+                }
+              ]
+            },
+            {
+              "name": "V. Victor 47 et Victor 48 — les foncières suspectes",
+              "path": "00 - Introduction/13_HOLDINGS_STRUCTURE.md#13-la-galaxie-qwant-holdings-flux-de-capitaux-et-opacite-structurelle/v-victor-47-et-victor-48-les-foncieres-suspectes",
+              "children": [
+                {
+                  "name": "A. Chronologie troublante",
+                  "path": "00 - Introduction/13_HOLDINGS_STRUCTURE.md#13-la-galaxie-qwant-holdings-flux-de-capitaux-et-opacite-structurelle/v-victor-47-et-victor-48-les-foncieres-suspectes/a-chronologie-troublante"
+                },
+                {
+                  "name": "B. Les questions",
+                  "path": "00 - Introduction/13_HOLDINGS_STRUCTURE.md#13-la-galaxie-qwant-holdings-flux-de-capitaux-et-opacite-structurelle/v-victor-47-et-victor-48-les-foncieres-suspectes/b-les-questions"
+                }
+              ]
+            },
+            {
+              "name": "VI. Le réseau BAD BOYS SA",
+              "path": "00 - Introduction/13_HOLDINGS_STRUCTURE.md#13-la-galaxie-qwant-holdings-flux-de-capitaux-et-opacite-structurelle/vi-le-reseau-bad-boys-sa",
+              "children": [
+                {
+                  "name": "A. Profil",
+                  "path": "00 - Introduction/13_HOLDINGS_STRUCTURE.md#13-la-galaxie-qwant-holdings-flux-de-capitaux-et-opacite-structurelle/vi-le-reseau-bad-boys-sa/a-profil"
+                },
+                {
+                  "name": "B. Connexions documentées",
+                  "path": "00 - Introduction/13_HOLDINGS_STRUCTURE.md#13-la-galaxie-qwant-holdings-flux-de-capitaux-et-opacite-structurelle/vi-le-reseau-bad-boys-sa/b-connexions-documentees"
+                },
+                {
+                  "name": "C. MLM TRUST B HOLDING LLC (Delaware)",
+                  "path": "00 - Introduction/13_HOLDINGS_STRUCTURE.md#13-la-galaxie-qwant-holdings-flux-de-capitaux-et-opacite-structurelle/vi-le-reseau-bad-boys-sa/c-mlm-trust-b-holding-llc-delaware"
+                }
+              ]
+            },
+            {
+              "name": "VII. Les flux financiers suspects",
+              "path": "00 - Introduction/13_HOLDINGS_STRUCTURE.md#13-la-galaxie-qwant-holdings-flux-de-capitaux-et-opacite-structurelle/vii-les-flux-financiers-suspects",
+              "children": [
+                {
+                  "name": "A. La TVA — estimation de fraude à ~7 M€",
+                  "path": "00 - Introduction/13_HOLDINGS_STRUCTURE.md#13-la-galaxie-qwant-holdings-flux-de-capitaux-et-opacite-structurelle/vii-les-flux-financiers-suspects/a-la-tva-estimation-de-fraude-a-7-m"
+                },
+                {
+                  "name": "B. Les « autres achats externes » — 8 M€/an inexpliqués",
+                  "path": "00 - Introduction/13_HOLDINGS_STRUCTURE.md#13-la-galaxie-qwant-holdings-flux-de-capitaux-et-opacite-structurelle/vii-les-flux-financiers-suspects/b-les-autres-achats-externes-8-m-an-inexpliques"
+                },
+                {
+                  "name": "C. Les brevets fantômes — 17 à 18 M€",
+                  "path": "00 - Introduction/13_HOLDINGS_STRUCTURE.md#13-la-galaxie-qwant-holdings-flux-de-capitaux-et-opacite-structurelle/vii-les-flux-financiers-suspects/c-les-brevets-fantomes-17-a-18-m"
+                },
+                {
+                  "name": "D. Le Crédit Impôt Recherche — ~10 M€ cumulés suspects",
+                  "path": "00 - Introduction/13_HOLDINGS_STRUCTURE.md#13-la-galaxie-qwant-holdings-flux-de-capitaux-et-opacite-structurelle/vii-les-flux-financiers-suspects/d-le-credit-impot-recherche-10-m-cumules-suspects"
+                }
+              ]
+            },
+            {
+              "name": "VIII. Les rémunérations des dirigeants vs. la réalité financière",
+              "path": "00 - Introduction/13_HOLDINGS_STRUCTURE.md#13-la-galaxie-qwant-holdings-flux-de-capitaux-et-opacite-structurelle/viii-les-remunerations-des-dirigeants-vs-la-realite-financiere",
+              "children": [
+                {
+                  "name": "A. Rémunérations documentées",
+                  "path": "00 - Introduction/13_HOLDINGS_STRUCTURE.md#13-la-galaxie-qwant-holdings-flux-de-capitaux-et-opacite-structurelle/viii-les-remunerations-des-dirigeants-vs-la-realite-financiere/a-remunerations-documentees"
+                },
+                {
+                  "name": "B. Le contexte",
+                  "path": "00 - Introduction/13_HOLDINGS_STRUCTURE.md#13-la-galaxie-qwant-holdings-flux-de-capitaux-et-opacite-structurelle/viii-les-remunerations-des-dirigeants-vs-la-realite-financiere/b-le-contexte"
+                }
+              ]
+            },
+            {
+              "name": "IX. Le rôle de la CDC — l'argent public sans contrôle",
+              "path": "00 - Introduction/13_HOLDINGS_STRUCTURE.md#13-la-galaxie-qwant-holdings-flux-de-capitaux-et-opacite-structurelle/ix-le-role-de-la-cdc-l-argent-public-sans-controle",
+              "children": [
+                {
+                  "name": "A. Le total des fonds publics identifiés",
+                  "path": "00 - Introduction/13_HOLDINGS_STRUCTURE.md#13-la-galaxie-qwant-holdings-flux-de-capitaux-et-opacite-structurelle/ix-le-role-de-la-cdc-l-argent-public-sans-controle/a-le-total-des-fonds-publics-identifies"
+                },
+                {
+                  "name": "B. La chaîne de décision problématique",
+                  "path": "00 - Introduction/13_HOLDINGS_STRUCTURE.md#13-la-galaxie-qwant-holdings-flux-de-capitaux-et-opacite-structurelle/ix-le-role-de-la-cdc-l-argent-public-sans-controle/b-la-chaine-de-decision-problematique"
+                },
+                {
+                  "name": "C. L'attestation BNP du 9 mars 2017",
+                  "path": "00 - Introduction/13_HOLDINGS_STRUCTURE.md#13-la-galaxie-qwant-holdings-flux-de-capitaux-et-opacite-structurelle/ix-le-role-de-la-cdc-l-argent-public-sans-controle/c-l-attestation-bnp-du-9-mars-2017"
+                }
+              ]
+            },
+            {
+              "name": "X. Synthèse : l'architecture de l'opacité",
+              "path": "00 - Introduction/13_HOLDINGS_STRUCTURE.md#13-la-galaxie-qwant-holdings-flux-de-capitaux-et-opacite-structurelle/x-synthese-l-architecture-de-l-opacite"
+            },
+            {
+              "name": "Sources",
+              "path": "00 - Introduction/13_HOLDINGS_STRUCTURE.md#13-la-galaxie-qwant-holdings-flux-de-capitaux-et-opacite-structurelle/sources"
+            }
+          ]
+        },
+        {
+          "name": "L'affaire Qwant, c'est quoi ?",
+          "path": "00 - Introduction/INTRODUCTION.md",
+          "children": [
+            {
+              "name": "Ce que ce dossier documente",
+              "path": "00 - Introduction/INTRODUCTION.md#l-affaire-qwant-c-est-quoi/ce-que-ce-dossier-documente",
+              "children": [
+                {
+                  "name": "Une fraude technique à l'audit",
+                  "path": "00 - Introduction/INTRODUCTION.md#l-affaire-qwant-c-est-quoi/ce-que-ce-dossier-documente/une-fraude-technique-a-l-audit"
+                },
+                {
+                  "name": "Une violation massive de la vie privée",
+                  "path": "00 - Introduction/INTRODUCTION.md#l-affaire-qwant-c-est-quoi/ce-que-ce-dossier-documente/une-violation-massive-de-la-vie-privee"
+                },
+                {
+                  "name": "Des représailles contre le lanceur d'alerte",
+                  "path": "00 - Introduction/INTRODUCTION.md#l-affaire-qwant-c-est-quoi/ce-que-ce-dossier-documente/des-represailles-contre-le-lanceur-d-alerte"
+                },
+                {
+                  "name": "La destruction d'une vraie technologie souveraine",
+                  "path": "00 - Introduction/INTRODUCTION.md#l-affaire-qwant-c-est-quoi/ce-que-ce-dossier-documente/la-destruction-d-une-vraie-technologie-souveraine"
+                },
+                {
+                  "name": "Des centaines de millions d'euros publics sans contrôle",
+                  "path": "00 - Introduction/INTRODUCTION.md#l-affaire-qwant-c-est-quoi/ce-que-ce-dossier-documente/des-centaines-de-millions-d-euros-publics-sans-controle"
+                }
+              ]
+            },
+            {
+              "name": "Les preuves convergent",
+              "path": "00 - Introduction/INTRODUCTION.md#l-affaire-qwant-c-est-quoi/les-preuves-convergent"
+            },
+            {
+              "name": "Ce dossier, en 12 documents",
+              "path": "00 - Introduction/INTRODUCTION.md#l-affaire-qwant-c-est-quoi/ce-dossier-en-12-documents"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name": "00 - Inventaire",
       "children": [
         {
@@ -37,6 +2176,14 @@
         {
           "name": "021 - Action Civile Erard Vs Qwant Leandri",
           "path": "00 - Inventaire/021 - Action Civile Erard vs Qwant Leandri.pdf"
+        },
+        {
+          "name": "022A - Action Civile Chemin Coresponsable",
+          "path": "00 - Inventaire/022a - Action Civile Chemin Coresponsable.pdf"
+        },
+        {
+          "name": "022B - Action Civile Vignaux Coresponsable",
+          "path": "00 - Inventaire/022b - Action Civile Vignaux Coresponsable.pdf"
         },
         {
           "name": "024 - Addendum Hiatus Bpi Cdc Qwant V8",

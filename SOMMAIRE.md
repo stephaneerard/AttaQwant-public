@@ -1,8 +1,28 @@
 ﻿# SOMMAIRE - Qwant Analyse
 
+## 00 - Introduction
+- [Affaire Qwant Introduction](00%20-%20Introduction/00_Affaire_Qwant_Introduction.pdf)
+- [Dossier Qwant — Publication publique](00%20-%20Introduction/00_SOMMAIRE.md)
+- [Synthèse — Qwant : autopsie d'un simulacre souverain](00%20-%20Introduction/01_SYNTHESE.md)
+- [Chronologie factuelle — L'affaire Qwant de 2008 à 2026](00%20-%20Introduction/02_CHRONOLOGIE.md)
+- [Tribune — J'ai lancé l'alerte sur Qwant. L'État a choisi le silence.](00%20-%20Introduction/03_TRIBUNE.md)
+- [L'audit CDC fraudé de juin 2016 — Analyse forensique de la branche « demo »](00%20-%20Introduction/04_AUDIT_CDC_2016.md)
+- [La décision CNIL de février 2025 — Validation et paradoxe](00%20-%20Introduction/05_CNIL_VALIDATION.md)
+- [Accusations de Qwant vs Réalité — Les 15 accusations démontées](00%20-%20Introduction/06_ACCUSATIONS_VS_REALITE.md)
+- [SLAPP et représailles systématiques contre le lanceur d'alerte](00%20-%20Introduction/07_SLAPP_REPRESAILLES.md)
+- [La destruction de Xilopix/Xaphir — 20 ans de R&D souveraine perdus](00%20-%20Introduction/08_DESTRUCTION_XILOPIX.md)
+- [09. Analyse forensique détaillée — Le dépôt git API-API-TAG-PACKAGER](00%20-%20Introduction/09_FORENSIQUE_GIT.md)
+- [10. L'audit DINUM de 2019 — Corroboration institutionnelle](00%20-%20Introduction/10_AUDIT_DINUM_2019.md)
+- [11. Analyse financière Qwant SAS — 2013-2022](00%20-%20Introduction/11_ANALYSE_FINANCIERE.md)
+- [12. Synthèse des preuves et convergences](00%20-%20Introduction/12_SYNTHESE_PREUVES.md)
+- [13. La galaxie Qwant — Holdings, flux de capitaux et opacité structurelle](00%20-%20Introduction/13_HOLDINGS_STRUCTURE.md)
+- [L'affaire Qwant, c'est quoi ?](00%20-%20Introduction/INTRODUCTION.md)
+
 ## 00 - Inventaire
 - [020 - Accusation Vs Realite Qwant Erard](00%20-%20Inventaire/020%20-%20Accusation%20vs%20Realite%20Qwant%20Erard.pdf)
 - [021 - Action Civile Erard Vs Qwant Leandri](00%20-%20Inventaire/021%20-%20Action%20Civile%20Erard%20vs%20Qwant%20Leandri.pdf)
+- [022A - Action Civile Chemin Coresponsable](00%20-%20Inventaire/022a%20-%20Action%20Civile%20Chemin%20Coresponsable.pdf)
+- [022B - Action Civile Vignaux Coresponsable](00%20-%20Inventaire/022b%20-%20Action%20Civile%20Vignaux%20Coresponsable.pdf)
 - [024 - Addendum Hiatus Bpi Cdc Qwant V8](00%20-%20Inventaire/024%20-%20Addendum%20Hiatus%20BPI%20CDC%20Qwant%20v8.pdf)
 - [025 - Addendum Plainte N8 Vignaux](00%20-%20Inventaire/025%20-%20Addendum%20Plainte%20N8%20Vignaux.pdf)
 - [026 - Analyse Audit Dinum Erard Qwant](00%20-%20Inventaire/026%20-%20Analyse%20Audit%20DINUM%20Erard%20Qwant.pdf)
