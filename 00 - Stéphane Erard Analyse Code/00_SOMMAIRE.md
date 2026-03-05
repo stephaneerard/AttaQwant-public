@@ -79,7 +79,7 @@ Destinée aux techniciens, chercheurs, et institutions de gouvernance. Analyses 
 
 ### Les lanceurs d'alerte
 
-![Stéphane Erard — Ingénieur Qwant, lanceur d'alerte](./images/photo_erard_2017.jpg)
+![Stéphane Erard — Ingénieur Qwant, lanceur d'alerte](./images/photo_erard_2017_1.jpg)
 
 - **Stéphane Erard** : Ingénieur Qwant, alerte sur la dépendance Bing et les violations de données
 - **Éric Mathieu** : Fondateur Xilopix, documente la destruction délibérée de sa société

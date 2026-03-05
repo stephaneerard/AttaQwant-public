@@ -355,6 +355,13 @@
     overflow: auto;
     padding: 32px;
     position: relative;
+    resize: both;
+  }
+  #overlay-inner img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 6px;
   }
   #overlay-close {
     position: absolute;
@@ -371,7 +378,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 1;
   }
+
+  /* --- Clickable images in content --- */
+  .markdown-body img { cursor: pointer; transition: opacity .15s; }
+  .markdown-body img:hover { opacity: .85; }
 
   /* --- PDF embed --- */
   .pdf-embed {
@@ -830,6 +842,18 @@
         e.preventDefault();
         const href = a.getAttribute('href').replace(/^#/, '');
         navigateToPath(href);
+      });
+    });
+
+    // Clickable images → open in overlay pop-in
+    contentEl.querySelectorAll('img').forEach(img => {
+      img.addEventListener('click', () => {
+        overlayContent.innerHTML = '';
+        const clone = document.createElement('img');
+        clone.src = img.src;
+        clone.alt = img.alt || '';
+        overlayContent.appendChild(clone);
+        overlay.classList.add('visible');
       });
     });
 

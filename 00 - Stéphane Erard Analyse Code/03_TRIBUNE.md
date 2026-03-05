@@ -163,7 +163,7 @@ Car le prochain Xaphir — la prochaine équipe de chercheurs français qui dév
 
 ## Qui je suis
 
-![Stéphane Erard — Ingénieur informatique, lanceur d'alerte](./images/photo_erard_2017.jpg)
+![Stéphane Erard — Ingénieur informatique, lanceur d'alerte](./images/photo_erard_2017_1.jpg)
 
 Je suis **ingénieur en informatique.** Ancien salarié de Qwant, j'ai lancé l'alerte sur la dépendance totale de l'entreprise à Microsoft Bing et sur la transmission de données non anonymisées.
 
