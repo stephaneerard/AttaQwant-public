@@ -1,9 +1,8 @@
-# SOMMAIRE - Qwant Analyse
+﻿# SOMMAIRE - Qwant Analyse
 
 ## 00 - Inventaire
 - [020 - Accusation Vs Realite Qwant Erard](00%20-%20Inventaire/020%20-%20Accusation%20vs%20Realite%20Qwant%20Erard.pdf)
 - [021 - Action Civile Erard Vs Qwant Leandri](00%20-%20Inventaire/021%20-%20Action%20Civile%20Erard%20vs%20Qwant%20Leandri.pdf)
-- [022 - Action Civile Vignaux Coresponsable](00%20-%20Inventaire/022%20-%20Action%20Civile%20Vignaux%20Coresponsable.pdf)
 - [024 - Addendum Hiatus Bpi Cdc Qwant V8](00%20-%20Inventaire/024%20-%20Addendum%20Hiatus%20BPI%20CDC%20Qwant%20v8.pdf)
 - [025 - Addendum Plainte N8 Vignaux](00%20-%20Inventaire/025%20-%20Addendum%20Plainte%20N8%20Vignaux.pdf)
 - [026 - Analyse Audit Dinum Erard Qwant](00%20-%20Inventaire/026%20-%20Analyse%20Audit%20DINUM%20Erard%20Qwant.pdf)
@@ -119,5 +118,4 @@
 - [13 – INFRACTIONS SOULEVÉES ET CADRE JURIDIQUE](04%20-%20Marc%20Longo%20Synthèse/13_INFRACTIONS_LOI.md)
 - [14 – SYNTHÈSE DES DEUX AFFAIRES QWANT ET MACRON](04%20-%20Marc%20Longo%20Synthèse/14_SYNTHESE_QWANT_MACRON.md)
 - [15 – HAUTE COUR, QUESTIONS EN SUSPENS ET ANNEXES](04%20-%20Marc%20Longo%20Synthèse/15_HAUTE_COUR_ANNEXES.md)
-
 
