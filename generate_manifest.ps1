@@ -6,7 +6,8 @@
 param(
     [string]$RootDir    = $PSScriptRoot,
     [string]$OutputPath = (Join-Path $PSScriptRoot 'manifest.json'),
-    [string]$Name       = "Dossier d'Analyse - Qwant SAS"
+    [string]$Name       = "Dossier d'Analyse - Qwant SAS",
+    [string]$MatrixPath = ''
 )
 
 $ErrorActionPreference = 'Stop'
@@ -84,12 +85,40 @@ function ConvertTo-SafeJson($obj, $indent) {
     }
 }
 
+# --- Parse matrix.md → ordered list of published entries with New Name ---
+function Get-MatrixEntries([string]$Path) {
+    $entries = @()
+    if (-not (Test-Path $Path)) { return $entries }
+    $lines = Get-Content $Path -Encoding UTF8
+    foreach ($line in $lines) {
+        # 4-column: Order | Publish | File | New Name
+        if ($line -match '^\|\s*(\S+)\s*\|\s*(.*?)\s*\|\s*(.+?\.\w+)\s*\|\s*(.*?)\s*\|$') {
+            $orderRaw = $Matches[1].Trim()
+            $publish  = $Matches[2].Trim()
+            $newName  = $Matches[4].Trim()
+            if ($orderRaw -ieq 'X') { continue }
+            if (-not ($publish -ieq 'x')) { continue }
+            $padWidth = if ([int]$orderRaw -gt 99) { 3 } else { 3 }
+            $prefix   = "$orderRaw".PadLeft($padWidth, '0')
+            $baseName = $newName
+            $nameOnly = [System.IO.Path]::GetFileNameWithoutExtension($baseName)
+            $entries += [PSCustomObject]@{
+                Order    = [int]$orderRaw
+                FileName = "$prefix - $baseName"
+                PdfName  = "$prefix - $nameOnly.pdf"
+                Label    = "$prefix - " + (Get-Culture).TextInfo.ToTitleCase($nameOnly.ToLower())
+            }
+        }
+    }
+    return $entries | Sort-Object Order
+}
+
 # --- Main ---
 Write-Host "Scanning: $RootDir"
 
 # Collect all .md and .pdf files (exclude generate-*, index.html, etc.)
 $allFiles = Get-ChildItem -Path $RootDir -Recurse -Include '*.md','*.pdf' |
-    Where-Object { $_.Name -notmatch '^(generate|index|README)' } |
+    Where-Object { $_.Name -notmatch '^(generate|index|README|SOMMAIRE)' } |
     Sort-Object FullName
 
 # Separate root-level files and subfolder files
@@ -133,24 +162,51 @@ foreach ($entry in ($rootFiles | Sort-Object { $_.File.Name })) {
     $toc[$label] = $path
 }
 
+# Parse matrix if provided
+$matrixEntries = @()
+if ($MatrixPath -and (Test-Path $MatrixPath)) {
+    $matrixEntries = Get-MatrixEntries $MatrixPath
+    Write-Host "  Matrix entries (published): $($matrixEntries.Count)"
+}
+
 # Subfolder groups
 foreach ($folder in $folderGroups.Keys) {
     $groupLabel = Get-GroupLabel $folder
     $groupEntries = [ordered]@{}
 
-    foreach ($entry in ($folderGroups[$folder] | Sort-Object { $_.File.Name })) {
-        $f = $entry.File
-        $path = $entry.Path
+    # If this is an inventaire folder and we have matrix data, use the matrix
+    if ($matrixEntries.Count -gt 0 -and $folder -match '^\d+\s*-\s*Inventaire$') {
+        Write-Host "  Using matrix for folder: $folder"
+        foreach ($me in $matrixEntries) {
+            # Try PDF first (from Doc2Pdf), then original filename
+            $pdfPath = "$folder/$($me.PdfName)"
+            $origPath = "$folder/$($me.FileName)"
+            $fullPdfPath = Join-Path $RootDir $pdfPath.Replace('/', '\')
+            $fullOrigPath = Join-Path $RootDir $origPath.Replace('/', '\')
 
-        $label = $null
-        if ($f.Extension -eq '.md') {
-            $label = Get-MdTitle $f.FullName
+            if (Test-Path $fullPdfPath) {
+                $groupEntries[$me.Label] = $pdfPath
+            } elseif (Test-Path $fullOrigPath) {
+                $groupEntries[$me.Label] = $origPath
+            } else {
+                Write-Warning "  Matrix entry not found on disk: $($me.PdfName)"
+            }
         }
-        if (-not $label) {
-            $label = Get-LabelFromFilename $f.Name
-        }
+    } else {
+        foreach ($entry in ($folderGroups[$folder] | Sort-Object { $_.File.Name })) {
+            $f = $entry.File
+            $path = $entry.Path
 
-        $groupEntries[$label] = $path
+            $label = $null
+            if ($f.Extension -eq '.md') {
+                $label = Get-MdTitle $f.FullName
+            }
+            if (-not $label) {
+                $label = Get-LabelFromFilename $f.Name
+            }
+
+            $groupEntries[$label] = $path
+        }
     }
 
     $toc[$groupLabel] = $groupEntries

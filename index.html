@@ -111,6 +111,14 @@
     justify-content: center;
     gap: 10px;
   }
+  #sidebar-logo a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+  }
   #sidebar-logo svg { flex-shrink: 0; }
   #sidebar-logo .logo-text {
     font-size: 22px;
@@ -240,9 +248,9 @@
     scroll-behavior: smooth;
   }
   #content {
-    max-width: 900px;
+    width: 80%;
     margin: 0 auto;
-    padding: 32px 40px 80px;
+    padding: 32px 0 80px;
   }
 
   /* Markdown overrides */
@@ -425,16 +433,18 @@
 <nav id="sidebar">
   <div id="sidebar-header">
     <div id="sidebar-logo">
-      <svg width="28" height="28" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
-        <rect width="32" height="32" rx="6" fill="#0d1117"/>
-        <rect x="0" y="0" width="6.4" height="3" fill="#5c97bf"/>
-        <rect x="6.4" y="0" width="6.4" height="3" fill="#59c4b1"/>
-        <rect x="12.8" y="0" width="6.4" height="3" fill="#d4145a"/>
-        <rect x="19.2" y="0" width="6.4" height="3" fill="#f0ad4e"/>
-        <rect x="25.6" y="0" width="6.4" height="3" fill="#8e44ad"/>
-        <text x="16" y="24" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#e6edf3">A<tspan fill="#d4145a">Q</tspan></text>
-      </svg>
-      <span class="logo-text">Atta<span class="q">Q</span>want</span>
+      <a id="logo-link" href="#">
+        <svg width="28" height="28" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+          <rect width="32" height="32" rx="6" fill="#0d1117"/>
+          <rect x="0" y="0" width="6.4" height="3" fill="#5c97bf"/>
+          <rect x="6.4" y="0" width="6.4" height="3" fill="#59c4b1"/>
+          <rect x="12.8" y="0" width="6.4" height="3" fill="#d4145a"/>
+          <rect x="19.2" y="0" width="6.4" height="3" fill="#f0ad4e"/>
+          <rect x="25.6" y="0" width="6.4" height="3" fill="#8e44ad"/>
+          <text x="16" y="24" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#e6edf3">A<tspan fill="#d4145a">Q</tspan></text>
+        </svg>
+        <span class="logo-text">Atta<span class="q">Q</span>want</span>
+      </a>
     </div>
     <hr id="sidebar-sep">
     <div id="sidebar-title-row">
@@ -545,6 +555,15 @@
 
   // --- Sidebar toggle ---
   $('toggle-sidebar').addEventListener('click', () => sidebar.classList.toggle('collapsed'));
+
+  // --- Logo → home ---
+  $('logo-link').addEventListener('click', e => {
+    e.preventDefault();
+    if (tocData) {
+      const first = findFirstPath(tocData.toc);
+      if (first) navigateToPath(first);
+    }
+  });
 
   // --- Overlay ---
   $('overlay-close').addEventListener('click', closeOverlay);

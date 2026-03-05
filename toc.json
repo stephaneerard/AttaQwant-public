@@ -1,4 +1,4 @@
-{
+﻿{
   "name": "Dossier d'Analyse - Qwant SAS",
   "toc": [
     {
@@ -28,181 +28,239 @@
       ]
     },
     {
-      "name": "SOMMAIRE - Qwant Analyse",
-      "path": "SOMMAIRE.md",
-      "children": [
-        {
-          "name": "00 - Inventaire",
-          "path": "SOMMAIRE.md#sommaire-qwant-analyse/00-inventaire"
-        },
-        {
-          "name": "00 - Stéphane Erard Analyse Code",
-          "path": "SOMMAIRE.md#sommaire-qwant-analyse/00-stephane-erard-analyse-code"
-        },
-        {
-          "name": "01 - Analyse Financière Complète",
-          "path": "SOMMAIRE.md#sommaire-qwant-analyse/01-analyse-financiere-complete"
-        },
-        {
-          "name": "03 - OVH Analyse",
-          "path": "SOMMAIRE.md#sommaire-qwant-analyse/03-ovh-analyse"
-        },
-        {
-          "name": "04 - Marc Longo Synthèse",
-          "path": "SOMMAIRE.md#sommaire-qwant-analyse/04-marc-longo-synthese"
-        }
-      ]
-    },
-    {
       "name": "00 - Inventaire",
       "children": [
         {
-          "name": "Accusation Vs Realite Qwant Erard (3)",
-          "path": "00 - Inventaire/Accusation_vs_Realite_Qwant_Erard (3).pdf"
+          "name": "019 - Bilan Gap Analysis Erard Qwant 2026",
+          "path": "00 - Inventaire/019 - Bilan Gap Analysis Erard Qwant 2026.pdf"
         },
         {
-          "name": "Addendum Hiatus Bpi Cdc Qwant V8",
-          "path": "00 - Inventaire/Addendum_Hiatus_BPI_CDC_Qwant_v8.pdf"
+          "name": "020 - Accusation Vs Realite Qwant Erard",
+          "path": "00 - Inventaire/020 - Accusation vs Realite Qwant Erard.pdf"
         },
         {
-          "name": "Analyse Audit Dinum Erard Qwant",
-          "path": "00 - Inventaire/Analyse_Audit_DINUM_Erard_Qwant.pdf"
+          "name": "021 - Action Civile Erard Vs Qwant Leandri",
+          "path": "00 - Inventaire/021 - Action Civile Erard vs Qwant Leandri.pdf"
         },
         {
-          "name": "Analyse Captures Skype Yau Erard (3)",
-          "path": "00 - Inventaire/Analyse_Captures_Skype_Yau_Erard (3).pdf"
+          "name": "022 - Action Civile Vignaux Coresponsable",
+          "path": "00 - Inventaire/022 - Action Civile Vignaux Coresponsable.pdf"
         },
         {
-          "name": "Analyse Conclusions Qwant Cph Tweets",
-          "path": "00 - Inventaire/Analyse_Conclusions_Qwant_CPH_Tweets.pdf"
+          "name": "024 - Addendum Hiatus Bpi Cdc Qwant V8",
+          "path": "00 - Inventaire/024 - Addendum Hiatus BPI CDC Qwant v8.pdf"
         },
         {
-          "name": "Analyse Financiere Diane Mobile Escroquerie",
-          "path": "00 - Inventaire/Analyse_Financiere_Diane_Mobile_Escroquerie.pdf"
+          "name": "025 - Addendum Plainte N8 Vignaux",
+          "path": "00 - Inventaire/025 - Addendum Plainte N8 Vignaux.pdf"
         },
         {
-          "name": "Analyse Forensique Git Branche Demo V2",
-          "path": "00 - Inventaire/Analyse_Forensique_Git_Branche_Demo_v2.pdf"
+          "name": "026 - Analyse Audit Dinum Erard Qwant",
+          "path": "00 - Inventaire/026 - Analyse Audit DINUM Erard Qwant.pdf"
         },
         {
-          "name": "Analyse Images Pierre Vignaux",
-          "path": "00 - Inventaire/Analyse_Images_Pierre_Vignaux.pdf"
+          "name": "027 - Analyse Captures Skype Yau Erard (3)",
+          "path": "00 - Inventaire/027 - Analyse Captures Skype Yau Erard (3).pdf"
         },
         {
-          "name": "Analyse Temoignage Eric Mathieu",
-          "path": "00 - Inventaire/Analyse_Temoignage_Eric_Mathieu.pdf"
+          "name": "028 - Analyse Conclusions Qwant Cph Tweets",
+          "path": "00 - Inventaire/028 - Analyse Conclusions Qwant CPH Tweets.pdf"
         },
         {
-          "name": "Cahier Doleances Qwant",
-          "path": "00 - Inventaire/cahier doleances qwant.pdf"
+          "name": "029 - Analyse Financiere Diane Mobile Escroquerie",
+          "path": "00 - Inventaire/029 - Analyse Financiere Diane Mobile Escroquerie.pdf"
         },
         {
-          "name": "Cartographie Affaire Qwant",
-          "path": "00 - Inventaire/Cartographie_Affaire_Qwant.pdf"
+          "name": "030 - Analyse Forensique Git Branche Demo V2",
+          "path": "00 - Inventaire/030 - Analyse Forensique Git Branche Demo v2.pdf"
         },
         {
-          "name": "Chronologie Factuelle Qwant Xilopix 2026",
-          "path": "00 - Inventaire/Chronologie_Factuelle_Qwant_Xilopix_2026.pdf"
+          "name": "032 - Analyse Images Pierre Vignaux From Md",
+          "path": "00 - Inventaire/032 - Analyse Images Pierre Vignaux from md.pdf"
         },
         {
-          "name": "Cloture Cnil Et Reponse Erard (1)",
-          "path": "00 - Inventaire/Cloture_CNIL_et_Reponse_Erard (1).pdf"
+          "name": "034 - Analyse Images Pierre Vignaux",
+          "path": "00 - Inventaire/034 - Analyse Images Pierre Vignaux.pdf"
         },
         {
-          "name": "Communique Presse Erard Qwant 2026",
-          "path": "00 - Inventaire/Communique_Presse_Erard_Qwant_2026.pdf"
+          "name": "035 - Analyse Temoignage Eric Mathieu",
+          "path": "00 - Inventaire/035 - Analyse Temoignage Eric Mathieu.pdf"
         },
         {
-          "name": "Complicite Penale Vignaux Art121 7",
-          "path": "00 - Inventaire/Complicite_Penale_Vignaux_Art121_7.pdf"
+          "name": "042 - Chronologie Factuelle Qwant Xilopix 2026",
+          "path": "00 - Inventaire/042 - Chronologie Factuelle Qwant Xilopix 2026.pdf"
         },
         {
-          "name": "Contenu Media A Politique V2",
-          "path": "00 - Inventaire/Contenu_Media_A_Politique_v2.pdf"
+          "name": "043 - Cloture Cnil Et Reponse Erard",
+          "path": "00 - Inventaire/043 - Cloture CNIL et Reponse Erard.pdf"
         },
         {
-          "name": "Contenu Media A Politique",
-          "path": "00 - Inventaire/Contenu_Media_A_Politique.pdf"
+          "name": "044 - Communique Presse Erard Qwant 2026",
+          "path": "00 - Inventaire/044 - Communique Presse Erard Qwant 2026.pdf"
         },
         {
-          "name": "Contenu Media B Tech V2",
-          "path": "00 - Inventaire/Contenu_Media_B_Tech_v2.pdf"
+          "name": "045 - Complicite Penale Vignaux Art121 7",
+          "path": "00 - Inventaire/045 - Complicite Penale Vignaux Art121 7.pdf"
         },
         {
-          "name": "Contenu Media B Tech",
-          "path": "00 - Inventaire/Contenu_Media_B_Tech.pdf"
+          "name": "046 - Contenu Media A Politique V2",
+          "path": "00 - Inventaire/046 - Contenu Media A Politique v2.pdf"
         },
         {
-          "name": "Contenu Media C Rgpd V2",
-          "path": "00 - Inventaire/Contenu_Media_C_RGPD_v2.pdf"
+          "name": "047 - Contenu Media A Politique",
+          "path": "00 - Inventaire/047 - Contenu Media A Politique.pdf"
         },
         {
-          "name": "Contenu Media C Rgpd",
-          "path": "00 - Inventaire/Contenu_Media_C_RGPD.pdf"
+          "name": "048 - Contenu Media B Tech V2",
+          "path": "00 - Inventaire/048 - Contenu Media B Tech v2.pdf"
         },
         {
-          "name": "Contenu Media D Lanceur Alerte V2",
-          "path": "00 - Inventaire/Contenu_Media_D_Lanceur_Alerte_v2.pdf"
+          "name": "049 - Contenu Media B Tech",
+          "path": "00 - Inventaire/049 - Contenu Media B Tech.pdf"
         },
         {
-          "name": "Contenu Media D Lanceur Alerte",
-          "path": "00 - Inventaire/Contenu_Media_D_Lanceur_Alerte.pdf"
+          "name": "050 - Contenu Media C Rgpd V2",
+          "path": "00 - Inventaire/050 - Contenu Media C RGPD v2.pdf"
         },
         {
-          "name": "Contenu Media E Economie",
-          "path": "00 - Inventaire/Contenu_Media_E_Economie.pdf"
+          "name": "051 - Contenu Media C Rgpd",
+          "path": "00 - Inventaire/051 - Contenu Media C RGPD.pdf"
         },
         {
-          "name": "Contenu Media F Synthese V2",
-          "path": "00 - Inventaire/Contenu_Media_F_Synthese_V2.pdf"
+          "name": "052 - Contenu Media D Lanceur Alerte V2",
+          "path": "00 - Inventaire/052 - Contenu Media D Lanceur Alerte v2.pdf"
         },
         {
-          "name": "Contenu Media F Synthese",
-          "path": "00 - Inventaire/Contenu_Media_F_Synthese.pdf"
+          "name": "053 - Contenu Media D Lanceur Alerte",
+          "path": "00 - Inventaire/053 - Contenu Media D Lanceur Alerte.pdf"
         },
         {
-          "name": "Contre Argumentation Conclusions Qwant",
-          "path": "00 - Inventaire/Contre_Argumentation_Conclusions_Qwant.pdf"
+          "name": "054 - Contenu Media E Economie",
+          "path": "00 - Inventaire/054 - Contenu Media E Economie.pdf"
         },
         {
-          "name": "Contre Rapport Citation Directe Qwant Erard",
-          "path": "00 - Inventaire/Contre_Rapport_Citation_Directe_Qwant_Erard.pdf"
+          "name": "055 - Contenu Media F Synthese V2",
+          "path": "00 - Inventaire/055 - Contenu Media F Synthese V2.pdf"
         },
         {
-          "name": "Document E V2 Economie",
-          "path": "00 - Inventaire/Document_E_V2_Economie.pdf"
+          "name": "056 - Contenu Media F Synthese",
+          "path": "00 - Inventaire/056 - Contenu Media F Synthese.pdf"
         },
         {
-          "name": "Dossier Presse Complet Erard Qwant 2026",
-          "path": "00 - Inventaire/Dossier_Presse_Complet_Erard_Qwant_2026.pdf"
+          "name": "057 - Contre Argumentation Conclusions Qwant",
+          "path": "00 - Inventaire/057 - Contre Argumentation Conclusions Qwant.pdf"
         },
         {
-          "name": "Fiche Harcelement Lien Leandri Bourrelly",
-          "path": "00 - Inventaire/Fiche_Harcelement_Lien_Leandri_Bourrelly.pdf"
+          "name": "058 - Contre Rapport Citation Directe Qwant Erard",
+          "path": "00 - Inventaire/058 - Contre Rapport Citation Directe Qwant Erard.pdf"
         },
         {
-          "name": "Fiche Individuelle Pierre Vignaux",
-          "path": "00 - Inventaire/Fiche_Individuelle_Pierre_Vignaux.pdf"
+          "name": "061 - Document E V2 Economie",
+          "path": "00 - Inventaire/061 - Document E V2 Economie.pdf"
         },
         {
-          "name": "Fiche Preuve Vp22 23 Chronologie Divulgation Qwant",
-          "path": "00 - Inventaire/Fiche_Preuve_VP22_23_Chronologie_Divulgation_Qwant.pdf"
+          "name": "062 - Dossier Presse Complet Erard Qwant 2026",
+          "path": "00 - Inventaire/062 - Dossier Presse Complet Erard Qwant 2026.pdf"
         },
         {
-          "name": "Fiche Technique Vignaux Passage Force Bing V2",
-          "path": "00 - Inventaire/Fiche_Technique_Vignaux_Passage_Force_Bing_v2.pdf"
+          "name": "063 - Fiche Harcelement Lien Leandri Bourrelly",
+          "path": "00 - Inventaire/063 - Fiche Harcelement Lien Leandri Bourrelly.pdf"
         },
         {
-          "name": "Fiche Technique Vignaux Passage Force Bing",
-          "path": "00 - Inventaire/Fiche_Technique_Vignaux_Passage_Force_Bing.pdf"
+          "name": "064 - Fiche Individuelle Pierre Vignaux",
+          "path": "00 - Inventaire/064 - Fiche Individuelle Pierre Vignaux.pdf"
         },
         {
-          "name": "Frise Chronologique Actions Erard Qwant",
-          "path": "00 - Inventaire/Frise_Chronologique_Actions_Erard_Qwant.pdf"
+          "name": "065 - Fiche Preuve Vp22 23 Chronologie Divulgation Qwant",
+          "path": "00 - Inventaire/065 - Fiche Preuve VP22 23 Chronologie Divulgation Qwant.pdf"
         },
         {
-          "name": "Note Lanceur Alerte Erard Qwant",
-          "path": "00 - Inventaire/Note_Lanceur_Alerte_Erard_Qwant.pdf"
+          "name": "066 - Fiche Technique Vignaux Passage Force Bing V2",
+          "path": "00 - Inventaire/066 - Fiche Technique Vignaux Passage Force Bing v2.pdf"
+        },
+        {
+          "name": "074 - Jc Email Prepa Audit Fb551a0e",
+          "path": "00 - Inventaire/074 - jc email prepa audit fb551a0e.pdf"
+        },
+        {
+          "name": "075 - Jugement Tj Paris Bourrelly 27012021",
+          "path": "00 - Inventaire/075 - Jugement TJ Paris Bourrelly 27012021.pdf"
+        },
+        {
+          "name": "076 - K1 Analyse Syntec 3.3",
+          "path": "00 - Inventaire/076 - K1 Analyse Syntec 3.3.pdf"
+        },
+        {
+          "name": "083 - N1 Synthese Cnil Fait Generateur",
+          "path": "00 - Inventaire/083 - N1 Synthese CNIL Fait Generateur.pdf"
+        },
+        {
+          "name": "084 - N10 Dossier Presse",
+          "path": "00 - Inventaire/084 - N10 Dossier Presse.pdf"
+        },
+        {
+          "name": "085 - N3 Note Lanceur Alerte",
+          "path": "00 - Inventaire/085 - N3 Note Lanceur Alerte.pdf"
+        },
+        {
+          "name": "086 - N4 Projet Assignation Tj",
+          "path": "00 - Inventaire/086 - N4 Projet Assignation TJ.pdf"
+        },
+        {
+          "name": "087 - N5 Projet Conclusions Fond",
+          "path": "00 - Inventaire/087 - N5 Projet Conclusions Fond.pdf"
+        },
+        {
+          "name": "088 - N5 Projet Conclusions",
+          "path": "00 - Inventaire/088 - N5 Projet Conclusions.pdf"
+        },
+        {
+          "name": "091 - N8 Projet Plainte Penale",
+          "path": "00 - Inventaire/091 - N8 Projet Plainte Penale.pdf"
+        },
+        {
+          "name": "092 - N9 Projet Action Rgpd",
+          "path": "00 - Inventaire/092 - N9 Projet Action RGPD.pdf"
+        },
+        {
+          "name": "093 - Note Intervention Forcee Vignaux",
+          "path": "00 - Inventaire/093 - Note Intervention Forcee Vignaux.pdf"
+        },
+        {
+          "name": "097 - Note Lanceur Alerte Erard Qwant",
+          "path": "00 - Inventaire/097 - Note Lanceur Alerte Erard Qwant.pdf"
+        },
+        {
+          "name": "098 - Note Prescription Cnil 2025",
+          "path": "00 - Inventaire/098 - Note Prescription CNIL 2025.pdf"
+        },
+        {
+          "name": "102 - Pierre Vignaux Dossier Complet",
+          "path": "00 - Inventaire/102 - Pierre Vignaux Dossier Complet.pdf"
+        },
+        {
+          "name": "107 - Revalorisation Syntec 3 3 Erard Qwant",
+          "path": "00 - Inventaire/107 - Revalorisation Syntec 3 3 Erard Qwant.pdf"
+        },
+        {
+          "name": "108 - Saisine Defenseur Droits",
+          "path": "00 - Inventaire/108 - Saisine Defenseur Droits.pdf"
+        },
+        {
+          "name": "114 - Synthese Correlation Croisee Emails Code Tweets",
+          "path": "00 - Inventaire/114 - Synthese Correlation Croisee Emails Code Tweets.pdf"
+        },
+        {
+          "name": "117 - Tableau Accusations Qwant Vs Realite Erard (1)",
+          "path": "00 - Inventaire/117 - Tableau Accusations Qwant vs Realite Erard (1).pdf"
+        },
+        {
+          "name": "119 - Tableau Synthese Captures Tweets",
+          "path": "00 - Inventaire/119 - Tableau Synthese Captures Tweets.pdf"
+        },
+        {
+          "name": "121 - Tribune Erard Qwant 2026",
+          "path": "00 - Inventaire/121 - Tribune Erard Qwant 2026.pdf"
         }
       ]
     },
