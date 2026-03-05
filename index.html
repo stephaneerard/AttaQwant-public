@@ -49,6 +49,20 @@
     --active-bg: #ddf4ff;
   }
   * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  /* --- Custom scrollbars --- */
+  ::-webkit-scrollbar { width: 8px; height: 8px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb {
+    background: var(--border);
+    border-radius: 4px;
+    border: 2px solid transparent;
+    background-clip: padding-box;
+  }
+  ::-webkit-scrollbar-thumb:hover { background: var(--text-muted); background-clip: padding-box; }
+  ::-webkit-scrollbar-corner { background: transparent; }
+  /* Firefox */
+  * { scrollbar-width: thin; scrollbar-color: var(--border) transparent; }
   body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
     background: var(--bg);
@@ -751,9 +765,10 @@
         const anchor = href.slice(1);
         return '<a href="#' + escHtml(currentFile) + '#' + escHtml(anchor) + '"' + titleAttr + ' class="internal-link">' + text + '</a>';
       }
-      // Internal .md/.pdf links
+      // Internal .md/.pdf links — resolve relative to current file's directory
       if (href.match(/\.(md|pdf)(#.*)?$/i) && !href.match(/^https?:\/\//)) {
-        return '<a href="#' + escHtml(href) + '"' + titleAttr + ' class="internal-link">' + text + '</a>';
+        const resolved = resolveRelativeLink(href);
+        return '<a href="#' + escHtml(resolved) + '"' + titleAttr + ' class="internal-link">' + text + '</a>';
       }
       return '<a href="' + escHtml(href) + '"' + titleAttr + ' target="_blank" rel="noopener">' + text + '</a>';
     };
@@ -1029,6 +1044,22 @@
 
   function escHtml(s) {
     return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+  }
+
+  // Resolve a relative path against the current file's directory
+  function resolveRelativeLink(href) {
+    if (!href || href.startsWith('/') || href.match(/^https?:\/\//)) return href;
+    const dir = currentFile.includes('/') ? currentFile.substring(0, currentFile.lastIndexOf('/') + 1) : '';
+    if (!dir) return href;
+    // Split file part and anchor part
+    const hashIdx = href.indexOf('#');
+    const filePart = hashIdx >= 0 ? href.substring(0, hashIdx) : href;
+    const anchorPart = hashIdx >= 0 ? href.substring(hashIdx) : '';
+    // Only prepend dir if the file part doesn't already contain a /
+    if (filePart && !filePart.includes('/')) {
+      return dir + filePart + anchorPart;
+    }
+    return href;
   }
 
   // Strip leading number prefixes like "6-", "12-" for fuzzy heading match
