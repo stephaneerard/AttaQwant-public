@@ -6,7 +6,7 @@
 param(
     [string]$RootDir    = $PSScriptRoot,
     [string]$OutputPath = (Join-Path $PSScriptRoot 'manifest.json'),
-    [string]$Name       = "Dossier d'Analyse Financiere - Qwant SAS"
+    [string]$Name       = "Dossier d'Analyse - Qwant SAS"
 )
 
 $ErrorActionPreference = 'Stop'

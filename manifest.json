@@ -1,6 +1,9 @@
 {
-  "name": "Dossier d'Analyse Financiere - Qwant SAS",
+  "name": "Dossier d'Analyse - Qwant SAS",
   "toc": {
+    "Sommaire": {
+      "Sommaire": "Sommaire.md"
+    },
     "00 - Stéphane Erard Analyse Code": {
       "Dossier Qwant — Publication publique": "00 - Stéphane Erard Analyse Code/00_SOMMAIRE.md",
       "Synthèse — Qwant : autopsie d'un simulacre souverain": "00 - Stéphane Erard Analyse Code/01_SYNTHESE.md",

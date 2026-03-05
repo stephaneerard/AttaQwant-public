@@ -1,6 +1,10 @@
 {
-  "name": "Dossier d'Analyse Financiere - Qwant SAS",
+  "name": "Dossier d'Analyse - Qwant SAS",
   "toc": [
+    {
+      "name": "Sommaire",
+      "path": "Sommaire.md"
+    },
     {
       "name": "00 - Stéphane Erard Analyse Code",
       "children": [

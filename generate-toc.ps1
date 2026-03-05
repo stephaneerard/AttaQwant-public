@@ -140,7 +140,17 @@ $toc = [ordered]@{
     toc  = [System.Collections.ArrayList]::new()
 }
 
+# Inject SOMMAIRE.md as first entry
+$sommairePath = Join-Path $BaseDir 'SOMMAIRE.md'
+if (Test-Path $sommairePath) {
+    $sommaireEntry = Process-TocEntry 'Sommaire' 'SOMMAIRE.md'
+    [void]$toc['toc'].Add($sommaireEntry)
+    Write-Host "  Injected SOMMAIRE.md as first entry"
+}
+
 foreach ($prop in $manifest.toc.PSObject.Properties) {
+    # Skip if manifest already contains a Sommaire pointing to SOMMAIRE.md (avoid duplicate)
+    if ($prop.Name -eq 'Sommaire') { continue }
     $entry = Process-TocEntry $prop.Name $prop.Value
     [void]$toc['toc'].Add($entry)
 }
