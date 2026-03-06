@@ -17,6 +17,8 @@
 - [12. Synthèse des preuves et convergences](00%20-%20Introduction/12_SYNTHESE_PREUVES.md)
 - [13. La galaxie Qwant — Holdings, flux de capitaux et opacité structurelle](00%20-%20Introduction/13_HOLDINGS_STRUCTURE.md)
 - [DOSSIER D'INVESTIGATION — 14_HOLDINGS_FLUX - MLM TRUST B LLC & QWANT](00%20-%20Introduction/14_HOLDINGS_FLUX.md)
+- [Assemblées Générales & Événements Corporatifs de QWANT SAS](00%20-%20Introduction/15_ASSEMBLEES-GENERALES.md)
+- [QWANT SAS — Timeline Capital Social & Valorisation](00%20-%20Introduction/16_TIMELINE_AG.md)
 - [L'affaire Qwant, c'est quoi ?](00%20-%20Introduction/INTRODUCTION.md)
 
 ## 00 - Inventaire
