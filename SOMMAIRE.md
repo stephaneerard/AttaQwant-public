@@ -19,6 +19,7 @@
 - [DOSSIER D'INVESTIGATION — 14_HOLDINGS_FLUX - MLM TRUST B LLC & QWANT](00%20-%20Introduction/14_HOLDINGS_FLUX.md)
 - [Assemblées Générales & Événements Corporatifs de QWANT SAS](00%20-%20Introduction/15_ASSEMBLEES-GENERALES.md)
 - [QWANT SAS — Timeline Capital Social & Valorisation](00%20-%20Introduction/16_TIMELINE_AG.md)
+- [ANALYSE DES DÉPÔTS DE COMPTES QWANT SAS — 2016 à 2020](00%20-%20Introduction/17_ANALYSE%20DES%20DÉPÔTS%20DE%20COMPTES%20QWANT%20SAS%20—%202016%20à%202020.md)
 - [L'affaire Qwant, c'est quoi ?](00%20-%20Introduction/INTRODUCTION.md)
 
 ## 00 - Inventaire

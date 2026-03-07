@@ -1,5 +1,5 @@
 ﻿{
-  "name": "Dossier d'Analyse Lanceur d'Alerte - Qwant SAS & al",
+  "name": "Dossier d'Analyse - Qwant SAS",
   "toc": {
     "00 - Introduction": {
       "Affaire Qwant Introduction": "00 - Introduction/00_Affaire_Qwant_Introduction.pdf",
@@ -17,14 +17,17 @@
       "11. Analyse financière Qwant SAS — 2013-2022": "00 - Introduction/11_ANALYSE_FINANCIERE.md",
       "12. Synthèse des preuves et convergences": "00 - Introduction/12_SYNTHESE_PREUVES.md",
       "13. La galaxie Qwant — Holdings, flux de capitaux et opacité structurelle": "00 - Introduction/13_HOLDINGS_STRUCTURE.md",
-      "14. La galaxie de Holdings, suite — Les flux financiers opaques et les bénéficiaires ultimes": "00 - Introduction/14_HOLDINGS_FLUX.md",
+      "DOSSIER D'INVESTIGATION — 14HOLDINGSFLUX - MLM TRUST B LLC & QWANT": "00 - Introduction/14_HOLDINGS_FLUX.md",
+      "Assemblées Générales & Événements Corporatifs de QWANT SAS": "00 - Introduction/15_ASSEMBLEES-GENERALES.md",
+      "QWANT SAS — Timeline Capital Social & Valorisation": "00 - Introduction/16_TIMELINE_AG.md",
+      "ANALYSE DES DÉPÔTS DE COMPTES QWANT SAS — 2016 à 2020": "00 - Introduction/17_ANALYSE DES DÉPÔTS DE COMPTES QWANT SAS — 2016 à 2020.md",
       "L'affaire Qwant, c'est quoi ?": "00 - Introduction/INTRODUCTION.md"
     },
     "00 - Inventaire": {
       "020 - Accusation Vs Realite Qwant Erard": "00 - Inventaire/020 - Accusation vs Realite Qwant Erard.pdf",
       "021 - Action Civile Erard Vs Qwant Leandri": "00 - Inventaire/021 - Action Civile Erard vs Qwant Leandri.pdf",
-      "022A - Action Civile Chemin Coresponsable": "00 - Inventaire/022a - Action Civile Chemin Coresponsable.pdf",
-      "022B - Action Civile Vignaux Coresponsable": "00 - Inventaire/022b - Action Civile Vignaux Coresponsable.pdf",
+      "022a - Action Civile Chemin Coresponsable": "00 - Inventaire/022a - Action Civile Chemin Coresponsable.pdf",
+      "022b - Action Civile Vignaux Coresponsable": "00 - Inventaire/022b - Action Civile Vignaux Coresponsable.pdf",
       "024 - Addendum Hiatus Bpi Cdc Qwant V8": "00 - Inventaire/024 - Addendum Hiatus BPI CDC Qwant v8.pdf",
       "025 - Addendum Plainte N8 Vignaux": "00 - Inventaire/025 - Addendum Plainte N8 Vignaux.pdf",
       "026 - Analyse Audit Dinum Erard Qwant": "00 - Inventaire/026 - Analyse Audit DINUM Erard Qwant.pdf",

@@ -1,5 +1,5 @@
 ﻿{
-  "name": "Dossier d'Analyse Lanceur d'Alerte - Qwant SAS & al",
+  "name": "Dossier d'Analyse - Qwant SAS",
   "toc": [
     {
       "name": "Sommaire",
@@ -2125,7 +2125,7 @@
           ]
         },
         {
-          "name": "14. La galaxie de Holdings, suite — Les flux financiers opaques et les bénéficiaires ultimes",
+          "name": "DOSSIER D'INVESTIGATION — 14HOLDINGSFLUX - MLM TRUST B LLC & QWANT",
           "path": "00 - Introduction/14_HOLDINGS_FLUX.md",
           "children": [
             {
@@ -2271,6 +2271,278 @@
           ]
         },
         {
+          "name": "Assemblées Générales & Événements Corporatifs de QWANT SAS",
+          "path": "00 - Introduction/15_ASSEMBLEES-GENERALES.md",
+          "children": [
+            {
+              "name": "⚠️ Avertissement méthodologique",
+              "path": "00 - Introduction/15_ASSEMBLEES-GENERALES.md#assemblees-generales-evenements-corporatifs-de-qwant-sas/avertissement-methodologique"
+            },
+            {
+              "name": "Tableau chronologique des AG et décisions corporatives",
+              "path": "00 - Introduction/15_ASSEMBLEES-GENERALES.md#assemblees-generales-evenements-corporatifs-de-qwant-sas/tableau-chronologique-des-ag-et-decisions-corporatives"
+            },
+            {
+              "name": "Analyse des catégories d'actions de préférence",
+              "path": "00 - Introduction/15_ASSEMBLEES-GENERALES.md#assemblees-generales-evenements-corporatifs-de-qwant-sas/analyse-des-categories-d-actions-de-preference"
+            },
+            {
+              "name": "Les AG « fantômes » : ce qu'on ne trouve pas",
+              "path": "00 - Introduction/15_ASSEMBLEES-GENERALES.md#assemblees-generales-evenements-corporatifs-de-qwant-sas/les-ag-fantomes-ce-qu-on-ne-trouve-pas"
+            },
+            {
+              "name": "Évolution du capital social",
+              "path": "00 - Introduction/15_ASSEMBLEES-GENERALES.md#assemblees-generales-evenements-corporatifs-de-qwant-sas/evolution-du-capital-social"
+            },
+            {
+              "name": "Observations clés pour l'enquête MLM Trust B / BSA",
+              "path": "00 - Introduction/15_ASSEMBLEES-GENERALES.md#assemblees-generales-evenements-corporatifs-de-qwant-sas/observations-cles-pour-l-enquete-mlm-trust-b-bsa"
+            },
+            {
+              "name": "Sources",
+              "path": "00 - Introduction/15_ASSEMBLEES-GENERALES.md#assemblees-generales-evenements-corporatifs-de-qwant-sas/sources"
+            }
+          ]
+        },
+        {
+          "name": "QWANT SAS — Timeline Capital Social & Valorisation",
+          "path": "00 - Introduction/16_TIMELINE_AG.md",
+          "children": [
+            {
+              "name": "Vue d'ensemble : l'écart abyssal entre capital et valorisation",
+              "path": "00 - Introduction/16_TIMELINE_AG.md#qwant-sas-timeline-capital-social-valorisation/vue-d-ensemble-l-ecart-abyssal-entre-capital-et-valorisation"
+            },
+            {
+              "name": "Timeline chronologique",
+              "path": "00 - Introduction/16_TIMELINE_AG.md#qwant-sas-timeline-capital-social-valorisation/timeline-chronologique",
+              "children": [
+                {
+                  "name": "2011 — Création",
+                  "path": "00 - Introduction/16_TIMELINE_AG.md#qwant-sas-timeline-capital-social-valorisation/timeline-chronologique/2011-creation"
+                },
+                {
+                  "name": "2013 — Premiers mouvements de capital",
+                  "path": "00 - Introduction/16_TIMELINE_AG.md#qwant-sas-timeline-capital-social-valorisation/timeline-chronologique/2013-premiers-mouvements-de-capital"
+                },
+                {
+                  "name": "Février 2014 — Création de MLM Trust B LLC",
+                  "path": "00 - Introduction/16_TIMELINE_AG.md#qwant-sas-timeline-capital-social-valorisation/timeline-chronologique/fevrier-2014-creation-de-mlm-trust-b-llc"
+                },
+                {
+                  "name": "Juin 2014 — Entrée d'Axel Springer (Série A)",
+                  "path": "00 - Introduction/16_TIMELINE_AG.md#qwant-sas-timeline-capital-social-valorisation/timeline-chronologique/juin-2014-entree-d-axel-springer-serie-a"
+                },
+                {
+                  "name": "Octobre 2016 — Prêt BEI",
+                  "path": "00 - Introduction/16_TIMELINE_AG.md#qwant-sas-timeline-capital-social-valorisation/timeline-chronologique/octobre-2016-pret-bei"
+                },
+                {
+                  "name": "Janvier 2017 — Création des holdings Angels",
+                  "path": "00 - Introduction/16_TIMELINE_AG.md#qwant-sas-timeline-capital-social-valorisation/timeline-chronologique/janvier-2017-creation-des-holdings-angels"
+                },
+                {
+                  "name": "Février 2017 — Levée CDC / Springer (Série B)",
+                  "path": "00 - Introduction/16_TIMELINE_AG.md#qwant-sas-timeline-capital-social-valorisation/timeline-chronologique/fevrier-2017-levee-cdc-springer-serie-b"
+                },
+                {
+                  "name": "Août 2019 — Publication BODACC retardée",
+                  "path": "00 - Introduction/16_TIMELINE_AG.md#qwant-sas-timeline-capital-social-valorisation/timeline-chronologique/aout-2019-publication-bodacc-retardee"
+                },
+                {
+                  "name": "Été 2019 — Pic de valorisation (marché secondaire)",
+                  "path": "00 - Introduction/16_TIMELINE_AG.md#qwant-sas-timeline-capital-social-valorisation/timeline-chronologique/ete-2019-pic-de-valorisation-marche-secondaire"
+                },
+                {
+                  "name": "Janvier 2020 — Recapitalisation et changement de direction",
+                  "path": "00 - Introduction/16_TIMELINE_AG.md#qwant-sas-timeline-capital-social-valorisation/timeline-chronologique/janvier-2020-recapitalisation-et-changement-de-direction"
+                },
+                {
+                  "name": "Avril 2020 — Publication BODACC",
+                  "path": "00 - Introduction/16_TIMELINE_AG.md#qwant-sas-timeline-capital-social-valorisation/timeline-chronologique/avril-2020-publication-bodacc"
+                },
+                {
+                  "name": "Juillet 2020 — Augmentation de capital",
+                  "path": "00 - Introduction/16_TIMELINE_AG.md#qwant-sas-timeline-capital-social-valorisation/timeline-chronologique/juillet-2020-augmentation-de-capital"
+                },
+                {
+                  "name": "Juin 2021 — Obligations convertibles Huawei/Hubble",
+                  "path": "00 - Introduction/16_TIMELINE_AG.md#qwant-sas-timeline-capital-social-valorisation/timeline-chronologique/juin-2021-obligations-convertibles-huawei-hubble"
+                },
+                {
+                  "name": "Juillet 2021 — Changement de direction",
+                  "path": "00 - Introduction/16_TIMELINE_AG.md#qwant-sas-timeline-capital-social-valorisation/timeline-chronologique/juillet-2021-changement-de-direction"
+                },
+                {
+                  "name": "Juillet 2023 — Rachat Klaba / Synfonium",
+                  "path": "00 - Introduction/16_TIMELINE_AG.md#qwant-sas-timeline-capital-social-valorisation/timeline-chronologique/juillet-2023-rachat-klaba-synfonium"
+                },
+                {
+                  "name": "21 Juillet 2023 — AG Extraordinaire historique",
+                  "path": "00 - Introduction/16_TIMELINE_AG.md#qwant-sas-timeline-capital-social-valorisation/timeline-chronologique/21-juillet-2023-ag-extraordinaire-historique"
+                },
+                {
+                  "name": "Décembre 2023 — Dernière augmentation connue",
+                  "path": "00 - Introduction/16_TIMELINE_AG.md#qwant-sas-timeline-capital-social-valorisation/timeline-chronologique/decembre-2023-derniere-augmentation-connue"
+                }
+              ]
+            },
+            {
+              "name": "Tableau synthétique : Évolution Capital vs. Valorisation",
+              "path": "00 - Introduction/16_TIMELINE_AG.md#qwant-sas-timeline-capital-social-valorisation/tableau-synthetique-evolution-capital-vs-valorisation"
+            },
+            {
+              "name": "Graphique Mermaid : Valorisation vs. Capital",
+              "path": "00 - Introduction/16_TIMELINE_AG.md#qwant-sas-timeline-capital-social-valorisation/graphique-mermaid-valorisation-vs-capital"
+            },
+            {
+              "name": "Analyse : les BSA dans ce contexte",
+              "path": "00 - Introduction/16_TIMELINE_AG.md#qwant-sas-timeline-capital-social-valorisation/analyse-les-bsa-dans-ce-contexte",
+              "children": [
+                {
+                  "name": "Le mécanisme de création de valeur pour un détenteur de BSA",
+                  "path": "00 - Introduction/16_TIMELINE_AG.md#qwant-sas-timeline-capital-social-valorisation/analyse-les-bsa-dans-ce-contexte/le-mecanisme-de-creation-de-valeur-pour-un-detenteur-de-bsa"
+                },
+                {
+                  "name": "Questions ouvertes sur les BSA de MLM Trust B",
+                  "path": "00 - Introduction/16_TIMELINE_AG.md#qwant-sas-timeline-capital-social-valorisation/analyse-les-bsa-dans-ce-contexte/questions-ouvertes-sur-les-bsa-de-mlm-trust-b"
+                },
+                {
+                  "name": "Où trouver les réponses",
+                  "path": "00 - Introduction/16_TIMELINE_AG.md#qwant-sas-timeline-capital-social-valorisation/analyse-les-bsa-dans-ce-contexte/ou-trouver-les-reponses"
+                }
+              ]
+            },
+            {
+              "name": "Sources",
+              "path": "00 - Introduction/16_TIMELINE_AG.md#qwant-sas-timeline-capital-social-valorisation/sources"
+            }
+          ]
+        },
+        {
+          "name": "ANALYSE DES DÉPÔTS DE COMPTES QWANT SAS — 2016 à 2020",
+          "path": "00 - Introduction/17_ANALYSE DES DÉPÔTS DE COMPTES QWANT SAS — 2016 à 2020.md",
+          "children": [
+            {
+              "name": "INVENTAIRE DES DOCUMENTS",
+              "path": "00 - Introduction/17_ANALYSE DES DÉPÔTS DE COMPTES QWANT SAS — 2016 à 2020.md#analyse-des-depots-de-comptes-qwant-sas-2016-a-2020/inventaire-des-documents"
+            },
+            {
+              "name": "DÉCOUVERTES MAJEURES — DÉPÔT 2019",
+              "path": "00 - Introduction/17_ANALYSE DES DÉPÔTS DE COMPTES QWANT SAS — 2016 à 2020.md#analyse-des-depots-de-comptes-qwant-sas-2016-a-2020/decouvertes-majeures-depot-2019",
+              "children": [
+                {
+                  "name": "1. CHRONOLOGIE COMPLÈTE DES BSA-AVRIL 2019-INV",
+                  "path": "00 - Introduction/17_ANALYSE DES DÉPÔTS DE COMPTES QWANT SAS — 2016 à 2020.md#analyse-des-depots-de-comptes-qwant-sas-2016-a-2020/decouvertes-majeures-depot-2019/1-chronologie-complete-des-bsa-avril-2019-inv"
+                },
+                {
+                  "name": "2. CONFIRMATION : ROZAN = 60.000 BSA-INV",
+                  "path": "00 - Introduction/17_ANALYSE DES DÉPÔTS DE COMPTES QWANT SAS — 2016 à 2020.md#analyse-des-depots-de-comptes-qwant-sas-2016-a-2020/decouvertes-majeures-depot-2019/2-confirmation-rozan-60-000-bsa-inv"
+                },
+                {
+                  "name": "3. CONFIRMATION : MLM TRUST B = 40.000 BSA-INV exercés",
+                  "path": "00 - Introduction/17_ANALYSE DES DÉPÔTS DE COMPTES QWANT SAS — 2016 à 2020.md#analyse-des-depots-de-comptes-qwant-sas-2016-a-2020/decouvertes-majeures-depot-2019/3-confirmation-mlm-trust-b-40-000-bsa-inv-exerces"
+                },
+                {
+                  "name": "4. RÉCONCILIATION DU NOMBRE TOTAL DE BSA-INV",
+                  "path": "00 - Introduction/17_ANALYSE DES DÉPÔTS DE COMPTES QWANT SAS — 2016 à 2020.md#analyse-des-depots-de-comptes-qwant-sas-2016-a-2020/decouvertes-majeures-depot-2019/4-reconciliation-du-nombre-total-de-bsa-inv"
+                },
+                {
+                  "name": "5. MLM TRUST B — DOUBLE COUCHE DE BSA",
+                  "path": "00 - Introduction/17_ANALYSE DES DÉPÔTS DE COMPTES QWANT SAS — 2016 à 2020.md#analyse-des-depots-de-comptes-qwant-sas-2016-a-2020/decouvertes-majeures-depot-2019/5-mlm-trust-b-double-couche-de-bsa"
+                },
+                {
+                  "name": "6. LEANDRI — BSA RENONCÉS",
+                  "path": "00 - Introduction/17_ANALYSE DES DÉPÔTS DE COMPTES QWANT SAS — 2016 à 2020.md#analyse-des-depots-de-comptes-qwant-sas-2016-a-2020/decouvertes-majeures-depot-2019/6-leandri-bsa-renonces"
+                }
+              ]
+            },
+            {
+              "name": "DONNÉES FINANCIÈRES PAR EXERCICE",
+              "path": "00 - Introduction/17_ANALYSE DES DÉPÔTS DE COMPTES QWANT SAS — 2016 à 2020.md#analyse-des-depots-de-comptes-qwant-sas-2016-a-2020/donnees-financieres-par-exercice",
+              "children": [
+                {
+                  "name": "Évolution du capital et des résultats",
+                  "path": "00 - Introduction/17_ANALYSE DES DÉPÔTS DE COMPTES QWANT SAS — 2016 à 2020.md#analyse-des-depots-de-comptes-qwant-sas-2016-a-2020/donnees-financieres-par-exercice/evolution-du-capital-et-des-resultats"
+                },
+                {
+                  "name": "Composition du capital au 31/12/2018 (dépôt 2018)",
+                  "path": "00 - Introduction/17_ANALYSE DES DÉPÔTS DE COMPTES QWANT SAS — 2016 à 2020.md#analyse-des-depots-de-comptes-qwant-sas-2016-a-2020/donnees-financieres-par-exercice/composition-du-capital-au-31-12-2018-depot-2018"
+                },
+                {
+                  "name": "Primes d'émission au 31/12/2019",
+                  "path": "00 - Introduction/17_ANALYSE DES DÉPÔTS DE COMPTES QWANT SAS — 2016 à 2020.md#analyse-des-depots-de-comptes-qwant-sas-2016-a-2020/donnees-financieres-par-exercice/primes-d-emission-au-31-12-2019"
+                },
+                {
+                  "name": "Dilution potentielle au 31/12/2019",
+                  "path": "00 - Introduction/17_ANALYSE DES DÉPÔTS DE COMPTES QWANT SAS — 2016 à 2020.md#analyse-des-depots-de-comptes-qwant-sas-2016-a-2020/donnees-financieres-par-exercice/dilution-potentielle-au-31-12-2019"
+                }
+              ]
+            },
+            {
+              "name": "HISTORIQUE DES BSA — VISION COMPLÈTE 2012-2019 (dépôt 2018)",
+              "path": "00 - Introduction/17_ANALYSE DES DÉPÔTS DE COMPTES QWANT SAS — 2016 à 2020.md#analyse-des-depots-de-comptes-qwant-sas-2016-a-2020/historique-des-bsa-vision-complete-2012-2019-depot-2018",
+              "children": [
+                {
+                  "name": "Plans BSA émis par AG/Président",
+                  "path": "00 - Introduction/17_ANALYSE DES DÉPÔTS DE COMPTES QWANT SAS — 2016 à 2020.md#analyse-des-depots-de-comptes-qwant-sas-2016-a-2020/historique-des-bsa-vision-complete-2012-2019-depot-2018/plans-bsa-emis-par-ag-president"
+                },
+                {
+                  "name": "Exercices BSA clés identifiés",
+                  "path": "00 - Introduction/17_ANALYSE DES DÉPÔTS DE COMPTES QWANT SAS — 2016 à 2020.md#analyse-des-depots-de-comptes-qwant-sas-2016-a-2020/historique-des-bsa-vision-complete-2012-2019-depot-2018/exercices-bsa-cles-identifies"
+                }
+              ]
+            },
+            {
+              "name": "CROISEMENT AVEC DÉCOUVERTES PRÉCÉDENTES",
+              "path": "00 - Introduction/17_ANALYSE DES DÉPÔTS DE COMPTES QWANT SAS — 2016 à 2020.md#analyse-des-depots-de-comptes-qwant-sas-2016-a-2020/croisement-avec-decouvertes-precedentes",
+              "children": [
+                {
+                  "name": "Anomalie 1 — CONFIRMÉE ET AGGRAVÉE : BSA-INV > 200.000",
+                  "path": "00 - Introduction/17_ANALYSE DES DÉPÔTS DE COMPTES QWANT SAS — 2016 à 2020.md#analyse-des-depots-de-comptes-qwant-sas-2016-a-2020/croisement-avec-decouvertes-precedentes/anomalie-1-confirmee-et-aggravee-bsa-inv-200-000"
+                },
+                {
+                  "name": "Anomalie 2 — MLM TRUST B : ATTRIBUTAIRE DE BSA-INV ALORS QU'ELLE N'EST PAS CITÉE DANS LA RÉSOLUTION AGE",
+                  "path": "00 - Introduction/17_ANALYSE DES DÉPÔTS DE COMPTES QWANT SAS — 2016 à 2020.md#analyse-des-depots-de-comptes-qwant-sas-2016-a-2020/croisement-avec-decouvertes-precedentes/anomalie-2-mlm-trust-b-attributaire-de-bsa-inv-alors-qu-elle-n-est-pas-citee-dans-la-resolution-age"
+                },
+                {
+                  "name": "Anomalie 3 — PRIX D'EXERCICE DUAL POUR MLM TRUST B",
+                  "path": "00 - Introduction/17_ANALYSE DES DÉPÔTS DE COMPTES QWANT SAS — 2016 à 2020.md#analyse-des-depots-de-comptes-qwant-sas-2016-a-2020/croisement-avec-decouvertes-precedentes/anomalie-3-prix-d-exercice-dual-pour-mlm-trust-b"
+                },
+                {
+                  "name": "Anomalie 4 — LEANDRI RENONCE AUX BSA LE JOUR DES BSA-MLM",
+                  "path": "00 - Introduction/17_ANALYSE DES DÉPÔTS DE COMPTES QWANT SAS — 2016 à 2020.md#analyse-des-depots-de-comptes-qwant-sas-2016-a-2020/croisement-avec-decouvertes-precedentes/anomalie-4-leandri-renonce-aux-bsa-le-jour-des-bsa-mlm"
+                },
+                {
+                  "name": "Confirmation — ROZAN = BSA-INV BÉNÉFICIAIRE",
+                  "path": "00 - Introduction/17_ANALYSE DES DÉPÔTS DE COMPTES QWANT SAS — 2016 à 2020.md#analyse-des-depots-de-comptes-qwant-sas-2016-a-2020/croisement-avec-decouvertes-precedentes/confirmation-rozan-bsa-inv-beneficiaire"
+                }
+              ]
+            },
+            {
+              "name": "DONNÉES COMPLÉMENTAIRES",
+              "path": "00 - Introduction/17_ANALYSE DES DÉPÔTS DE COMPTES QWANT SAS — 2016 à 2020.md#analyse-des-depots-de-comptes-qwant-sas-2016-a-2020/donnees-complementaires",
+              "children": [
+                {
+                  "name": "Commissaires aux comptes",
+                  "path": "00 - Introduction/17_ANALYSE DES DÉPÔTS DE COMPTES QWANT SAS — 2016 à 2020.md#analyse-des-depots-de-comptes-qwant-sas-2016-a-2020/donnees-complementaires/commissaires-aux-comptes"
+                },
+                {
+                  "name": "Effectifs",
+                  "path": "00 - Introduction/17_ANALYSE DES DÉPÔTS DE COMPTES QWANT SAS — 2016 à 2020.md#analyse-des-depots-de-comptes-qwant-sas-2016-a-2020/donnees-complementaires/effectifs"
+                },
+                {
+                  "name": "Événements post-clôture 2019",
+                  "path": "00 - Introduction/17_ANALYSE DES DÉPÔTS DE COMPTES QWANT SAS — 2016 à 2020.md#analyse-des-depots-de-comptes-qwant-sas-2016-a-2020/donnees-complementaires/evenements-post-cloture-2019"
+                }
+              ]
+            },
+            {
+              "name": "DOCUMENT TOUJOURS MANQUANT",
+              "path": "00 - Introduction/17_ANALYSE DES DÉPÔTS DE COMPTES QWANT SAS — 2016 à 2020.md#analyse-des-depots-de-comptes-qwant-sas-2016-a-2020/document-toujours-manquant"
+            }
+          ]
+        },
+        {
           "name": "L'affaire Qwant, c'est quoi ?",
           "path": "00 - Introduction/INTRODUCTION.md",
           "children": [
@@ -2324,11 +2596,11 @@
           "path": "00 - Inventaire/021 - Action Civile Erard vs Qwant Leandri.pdf"
         },
         {
-          "name": "022A - Action Civile Chemin Coresponsable",
+          "name": "022a - Action Civile Chemin Coresponsable",
           "path": "00 - Inventaire/022a - Action Civile Chemin Coresponsable.pdf"
         },
         {
-          "name": "022B - Action Civile Vignaux Coresponsable",
+          "name": "022b - Action Civile Vignaux Coresponsable",
           "path": "00 - Inventaire/022b - Action Civile Vignaux Coresponsable.pdf"
         },
         {
